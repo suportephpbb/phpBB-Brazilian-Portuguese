@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* acp_board [Brazilian Portuguese]
+* acp_board [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang)) 
@@ -50,7 +50,7 @@ $lang = array_merge($lang, array(
 	'SITE_NAME'						=> 'Nome do site', 
 	'SYSTEM_DST'					=> 'Ativar horário de verão/<abbr title="Daylight Saving Time">DST</abbr>',
 	'SYSTEM_TIMEZONE'				=> 'Fuso horário para o visitante',
-	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Fuso horário para ser mostrado para os usuários que não estão logados (visitantes, bots). Usuários logados escolherão seu fuso horário no ato do registro e poderá ser alterado no Painel de Controle do Usuário',
+	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Fuso horário para ser mostrado para os usuários que não estão logados (visitantes, bots). Usuários logados escolherão seu fuso horário no ato do registro e poderá ser alterado no seu Painel de Controle do Usuário',
 	'WARNINGS_EXPIRE'				=> 'Duração de advertência', 
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Número em dias que uma advertência deverá permanecer no registro do usuário.',
 )); 
@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
     'ALLOW_POST_FLASH_EXPLAIN'          => 'Se desativado, o BBCode <code>[FLASH]</code> estará inativo nas mensagens em geral. De qualquer forma, o sistema de permissões pode ajudar no controle de quais usuários poderão utilizar a determinada tag.',
 
 	'BUMP_INTERVAL'					=> 'Intervalo de ressurreição', 
-	'BUMP_INTERVAL_EXPLAIN'			=> 'Tempo em minutos, horas ou dias entre a última mensagem de um tópico e a sua ressurreição. Defina o valor 0 para desativar esta opção.', 
+	'BUMP_INTERVAL_EXPLAIN'			=> 'Tempo em minutos, horas ou dias entre a última mensagem de um tópico e a sua ressurreição. Defina o valor 0 para desativar completamente ressurreição.', 
 	'CHAR_LIMIT'					=> 'Número máximo de caracteres por mensagem', 
 	'CHAR_LIMIT_EXPLAIN'			=> 'O número de caracteres permitidos em uma mensagem, sendo 0 igual a um valor ilimitado.', 
 	'DELETE_TIME'					=> 'Limite do tempo de deleção',
@@ -213,10 +213,10 @@ $lang = array_merge($lang, array(
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	    => 'Novos usuários estarão inseridos na lista do grupo <em>Usuários recentemente registrados</em> até que alcancem o número de posts determinado. Você pode usar este grupo para privá-los do uso de MPs ou da revisão de suas mensagens. <strong>Um valor igual a 0 desativa esta ferramenta.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		    => 'Definir grupo de usuários recentemente registrados como padrão',
 	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Caso escolha sim e um limite de mensagens para novos membros for especificado, usuários novatos não serão apenas inseridos no grupo <em>Usuários recentemente registrados</em>, como terão este definido enquanto seu grupo padrão. Caso você deseje assinalar um rank e/ou avatar padrão ao grupo, todos os usuários inseridos no mesmo deverão herdar as suas configurações.',
-	'ACC_ADMIN'					=> 'Administrador', 
-	'ACC_DISABLE'				=> 'Desativar', 
-	'ACC_NONE'					=> 'Nunca', 
-	'ACC_USER'					=> 'Usuário', 
+	'ACC_ADMIN'					=> 'Pelo Administrador', 
+	'ACC_DISABLE'				=> 'Registro desativado', 
+	'ACC_NONE'					=> 'Sem ativação (acesso imediato)', 
+	'ACC_USER'					=> 'Pelo Usuário (e-mail de verificaçao)',
 //	'ACC_USER_ADMIN'			=> 'User + Admin', 
 	'ALLOW_EMAIL_REUSE'			=> 'Permitir a reutilização de e-mail',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'	=> 'Diferentes usuários poderão registrar-se com o mesmo endereço de e-mail.', 
@@ -395,7 +395,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_EMAIL'				=> 'O atributo do e-mail especificado não existe.',
 	'LDAP_NO_IDENTITY'			=> 'Não foi possível encontrar uma identificação de acesso para %s.',
 	'LDAP_PASSWORD'					=> 'Senha LDAP',
-	'LDAP_PASSWORD_EXPLAIN'			=> 'Deixe este campo em branco para utilizar um acesso anônimo. Caso contrário, preencha a senha ao usuário acima informado.<br /><em><strong>ATENÇÃO:</strong> Esta senha será armazenada em texto no banco de dados, podendo ser visualizada por qualquer pessoa que tiver acesso a ele ou a esta página de configuração.</em>', 
+	'LDAP_PASSWORD_EXPLAIN'			=> 'Deixe este campo em branco para utilizar um acesso anônimo, caso contrário preencha a senha ao usuário acima informado.<br /><em><strong>ATENÇÃO:</strong> Esta senha será armazenada em texto no banco de dados, podendo ser visualizada por qualquer pessoa que tiver acesso a ele ou a esta página de configuração.</em>', 
 	'LDAP_PORT'                    => 'Porta do servidor LDAP',
     'LDAP_PORT_EXPLAIN'            => 'Opcionalmente você pode especificar a porta a qual será utilizada para o servidor LDAP, diferente da porta padrão 389.',
 	'LDAP_SERVER'				=> 'Nome do servidor de LDAP', 
@@ -463,8 +463,14 @@ $lang = array_merge($lang, array(
 	'FORWARDED_FOR_VALID_EXPLAIN'	=> 'Sessões somente continuarão se o cabeçalho <var>X_FORWARDED_FOR</var> enviado for igual ao enviado na última visita. Serão banidos os IPs que contiverem o mesmo cabeçalho <var>X_FORWARDED_FOR</var> validado.',
 	'IP_VALID'						=> 'Validação do IP da sessão', 
 	'IP_VALID_EXPLAIN'				=> 'Determina quantas IPs de usuários são utilizadas para validar uma sessão. <samp>Todos</samp> compara o endereço de IP completo, <samp>A.B.C</samp> os primeiros x.x.x, <samp>A.B</samp> os primeiros x.x. <samp>Nenhum</samp> desativa esta verificação.',
-	'MAX_LOGIN_ATTEMPTS'			=> 'Número máximo de tentativas de login', 
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Depois do número de tentativas de logins mal sucedidas, o usuário precisa resolver uma tarefa anti-spambot.',
+	'IP_LOGIN_LIMIT_MAX'			=> 'Número máximo de tentativas de login por endereço de IP',
+	'IP_LOGIN_LIMIT_MAX_EXPLAIN'	=> 'O número máximo de tentativas de login permitido de um único endereço de IP antes da tarefa anti-spambot ser executada. Escreva 0 para impedir que a tarefa anti-spambot seja executada por endereço de IP.',
+	'IP_LOGIN_LIMIT_TIME'			=> 'Tempo de expiração de tentativas de login por endereço de IP',
+	'IP_LOGIN_LIMIT_TIME_EXPLAIN'	=> 'Tentativas de login expiram após este prazo.',
+	'IP_LOGIN_LIMIT_USE_FORWARDED'	=> 'Limite de tentativas de login do cabeçalho <var>X_FORWARDED_FOR</var>',
+	'IP_LOGIN_LIMIT_USE_FORWARDED_EXPLAIN'	=> 'Como alternativa de limitação as tentativas de login por endereços de IP que são limitados por valores <var>X_FORWARDED_FOR</var>. <br /><em><strong>Atenção:</strong> Apenas ative esta opção se está operando um servidor proxy que define o <var>X_FORWARDED_FOR</var> para valores confiáveis.</em>',	
+	'MAX_LOGIN_ATTEMPTS'			=> 'Número máximo de tentativas de login por usuário', 
+	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'O número máximo de tentativas de login por uma única conta antes da tarefa anti-spambot ser executada. Escreva 0 para impedir que a tarefa anti-spambot seja executada para contas de usuários distintas.',
 	'NO_IP_VALIDATION'				=> 'Nenhum',
 	'NO_REF_VALIDATION'				=> 'Nenhum',
 	'PASSWORD_TYPE'					=> 'Complexidade da senha', 

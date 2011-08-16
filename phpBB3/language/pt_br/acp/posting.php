@@ -1,13 +1,13 @@
 <?php 
 /**
 *
-* acp_posting [Brazilian Portuguese]
+* acp_posting [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang)) 
@@ -167,7 +167,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_DELETED'			=> 'O smiley foi excluído com sucesso.', 
 	'SMILIES_EDIT'				=> 'Editar smiley', 
 	'SMILIE_NO_CODE'            => 'O smiley "%s"  foi ignorado, como se nenhum código tivesse sido escrito.',
-    'SMILIE_NO_EMOTION'         => 'O smiley "%s" foi ignorado, como se nenhuma emoção tivesse sido escrita.',
+	'SMILIE_NO_EMOTION'         => 'O smiley "%s" foi ignorado, como se nenhuma emoção tivesse sido escrita.',
+	'SMILIE_NO_FILE'			=> 'O smiley “%s” foi ignorado, como se o arquivo tivesse ausente.',
 	'SMILIES_NONE_EDITED'       => 'Nenhum smiley foi atualizado.',
     'SMILIES_ONE_EDITED'        => 'O smiley foi atualizado com sucesso.',
 	'SMILIES_EDITED'			=> 'Os smilies foram atualizados com sucesso.', 
@@ -231,13 +232,13 @@ $lang = array_merge($lang, array(
 
 // Disallow Usernames 
 $lang = array_merge($lang, array( 
-	'ACP_DISALLOW_EXPLAIN'	=> 'Aqui você pode controlar os nomes proibidos a serem aplicados no fórum. Aos nomes proibidos são permitidos conter um asterisco (*) para abranger um maior número de variações na palavra. Por favor, note que você não será autorizado a especificar qualquer nome de usuário que já se encontra registrado, devendo primeiro excluir o mesmo para então desativá-lo.', 
+	'ACP_DISALLOW_EXPLAIN'	=> 'Aqui você pode controlar os nomes proibidos a serem aplicados no fórum. Aos nomes proibidos são permitidos conter um asterisco (*) para abranger um maior número de variações na palavra.', 
 	'ADD_DISALLOW_EXPLAIN'	=> 'Aqui você pode proibir um nome de usuário utilizando asteriscos (*) para abranger um maior número de variações de uma palavra.', 
 	'ADD_DISALLOW_TITLE'	=> 'Adicionar um nome proibido', 
 
 	'DELETE_DISALLOW_EXPLAIN'	=> 'Aqui você pode excluir um nome proibido selecionando através desta lista e clicando em enviar.', 
 	'DELETE_DISALLOW_TITLE'		=> 'Excluir um nome proibido', 
-	'DISALLOWED_ALREADY'		=> 'O nome especificado não pode ser proibido. Pode ser que ele já exista na lista de nomes proibidos, na lista de palavras censuradas ou encontre-se atualmente em uso por algum usuário registrado.', 
+	'DISALLOWED_ALREADY'		=> 'O nome especificado não pode ser proibido.', 
 	'DISALLOWED_DELETED'		=> 'O nome proibido foi excluído com sucesso.', 
 	'DISALLOW_SUCCESSFUL'		=> 'O nome proibido foi adicionado com sucesso.', 
 

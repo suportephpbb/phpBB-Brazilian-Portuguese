@@ -1,13 +1,13 @@
 <?php 
 /**
 *
-* acp_styles [Brazilian Portuguese]
+* acp_styles [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang)) 
@@ -284,6 +284,9 @@ $lang = array_merge($lang, array(
 	'INSTALLED_STYLE'			=> 'Estilos instalados', 
 	'INSTALLED_TEMPLATE'		=> 'Templates instaladas', 
 	'INSTALLED_THEME'			=> 'Temas instalados', 
+	'KEEP_IMAGESET'				=> 'Manter o set de imagens “%s”',
+	'KEEP_TEMPLATE'				=> 'Manter a template “%s”',
+	'KEEP_THEME'				=> 'Manter o tema “%s”',
 
 	'LINE_SPACING'				=> 'Espaço da linha', 
 	'LOCALISED_IMAGES'			=> 'Localizado', 
@@ -321,6 +324,7 @@ $lang = array_merge($lang, array(
 	'REPLACE_TEMPLATE_EXPLAIN'	=> 'Esta template deverá substituir a anteriormente excluída para todos os estilos que utilizavam esta.', 
 	'REPLACE_THEME'				=> 'Substituir tema por', 
 	'REPLACE_THEME_EXPLAIN'		=> 'Este tema deverá substituir o anteriormente excluído para todos os estilos que utilizavam este.', 
+	'REPLACE_WITH_OPTION'		=> 'Substituir por “%s”',
 	'REQUIRES_IMAGESET'			=> 'O estilo requer o set de imagens %s para ser instalado.', 
 	'REQUIRES_TEMPLATE'			=> 'O estilo requer a template %s para ser instalado.', 
 	'REQUIRES_THEME'			=> 'O estilo requer o tema %s para ser instalado.', 

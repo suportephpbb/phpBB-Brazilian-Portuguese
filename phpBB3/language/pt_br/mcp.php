@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* mcp [Brazilian Portuguese]
+* mcp [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,12 +16,12 @@
 */ 
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang)) 
 { 
-$lang = array(); 
+	$lang = array(); 
 } 
 
 // DEVELOPERS PLEASE NOTE 
@@ -210,9 +210,8 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_POST'			=> 'Advertir uma mensagem específica', 
 	'MCP_WARN_USER'			=> 'Advertir usuário', 
 	
-	'MERGE_POSTS'			=> 'Fundir mensagens', 
-	'MERGE_POSTS_CONFIRM'	=> 'Você deseja realmente fundir as mensagens selecionadas?', 
-	'MERGE_TOPIC_EXPLAIN'	=> 'Utilizando esta ferramenta você pode fundir mensagens selecionadas em um tópico diferente. Estas mensagens não serão reordenadas e serão exibidas como se os usuários as tivessem enviadas ao novo tópico.<br />Por favor, escreva a ID do tópico desejado ou clique em "Selecionar tópico" para pesquisar por um.',
+	'MERGE_POSTS_CONFIRM'	=> 'Você deseja realmente mover as mensagens selecionadas?', 
+	'MERGE_TOPIC_EXPLAIN'	=> 'Utilizando esta ferramenta você pode mover mensagens selecionadas em um tópico diferente. As mensagens não serão reordenadas e serão exibidas como se os usuários as tivessem enviadas ao novo tópico.<br />Por favor, escreva a ID do tópico desejado ou clique em "Selecionar tópico" para pesquisar por um.',
 	'MERGE_TOPIC_ID'		=> 'ID do tópico de fusão', 
 	'MERGE_TOPICS'			=> 'Fundir tópicos',
 	'MERGE_TOPICS_CONFIRM'	=> 'Você deseja realmente fundir os tópicos selecionados?',	

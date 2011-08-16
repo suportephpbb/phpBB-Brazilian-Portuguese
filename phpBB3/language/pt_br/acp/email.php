@@ -1,13 +1,13 @@
 <?php 
 /**
 *
-* acp_email [Brazilian Portuguese]
+* acp_email [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang)) 
@@ -51,7 +51,9 @@ $lang = array_merge($lang, array(
 	'SEND_TO_GROUP'			=> 'Enviar para grupo', 
 	'SEND_TO_USERS'			=> 'Enviar para usuários', 
 	'SEND_TO_USERS_EXPLAIN'	=> 'Escrevendo nomes de usuários aqui, você substituirá qualquer grupo selecionado acima. Insira cada nome em uma nova linha.', 
-
+	
+	'MAIL_BANNED'			=> 'Email para usuários banidos',
+	'MAIL_BANNED_EXPLAIN'	=> 'Quando enviar um e-mail em massa para um grupo que você pode selecionar aqui, se um usuário banido partence ao grupo, ele também receberá o email',
 	'MAIL_HIGH_PRIORITY'	=> 'Alta',
 	'MAIL_LOW_PRIORITY'		=> 'Baixa',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normal',

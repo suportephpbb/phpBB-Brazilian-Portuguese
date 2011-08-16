@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* memberlist [Brazilian Portuguese]
+* memberlist [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -117,7 +117,6 @@ $lang = array_merge($lang, array(
 	'REMOVE_FOE'			=> 'Excluir dos inimigos',
 	'REMOVE_FRIEND'			=> 'Excluir dos amigos',
 
-	'SEARCH_USER_POSTS'		=> 'Pesquisar mensagens do usuário',
 	'SELECT_MARKED'			=> 'Selecionar marcados',
 	'SELECT_SORT_METHOD'	=> 'Selecionar método de ordenação',
 	'SEND_AIM_MESSAGE'		=> 'Enviar mensagem AIM',

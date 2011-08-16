@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* ucp [Brazilian Portuguese]
+* ucp [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */ 
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang)) 
@@ -123,6 +123,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_FOLDER'		=> 'A pasta selecionada não pode ser excluída.', 
 	'CHANGE_DEFAULT_GROUP'		=> 'Alterar grupo padrão', 
 	'CHANGE_PASSWORD'			=> 'Alterar senha', 
+	'CLICK_GOTO_FOLDER'			=> '%1$sIr à sua pasta “%3$s”%2$s',
 	'CLICK_RETURN_FOLDER'		=> '%1$sVoltar à sua pasta "%3$s"%2$s', 
 	'CONFIRMATION'				=> 'Confirmação de registro', 
 	'CONFIRM_CHANGES'			=> 'Confirmar alterações', 
@@ -189,15 +190,16 @@ $lang = array_merge($lang, array(
 	'EXPORT_AS_MSG'				=> 'Exportar em MSG', 
 	'EXPORT_FOLDER'				=> 'Exportar esta exibição', 
 
-	'FIELD_REQUIRED'			=> 'O campo "% s" deve ser preenchido.', 
+	'FIELD_REQUIRED'			=> 'O campo "%s" deve ser preenchido.', 
 	'FIELD_TOO_SHORT'			=> 'O campo "%1$s" é muito pequeno. O mínimo permitido é de %2$d caracteres.', 
 	'FIELD_TOO_LONG'			=> 'O campo "%1$s" é muito grande. O máximo permitido é de %2$d caracteres.', 
 	'FIELD_TOO_SMALL'			=> 'O valor de "%1$s" é muito pequeno. O valor mínimo é de %2$d permitidos.', 
 	'FIELD_TOO_LARGE'			=> 'O valor de "%1$s" é muito grande. O valor máximo é de %2$d permitidos.', 
 	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'O campo "% s" possui caracteres inválidos. Apenas números são permitidos.', 
-	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'O campo "% s" possui caracteres inválidos. Apenas alfanuméricos são permitidos.', 
-	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'O campo "% s" possui caracteres inválidos. Apenas alfanuméricos, espaço ou - +_ [] são permitidos.', 
-	'FIELD_INVALID_DATE'		=> 'O campo "% s" possui uma data inválida.', 
+	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'O campo “%s” possui caracteres inválidos. Apenas alfanuméricos são permitidos.', 
+	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'O campo “%s” possui caracteres inválidos. Apenas alfanuméricos, espaço ou - +_ [] são permitidos.', 
+	'FIELD_INVALID_DATE'		=> 'O campo “%s” possui uma data inválida.', 
+	'FIELD_INVALID_VALUE'		=> 'O campo “%s” possui um valor inválido.',
 
 	'FOE_MESSAGE'				=> 'Mensagem de um inimigo', 
 	'FOES_EXPLAIN'				=> 'Inimigos são usuários que serão ignorados de forma padrão. As mensagens enviadas por estes usuários não serão completamente visíveis. Mensagens particulares de um inimigo ainda estão permitidas. Por favor, note que você não pode ignorar moderadores ou administradores.', 

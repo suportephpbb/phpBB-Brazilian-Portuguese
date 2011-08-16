@@ -1,13 +1,13 @@
 <?php 
 /**
 *
-* acp_language [Brazilian Portuguese]
+* acp_language [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang)) 
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_FILES'					=> 'Arquivos de linguagem', 
 	'LANGUAGE_KEY'						=> 'Chave de linguagem', 
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'O pacote de idiomas já se encontra instalado.', 
-	'LANGUAGE_PACK_DELETED'				=> 'O pacote de idiomas <strong>%s</strong> foi excluído com sucesso. Todos os usuários que utilizavam este idioma foram atualizados para a língua padrão do painel.', 
+	'LANGUAGE_PACK_DELETED'				=> 'O pacote de idiomas <strong>%s</strong> foi excluído com sucesso. Todos os usuários que utilizavam este idioma foram atualizados para o idioma padrão do painel.', 
 	'LANGUAGE_PACK_DETAILS'				=> 'Informações do pacote de idiomas', 
 	'LANGUAGE_PACK_INSTALLED'			=> 'O pacote de idiomas <strong>%s</strong> foi instalado com sucesso.', 
 	'LANGUAGE_PACK_ISO'					=> 'ISO', 
@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 
 	'NO_FILE_SELECTED'				=> 'Você não especificou o arquivo de linguagem.', 
 	'NO_LANG_ID'					=> 'Você não especificou um pacote de idiomas.', 
-	'NO_REMOVE_DEFAULT_LANG'		=> 'Você não pode excluir o pacote de idiomas padrão.<br />Se você deseja excluir este pacote, primeiro altere a língua padrão do seu painel.', 
+	'NO_REMOVE_DEFAULT_LANG'		=> 'Você não pode excluir o pacote de idiomas padrão.<br />Se você deseja excluir este pacote, primeiro altere o idioma padrão do seu painel.', 
 	'NO_UNINSTALLED_LANGUAGE_PACKS'	=> 'Não há pacotes de idiomas desinstalados', 
 
 	'REMOVE_FROM_STORAGE_FOLDER'		=> 'Excluir da pasta de armazenamento', 

@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* search [Brazilian Portuguese]
+* search [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */ 
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang)) 
@@ -55,6 +55,7 @@ $lang = array_merge($lang, array(
 
  	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Este painel exige que você esteja registrado e autenticado para ver as suas mensagens.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Este painel exige que você esteja registrado e autenticado para ver as suas mensagens não lidas.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Este painel exige que você esteja registrado e autenticado para ver as novas mensagens desde a sua última visita.',
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Você especificou muitas palavras em sua pesquisa. Por favor, não insira mais que %1$d palavras.',
 	
 	'NO_KEYWORDS'			=> 'Você deve especificar pelo menos uma palavra para efetuar a pesquisa. Cada palavra deve ter no mínimo %d caracteres e não deve ultrapassar o limite de %d caracteres.', 

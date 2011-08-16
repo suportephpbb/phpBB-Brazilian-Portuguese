@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* common [Brazilian Portuguese]
+* common [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */ 
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang)) 
@@ -191,7 +191,7 @@ $lang = array_merge($lang, array(
 	'FORM_INVALID'          => 'A forma submetida é inválida. Tente submeter novamente.',
 	'FORUM'					=> 'Fórum', 
 	'FORUMS'				=> 'Fóruns', 
-	'FORUMS_MARKED'			=> 'Todos os fóruns foram assinalados como lidos.', 
+	'FORUMS_MARKED'			=> 'Os fóruns selecionados foram assinalados como lidos.', 
 	'FORUM_CAT'				=> 'Categoria do fórum',	 
 	'FORUM_INDEX'			=> 'Índice do fórum', 
 	'FORUM_LINK'			=> 'Endereço do fórum',	 
@@ -323,13 +323,14 @@ $lang = array_merge($lang, array(
 	'MARK'					=> 'Selecionar', 
 	'MARK_ALL'				=> 'Selecionar todos', 
 	'MARK_FORUMS_READ'		=> 'Assinalar todos os fóruns como lidos', 
+	'MARK_SUBFORUMS_READ'	=> 'Assinalar sub-fóruns como lidos',
 	'MB'					=> 'MB',
 	'MIB'                   => 'MiB',
 	'MCP'					=> 'Painel de Controle do Moderador', 
 	'MEMBERLIST'			=> 'Membros', 
 	'MEMBERLIST_EXPLAIN'	=> 'Aqui você pode ver a lista completa dos usuários registrados neste painel.', 
 	'MERGE'					=> 'Fundir',
-	'MERGE_POSTS'			=> 'Fundir mensagens',
+	'MERGE_POSTS'			=> 'Mover mensagens',
 	'MERGE_TOPIC'			=> 'Fundir tópico', 
 	'MESSAGE'				=> 'Mensagem', 
 	'MESSAGES'				=> 'Mensagens',	 
@@ -530,6 +531,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_TOPIC'				=> 'Pesquisar neste tópico…',	 
 	'SEARCH_UNANSWERED'			=> 'Ler mensagens sem resposta', 
 	'SEARCH_UNREAD'				=> 'Ver mensagens não lidas',
+	'SEARCH_USER_POSTS'			=> 'Pesquisar mensagens do usuário',
 	'SECONDS'					=> 'Segundos',	 
 	'SELECT'					=> 'Selecionar', 
 	'SELECT_ALL_CODE'			=> 'Selecionar todos',

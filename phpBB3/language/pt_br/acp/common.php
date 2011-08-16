@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* acp_common [Brazilian Portuguese]
+* acp_common [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang)) 
@@ -712,7 +712,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DEL_SIG_USER'		=> '<strong>Assinatura do usuário excluída</strong>', 
 	'LOG_USER_FEEDBACK'			=> '<strong>Relatório adicionado ao usuário</strong><br />» %s', 
 	'LOG_USER_GENERAL'			=> '<strong>Entrada adicionada:</strong><br />» %s', 
-	'LOG_USER_INACTIVE_USER'	=> '<strong>Registro de usuário reativado</strong>', 
+	'LOG_USER_INACTIVE_USER'	=> '<strong>Registro de usuário desativado</strong>', 
 	'LOG_USER_LOCK'				=> '<strong>Tópicos trancados pelo próprio usuário</strong><br />» %s', 
 	'LOG_USER_MOVE_POSTS_USER'	=> '<strong>Todas as mensagens movidas ao fórum "%s"</strong>', 
 	'LOG_USER_REACTIVATE_USER'	=> '<strong>Reativação de registro forçada</strong>', 

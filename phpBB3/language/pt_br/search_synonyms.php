@@ -1,19 +1,19 @@
 <?php 
 /**
 *
-* search_synonyms [Brazilian Portuguese]
+* search_synonyms [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 $synonyms = array( 

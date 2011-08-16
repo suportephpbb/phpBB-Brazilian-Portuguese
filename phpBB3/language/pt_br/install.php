@@ -1,13 +1,13 @@
 <?php
 /**
 *
-* install [Brazilian Portuguese]
+* install [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang))
@@ -129,7 +129,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Erro ao executar <var>query_first</var>, %s ("%s").',
 	'DB_ERR_SELECT'				=> 'Erro ao executar a query <code>SELECT</code>.',
 	'DB_HOST'					=> 'Nome do servidor do banco de dados ou DSN',
-	'DB_HOST_EXPLAIN'			=> 'DSN significa "Data Source Name" e é relevante apenas para instalações ODBC. No PostgreSQL, use localhost para conectar no servidor local via domínio socket UNIX e 127.0.0.1 para conectar via TCP.',
+	'DB_HOST_EXPLAIN'			=> 'DSN significa "Data Source Name" e é relevante apenas para instalações ODBC. No PostgreSQL, use localhost para conectar no servidor local via domínio socket UNIX e 127.0.0.1 para conectar via TCP. Para o SQLite, insira o caminho completo para o seu arquivo de banco de dados.',
 	'DB_NAME'					=> 'Nome do banco de dados',
 	'DB_PASSWORD'				=> 'Senha do banco de dados',
 	'DB_PORT'					=> 'Porta do servidor do banco de dados',
@@ -300,7 +300,7 @@ $lang = array_merge($lang, array(
 	'PHP_SETTINGS'					=> 'Versão do PHP e configurações',
 	'PHP_SETTINGS_EXPLAIN'			=> '<strong>Necessário</strong> - Você deve possuir, no mínimo, a versão 4.3.3 do PHP para instalar o phpBB. Se <var>modo seguro</var> for exibido abaixo, a sua instalação do PHP estará sendo executada nesse modo. Isto implicará em limitações para administração remota e características similares.',
 	'PHP_URL_FOPEN_SUPPORT'			=> 'Configuração do PHP <var>allow_url_fopen</var> está ativada',
-	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Opcional</strong> - Esta configuração é opcional, entretanto algumas funções como avatares fora de seu website não irão funcionar sem ela. ',
+	'PHP_URL_FOPEN_SUPPORT_EXPLAIN'	=> '<strong>Opcional</strong> - Esta configuração é opcional, entretanto algumas funções como avatares fora de seu website não irão funcionar sem ela.',
 	'PHP_VERSION_REQD'				=> 'Versão do PHP >= 4.3.3',
 	'POST_ID'						=> 'ID da mensagem',
 	'PREFIX_FOUND'					=> 'Uma pesquisa em suas tabelas encontrou uma instalação válida utilizando o prefixo <strong>%s</strong> para as tabelas.',
@@ -371,7 +371,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'		=> 'Todos os arquivos foram atualizados com a mais recente versão do phpBB. Você já pode <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">efetuar login no seu painel</a> e verificar se tudo está funcionando corretamente. Não se esqueça de deletar, mover ou renomear o diretório de instalação! Por favor, envie-nos informações atualizadas acerca de seu servidor e configurações do painel através do módulo <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">Enviar estatísticas</a> no seu ACP.',
+	'ALL_FILES_UP_TO_DATE'		=> 'Todos os arquivos foram atualizados com a mais recente versão do phpBB. Você já pode <a href="../ucp.php?mode=login">efetuar login no seu painel</a> e verificar se tudo está funcionando corretamente. Não se esqueça de deletar, mover ou renomear o diretório de instalação! Por favor, envie-nos informações atualizadas acerca de seu servidor e configurações do painel através do módulo <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">Enviar estatísticas</a> no seu ACP.',
 	'ARCHIVE_FILE'				=> 'Código fonte dentro do arquivo',
 
 	'BACK'				=> 'Voltar',

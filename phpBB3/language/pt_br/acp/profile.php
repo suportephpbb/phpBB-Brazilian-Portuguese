@@ -1,13 +1,13 @@
 <?php 
 /**
 *
-* acp_profile [Brazilian Portuguese]
+* acp_profile [Português Brasileiro]
 *
 * @package language
-* @version 3.0.8
-* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @version 3.0.9
+* @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
+* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -16,7 +16,7 @@
 */
 if (!defined('IN_PHPBB'))
 {
-   exit;
+	exit;
 }
 
 if (empty($lang) || !is_array($lang)) 
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'CREATE_NEW_FIELD'			=> 'Criar novo campo', 
 	'CUSTOM_FIELDS_NOT_TRANSLATED'	=> 'Os campos de perfil não foram totalmente traduzidos. Por favor, escreva a informação solicitada clicando no link "Traduzir".',
 
-	'DEFAULT_ISO_LANGUAGE'			=> 'Língua padrão [%s]', 
+	'DEFAULT_ISO_LANGUAGE'			=> 'Idioma padrão [%s]', 
 	'DEFAULT_LANGUAGE_NOT_FILLED'	=> 'As entradas de linguagem para o idioma padrão não estão preenchidas a este campo do perfil.', 
 	'DEFAULT_VALUE'					=> 'Valor padrão', 
 	'DELETE_PROFILE_FIELD'			=> 'Excluir campo de perfil', 
@@ -102,9 +102,9 @@ $lang = array_merge($lang, array(
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'A identificação do campo pode conter apenas a-z e _', 
 	'INVALID_FIELD_IDENT_LEN'	=> 'A identificação do campo pode conter apenas 17 caracteres', 
-	'ISO_LANGUAGE'				=> 'Língua [%s]', 
+	'ISO_LANGUAGE'				=> 'Idioma [%s]', 
 
-	'LANG_SPECIFIC_OPTIONS'		=> 'Opções específicas da língua [<strong>%s</strong>]', 
+	'LANG_SPECIFIC_OPTIONS'		=> 'Opções específicas do idioma [<strong>%s</strong>]', 
 
 	'MAX_FIELD_CHARS'		=> 'Número máximo de caracteres', 
 	'MAX_FIELD_NUMBER'		=> 'Número máximo permitido', 
@@ -121,7 +121,7 @@ $lang = array_merge($lang, array(
 	'PROFILE_BASIC_OPTIONS'		=> 'Opções básicas', 
 	'PROFILE_FIELD_ACTIVATED'	=> 'O campo foi ativado com sucesso.', 
 	'PROFILE_FIELD_DEACTIVATED'	=> 'O campo foi desativado com sucesso.', 
-	'PROFILE_LANG_OPTIONS'		=> 'Opções específicas da língua', 
+	'PROFILE_LANG_OPTIONS'		=> 'Opções específicas do idioma', 
 	'PROFILE_TYPE_OPTIONS'		=> 'Opções específicas do tipo de perfil', 
 
 	'RADIO_BUTTONS'				=> 'Botões de rádio', 
@@ -140,10 +140,10 @@ $lang = array_merge($lang, array(
 	'STEP_2_EXPLAIN_EDIT'			=> 'Aqui você pode alterar algumas opções comuns.<br /><strong>Por favor, note que as alterações no campos de perfil não afetarão os campos existentes inseridos pelos seus usuários.</strong>', 
 	'STEP_2_TITLE_CREATE'			=> 'Opções específicas ao tipo de perfil', 
 	'STEP_2_TITLE_EDIT'				=> 'Opções específicas ao tipo de perfil', 
-	'STEP_3_EXPLAIN_CREATE'			=> 'Desde que você tenha mais de uma língua instalada, você deve preencher os itens de linguagem restantes também. O campo irá trabalhar com a língua padrão selecionada, e você pode preencher os itens de linguagem restantes depois também.', 
-	'STEP_3_EXPLAIN_EDIT'			=> 'Desde que você tenha mais de uma língua instalada, você pode alterar ou adicionar os itens de linguagem restantes também. O campo irá trabalhar com a língua padrão selecionada.', 
-	'STEP_3_TITLE_CREATE'			=> 'Definições da língua restantes', 
-	'STEP_3_TITLE_EDIT'				=> 'Definições da língua', 
+	'STEP_3_EXPLAIN_CREATE'			=> 'Desde que você tenha mais de um idioma instalado, você deve preencher os itens de linguagem restantes também. O campo irá trabalhar com o idioma padrão selecionado, e você pode preencher os itens de linguagem restantes depois também.', 
+	'STEP_3_EXPLAIN_EDIT'			=> 'Desde que você tenha mais de um idioma instalado, você pode alterar ou adicionar os itens de linguagem restantes também. O campo irá trabalhar com o idioma padrão selecionado.', 
+	'STEP_3_TITLE_CREATE'			=> 'Definições do idioma restantes', 
+	'STEP_3_TITLE_EDIT'				=> 'Definições do idioma', 
 	'STRING_DEFAULT_VALUE_EXPLAIN'	=> 'Escreva uma frase padrão a ser exibida, um valor padrão. Deixe em branco se você não deseja ativar esta opção.', 
 
 	'TEXT_DEFAULT_VALUE_EXPLAIN'	=> 'Escreva um texto padrão a ser exibido, um valor padrão. Deixe em branco se você não deseja ativar esta opção.', 
