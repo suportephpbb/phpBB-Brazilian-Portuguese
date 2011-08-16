@@ -4,12 +4,12 @@
 * acp_search.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: search.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $ 
+* @version $Id: search.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $ 
 * @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.3
+* @Versão do phpBB: 3.0.4
 * 
 */ 
 
@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Aqui você pode definir o modo de pesquisa que será utilizado para a execução deste sistema. Você pode determinar várias opções que podem influir em quantos processos estas ações serão solicitadas. Algumas destas configurações são as mesmas para todos os modos de pesquisa.', 
 
 	'COMMON_WORD_THRESHOLD'					=> 'Limite de palavras comuns', 
-	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Palavras que estão contidas em uma grande porcentagem de mensagens serão consideradas comuns. Palavras comuns serão ignoradas nas pesquisas. Escreva zero para desativar. Apenas terá efeito se elas estiverem em mais de 100 mensagens.', 
+	'COMMON_WORD_THRESHOLD_EXPLAIN'			=> 'Palavras que estão contidas em uma grande porcentagem de mensagens serão consideradas comuns. Palavras comuns serão ignoradas nas pesquisas. Escreva zero para desativar. Apenas terá efeito se elas estiverem em mais de 100 mensagens. Se você deseja que palavras que estejam atualmente sendo consideradas comuns sejam reconsideradas, você deve recriar o índice.', 
 	'CONFIRM_SEARCH_BACKEND'				=> 'Você deseja realmente alterar o modo de pesquisa para outro diferente? Depois de modificar o seu modo de pesquisa, você deverá criar um novo índice para o novo modo selecionado. Se você não planeja voltar ao seu modo de pesquisa antigo, poderá excluí-lo se achar necessário.', 
 	'CONTINUE_DELETING_INDEX'				=> 'Continuar processo de exclusão de índice',
 	'CONTINUE_DELETING_INDEX_EXPLAIN'		=> 'Um processo de exclusão de índice foi iniciado. Em ordem para acessar a página do índice da pesquisa novamente, você deve completar o processo ou cancelá-lo.',

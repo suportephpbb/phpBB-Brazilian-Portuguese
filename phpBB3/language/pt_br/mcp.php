@@ -4,12 +4,12 @@
 * mcp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: mcp.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $
+* @version $Id: mcp.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $
 * @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.3
+* @Versão do phpBB: 3.0.4
 * 
 */  
 

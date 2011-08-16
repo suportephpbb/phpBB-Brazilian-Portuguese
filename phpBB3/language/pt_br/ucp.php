@@ -4,12 +4,12 @@
 * ucp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: ucp.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $
+* @version $Id: ucp.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $
 * @copyright (c) 2008 Suporte phpBB 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por: 
 * @Suporte phpBB - <http://www.suportephpbb.org/> 
-* @Versão do phpBB: 3.0.3
+* @Versão do phpBB: 3.0.4
 * 
 */ 
 
@@ -385,7 +385,7 @@ $lang = array_merge($lang, array(
 	'SAME_PASSWORD_ERROR'		=> 'A nova senha que você escreveu é a mesma da anterior.',
 	'SEARCH_YOUR_POSTS'			=> 'Ver as suas mensagens', 
 	'SEND_PASSWORD'				=> 'Enviar senha', 
-	'SENT_AT'					=> 'Enviado em', 
+	'SENT_AT'					=> 'Enviado',			// Used before dates in private messages 
 	'SHOW_EMAIL'				=> 'Exibir meu endereço de e-mail', 
 	'SIGNATURE_EXPLAIN'			=> 'Escreva aqui um texto que será adicionado às mensagens que você enviar no fórum. O limite existente é de %d caracteres.', 
 	'SIGNATURE_PREVIEW'			=> 'Prever assinatura', 

@@ -4,12 +4,12 @@
 * help_faq.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: help_faq.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $ 
+* @version $Id: help_faq.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $ 
 * @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.3
+* @Versão do phpBB: 3.0.4
 * 
 */  
 
@@ -339,11 +339,11 @@ $help = array(
    ), 
    array( 
       0 => 'Porque não há a função X?', 
-      1 => 'Este software foi escrito e licenciado pelo Grupo phpBB. Se pensa que alguma função pode ser adicionada, visite a nossa página oficial no phpBB.Com e veja o que o Grupo phpBB pode dizer sobre o assunto. Por favor, não envie mensagens com pedidos de funções na comunidade do phpBB.Com, o grupo utiliza a SourceForge para resolver problemas relacionados com funções novas. E por favor, leia cuidadosamente através de nossa comunidade se alguma posição já foi tomada por nós em relação à função em questão, seguindo então o procedimento lá mencionado.' 
+      1 => 'Este software foi escrito e licenciado pelo Grupo phpBB. Se pensa que alguma função pode ser adicionada, visite a nossa página oficial no phpBB.com e veja o que o Grupo phpBB pode dizer sobre o assunto. Por favor, não envie mensagens com pedidos de funções na comunidade do phpBB.com, o grupo utiliza a SourceForge para resolver problemas relacionados com funções novas. E por favor, leia cuidadosamente através de nossa comunidade se alguma posição já foi tomada por nós em relação à função em questão, seguindo então o procedimento lá mencionado.' 
    ), 
    array( 
       0 => 'Contatos sobre questões abusivas e/ou ilegais relacionadas a este fórum', 
-      1 => 'Qualquer administrador listado na página "Equipe do fórum" deve ser um alvo apropriado para as suas dúvidas. Se você não obter resposta, deverá contatar o dono do domínio (faça uma <a href="http://www.google.com/search?q=whois">pesquisa</a>) ou, caso o fórum esteja hospedado em um servidor grátis (por exemplo, CJB.NET, Free Forums, Yahoo!, etc.), a gerência desse serviço. Por favor, note que o Grupo phpBB não possui <strong>absolutamente nenhuma jurisdição</strong> e não pode ser responsável sobre quando, onde e por quem este fórum é utilizado. Não existe motivo em contatar o Grupo phpBB em relação a qualquer questão legal (interrupção e desistência, de responsabilidade, comentário difamatório, etc.) <strong>não diretamente relacionado</strong> com o site phpBB.Com ou o software discreto do phpBB por si próprio. Caso envie algum e-mail ao Grupo phpBB acerca do <strong>uso de terceiros</strong> deste software, poderá receber uma resposta concisa ou não receber resposta alguma.' 
+      1 => 'Qualquer administrador listado na página "Equipe do fórum" deve ser um alvo apropriado para as suas dúvidas. Se você não obter resposta, deverá contatar o dono do domínio (faça uma <a href="http://www.google.com/search?q=whois">pesquisa</a>) ou, caso o fórum esteja hospedado em um servidor grátis (por exemplo, CJB.NET, Free Forums, Yahoo!, etc.), a gerência desse serviço. Por favor, note que o Grupo phpBB não possui <strong>absolutamente nenhuma jurisdição</strong> e não pode ser responsável sobre quando, onde e por quem este fórum é utilizado. Não existe motivo em contatar o Grupo phpBB em relação a qualquer questão legal (interrupção e desistência, de responsabilidade, comentário difamatório, etc.) <strong>não diretamente relacionado</strong> com o site phpBB.com ou o software discreto do phpBB por si próprio. Caso envie algum e-mail ao Grupo phpBB acerca do <strong>uso de terceiros</strong> deste software, poderá receber uma resposta concisa ou não receber resposta alguma.' 
    ) 
 ); 
 

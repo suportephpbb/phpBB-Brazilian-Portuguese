@@ -4,12 +4,12 @@
 * acp_profile.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: profile.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $ 
+* @version $Id: profile.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $ 
 * @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.3
+* @Versão do phpBB: 3.0.4
 * 
 */ 
 
@@ -68,9 +68,9 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE'			=> 'Exibir no painel de controle do usuário', 
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'O usuário está autorizado a alterar este campo de perfil com o painel de controle do usuário.', 
 	'DISPLAY_AT_REGISTER'			=> 'Exibir na tela de registro', 
-	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Se esta opção estiver ativa, o campo será exibido no registro e autorizado a ser alterado com o painel de controle do usuário.', 
+	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Se esta opção estiver ativa, o campo será exibido na tela de registro.', 
 	'DISPLAY_PROFILE_FIELD'			=> 'Exibir campo de perfil', 
-	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'O campo de perfil será visualizado em todos os lugares permitidos com as configurações de carga. Configurando aqui como "não", irá ocultar o campo das páginas de tópicos, perfis e lista de membros.',
+	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'O campo de perfil será visualizado em todas as localizações permitidas com as configurações de carga. Configurando aqui como "não", irá ocultar o campo das páginas de tópicos, perfis e lista de membros.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Escreva suas opções agora, todas elas em uma linha.',
 
 	'EDIT_DROPDOWN_LANG_EXPLAIN'	=> 'Por favor, note que você pode alterar os seus textos de opções e também pode adicionar novas opções ao fim. Não é aconselhável adicionar novas opções dentre outras existentes - isto pode resultar em opções defeituosas exibidas aos usuários. Isto pode também acontecer se você excluir opções dentre outras existentes. Excluindo opções do fim, resultará em usuários possuindo este item revertido ao padrão inicial.', 
@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 	'FIRST_OPTION'				=> 'Primeira opção', 
 
 	'HIDE_PROFILE_FIELD'			=> 'Ocultar campo de perfil', 
-	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Apenas administradores e moderadores podem visualizar/preencher este campo. Se esta opção estiver ativa, o campo será exibido apenas no perfil dos usuários.', 
+	'HIDE_PROFILE_FIELD_EXPLAIN'	=> 'Oculta o campo de perfil para todos os outros usuários, exceto o usuário, administradores e moderadores que possam visualizar este campo. Se a opção de exibição no painel de controle do usuário estiver desativada, o usuário não estará apto a ver ou alterar este campo e ele poderá somente ser alterado pelos administradores.', 
 
 	'INVALID_CHARS_FIELD_IDENT'	=> 'A identificação do campo pode conter apenas a-z e _', 
 	'INVALID_FIELD_IDENT_LEN'	=> 'A identificação do campo pode conter apenas 17 caracteres', 
@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 	'RADIO_BUTTONS'				=> 'Botões de rádio', 
 	'REMOVED_PROFILE_FIELD'		=> 'O campo foi excluído com sucesso.', 
 	'REQUIRED_FIELD'			=> 'Campo obrigatório', 
-	'REQUIRED_FIELD_EXPLAIN'	=> 'Força o campo a ser preenchido ou especificado pelo usuário. Isto irá exibir o campo no registro e com o painel de controle do usuário.', 
+	'REQUIRED_FIELD_EXPLAIN'	=> 'Força o campo a ser preenchido ou especificado pelo usuário ou administrador. Se a opção de exibir o campo na tela de registro estiver desativada, este será apenas requerido enquanto o usuário estiver editando o seu perfil.', 
 	'ROWS'						=> 'Linhas', 
 
 	'SAVE'							=> 'Salvar', 
@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 
 	'USER_FIELD_NAME'	=> 'Título do campo exibido ao usuário', 
 
-	'VISIBILITY_OPTION'				=> 'Opção de visibilidade', 
+	'VISIBILITY_OPTION'				=> 'Opções de visibilidade', 
 )); 
 
 ?>

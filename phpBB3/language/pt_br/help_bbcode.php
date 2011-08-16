@@ -4,12 +4,12 @@
 * help_bbcode.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: help_bbcode.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $ 
+* @version $Id: help_bbcode.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $ 
 * @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.3
+* @Versão do phpBB: 3.0.4
 * 
 */ 
 
@@ -87,8 +87,8 @@ $help = array(
    ), 
    array( 
       0 => 'Criar um link para outra Página', 
-      1 => 'O phpBB BBCode aceita um número variável de formas para criar URIs, <i>Uniform Resource Indicators</i>, melhor conhecidos como URLs.<ul><li>A primeira dessas formas é usando as tags <b>[url=][/url]</b>. O que quer que você escreva depois do sinal = faz com que o conteúdo destas tags aja como uma URL. Por exemplo, para fazer um link à Página do Suporte phpBB, você escreve:<br /><br /><b>[url=http://www.suportephpbb.org/]</b>Visite o Suporte phpBB!<b>[/url]</b><br /><br /> Isto irá resultar no seguinte link: <a href=\"http://www.suportephpbb.org/\" target=\"_blank\">Visite o Suporte phpBB!</a>. Veja que a página irá abrir em uma nova janela, para que o usuário possa continuar visitando o fórum.</li><li> Se pretende que a URL esteja à vista, faça simplesmente isto:<br /><br /><b>[url]</b>http://www.suportephpbb.org/<b>[/url]</b><br /><br />Tal resultará no seguinte link: <a href=\"http://www.suportephpbb.org/\" target=\"_blank\">http://www.suportephpbb.org/</a></li><li> Adicionalmente, o phpBB possui algo chamado <i>Links Mágicos</i>, função que permite transformar automaticamente qualquer URL escrita com uma sintaxe correta, em um link sem ser necessário especificar quaisquer tags ou mesmo o prefixo http://. Por exemplo, escrevendo www.suportephpbb.org na sua mensagem, automaticamente resultará em <a href=\"http://www.suportephpbb.org/\" target=\"_blank\">www.suportephpbb.org/</a> quando vir essa mensagem.</li><li> A mesma coisa se aplica aos endereços de e-mail, podendo especificar o endereço. Por exemplo:<br /><br /><b>[email]</b>exemplo@suportephpbb.org<b>[/email]</b><br /><br />que resultará em <a href=\"emailto:exemplo@suportephpbb.org\">exemplo@suportephpbb.org</a>, ou você pode apenas escrever exemplo@suportephpbb.org em sua mensagem, que será automaticamente convertido em um link quando a mensagem for salva.</li></ul>
-Como em todos os códigos BBCode aqui apresentados, você pode misturar URLs com quaisquer outras tags. Como por exemplo, <b>[img][/img]</b> (ver o item seguinte), <b>[b][/b]</b>, etc. Em relação ao formato das tags, está totalmente dependente de si assegurar a ordem correta de seu início e fim, por exemplo:<br /><br /><b>[url=http://www.google.com/][img]</strong>http://www.google.com/intl/en_ALL/images/logo.gif<strong>[/url][/img]</b><br /><br /><u>não é</u> correto, o que pode conduzir sua mensagem a ser excluída por algum administrador ou moderador. Por Favor, tenha cuidado.' 
+      1 => 'O phpBB BBCode aceita um número variável de formas para criar URIs, <i>Uniform Resource Indicators</i>, melhor conhecidos como URLs.<ul><li>A primeira dessas formas é usando as tags <b>[url=][/url]</b>. O que quer que você escreva depois do sinal = faz com que o conteúdo destas tags aja como uma URL. Por exemplo, para fazer um link à Página do Suporte phpBB, você escreve:<br /><br /><b>[url=http://www.suportephpbb.org/]</b>Visite o Suporte phpBB!<b>[/url]</b><br /><br /> Isto irá resultar no seguinte link: <a href=\"http://www.suportephpbb.org/\" target=\"_blank\">Visite o Suporte phpBB!</a>. Veja que a página irá abrir em uma nova janela, para que o usuário possa continuar visitando o fórum.</li><li> Se pretende que a URL esteja à vista, faça simplesmente isto:<br /><br /><b>[url]</b>http://www.suportephpbb.org/<b>[/url]</b><br /><br />Tal resultará no seguinte link: <a href=\"http://www.suportephpbb.org/\" target=\"_blank\">http://www.suportephpbb.org/</a></li><li> Adicionalmente, o phpBB possui algo chamado <i>Links Mágicos</i>, função que permite transformar automaticamente qualquer URL escrita com uma sintaxe correta, em um link sem ser necessário especificar quaisquer tags ou mesmo o prefixo http://. Por exemplo, escrevendo www.suportephpbb.org na sua mensagem, automaticamente resultará em <a href=\"http://www.suportephpbb.org/\" target=\"_blank\">www.suportephpbb.org</a> quando vir essa mensagem.</li><li> A mesma coisa se aplica aos endereços de e-mail, podendo especificar o endereço. Por exemplo:<br /><br /><b>[email]</b>exemplo@suportephpbb.org<b>[/email]</b><br /><br />que resultará em <a href=\"emailto:exemplo@suportephpbb.org\">exemplo@suportephpbb.org</a>, ou você pode apenas escrever exemplo@suportephpbb.org em sua mensagem, que será automaticamente convertido em um link quando a mensagem for salva.</li></ul>
+Como em todos os códigos BBCode aqui apresentados, você pode misturar URLs com quaisquer outras tags. Como por exemplo, <b>[img][/img]</b> (ver o item seguinte), <b>[b][/b]</b>, etc. Em relação ao formato das tags, está totalmente dependente de si assegurar a ordem correta de seu início e fim, por exemplo:<br /><br /><b>[url=http://www.google.com/][img]http://www.google.com/intl/en_ALL/images/logo.gif[/url][/img]</b><br /><br /><u>não é</u> correto, o que pode conduzir sua mensagem a ser excluída por algum administrador ou moderador. Por favor, tenha cuidado.' 
    ), 
    array( 
       0 => '--', 
@@ -100,7 +100,7 @@ Como em todos os códigos BBCode aqui apresentados, você pode misturar URLs com
    ), 
    array( 
       0 => 'Anexar arquivos em uma mensagem', 
-      1 => 'Os anexos podem ser inseridos em qualquer local da mensagem utilizando o novo BBCode <b>[attachment=][/attachment]</b>, se a funcionalidade de anexos estiver sido ativada pelo administrador do fórum &amp; e se você tiver as permissões apropriadas para anexar arquivos. Na tela do envio de mensagens existe um menu padrão para se adicionar os anexos desejados.' 
+      1 => 'Os anexos podem ser inseridos em qualquer local da mensagem utilizando o novo BBCode <b>[attachment=][/attachment]</b>, se a funcionalidade de anexos estiver sido ativada pelo administrador do fórum e se você tiver as permissões apropriadas para anexar arquivos. Na tela do envio de mensagens existe um menu padrão para se adicionar os anexos desejados.' 
    ), 
    array( 
       0 => '--', 
