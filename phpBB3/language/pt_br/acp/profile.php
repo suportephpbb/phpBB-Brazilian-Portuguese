@@ -5,11 +5,11 @@
 * 
 * @package language 
 * @version $Id: profile.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2009 Suporte phpBB
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */ 
 
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'SAVE'							=> 'Salvar', 
 	'SECOND_OPTION'					=> 'Segunda opção', 
 	'STEP_1_EXPLAIN_CREATE'			=> 'Aqui você pode escrever os primeiros parâmetros básicos de seu novo campo no perfil. Estas informações são necessárias para a segunda etapa, onde você poderá inserir as opções restantes e prever seu campo mais adiante.',
-	'STEP_1_EXPLAIN_EDIT'			=> 'Aqui você pode alterar os parâmetros básicos de seu campo no perfil. As opções relevantes são recauculadas com a segunda etapa, onde você poderá prever e testar as suas novas configurações.', 
+	'STEP_1_EXPLAIN_EDIT'			=> 'Aqui você pode alterar os parâmetros básicos de seu campo no perfil. As opções relevantes são recalculadas com a segunda etapa, onde você poderá prever e testar as suas novas configurações.', 
 	'STEP_1_TITLE_CREATE'			=> 'Adicionar campo de perfil', 
 	'STEP_1_TITLE_EDIT'				=> 'Editar campo de perfil', 
 	'STEP_2_EXPLAIN_CREATE'			=> 'Aqui você pode definir algumas opções comuns. Além disso, você pode prever o campo o qual você gerou, visualizando-o enquanto usuário. Por favor, teste as suas configurações para ver se tudo está funcionando corretamente.', 

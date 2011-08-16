@@ -4,12 +4,12 @@
 * acp_board.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: board.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
-* @copyright (c) 2009 Suporte phpBB
+* @version $Id: board.php,v 1.0 2010/04/16 20:52:30 Suporte phpBB Exp $
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */ 
 
@@ -74,7 +74,8 @@ $lang = array_merge($lang, array(
 	'ALLOW_PM_REPORT'			=> 'Permitir aos usuários denunciar mensagens particulares',
 	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Caso esta configuração esteja ativa, os usuários terão a opção de denunciar mensagens particulares que eles tenham recebido ou enviado aos moderadores. Estas mensagens particulares estarão então visíveis no painel de controle do moderador.',
 	'ALLOW_QUICK_REPLY'			=> 'Permitir resposta rápida',
-	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Esta configuração define se a resposta rápida estará ativa ou não. Caso esta configuração esteja ativa, os fóruns necessitarão ter a sua opção de resposta rápida ativa também.',
+	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Esta opção permite que a resposta rápida possa ser desativada em todo o fórum. Quando ativada, as configurações específicas do fórum serão usadas para determinar se a resposta rápida será exibida em fóruns individuais.',
+	'ALLOW_QUICK_REPLY_BUTTON'	=> 'Enviar e ativar a resposta rápida em todos os fóruns',
 	'ALLOW_SIG'					=> 'Permitir assinaturas', 
 	'ALLOW_SIG_BBCODE'			=> 'Permitir BBCode na assinatura dos usuários', 
 	'ALLOW_SIG_FLASH'			=> 'Permitir <code>[FLASH]</code> na assinatura dos usuários', 
@@ -133,7 +134,7 @@ $lang = array_merge($lang, array(
 	'BOXES_MAX_EXPLAIN'			=> 'Por padrão, os usuários podem criar este total de pastas pessoais para as suas mensagens particulares.', 
 	'ENABLE_PM_ICONS'			=> 'Ativar ícones em mensagens particulares', 
 	'FULL_FOLDER_ACTION'		=> 'Ação padrão para pastas cheias', 
-	'FULL_FOLDER_ACTION_EXPLAIN'=> 'Ação a ser executada se a pasta de mensagens particulares de um usuário estiver cheia, se definida para todas, não será aplicável. A única excessão será a pasta de "Mensagens enviadas", onde a ação padrão é sempre excluir as mensagens antigas.', 
+	'FULL_FOLDER_ACTION_EXPLAIN'=> 'Ação a ser executada se a pasta de mensagens particulares de um usuário estiver cheia, se definida para todas, não será aplicável. A única exceção será a pasta de "Mensagens enviadas", onde a ação padrão é sempre excluir as mensagens antigas.', 
 	'HOLD_NEW_MESSAGES'			=> 'Segurar novas mensagens', 
 	'PM_EDIT_TIME'				=> 'Limite do tempo de edição', 
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Limita o tempo disponível para se editar uma mensagem particular ainda não enviada, escreva 0 para desativar este recurso.', 
@@ -151,7 +152,7 @@ $lang = array_merge($lang, array(
     'ALLOW_POST_FLASH_EXPLAIN'          => 'Se desativado, o BBCode <code>[FLASH]</code> estará inativo nas mensagens em geral. De qualquer forma, o sistema de permissões pode ajudar no controle de quais usuários poderão utilizar a determinada tag.',
 
 	'BUMP_INTERVAL'					=> 'Intervalo de ressurreição', 
-	'BUMP_INTERVAL_EXPLAIN'			=> 'Tempo em minutos, horas ou dias entre a última mensagem de um tópico e a sua ressurreição.', 
+	'BUMP_INTERVAL_EXPLAIN'			=> 'Tempo em minutos, horas ou dias entre a última mensagem de um tópico e a sua ressurreição. Defina o valor 0 para desativar esta opção.', 
 	'CHAR_LIMIT'					=> 'Número máximo de caracteres por mensagem', 
 	'CHAR_LIMIT_EXPLAIN'			=> 'O número de caracteres permitidos em uma mensagem, sendo 0 igual a um valor ilimitado.', 
 	'DELETE_TIME'					=> 'Limite do tempo de deleção',
@@ -248,29 +249,37 @@ $lang = array_merge($lang, array(
 // Feeds
 $lang = array_merge($lang, array(
 	'ACP_FEED_MANAGEMENT'				=> 'Configuração geral dos Feeds',
-	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Este módulo disponibiliza vários ATOM Feeds, analisando qualquer BBCode nos posts para torná-los legíveis a leitores de feeds externos.',
+	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Este módulo disponibiliza vários ATOM Feeds, analisando qualquer BBCode nas mensagens para torná-los legíveis a leitores de feeds externos.',
 
+	'ACP_FEED_GENERAL'					=> 'Configurações Gerais dos Feeds',
+	'ACP_FEED_POST_BASED'				=> 'Configurações de feed baseada na mensagem',
+	'ACP_FEED_TOPIC_BASED'				=> 'Configurações de feed baseada no tópico',
+	'ACP_FEED_SETTINGS_OTHER'			=> 'Outros feeds e configurações',
+	
 	'ACP_FEED_ENABLE'					=> 'Ativar feeds',
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Define como ativo ou não os ATOM Feeds para o painel inteiro.<br />Desativando, todos os feeds deverão tornar-se inativos, não importando qual configuração abaixo seja definida.',
 	'ACP_FEED_LIMIT'					=> 'Número de itens',
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'O número máximo de itens feed que serão exibidos.',
 
-	'ACP_FEED_OVERALL_FORUMS'			=> 'Ativar feeds para os fóruns',
-	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Este feed exibe as últimas mensagens enviadas de todos os tópicos dos fóruns.',
-	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Número de itens por página a serem exibidos no feed dos fóruns',
-
-	'ACP_FEED_OVERALL_TOPIC'			=> 'Ativar feeds para os tópicos',
-	'ACP_FEED_OVERALL_TOPIC_EXPLAIN'	=> 'Ativa os feeds para todos os tópicos.',
-	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Número de itens por página a serem exibidos no feed dos tópicos',
+	'ACP_FEED_OVERALL'					=> 'Ativar feed no fórum todo',
+	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Novas mensagens de todo o fórum..',
 	'ACP_FEED_FORUM'					=> 'Ativar feeds por fórum',
-	'ACP_FEED_FORUM_EXPLAIN'			=> 'Novos posts de um fórum único.',
+	'ACP_FEED_FORUM_EXPLAIN'			=> 'Novas mensagens de um único fórum e sub fórum.',
 	'ACP_FEED_TOPIC'					=> 'Ativar feeds por tópico',
-	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Novos posts de um único tópico.',
+	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Novas mensagens de um único tópico.',
+	
+	'ACP_FEED_TOPICS_NEW'				=> 'Ativar feeds para novos tópicos',
+	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> 'Ativa os feeds para "Novos Tópicos", que exibe os últimos tópicos criados incluindo a primeira mensagem.',
+	'ACP_FEED_TOPICS_ACTIVE'			=> 'Ativar feeds para tópicos ativos',
+	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> 'Ativa os feeds para "Tópicos Ativos", que exibe os últimos tópicos ativos incluindo a última mensagem.',
 	'ACP_FEED_NEWS'						=> 'Feed de notícias',
 	'ACP_FEED_NEWS_EXPLAIN'				=> 'Captura a primeira mensagem destes fóruns. Selecione nenhum fórum para desativar o feed de notícias.<br />Selecione múltiplos fóruns pressionando <samp>CTRL</samp> e clicando.',
 
-	'ACP_FEED_GENERAL'					=> 'Configuração geral dos feeds',
+	'ACP_FEED_OVERALL_FORUMS'			=> 'Ativar feeds para os fóruns',
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Ative os feeds para "Todos os fóruns", que exibe a lista de fóruns.',
 
+	'ACP_FEED_HTTP_AUTH'				=> 'Permitir autenticação HTTP',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'Permitir autenticação HTTP, significa permitir aos usuários receber o conteúdo que está oculto aos visitantes adicionando o parâmetro <samp>auth=http</samp> a URL do feeds. Note que algumas configurações do PHP exigem mudanças adicionais no arquivo .htaccess. As instruções podem ser encontradas no arquivo.',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Estatísticas do item',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Exibe estatísticas individuais abaixo dos itens do feed<br />(Enviado por, data e hora, Respostas, Exibições)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Excluir estes fóruns',
@@ -386,7 +395,7 @@ $lang = array_merge($lang, array(
 	'LDAP_NO_EMAIL'				=> 'O atributo do e-mail especificado não existe.',
 	'LDAP_NO_IDENTITY'			=> 'Não foi possível encontrar uma identificação de acesso para %s.',
 	'LDAP_PASSWORD'					=> 'Senha LDAP',
-	'LDAP_PASSWORD_EXPLAIN'			=> 'Deixe este campo em branco para utilizar um acesso anônimo. Caso contrário, preencha a senha ao usuário acima informado. <strong>ATENÇÃO:</strong> Esta senha será armazenada em texto no banco de dados, podendo ser visualizada por qualquer pessoa que tiver acesso a ele ou a esta página de configuração.', 
+	'LDAP_PASSWORD_EXPLAIN'			=> 'Deixe este campo em branco para utilizar um acesso anônimo. Caso contrário, preencha a senha ao usuário acima informado.<br /><em><strong>ATENÇÃO:</strong> Esta senha será armazenada em texto no banco de dados, podendo ser visualizada por qualquer pessoa que tiver acesso a ele ou a esta página de configuração.</em>', 
 	'LDAP_PORT'                    => 'Porta do servidor LDAP',
     'LDAP_PORT_EXPLAIN'            => 'Opcionalmente você pode especificar a porta a qual será utilizada para o servidor LDAP, diferente da porta padrão 389.',
 	'LDAP_SERVER'				=> 'Nome do servidor de LDAP', 
@@ -442,7 +451,7 @@ $lang = array_merge($lang, array(
 	'CHECK_DNSBL_EXPLAIN'			=> 'Se ativado, os endereços de IP dos usuários serão checados nos serviços DNSBL ao enviarem mensagens ou criarem novos registros de usuário: <a href="http://spamcop.net">spamcop.net</a> e <a href="http://spamhaus.org">spamhaus.org</a>. Essa operação pode levar algum tempo, dependendo da configuração do servidor. Se essa operação ficar muito lenta ou acusar falsamente endereços de IP, é recomendado que seja desativada.',
 	'CLASS_B'						=> 'A.B', 
 	'CLASS_C'						=> 'A.B.C', 
-	'EMAIL_CHECK_MX'				=> 'Verificar se o dominio é um registro MX válido',
+	'EMAIL_CHECK_MX'				=> 'Verificar se o domínio é um registro MX válido',
 	'EMAIL_CHECK_MX_EXPLAIN'		=> 'Se ativado, o domínio do e-mail quando informado nos registros ou alterações de perfil será verificado nos registros MX.',
 	'FORCE_PASS_CHANGE'				=> 'Forçar a mudança de senha', 
 	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Solicita que o usuário altere a sua senha após o número de dias especificado. Escreva 0 para desativar esta opção.',
@@ -498,7 +507,7 @@ $lang = array_merge($lang, array(
 	'SMTP_DIGEST_MD5'				=> 'DIGEST-MD5', 
 	'SMTP_LOGIN'					=> 'LOGIN', 
 	'SMTP_PASSWORD'					=> 'Senha do SMTP', 
-	'SMTP_PASSWORD_EXPLAIN'			=> 'Só escreva a senha se o seu servidor de SMTP assim o exigir.', 
+	'SMTP_PASSWORD_EXPLAIN'			=> 'Só escreva a senha se o seu servidor de SMTP assim o exigir.<br /><strong>ATENÇÃO:</strong> Esta senha será armazenada em texto no banco de dados, podendo ser visualizada por qualquer pessoa que tiver acesso a ele ou quem pode ver esta página de configuração.',  
 	'SMTP_PLAIN'					=> 'PLAIN', 
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP', 
 	'SMTP_PORT'						=> 'Porta do servidor de SMTP', 
@@ -521,6 +530,7 @@ $lang = array_merge($lang, array(
 	'JAB_PACKAGE_SIZE'			=> 'Tamanho do pacote de jabber', 
 	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'Este é o número de mensagens enviadas em um pacote. Se escrever 0, a mensagem será enviada imediatamente e não será salva para um envio posterior.', 
 	'JAB_PASSWORD'				=> 'Senha jabber', 
+	'JAB_PASSWORD_EXPLAIN'		=> '<em><strong>ATENÇÃO:</strong> Esta senha será armazenada em texto no banco de dados, podendo ser visualizada por qualquer pessoa que tiver acesso a ele ou quem pode ver esta página de configuração.</em>',
 	'JAB_PORT'					=> 'Porta jabber', 
 	'JAB_PORT_EXPLAIN'			=> 'Deixe em branco, a menos que você saiba que não é a porta 5222.',
 	'JAB_SERVER'				=> 'Servidor jabber', 

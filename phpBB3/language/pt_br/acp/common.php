@@ -4,12 +4,12 @@
 * acp_common.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: common.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
-* @copyright (c) 2009 Suporte phpBB
+* @version $Id: common.php,v 1.0 2010/04/16 21:04:16 Suporte phpBB Exp $
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */ 
 
@@ -251,7 +251,7 @@ $lang = array_merge($lang, array(
 	'MANAGE'				=> 'Gerenciar',
 	'MENU_TOGGLE'			=> 'Ocultar ou exibir o menu lateral',	
 	'MORE'					=> 'Mais',			// Not used at the moment
-	'MORE_INFORMATION'		=> 'Mais informações Â»',
+	'MORE_INFORMATION'		=> 'Mais informações »',
 	'MOVE_DOWN'				=> 'Mover - baixo', 
 	'MOVE_UP'				=> 'Mover - cima', 
 
@@ -268,7 +268,6 @@ $lang = array_merge($lang, array(
 	'PARSE_URLS'						=> 'Links', 
 	'PERMISSIONS_TRANSFERRED'			=> 'Permissões transferidas', 
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Você está atualmente possuindo as permissões de %1$s. Você pode navegar pelo painel com as permissões de usuário, mas não acessar o painel de administração desde que possua as devidas permissões. Você pode <a href="%2$s"><strong>reverter as suas permissões</strong></a> a qualquer momento.', 
-	'PIXEL'							=> 'px', 
 	'PROCEED_TO_ACP'					=> '%sProceder ao ACP%s', 
 
 	'REMIND'							=> 'Lembrar', 
@@ -340,6 +339,8 @@ $lang = array_merge($lang, array(
 	'NUMBER_TOPICS'		=> 'Número de tópicos', 
 	'NUMBER_USERS'		=> 'Número de usuários', 
 	'NUMBER_ORPHAN'		=> 'Anexos órfãos', 
+	
+	'PHP_VERSION_OLD'	=> 'A versão do PHP presente em seu servidor deixará de ser suportado pelas futuras versões do phpBB. %sDetalhes%s',
 
 	'POSTS_PER_DAY'		=> 'Mensagens por dia', 
 
@@ -451,7 +452,7 @@ $lang = array_merge($lang, array(
 	'LOG_ADMIN_AUTH_FAIL'		=> '<strong>Tentativas de login administrativo falhas</strong>', 
 	'LOG_ADMIN_AUTH_SUCCESS'	=> '<strong>Tentativas de login administrativo bem-sucedidas</strong>',
 
-    'LOG_ATTACHMENTS_DELETED'	=> '<strong>Anexos do usuário excluídos</strong><br />Â» %s',
+    'LOG_ATTACHMENTS_DELETED'	=> '<strong>Anexos do usuário excluídos</strong><br />» %s',
 
 	'LOG_ATTACH_EXT_ADD'		=> '<strong>Extensão de anexos adicionada ou editada</strong><br />» %s', 
 	'LOG_ATTACH_EXT_DEL'		=> '<strong>Extensão de anexos excluída</strong><br />» %s', 
@@ -507,13 +508,13 @@ $lang = array_merge($lang, array(
 	'LOG_APPROVE_TOPIC'			=> '<strong>Tópico aprovado</strong><br />» %s', 
 	'LOG_BUMP_TOPIC'			=> '<strong>Tópico ressuscitado</strong><br />» %s', 
 	'LOG_DELETE_POST'			=> '<strong>Mensagem excluída</strong><br />» %s', 
-    'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Tópico fantasma excluído</strong><br />Â» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Tópico excluído</strong><br />Â» %s',
-	'LOG_FORK'					=> '<strong>Tópico copiado</strong><br />Â» de %s',
-	'LOG_LOCK'					=> '<strong>Tópico trancado</strong><br />Â» %s',
-	'LOG_LOCK_POST'				=> '<strong>Mensagem trancada</strong><br />Â» %s',
-	'LOG_MERGE'					=> '<strong>Mensagens fundidas</strong> no tópico<br />Â» %s',
-	'LOG_MOVE'					=> '<strong>Tópico movido</strong><br />Â» de %1$s para %2$s', 
+    'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Tópico fantasma excluído</strong><br />» %s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Tópico excluído</strong><br />» %s',
+	'LOG_FORK'					=> '<strong>Tópico copiado</strong><br />» de %s',
+	'LOG_LOCK'					=> '<strong>Tópico trancado</strong><br />» %s',
+	'LOG_LOCK_POST'				=> '<strong>Mensagem trancada</strong><br />» %s',
+	'LOG_MERGE'					=> '<strong>Mensagens fundidas</strong> no tópico<br />» %s',
+	'LOG_MOVE'					=> '<strong>Tópico movido</strong><br />» de %1$s para %2$s', 
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>Denúncia de MP trancada</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Denúncia de MP deletada</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Mensagem aprovada</strong><br />» %s',
@@ -548,14 +549,14 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_ADD'							=> '<strong>Novo fórum criado</strong><br />» %s', 
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Permissões do fórum copiadas</strong> de %1$s<br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Fórum excluído</strong><br />» %s', 
-	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum e subfóruns excluídos</strong><br />» %s', 
-	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum excluído e subfóruns movidos</strong> para %1$s<br />» %2$s', 
+	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum e sub fóruns excluídos</strong><br />» %s', 
+	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum excluído e sub fóruns movidos</strong> para %1$s<br />» %2$s', 
 	'LOG_FORUM_DEL_MOVE_POSTS'				=> '<strong>Fórum excluído e mensagens movidas</strong> para %1$s<br />» %2$s', 
-	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Fórum e subfóruns excluídos, mensagens movidas</strong> para %1$s<br />Â» %2$s',
-	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Fórum excluído, mensagens movidas</strong> para %1$s <strong>e subfóruns</strong> para %2$s<br />Â» %3$s',
-	'LOG_FORUM_DEL_POSTS'					=> '<strong>Fórum e mensagens excluídas</strong><br />Â» %s',
-	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Fórum, subfóruns e mensagens excluídas</strong><br />Â» %s',
-	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Fórum e mensagens excluídas, subfóruns movidos</strong> para %1$s<br />Â» %2$s', 
+	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Fórum e sub fóruns excluídos, mensagens movidas</strong> para %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Fórum excluído, mensagens movidas</strong> para %1$s <strong>e sub fóruns</strong> para %2$s<br />» %3$s',
+	'LOG_FORUM_DEL_POSTS'					=> '<strong>Fórum e mensagens excluídas</strong><br />» %s',
+	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Fórum, sub fóruns e mensagens excluídas</strong><br />» %s',
+	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Fórum e mensagens excluídas, sub fóruns movidos</strong> para %1$s<br />» %2$s', 
 	'LOG_FORUM_EDIT'						=> '<strong>Informações do fórum editadas</strong><br />» %s', 
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>Fórum movido</strong> %1$s <strong>abaixo</strong> %2$s', 
 	'LOG_FORUM_MOVE_UP'						=> '<strong>Fórum movido</strong> %1$s <strong>acima</strong> %2$s', 

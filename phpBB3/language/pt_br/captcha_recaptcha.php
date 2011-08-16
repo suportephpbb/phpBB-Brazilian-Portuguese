@@ -5,11 +5,11 @@
 *
 * @package language
 * @version $Id: captcha_recaptcha.php,v 1.0 9933 2009/11/21 11:23:32Z Suporte phpBB $
-* @copyright (c) 2009 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @copyright (c) 2010 Suporte phpBB
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @VersÃ£o do phpBB: 3.0.7
 *
 */
 
@@ -40,16 +40,16 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'				=> 'pt_br',
-	'RECAPTCHA_NOT_AVAILABLE'		=> 'Para usar o reCaptcha, você deve criar um registro em <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_NOT_AVAILABLE'		=> 'Para usar o reCaptcha, vocÃª deve criar um registro em <a href="http://recaptcha.net">reCaptcha.net</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
-	'RECAPTCHA_INCORRECT'			=> 'O código de confirmação visual escrito estava incorreto',
+	'RECAPTCHA_INCORRECT'			=> 'O cÃ³digo de confirmaÃ§Ã£o visual escrito estava incorreto',
 
-	'RECAPTCHA_PUBLIC'				=> 'Chave pública do reCaptcha',
-	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A sua chave pública do reCaptcha. Chaves podem ser obtidas em <a href="http://recaptcha.net">reCaptcha.net</a>.',
+	'RECAPTCHA_PUBLIC'				=> 'Chave pÃºblica do reCaptcha',
+	'RECAPTCHA_PUBLIC_EXPLAIN'		=> 'A sua chave pÃºblica do reCaptcha. Chaves podem ser obtidas em <a href="http://recaptcha.net">reCaptcha.net</a>.',
 	'RECAPTCHA_PRIVATE'				=> 'Chave privada do reCaptcha',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A sua chave privada do reCaptcha. Chaves podem ser obtidas em <a href="http://recaptcha.net">reCaptcha.net</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'No esforço de prevenir submissões automáticas, nós solicitamos que você escreva ambas as palavras exibidas dentro da caixa de texto abaixo.',
+	'RECAPTCHA_EXPLAIN'				=> 'No esforÃ§o de prevenir submissÃµes automÃ¡ticas, nÃ³s solicitamos que vocÃª escreva ambas as palavras exibidas dentro da caixa de texto abaixo.',
 ));
 
 ?>

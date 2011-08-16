@@ -5,11 +5,11 @@
 * 
 * @package language 
 * @version $Id: search.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
-* @copyright (c) 2009 Suporte phpBB
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */
 
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_POST'			=> 'Ir à mensagem',	
 
  	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Este painel exige que você esteja registrado e autenticado para ver as suas mensagens.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Este painel exige que você esteja registrado e autenticado para ver as suas mensagens não-lidas.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Este painel exige que você esteja registrado e autenticado para ver as suas mensagens não lidas.',
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Você especificou muitas palavras em sua pesquisa. Por favor, não insira mais que %1$d palavras.',
 	
 	'NO_KEYWORDS'			=> 'Você deve especificar pelo menos uma palavra para efetuar a pesquisa. Cada palavra deve ter no mínimo %d caracteres e não deve ultrapassar o limite de %d caracteres.', 
@@ -83,13 +83,13 @@ $lang = array_merge($lang, array(
 	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * como complemento para palavras parciais.', 
 	'SEARCH_FIRST_POST'			=> 'Apenas a primeira mensagem dos tópicos', 
 	'SEARCH_FORUMS'				=> 'Pesquisar nos fóruns', 
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Selecione o fórum, ou os fóruns, no qual você deseja realizar a pesquisa. Todos os subfóruns serão incluídos na pesquisa se você não desmarcar a opção "Pesquisar nos subfóruns" abaixo.', 
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Selecione o fórum, ou os fóruns, no qual você deseja realizar a pesquisa. Todos os sub fóruns serão incluídos na pesquisa se você não desmarcar a opção "Pesquisar nos sub fóruns" abaixo.', 
 	'SEARCH_IN_RESULTS'			=> 'Pesquisar por estes resultados', 
 	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Você pode inserir <strong>+</strong> na frente de uma palavra que deve ser localizada na pesquisa e <strong>-</strong> na frente de uma palavra que não deve ser localizada. Escreva uma lista de palavras separadas por <strong>|</strong> se somente uma das palavras inseridas deva ser encontrada. Use * como complemento para resultados parciais.', 
 	'SEARCH_MSG_ONLY'			=> 'Somente texto da mensagem', 
 	'SEARCH_OPTIONS'			=> 'Opções da pesquisa', 
 	'SEARCH_QUERY'				=> 'Termos da pesquisa', 
-	'SEARCH_SUBFORUMS'			=> 'Pesquisar nos subfóruns', 
+	'SEARCH_SUBFORUMS'			=> 'Pesquisar nos sub fóruns', 
 	'SEARCH_TITLE_MSG'			=> 'Pesquisar nos títulos e mensagens', 
 	'SEARCH_TITLE_ONLY'			=> 'Pesquisar apenas nos títulos', 
 	'SEARCH_WITHIN'				=> 'Pesquisar com', 

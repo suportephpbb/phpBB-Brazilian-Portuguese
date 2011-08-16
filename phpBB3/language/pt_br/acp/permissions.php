@@ -5,11 +5,11 @@
 * 
 * @package language 
 * @version $Id: permissions.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2009 Suporte phpBB
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */ 
 
@@ -149,7 +149,7 @@ $lang = array_merge($lang, array(
 	'ONLY_FORUM_DEFINED'	=> 'Você apenas definiu fóruns em sua seleção. Por favor, selecione também pelo menos um usuário ou um grupo.', 
 
 	'PERMISSION_APPLIED_TO_ALL'		=> 'As tarefas e permissões também serão aplicadas a todos os objetos selecionados', 
-	'PLUS_SUBFORUMS'				=> '+ Subfóruns', 
+	'PLUS_SUBFORUMS'				=> '+ Sub fóruns', 
 
 	'REMOVE_PERMISSIONS'			=> 'Excluir permissões', 
 	'REMOVE_ROLE'					=> 'Excluir tarefa', 
@@ -240,7 +240,7 @@ $lang = array_merge($lang, array(
 	'TRACE_GROUP_NEVER_TOTAL_YES_LOCAL'	=> 'A permissão do grupo para este fórum está assinalada como <samp>NUNCA</samp> que substitui o total <samp>SIM</samp> para um <samp>NUNCA</samp> a este usuário.',
 	'TRACE_GROUP_NO'				=> 'A permissão do grupo está assinalada como <samp>NÃO</samp>, o antigo valor total foi salvo.',
 	'TRACE_GROUP_NO_LOCAL'			=> 'A permissão do grupo está assinalada como <samp>NÃO</samp>, o antigo valor total foi salvo.',
-	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'A permissão do grupo está assinalada como <samp>SIM</samp>, mas o total <samp>NUNCA</samp> não pode ser substituido.', 
+	'TRACE_GROUP_YES_TOTAL_NEVER'	=> 'A permissão do grupo está assinalada como <samp>SIM</samp>, mas o total <samp>NUNCA</samp> não pode ser substituído.', 
 	'TRACE_GROUP_YES_TOTAL_NEVER_LOCAL'	=> 'A permissão do grupo para este fórum está assinalada como <samp>SIM</samp>, mas o total <samp>NUNCA</samp> não pode ser substítuido.',
 	'TRACE_GROUP_YES_TOTAL_NO'		=> 'A permissão do grupo está assinalada como <samp>SIM</samp> que torna-se o novo valor total porque ainda não estava assinalado (assinale <samp>NÃO</samp>).', 
 	'TRACE_GROUP_YES_TOTAL_NO_LOCAL'	=> 'A permissão do grupo para este fórum está assinalada como <samp>SIM</samp> que se torna um novo valor total pois ainda não havia sido definido (assinale <samp>NÃO</samp>).',

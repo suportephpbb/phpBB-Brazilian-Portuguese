@@ -14,6 +14,6 @@ Endereço: {U_BOARD}
 
 Algumas informações importantes sobre sua instalação do phpBB podem ser encontradas na pasta /docs de seu fórum e na página de suporte do phpBB.com - http://www.phpbb.com/support/
 
-Para atualizar e preservar o seu phpBB seguro, é altamente recomendável que você fique atento às novidades e atualizações do sistema. Para sua conveniência, uma lista de e-mais encontra-se disponível na página acima referida.
+Para atualizar e preservar o seu phpBB seguro, é altamente recomendável que você fique atento às novidades e atualizações do sistema. Para sua conveniência, uma lista de e-mails encontra-se disponível na página acima referida.
 
 {EMAIL_SIG}

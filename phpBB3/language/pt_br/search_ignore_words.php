@@ -5,11 +5,11 @@
 * 
 * @package language 
 * @version $Id: search_ignore_words.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2009 Suporte phpBB
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */
 
@@ -110,7 +110,7 @@ $words = array(
    'gostou',
    'grande',
    'href',
-   'idéia',
+   'ideia',
    'ido',
    'igual',
    'IIRC',

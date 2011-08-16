@@ -4,12 +4,12 @@
 * common.php [Brazilian Portuguese] 
 *
 * @package language 
-* @version $Id: common.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
-* @copyright (c) 2009 Suporte phpBB
+* @version $Id: common.php,v 1.0 2010/04/16 21:28:32 Suporte phpBB Exp $
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */ 
 /** 
@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array( 
 	
 	// Translation Info
-	'TRANSLATION_INFO'	=> 'Traduzido por: <a href="http://www.suportephpbb.org" target="_blank">Suporte phpBB</a>', 
+	'TRANSLATION_INFO'	=> 'Traduzido por: <a href="http://www.suportephpbb.com.br">Suporte phpBB</a>', 
 	
 	'DIRECTION'			=> 'ltr', 
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Jan 2007 (with Relative days enabled) 
@@ -180,7 +180,7 @@ $lang = array_merge($lang, array(
 	'EXTENSION_DISABLED_AFTER_POSTING'	=> 'O anexo não pode ser exibido, pois a extensão <b>%s</b> foi desativada pelo administrador.',
 
 	'FAQ'					=> 'FAQ', 
-	'FAQ_EXPLAIN'			=> 'Questões Mais Freqüentes', 
+	'FAQ_EXPLAIN'			=> 'Questões mais frequentes', 
 	'FILENAME'				=> 'Nome do arquivo', 
 	'FILESIZE'				=> 'Tamanho do arquivo', 
 	'FILEDATE'				=> 'Data do arquivo', 
@@ -261,8 +261,8 @@ $lang = array_merge($lang, array(
 	'HIDDEN_USERS_ZERO_TOTAL'	=> 'nenhum invisível',
 	'HIDDEN_USERS_ZERO_TOTAL_AND'	=> 'nenhum invisível e ',
 	'HIDDEN_USER_ONLINE'		=> '%d usuário invisível online', 
-	'HIDDEN_USER_TOTAL'			=> '%d invisíveis',
-	'HIDDEN_USER_TOTAL_AND'		=> '%d invisíveis e ',
+	'HIDDEN_USER_TOTAL'			=> '%d invisível',
+	'HIDDEN_USER_TOTAL_AND'		=> '%d invisível e ',
 	'HIDE_GUESTS'				=> 'Ocultar visitantes', 
 	'HIDE_ME'					=> 'Ocultar meus status nesta sessão', 
 	'HOURS'						=> 'Horas', 
@@ -364,7 +364,7 @@ $lang = array_merge($lang, array(
 	'NO_ACTION'					=> 'Nenhuma ação especificada.', 
 	'NO_ADMINISTRATORS'			=> 'Não há administradores definidos para este painel.',	 
 	'NO_AUTH_ADMIN'				=> 'Você não possui permissões administrativas, e então não pode acessar o painel de administração.', 
-	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Você não pode se re-autenticar com outro nome de usuário.',				 
+	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Você não pode se reautenticar com outro nome de usuário.',				 
 	'NO_AUTH_OPERATION'			=> 'Você não tem as permissões necessárias para concluir esta operação.', 
 	'NO_CONNECT_TO_SMTP_HOST'	=> 'Não foi possível conectar-se ao servidor SMTP : %s : %s',	 
 	'NO_BIRTHDAYS'				=> 'Não há aniversários hoje', 
@@ -395,7 +395,7 @@ $lang = array_merge($lang, array(
 	'NO_TOPIC_FORUM'            => 'O tópico ou fórum selecionado já não existe mais.',	 
 	'NO_TOPICS'					=> 'Não há mensagens neste fórum<br />Clique em <b>novo tópico</b> para adicionar uma mensagem nova.', 
 	'NO_TOPICS_TIME_FRAME'		=> 'Não existem tópicos neste fórum no período selecionado.',
-	'NO_UNREAD_PM'				=> '<strong>0</strong> mensagens não-lidas', 
+	'NO_UNREAD_PM'				=> '<strong>0</strong> mensagens não lidas', 
 	'NO_UPLOAD_FORM_FOUND'		=> 'O envio do arquivo foi iniciado, mas nenhuma forma de envio válida foi encontrada.', 
 	'NO_USER'					=> 'O usuário selecionado não existe.', 
 	'NO_USERS'					=> 'Os usuários selecionados não existem.', 
@@ -418,6 +418,7 @@ $lang = array_merge($lang, array(
 
 	'PAGE_OF'				=> 'Página <b>%1$d</b> de <b>%2$d</b>', 
 	'PASSWORD'				=> 'Senha', 
+	'PIXEL'					=> 'px',
 	'PLAY_QUICKTIME_FILE'	=> 'Executar arquivo do Quicktime',	 
 	'PM'					=> 'MP', 
 	'POSTING_MESSAGE'		=> 'Enviar mensagem para %s', 
@@ -492,6 +493,8 @@ $lang = array_merge($lang, array(
 	'FEED'						=> 'Feed',
 	'FEED_NEWS'					=> 'Notícias',
 	'RETURN_TO'					=> 'Voltar para', 
+	'FEED_TOPICS_ACTIVE'		=> 'Tópicos ativos',
+	'FEED_TOPICS_NEW'			=> 'Novos tópicos',
 	'RULES_ATTACH_CAN'			=> 'Enviar anexos: <b>Permitido</b>', 
 	'RULES_ATTACH_CANNOT'		=> 'Enviar anexos: <b>Proibido</b>', 
 	'RULES_DELETE_CAN'			=> 'Excluir mensagens: <b>Permitido</b>', 
@@ -524,7 +527,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_SELF'				=> 'Ver as suas mensagens', 
 	'SEARCH_TOPIC'				=> 'Pesquisar neste tópico…',	 
 	'SEARCH_UNANSWERED'			=> 'Ler mensagens sem resposta', 
-	'SEARCH_UNREAD'				=> 'Ver mensagens não-lidas',
+	'SEARCH_UNREAD'				=> 'Ver mensagens não lidas',
 	'SECONDS'					=> 'Segundos',	 
 	'SELECT'					=> 'Selecionar', 
 	'SELECT_ALL_CODE'			=> 'Selecionar todos',
@@ -552,8 +555,8 @@ $lang = array_merge($lang, array(
 	'START_WATCHING_TOPIC'		=> 'Subscrever tópico', 
 	'STOP_WATCHING_FORUM'		=> 'Parar de visualizar este Fórum', 
 	'STOP_WATCHING_TOPIC'		=> 'Parar de visualizar este Tópico', 
-	'SUBFORUM'					=> 'Subfórum', 
-	'SUBFORUMS'					=> 'Subfóruns', 
+	'SUBFORUM'					=> 'Sub fórum', 
+	'SUBFORUMS'					=> 'Sub fóruns', 
 	'SUBJECT'					=> 'Título', 
 	'SUBMIT'					=> 'Enviar', 
 
@@ -631,10 +634,10 @@ $lang = array_merge($lang, array(
 	'UNABLE_GET_IMAGE_SIZE'	=> 'Não foi possível determinar as dimensões da imagem.', 
 	'UNABLE_TO_DELIVER_FILE'=> 'Incapaz de encaminhar arquivo.', 
 	'UNKNOWN_BROWSER'		=> 'Navegador desconhecido', 
-	'UNMARK_ALL'			=> 'Deselecionar todos', 
-	'UNREAD_MESSAGES'		=> 'Mensagens não-lidas', 
-	'UNREAD_PM'				=> '<b>%d</b> mensagem não-lida', 
-	'UNREAD_PMS'			=> '<b>%d</b> mensagens não-lidas', 
+	'UNMARK_ALL'			=> 'Desselecionar todos', 
+	'UNREAD_MESSAGES'		=> 'Mensagens não lidas', 
+	'UNREAD_PM'				=> '<b>%d</b> mensagem não lida', 
+	'UNREAD_PMS'			=> '<b>%d</b> mensagens não lidas', 
 	'UNWATCHED_FORUMS'		=> 'Você não está mais subscrito nos fóruns selecionados.',
 	'UNWATCHED_TOPICS'		=> 'Você não está mais subscrito nos tópicos selecionados.',
 	'UNWATCHED_FORUMS_TOPICS'   => 'Você não está mais subscrito às entradas selecionadas.',
@@ -654,7 +657,7 @@ $lang = array_merge($lang, array(
 	
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Visto', 
-	'VIEWING_FAQ'				=> 'Vendo FAQ - Questões Mais Freqüentes', 
+	'VIEWING_FAQ'				=> 'Vendo FAQ - Questões mais frequentes', 
 	'VIEWING_MEMBERS'			=> 'Vendo informações de usuário', 
 	'VIEWING_ONLINE'			=> 'Vendo quem está online', 
 	'VIEWING_MCP'				=> 'Vendo painel de moderação', 
@@ -691,7 +694,7 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_ICQ'			=> 'O número ICQ informado não é válido.', 
 	'WRONG_DATA_JABBER'			=> 'O nome de jabber informado não é válido.', 
 	'WRONG_DATA_LANG'			=> 'A linguagem informada não é válida.', 
-	'WRONG_DATA_WEBSITE'		=> 'O endereço do website informado não é uma URL válida, incluindo o protocolo. Por exemplo, http://www.suportephpbb.org/.',
+	'WRONG_DATA_WEBSITE'		=> 'O endereço do website informado não é uma URL válida, incluindo o protocolo. Por exemplo, http://www.suportephpbb.com.br/.',
     'WROTE'						=> 'escreveu',
 
 	'YEAR'				=> 'Ano', 

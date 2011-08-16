@@ -4,12 +4,12 @@
 * help_faq.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: help_faq.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2009 Suporte phpBB
+* @version $Id: help_faq.php,v 1.0 2010/04/16 21:2329:32 Suporte phpBB Exp $ 
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */  
 
@@ -47,7 +47,7 @@ $help = array(
    ), 
    array( 
       0 => 'Por que entro automaticamente no fórum?', 
-      1 => 'Se não assinalar <em>Lembrar minhas informações</em>, você não entrará automaticamente da próxima vez que visitar o fórum. Isto evita o uso abusivo da sua conta por parte de outras pessoas. Para manter-se online e não necessitar escrever o seu nome de usuário e senha, assinale a caixa quando estiver efetuando o login. Isto não é recomendável caso acesse o fórum através de um computador compartilhado por outros usuários, ou seja, bibliotecas, cefé internet ou cyber café, universidades, etc. Se não consegue visualizar a checkbox, é possível que o administrador tenha desativado esta ferramenta.' 
+      1 => 'Se não assinalar <em>Lembrar minhas informações</em>, você não entrará automaticamente da próxima vez que visitar o fórum. Isto evita o uso abusivo da sua conta por parte de outras pessoas. Para manter-se online e não necessitar escrever o seu nome de usuário e senha, assinale a caixa quando estiver efetuando o login. Isto não é recomendável caso acesse o fórum através de um computador compartilhado por outros usuários, ou seja, bibliotecas, café internet ou cyber café, universidades, etc. Se não consegue visualizar a checkbox, é possível que o administrador tenha desativado esta ferramenta.' 
    ), 
    array( 
       0 => 'Como posso ocultar o meu nome de usuário da lista de usuários online?', 
@@ -98,8 +98,8 @@ $help = array(
       1 => 'O administrador pode não ter instalado o seu idioma ou o phpBB ainda não foi traduzido para o mesmo. Peça ao administrador que instale o seu pacote de idiomas e, caso não exista, você poderá criar uma nova tradução. Mais informações, consulte a página oficial do Grupo phpBB (clicar no link ao fundo desta página).' 
    ), 
    array( 
-      0 => 'Como posso exibir uma imagem abaixo do meu nome de usuário?', 
-      1 => 'Deve haver duas imagens na parte inferior de cada nome de usuário quando se visualizam as mensagens. Dependendo do estilo em uso, a primeira representa o rank do usuário, normalmente em forma de blocos ou estrelas indicando a quantidade de mensagens que o usuário possui ou o seu estatuto no fórum. A segunda, geralmente uma imagem larga, é conhecida como avatar, que é normalmente única ou pessoal a cada usuário. Está ao critério do administrador permitir ou não o uso de avatares, e como os usuários podem enviar estas imagens. Se você não está autorizado a utilizar avatares, contate o administrador para receber uma justificativa.' 
+      0 => 'Como posso exibir uma imagem junto ao meu nome de usuário?', 
+      1 => 'Deve haver duas imagens junto de cada nome de usuário quando se visualizam as mensagens. Dependendo do estilo em uso, a primeira representa o rank do usuário, normalmente em forma de blocos ou estrelas indicando a quantidade de mensagens que o usuário possui ou o seu estatuto no fórum. A segunda, geralmente uma imagem larga, é conhecida como avatar, que é normalmente única ou pessoal a cada usuário. Está ao critério do administrador permitir ou não o uso de avatares, e como os usuários podem enviar estas imagens. Se você não está autorizado a utilizar avatares, contate o administrador para receber uma justificativa.' 
    ), 
    array( 
       0 => 'Como posso alterar o meu rank?', 
@@ -119,11 +119,11 @@ $help = array(
    ), 
    array( 
       0 => 'Como posso editar ou excluir uma mensagem?', 
-      1 => 'A menos que seja um administrador ou moderador do painel, você apenas pode editar ou excluir as suas próprias mensagens. Você pode editar uma mensagem clicando no botão de edição para a mensagem relevante, algumas vezes por um período limitado após ser enviada. Caso alguém já tenha respondido a essa mensagem, você encontrará um pequeno texto ao fundo, mencionando que foi editada e eventualmente quantas vezes. Isto não aparece apenas caso essa mensagem ainda não tenha obtido respostas; não aparecerá caso a alteração seja efetuada por algum administrador ou moderador, mas possivelmente eles deixarão uma nota dizendo o que foi alterado e o motivo. Por favor, note que usuários normais não podem excluir uma mensagem após alguém já ter enviado uma resposta.' 
+      1 => 'A menos que seja um administrador ou moderador do painel, você apenas pode editar ou excluir as suas próprias mensagens. Você pode editar uma mensagem clicando no botão de edição para a mensagem relevante, algumas vezes por um período limitado após ser enviada. Caso alguém já tenha respondido a essa mensagem, você encontrará um pequeno texto ao fundo, mencionando que foi editada e eventualmente quantas vezes. Isto não aparece apenas caso essa mensagem ainda não tenha obtido respostas; não aparecerá caso a alteração seja efetuada por algum administrador ou moderador, mas possivelmente eles deixarão uma nota dizendo o motivo ou critério usado. Por favor, note que usuários normais não podem excluir uma mensagem após alguém já ter enviado uma resposta.'
    ), 
    array( 
       0 => 'Como posso adicionar assinatura a uma mensagem?', 
-      1 => 'Para adicionar uma assinatura em suas mensagens, você deverá primeiro criar uma em seu painel de controle do usuário. Uma vez criada, marque a opção <em>Anexar assinatura</em> nas opções referentes ao envio de mensagens para adicionar sua assinatura. Você também pode adicionar sua assinatura por padrão para todas as suas mensagens enviadas selecionando a opção correta em seu perfil. Se fizer isto, você pode previnir que uma assinatura seja anexada a mensagens individuais durante o envio de novas mensagens.' 
+      1 => 'Para adicionar uma assinatura em suas mensagens, você deverá primeiro criar uma em seu painel de controle do usuário. Uma vez criada, marque a opção <em>Anexar assinatura</em> nas opções referentes ao envio de mensagens para adicionar sua assinatura. Você também pode adicionar sua assinatura por padrão para todas as suas mensagens enviadas selecionando a opção correta em seu perfil. Se fizer isto, você pode prevenir que uma assinatura seja anexada a mensagens individuais durante o envio de novas mensagens.' 
    ), 
    array( 
       0 => 'Como posso adicionar uma enquete?', 
@@ -340,7 +340,7 @@ $help = array(
    ), 
    array( 
       0 => 'Quem traduziu o phpBB?', 
-      1 => 'O phpBB foi traduzido por <a href="http://www.suportephpbb.org/">Suporte phpBB</a>, sendo esta tradução gratuita e disponível no link anterior. A tradução do Suporte phpBB é a oficial à Língua Portuguesa do Brasil. Para mais informações, visite o Suporte phpBB!' 
+      1 => 'O phpBB foi traduzido por <a href="http://www.suportephpbb.com.br/">Suporte phpBB</a>, sendo esta tradução gratuita e disponível no link anterior. A tradução do Suporte phpBB é a oficial à Língua Portuguesa do Brasil. Para mais informações, visite o Suporte phpBB!' 
    ), 
    array( 
       0 => 'Porque não há a função X?', 

@@ -4,12 +4,12 @@
 * captcha_qa.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: captcha_qa.php,v 1.0 9966 2009/11/21 11:23:32Z Suporte phpBB $
-* @copyright (c) 2009 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* @version $Id: captcha_qa.php,v 1.0 9966 2010/04/16 21:22:32Z Suporte phpBB $
+* @copyright (c) 2010 Suporte phpBB
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 *
 */
 
@@ -61,6 +61,7 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT_EXPLAIN'		=> 'A pergunta que deverá ser feita durante o registro.',
 
 	'QA_ERROR_MSG'				=> 'Por favor, preencha todos os campos e escreva ao menos uma resposta.',
+	'QA_LAST_QUESTION'			=> 'Você não pode excluir todas as perguntas quando o plugin estiver ativo.',
 ));
 
 ?>

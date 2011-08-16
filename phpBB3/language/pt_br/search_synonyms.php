@@ -5,11 +5,11 @@
 * 
 * @package language 
 * @version $Id: search_synonyms.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2009 Suporte phpBB
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */
 
@@ -34,7 +34,7 @@ $synonyms = array(
 	'armadura'	=> 'uniforme', 
 	'arqueiro'	=> 'guerreiro', 
 	'arqueologia'	=> 'antiguidade', 
-	'arqueozologia'	=> 'arqueozóico', 
+	'arqueozologia'	=> 'arqueozoico', 
 	'ártico'	=> 'do norte', 
 	'atendimento'	=> 'recepção', 
 	'ausência'	=> 'falta', 
@@ -47,7 +47,7 @@ $synonyms = array(
 	'capturar'	=> 'prender', 
 	'carro'		=> 'automóvel', 
 	'catálogo'	=> 'guia', 
-	'cenozóico'	=> 'antigo', 
+	'cenozoico'	=> 'antigo', 
 	'centro'	=> 'meio', 
 	'churrasco'	=> 'churrasqueira', 
 	'cinza'		=> 'grisalho', 
@@ -57,7 +57,7 @@ $synonyms = array(
 	'conexão'	=> 'ligação', 
 	'cor'		=> 'tom', 
 	'criar'		 => 'gerar', 
-	'currículum'	 => 'currículo', 
+	'curriculum'	 => 'currículo', 
 
 	'defesa'	=> 'proteção', 
 	'desconhecido'  => 'ignorado', 
@@ -133,10 +133,10 @@ $synonyms = array(
 	'paleolítico'	=> 'idade da pedra', 
 	'paleontologia'	=> 'fósseis', 
 	'paleontólogo'	=> 'paleontologista', 
-	'paleozóico'	=> 'era primária', 
+	'paleozoico'	=> 'era primária', 
 	'panfleto'	=> 'bilhete', 
 	'paralelo'	=> 'semelhante', 
-	'parlamento'	 => 'assembléia', 
+	'parlamento'	 => 'assembleia', 
 	'PC'		=> 'computador', 
 	'pediatra'	=> 'infantil', 
 	'pediatria'	=> 'crianças', 

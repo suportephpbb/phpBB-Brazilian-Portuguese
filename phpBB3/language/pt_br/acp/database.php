@@ -5,11 +5,11 @@
 * 
 * @package language 
 * @version $Id: database.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2009 Suporte phpBB
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */  
 
@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'DATA_ONLY'			=> 'Backup apenas dos dados', 
 	'DELETE_BACKUP'		=> 'Excluir backup', 
 	'DELETE_SELECTED_BACKUP'	=> 'Você deseja realmente excluir o backup selecionado?',
-	'DESELECT_ALL'		=> 'Deselecionar todos', 
+	'DESELECT_ALL'		=> 'De-selecionar todos', 
 	'DOWNLOAD_BACKUP'	=> 'Download do backup', 
 
 	'FILE_TYPE'			=> 'Tipo de arquivo', 

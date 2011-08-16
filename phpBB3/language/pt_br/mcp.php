@@ -4,12 +4,12 @@
 * mcp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: mcp.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
-* @copyright (c) 2009 Suporte phpBB
+* @version $Id: mcp.php,v 1.0 2010/04/16 21:32:00 Suporte phpBB Exp $
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */  
 
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'APPROVE_POSTS_CONFIRM'	=> 'Você deseja realmente aprovar as mensagens selecionadas?', 
 	
 	'CANNOT_MOVE_SAME_FORUM'=> 'Você não pode mover o tópico para o fórum onde ele já se encontra inserido.', 
-	'CANNOT_WARN_ANONYMOUS' => 'Você não pode advertir visitantes não-registrados.',
+	'CANNOT_WARN_ANONYMOUS' => 'Você não pode advertir visitantes não registrados.',
 	'CANNOT_WARN_SELF'		=> 'Você não pode advertir a si mesmo.',
 	'CAN_LEAVE_BLANK'		=> 'Isto pode ser deixado em branco.', 
 	'CHANGE_POSTER'			=> 'Alterar autor', 
@@ -256,6 +256,8 @@ $lang = array_merge($lang, array(
 	'PM_REPORT_DELETED_SUCCESS'	=> 'A denúncia da MP selecionada foi excluída com sucesso.',
 	'PM_REPORTED_SUCCESS'		=> 'Esta mensagem particular foi denunciada com sucesso.',
 	'PM_REPORT_TOTAL'			=> 'No total, há <strong>1</strong> denúncia de MP para ser revisada.',
+	'PM_REPORTS_CLOSED_SUCCESS'	=> 'As denúncias da MP selecionada foram trancadas com sucesso.',
+	'PM_REPORTS_DELETED_SUCCESS'=> 'As denúncias da MP selecionada foram excluídas com sucesso.',
 	'PM_REPORTS_TOTAL'			=> 'No total, há <strong>%d</strong> denúncias de MP para serem revisadas.',
 	'PM_REPORTS_ZERO_TOTAL'		=> 'Não há denúncias de MP a serem revisadas.',
 	'PM_REPORT_DETAILS'			=> 'Informações de denúncia da MP',
@@ -331,6 +333,7 @@ $lang = array_merge($lang, array(
 	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Você deseja realmente subdividir o tópico na mensagem selecionada?', 
 	'SPLIT_TOPIC_EXPLAIN'				=> 'Aqui você pode subdividir um tópico em dois, tanto selecionando as mensagens individualmente, como dividindo a partir de uma mensagem selecionada.',
 	
+	'THIS_PM_IP'				=> 'Endereço IP para esta mensagem privada',
 	'THIS_POST_IP'				=> 'Endereço de IP para esta mensagem', 
 	'TOPICS_APPROVED_SUCCESS'	=> 'Os tópicos selecionados foram aprovados com sucesso.',
 	'TOPICS_DELETED_SUCCESS'	=> 'Os tópicos selecionados foram excluídos com sucesso.', 

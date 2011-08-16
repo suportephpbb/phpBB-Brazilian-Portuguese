@@ -4,12 +4,12 @@
 * acp_posting.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: posting.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2009 Suporte phpBB
+* @version $Id: posting.php,v 1.0 2010/04/16 21:13:32 Suporte phpBB Exp $ 
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */ 
 
@@ -44,6 +44,9 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'O BBCode é uma implementação especial do HTML oferecendo um maior controle sobre o quê e como será exibido. Aqui você pode adicionar, editar e excluir os BBCodes existentes.', 
 	'ADD_BBCODE'				=> 'Adicionar um novo BBCode', 
 
+	'BBCODE_DANGER'				=> 'O BBCode que você está tentando adicionar parece usar o símbolo {TEXT} dentro de um atributo HTML. Isso é uma possível questão de segurança XSS. Tente usar, de preferência, tipos alternativos como {SIMPLETEXT} ou {INTTEXT}. Prossiga somente se você entende os riscos envolvidos e você considera o uso do {TEXT} absolutamente indispensável.',
+	'BBCODE_DANGER_PROCEED'		=> 'Proceder', //'I understand the risk',
+	
 	'BBCODE_ADDED'				=> 'O BBCode foi adicionado com sucesso.', 
 	'BBCODE_EDITED'				=> 'O BBCode foi editado com sucesso.', 
 	'BBCODE_NOT_EXIST'			=> 'O BBCode selecionado não existe.', 
@@ -75,8 +78,9 @@ $lang = array_merge($lang, array(
 	'TOO_MANY_BBCODES'		=> 'Você não pode criar mais BBCodes. Por favor, remova um ou mais BBCodes e tente novamente.', 
 
 	'tokens'	=>	array( 
-		'TEXT'			=> 'Qualquer texto, incluindo caracteres externos, números e etc. Você não deverá utilizar este símbolo em tags de HTML. Mas tente utilizar IDENTIFIER ou SIMPLETEXT.', 
-		'SIMPLETEXT'    => 'Caracteres do alfabeto latino (A-Z), números, espaços, vírgulas, pontos, menos, mais, hífen e sublinha',
+		'TEXT'			=> 'Qualquer texto, incluindo caracteres externos, números e etc. Você não deverá utilizar este símbolo em tags de HTML. Mas tente utilizar IDENTIFIER, INTTEXT ou SIMPLETEXT.', 
+		'SIMPLETEXT'    => 'Caracteres do alfabeto latino (A-Z), números, espaços, vírgulas, pontos, menos, mais, hífen e sublinhado',
+		'INTTEXT'		=> 'Caracteres Unicode letra, números, espaços, vírgulas, pontos, menos, mais, hífen, sublinhado e espaços.',
         'IDENTIFIER'    => 'Caracteres do alfabeto latino (A-Z), números, hífen e sublinha',
 		'NUMBER'		=> 'Qualquer série de dígitos', 
 		'EMAIL'			=> 'Um endereço de e-mail válido', 

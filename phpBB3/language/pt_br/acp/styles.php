@@ -5,11 +5,11 @@
 * 
 * @package language 
 * @version $Id: styles.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2009 Suporte phpBB
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */ 
 
@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine 
 
 $lang = array_merge($lang, array( 
-	'ACP_IMAGESETS_EXPLAIN'	=> 'Set de imagens são todos os botões, fórum, folders, etc. e ainda outras imagens não especificamente utilizadas pela template do painel. Aqui você pode editar, exportar ou excluir os sets de imagens existentes e importar ou ativar novos sets.', 
+	'ACP_IMAGESETS_EXPLAIN'	=> 'Set de imagens são todos os botões, fórum, pastas, etc. e ainda outras imagens não especificamente utilizadas pela template do painel. Aqui você pode editar, exportar ou excluir os sets de imagens existentes e importar ou ativar novos sets.', 
 	'ACP_STYLES_EXPLAIN'	=> 'Aqui você pode gerenciar os estilos disponíveis aos usuários do fórum. Um estilo consiste de uma template, tema e set de imagens. Você pode alterar estilos existentes, excluir, desativar, reativar, criar ou importar novos. E ainda poderá visualizar como ficará um estilo, utilizando a função prever. O estilo padrão atual está selecionado com um asterisco (*). Aqui também será listado o total de usuários utilizando cada estilo, note que a substituição de estilo dos usuários não é refletida aqui.', 
 	'ACP_TEMPLATES_EXPLAIN'	=> 'Uma template compreende todo o código usado para gerar o layout de seu phpBB. Aqui você pode adicionar, editar, excluir, importar, exportar e prever novas templates. Você também pode alterar o código da template utilizada para gerar BBCodes.', 
 	'ACP_THEMES_EXPLAIN'	=> 'Aqui você pode criar, instalar, editar, excluir e exportar temas. Um tema é a combinação de cores e imagens que são aplicados em suas templates para definir o visual básico de seu fórum. A escala de opções depende da configuração do seu servidor e instalação do phpBB, veja o manual para mais informações. Por favor, note que quando estiver criando novos temas o uso de algum outro existente como base é opcional.',
@@ -166,12 +166,12 @@ $lang = array_merge($lang, array(
 	'IMG_FORUM_LINK'			=> 'Link do fórum', 
 	'IMG_FORUM_READ'			=> 'Fórum', 
 	'IMG_FORUM_READ_LOCKED'		=> 'Fórum trancado', 
-	'IMG_FORUM_READ_SUBFORUM'	=> 'Subfórum', 
+	'IMG_FORUM_READ_SUBFORUM'	=> 'Sub fórum', 
 	'IMG_FORUM_UNREAD'			=> 'Fórum com mensagens novas', 
 	'IMG_FORUM_UNREAD_LOCKED'	=> 'Fórum trancado com mensagens novas', 
-	'IMG_FORUM_UNREAD_SUBFORUM'	=> 'Subfórum com mensagens novas', 
-	'IMG_SUBFORUM_READ'			=> 'Subfórum',
-	'IMG_SUBFORUM_UNREAD'		=> 'Subfórum com mensagens novas',
+	'IMG_FORUM_UNREAD_SUBFORUM'	=> 'Sub fórum com mensagens novas', 
+	'IMG_SUBFORUM_READ'			=> 'Sub fórum',
+	'IMG_SUBFORUM_UNREAD'		=> 'Sub fórum com mensagens novas',
 
 	'IMG_TOPIC_MOVED'			=> 'Tópico movido', 
 

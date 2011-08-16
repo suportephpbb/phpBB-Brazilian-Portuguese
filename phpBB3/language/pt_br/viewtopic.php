@@ -5,11 +5,11 @@
 *
 * @package language
 * @version $Id: viewtopic.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2009 Suporte phpBB
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.6
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */ 
 
@@ -81,7 +81,7 @@ $lang = array_merge($lang, array(
 	'NO_ATTACHMENT_SELECTED'=> 'O Anexo deve ser selecionado',
 	'NO_NEWER_TOPICS'		=> 'Não há tópicos novos neste fórum.',
 	'NO_OLDER_TOPICS'		=> 'Não há tópicos antigos neste fórum.',
-	'NO_UNREAD_POSTS'		=> 'Não há mensagens novas não-lidas neste tópico.',
+	'NO_UNREAD_POSTS'		=> 'Não há mensagens novas não lidas neste tópico.',
 	'NO_VOTE_OPTION'		=> 'Você deve selecionar uma opção de voto.',
 	'NO_VOTES'				=> 'Não há votos registrados',
 
@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'VIEW_RESULTS'			=> 'Exibir resultados',
 	'VIEW_TOPIC_POST'		=> '1 mensagem',
 	'VIEW_TOPIC_POSTS'		=> '%d mensagens',
-	'VIEW_UNREAD_POST'		=> 'Primeira mensagem não-lida',
+	'VIEW_UNREAD_POST'		=> 'Primeira mensagem não lida',
 	'VISIT_WEBSITE'			=> 'Visitar website do usuário',
 	'VOTE_SUBMITTED'		=> 'O seu voto foi registrado.',
 	'VOTE_CONVERTED'        => 'Mudanças de voto não são permitidas para enquetes convertidas.',

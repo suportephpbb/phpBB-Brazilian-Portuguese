@@ -4,12 +4,12 @@
 * ucp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: ucp.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
-* @copyright (c) 2009 Suporte phpBB 
+* @version $Id: ucp.php,v 1.0 2010/04/16 21:35:20 Suporte phpBB Exp $
+* @copyright (c) 2010 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por: 
-* @Suporte phpBB - <http://www.suportephpbb.org/> 
-* @Versão do phpBB: 3.0.6
+* @Traduzido por:
+* @Suporte phpBB - <http://www.suportephpbb.com.br/>
+* @Versão do phpBB: 3.0.7
 * 
 */ 
 
@@ -445,7 +445,7 @@ $lang = array_merge($lang, array(
 	'UCP_PM_OPTIONS'			=> 'Opções', 
 	'UCP_PM_POPUP'				=> 'Mensagens particulares', 
 	'UCP_PM_POPUP_TITLE'		=> 'Pop-up de mensagens particulares', 
-	'UCP_PM_UNREAD'				=> 'Mensagens não-lidas', 
+	'UCP_PM_UNREAD'				=> 'Mensagens não lidas', 
 	'UCP_PM_VIEW'				=> 'Ver mensagens', 
 
 	'UCP_PROFILE'				=> 'Perfil', 
@@ -466,8 +466,9 @@ $lang = array_merge($lang, array(
 	'UCP_ZEBRA'						=> 'Amigos &amp; Inimigos', 
 	'UCP_ZEBRA_FOES'				=> 'Gerenciar inimigos', 
 	'UCP_ZEBRA_FRIENDS'				=> 'Gerenciar amigos', 
+	'UNDISCLOSED_RECIPIENT'			=> 'Destinatário não divulgado',
 	'UNKNOWN_FOLDER'				=> 'Pasta desconhecida', 
-	'UNWATCH_MARKED'				=> 'Selecionar não-lido', 
+	'UNWATCH_MARKED'				=> 'Selecionar não lido', 
 	'UPLOAD_AVATAR_FILE'			=> 'Enviar avatar de seu computador', 
 	'UPLOAD_AVATAR_URL'				=> 'Enviar avatar de uma URL', 
 	'UPLOAD_AVATAR_URL_EXPLAIN'		=> 'Escreva a URL da página que possui o avatar. A imagem será copiada para este website.', 
@@ -546,7 +547,7 @@ $lang = array_merge($lang, array(
 	), 
 
 
-	'GROUPS_EXPLAIN'	=> 'Os grupos de usuários permitem aos administradores gerenciarem melhor os seus usuários. De maneira comum, você será colocado em um grupo específico, e este será o seu grupo padrão. Este grupo define como você será exibido aos demais usuários, por exemplo, a cor de seu nome de usuário, avatar, rank, etc. Dependendo das permissões concedidas pelo administrador, você poderá alterar o seu grupo padrão. Você também pode ser inserido ou ter a liberdade para increver-se em outros grupos. Alguns grupos podem lhe conceder permissões extras para ver o conteúdo ou aumentar as suas capacidades em outras áreas.', 
+	'GROUPS_EXPLAIN'	=> 'Os grupos de usuários permitem aos administradores gerenciarem melhor os seus usuários. De maneira comum, você será colocado em um grupo específico, e este será o seu grupo padrão. Este grupo define como você será exibido aos demais usuários, por exemplo, a cor de seu nome de usuário, avatar, rank, etc. Dependendo das permissões concedidas pelo administrador, você poderá alterar o seu grupo padrão. Você também pode ser inserido ou ter a liberdade para inscrever-se em outros grupos. Alguns grupos podem lhe conceder permissões extras para ver o conteúdo ou aumentar as suas capacidades em outras áreas.', 
 	'GROUP_LEADER'		=> 'Líderes', 
 	'GROUP_MEMBER'		=> 'Membros', 
 	'GROUP_PENDING'		=> 'Membros pendentes', 
