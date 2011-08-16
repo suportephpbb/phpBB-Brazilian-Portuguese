@@ -1,0 +1,13 @@
+Subject: Notificação de resposta ao tópico - {TOPIC_TITLE}
+
+Olá {USERNAME},
+
+Você recebeu este email porque está visualizando o tópico "{TOPIC_TITLE}" em {SITENAME}. Este tópico recebeu uma resposta desde a sua última visita. Você pode usar o seguinte endereço para ver as respostas escritas. Não serão enviadas mais notificações enquanto você não visitar este tópico.
+
+{U_TOPIC}
+
+Se você deseja parar de visualizar este tópico, clique no link "Parar de visualizar este tópico", na parte inferior esquerda do tópico, ou clique no seguinte endereço:
+
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

@@ -1,0 +1,17 @@
+Subject: Ativação de nova senha
+
+Olá {USERNAME},
+
+Você está recebendo este email devido você (ou alguém se passando por você) ter solicitado que uma nova senha relativa à sua conta em {SITENAME} fosse enviada. Se não solicitou este email, por favor ignore-o. Caso continue a recebê-lo, por favor, contate o administrador do fórum.
+
+Para utilizar a sua nova senha, é necessário que a ative. Para o fazer, clique no seguinte endereço:
+
+{U_ACTIVATE}
+
+Se conseguir acessar o endereço indicado com sucesso, você poderá entrar no fórum utilizando a seguinte senha:
+
+Senha:  {PASSWORD}
+
+Você pode alterar esta senha quando desejar, através de seu perfil. Caso tenha alguma dificuldade, contate o administrador do fórum.
+
+{EMAIL_SIG}
