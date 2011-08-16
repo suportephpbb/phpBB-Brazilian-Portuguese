@@ -4,12 +4,12 @@
 * install.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: install.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $
+* @version $Id: install.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 *
 */
 
@@ -466,7 +466,7 @@ $lang = array_merge($lang, array(
 	'NO_VISIBLE_CHANGES'			=> 'Sem alterações visíveis',
 	'NOTICE'						=> 'Aviso',
 	'NUM_CONFLICTS'					=> 'Número de conflitos',
-	'NUMBER_OF_FILES_COLLECTED'     => 'Atualmente possuindo diferenças sobre os arquivos %1$d coletados de %2$d.<br />Por favor, aguarde até que a coleta do arquivo esteja completa.',
+	'NUMBER_OF_FILES_COLLECTED'     => 'Atualmente diferenças de %1$d de %2$d arquivos foram verificadas.<br />Por favor, aguarde até que todos os arquivos sejam verificados.',
 
 	'OLD_UPDATE_FILES'		=> 'Os arquivos de atualização não estão prontos. Os arquivos de atualização encontrados são do phpBB %1$s para o phpBB %2$s, mas a última versão do phpBB é a %3$s.',
 

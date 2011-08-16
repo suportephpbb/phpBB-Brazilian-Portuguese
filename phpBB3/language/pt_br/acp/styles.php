@@ -4,12 +4,12 @@
 * acp_styles.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: styles.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: styles.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 
@@ -165,12 +165,12 @@ $lang = array_merge($lang, array(
 	'IMG_FORUM_LINK'			=> 'Link do fórum', 
 	'IMG_FORUM_READ'			=> 'Fórum', 
 	'IMG_FORUM_READ_LOCKED'		=> 'Fórum trancado', 
-	'IMG_FORUM_READ_SUBFORUM'	=> 'Sub-fórum', 
+	'IMG_FORUM_READ_SUBFORUM'	=> 'Subfórum', 
 	'IMG_FORUM_UNREAD'			=> 'Fórum com mensagens novas', 
 	'IMG_FORUM_UNREAD_LOCKED'	=> 'Fórum trancado com mensagens novas', 
-	'IMG_FORUM_UNREAD_SUBFORUM'	=> 'Sub-fórum com mensagens novas', 
-	'IMG_SUBFORUM_READ'			=> 'Sub-fórum',
-	'IMG_SUBFORUM_UNREAD'		=> 'Sub-fórum com mensagens novas',
+	'IMG_FORUM_UNREAD_SUBFORUM'	=> 'Subfórum com mensagens novas', 
+	'IMG_SUBFORUM_READ'			=> 'Subfórum',
+	'IMG_SUBFORUM_UNREAD'		=> 'Subfórum com mensagens novas',
 
 	'IMG_TOPIC_MOVED'			=> 'Tópico movido', 
 

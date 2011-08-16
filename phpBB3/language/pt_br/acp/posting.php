@@ -4,12 +4,12 @@
 * acp_posting.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: posting.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: posting.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 
@@ -57,7 +57,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_TAG_TOO_LONG'		=> 'O nome da tag selecionado é muito grande.', 
 	'BBCODE_TAG_DEF_TOO_LONG'	=> 'A definição da tag escrita é muito grande. Por favor, reescreva de forma mais curta.', 
 	'BBCODE_USAGE'				=> 'Uso do BBCode', 
-	'BBCODE_USAGE_EXAMPLE'		=> '[hilight={COLOR}]{TEXT}[/hilight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]', 
+	'BBCODE_USAGE_EXAMPLE'		=> '[highlight={COLOR}]{TEXT}[/highlight]<br /><br />[font={SIMPLETEXT1}]{SIMPLETEXT2}[/font]', 
 	'BBCODE_USAGE_EXPLAIN'		=> 'Aqui você pode definir como utilizar o BBCode. Substitua qualquer variável inserida pelo símbolo correspondente (%sveja abaixo%s).',
 
 	'EXAMPLE'						=> 'Exemplo:', 
@@ -163,6 +163,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_CONFIG'			=> 'Configuração do smiley', 
 	'SMILIES_DELETED'			=> 'O smiley foi excluído com sucesso.', 
 	'SMILIES_EDIT'				=> 'Editar smiley', 
+	'SMILIE_NO_CODE'            => 'O smiley "%s"  foi ignorado, como se nenhum código tivesse sido escrito.',
+    'SMILIE_NO_EMOTION'         => 'O smiley "%s" foi ignorado, como se nenhuma emoção tivesse sido escrita.',
 	'SMILIES_NONE_EDITED'       => 'Nenhum smiley foi atualizado.',
     'SMILIES_ONE_EDITED'        => 'O smiley foi atualizado com sucesso.',
 	'SMILIES_EDITED'			=> 'Os smileys foram atualizados com sucesso.', 

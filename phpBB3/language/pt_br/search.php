@@ -4,12 +4,12 @@
 * search.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: search.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $
+* @version $Id: search.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */
 
@@ -81,13 +81,13 @@ $lang = array_merge($lang, array(
 	'SEARCH_AUTHOR_EXPLAIN'		=> 'Use * como complemento para palavras parciais.', 
 	'SEARCH_FIRST_POST'			=> 'Apenas a primeira mensagem dos tópicos', 
 	'SEARCH_FORUMS'				=> 'Pesquisar nos fóruns', 
-	'SEARCH_FORUMS_EXPLAIN'		=> 'Selecione o fórum, ou os fóruns, no qual você deseja realizar a pesquisa. Todos os sub-fóruns serão incluídos na pesquisa se você não desmarcar a opção "Pesquisar nos sub-fóruns" abaixo.', 
+	'SEARCH_FORUMS_EXPLAIN'		=> 'Selecione o fórum, ou os fóruns, no qual você deseja realizar a pesquisa. Todos os subfóruns serão incluídos na pesquisa se você não desmarcar a opção "Pesquisar nos subfóruns" abaixo.', 
 	'SEARCH_IN_RESULTS'			=> 'Pesquisar por estes resultados', 
 	'SEARCH_KEYWORDS_EXPLAIN'	=> 'Você pode inserir <strong>+</strong> na frente de uma palavra que deve ser localizada na pesquisa e <strong>-</strong> na frente de uma palavra que não deve ser localizada. Escreva uma lista de palavras separadas por <strong>|</strong> se somente uma das palavras inseridas deva ser encontrada. Use * como complemento para resultados parciais.', 
 	'SEARCH_MSG_ONLY'			=> 'Somente texto da mensagem', 
 	'SEARCH_OPTIONS'			=> 'Opções da pesquisa', 
 	'SEARCH_QUERY'				=> 'Termos da pesquisa', 
-	'SEARCH_SUBFORUMS'			=> 'Pesquisar nos sub-fóruns', 
+	'SEARCH_SUBFORUMS'			=> 'Pesquisar nos subfóruns', 
 	'SEARCH_TITLE_MSG'			=> 'Pesquisar nos títulos e mensagens', 
 	'SEARCH_TITLE_ONLY'			=> 'Pesquisar apenas nos títulos', 
 	'SEARCH_WITHIN'				=> 'Pesquisar com', 

@@ -4,12 +4,12 @@
 * common.php [Brazilian Portuguese] 
 *
 * @package language 
-* @version $Id: common.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $
+* @version $Id: common.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 /** 
@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_NOT_UPLOADED'			=> 'O avatar não pôde ser enviado.', 
 	'AVATAR_NO_SIZE'				=> 'Não foi possível obter a largura e a altura do avatar, por favor, informe-os manualmente.', 
 	'AVATAR_PARTIAL_UPLOAD'			=> 'O arquivo foi parcialmente enviado.',	 
-	'AVATAR_PHP_SIZE_NA'			=> 'O tamanho do avatar é muito grande.<br />Não foi possivel determinar o tamanho máximo definido pelo PHP no php.ini.',
+	'AVATAR_PHP_SIZE_NA'			=> 'O tamanho do avatar é muito grande.<br />Não foi possível determinar o tamanho máximo definido pelo PHP no php.ini.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'O tamanho do avatar é muito grande. O tamanho máximo permitido é de %d MB.<br />Isto é fixo do PHP no php.ini e não pode ser substituído.',
 	'AVATAR_URL_INVALID'			=> 'A URL que você especificou é inválida.', 
 	'AVATAR_URL_NOT_FOUND'			=> 'O arquivo informado não foi encontrado.',	 
@@ -108,6 +108,7 @@ $lang = array_merge($lang, array(
 	'BOARD_DISABLE'			=> 'Este painel não se encontra disponível no momento. Por favor, tente novamente mais tarde.', 
 	'BOARD_DISABLED'		=> 'Este painel não se encontra disponível no momento. Por favor, tente novamente mais tarde.',	 
 	'BOARD_UNAVAILABLE'		=> 'Este painel não se encontra disponível no momento. Por favor, tente novamente mais tarde.',
+	'BROWSING_FORUM'        => 'Usuários navegando neste fórum: %1$s',
 	'BROWSING_FORUM_GUEST'	=> 'Usuários navegando neste fórum: %1$s e %2$d visitante', 
 	'BROWSING_FORUM_GUESTS'	=> 'Usuários navegando neste fórum: %1$s e %2$d visitantes', 
 	'BYTES'					=> 'Bytes', 
@@ -195,7 +196,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LOCATION'		=> 'Local do fórum', 
 	'FORUM_LOCKED'			=> 'Fórum trancado', 
 	'FORUM_RULES'			=> 'Regras do fórum', 
-	'FORUM_RULES_LINK'		=> 'Por favor, clque aqui para ver as regras do fórum',
+	'FORUM_RULES_LINK'		=> 'Por favor, clique aqui para ver as regras do fórum',
 	'FROM'					=> 'de', 
 	'FSOCK_DISABLED'		=> 'Não foi possível concluir esta operação, porque a função <var>fsockopen</var> está desativada ou o servidor solicitado não foi encontrado.', 
 	 
@@ -206,7 +207,7 @@ $lang = array_merge($lang, array(
 	'FTP_FSOCK_PORT'				=> 'Porta do FTP', 
 	'FTP_FSOCK_PORT_EXPLAIN'		=> 'Porta utilizada para se conectar ao seu servidor FTP.',
 	'FTP_FSOCK_ROOT_PATH'			=> 'Pasta do phpBB',
-	'FTP_FSOCK_ROOT_PATH_EXPLAIN'	=> 'Local desde a raíz até o seu fórum phpBB.',
+	'FTP_FSOCK_ROOT_PATH_EXPLAIN'	=> 'Local desde a raiz até o seu fórum phpBB.',
 	'FTP_FSOCK_TIMEOUT'				=> 'Intervalo do FTP', 
 	'FTP_FSOCK_TIMEOUT_EXPLAIN'		=> 'Tempo em segundos que o sistema irá aguardar por uma resposta de seu servidor.',
 	'FTP_FSOCK_USERNAME'			=> 'Nome de usuário de FTP', 
@@ -279,7 +280,8 @@ $lang = array_merge($lang, array(
 	'JUMP_TO'				=> 'Ir para', 
 	'JUMP_TO_PAGE'			=> 'Clique para ir à página...', 
 
-	'KB'				=> 'KB', 
+	'KB'				    => 'KB',
+	'KIB'                   => 'KiB',
 
 	'LAST_POST'							=> 'Última mensagem', 
 	'LAST_UPDATED'						=> 'Última atualização', 
@@ -297,7 +299,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_CONFIRM_EXPLAIN'				=> 'Para prevenir ataques ao registro, o administrador exige o código de confirmação após sucessivas tentativas de login falhas. O código deverá ser exibido na imagem abaixo. Se você possui qualquer problema visual ou que possa impedir a sua confirmação, contate o %sadministrador%s do fórum para solicitar ajuda.', 
 	'LOGIN_ERROR_ATTEMPTS'				=> 'Você excedeu o número máximo de tentativas de login. Em adição ao seu nome de usuário e senha, você agora também deverá preencher o código de confirmação informado na imagem abaixo.', 
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Você não foi autenticado pelo Apache.',	 
-	'LOGIN_ERROR_PASSWORD'				=> 'Você especificou uma senha incorreta. Por favor, certifique-se de sua senha e tente novamente. Se você continuar tento problemas, por favor, contate o %sadministrador%s.',
+	'LOGIN_ERROR_PASSWORD'				=> 'Você especificou uma senha incorreta. Por favor, certifique-se de ter escrito uma senha correta e tente novamente. Se você continuar tendo problemas, por favor, contate o %sadministrador%s.',
 	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Não foi possível converter a sua senha ao atualizar este painel. Por favor, %ssolicite uma nova senha%s. Se continuar tendo problemas, contate o %sadministrador%s.',	 
 	'LOGIN_ERROR_USERNAME'				=> 'Você especificou um nome de usuário incorreto. Por favor, certifique-se de seu nome de usuário e tente novamente. Se você continuar tento problemas, por favor, contate o %sadministrador%s.', 
 	'LOGIN_FORUM'						=> 'Para visualizar ou enviar mensagens neste fórum você deve informar uma senha.', 
@@ -312,7 +314,8 @@ $lang = array_merge($lang, array(
 	'MARK'					=> 'Selecionar', 
 	'MARK_ALL'				=> 'Selecionar todos', 
 	'MARK_FORUMS_READ'		=> 'Assinalar todos os fóruns como lidos', 
-	'MB'					=> 'MB', 
+	'MB'					=> 'MB',
+	'MIB'                   => 'MiB',
 	'MCP'					=> 'Painel de Moderação', 
 	'MEMBERLIST'			=> 'Membros', 
 	'MEMBERLIST_EXPLAIN'	=> 'Aqui você pode ver a lista completa dos usuários registrados neste painel.', 
@@ -446,17 +449,20 @@ $lang = array_merge($lang, array(
 	'REGISTERED_USERS'			=> 'Usuários registrados:', 
 	'REG_USERS_ONLINE'			=> 'Há %d usuários registrados e ', 
 	'REG_USERS_TOTAL'			=> '%d usuários registrados, ', 
+	'REG_USERS_TOTAL_AND'       => '%d usuários registrados e ',
 	'REG_USERS_ZERO_ONLINE'		=> 'Não há usuários registrados e ', 
 	'REG_USERS_ZERO_TOTAL'		=> '0 usuários registrados, ', 
+	'REG_USERS_ZERO_TOTAL_AND'  => '0 usuários registrados e ',
 	'REG_USER_ONLINE'			=> 'Há %d usuário registrado e ', 
 	'REG_USER_TOTAL'			=> '%d usuário registrado, ', 
+	'REG_USER_TOTAL_AND'        => '%d usuário registrado e ',
 	'REMOVE'					=> 'Excluir', 
 	'REMOVE_INSTALL'			=> 'Por favor, delete, mova ou renomeie o diretório de instalação antes de utilizar o seu painel. Se este diretório ainda estiver presente, apenas o painel de administração (ACP) será acessível.',
 	'REPLIES'					=> 'Respostas', 
 	'REPLY_WITH_QUOTE'			=> 'Responder com citação', 
 	'REPLYING_GLOBAL_ANNOUNCE'	=> 'Respondendo anúncio global', 
 	'REPLYING_MESSAGE'			=> 'Respondendo mensagem em %s', 
-	'REPORT_BY'					=> 'Denúnciar de', 
+	'REPORT_BY'					=> 'Denúncia de', 
 	'REPORT_POST'				=> 'Denunciar esta mensagem', 
 	'REPORTING_POST'			=> 'Denunciando mensagem', 
 	'RESEND_ACTIVATION'			=> 'Reenviar email de ativação',
@@ -502,7 +508,7 @@ $lang = array_merge($lang, array(
 	'SECONDS'					=> 'Segundos',	 
 	'SELECT'					=> 'Selecionar', 
 	'SELECT_ALL_CODE'			=> 'Selecionar todos',
-	'SELECT_FORUM'				=> 'Selecione o fórum', 
+	'SELECT_FORUM'				=> 'Selecione um fórum', 
 	'SEND_EMAIL'				=> 'Email',
 	'SEND_EMAIL_USER'           => 'Email',            // Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
 	'SEND_PRIVATE_MESSAGE'		=> 'Enviar mensagem particular', 
@@ -525,8 +531,8 @@ $lang = array_merge($lang, array(
 	'START_WATCHING_TOPIC'		=> 'Subscrever tópico', 
 	'STOP_WATCHING_FORUM'		=> 'Parar de visualizar este Fórum', 
 	'STOP_WATCHING_TOPIC'		=> 'Parar de visualizar este Tópico', 
-	'SUBFORUM'					=> 'Sub-fórum', 
-	'SUBFORUMS'					=> 'Sub-fóruns', 
+	'SUBFORUM'					=> 'Subfórum', 
+	'SUBFORUMS'					=> 'Subfóruns', 
 	'SUBJECT'					=> 'Título', 
 	'SUBMIT'					=> 'Enviar', 
 
@@ -651,7 +657,7 @@ $lang = array_merge($lang, array(
 	'VISIT_WEBSITE'				=> 'Visitar website do usuário',	 
 
 	'WARNINGS'			=> 'Advertências', 
-	'WARN_USER'			=> 'Adverter o usuário', 
+	'WARN_USER'			=> 'Advertir o usuário', 
 	'WELCOME_SUBJECT'	=> 'Bem-vindo ao fórum %s', 
 	'WEBSITE'			=> 'Website', 
 	'WHOIS'				=> 'Quem', 

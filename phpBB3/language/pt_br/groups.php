@@ -4,12 +4,12 @@
 * groups.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: groups.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: groups.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 *
 */ 
 
@@ -43,7 +43,9 @@ $lang = array_merge($lang, array(
 	'ALREADY_IN_GROUP'			=> 'Você já é membro deste grupo.',
 	'ALREADY_IN_GROUP_PENDING'	=> 'Você já solicitou a sua inscrição ao grupo selecionado.',
 
-	'CHANGED_DEFAULT_GROUP'	=> 'O grupo padrão foi alterado com sucesso.',
+	'CANNOT_JOIN_GROUP'         => 'Você não está autorizado a entrar neste grupo. Você pode apenas entrar em grupos abertos e livremente abertos.',
+    'CANNOT_RESIGN_GROUP'       => 'Você não está autorizado a sair deste grupo.  Você pode apenas sair de grupos abertos e livremente abertos.',
+	'CHANGED_DEFAULT_GROUP'	    => 'O grupo padrão foi alterado com sucesso.',
 	 
 	'GROUP_AVATAR'						=> 'Avatar do grupo', 
 	'GROUP_CHANGE_DEFAULT'				=> 'Você deseja realmente alterar o seu grupo padrão?', 

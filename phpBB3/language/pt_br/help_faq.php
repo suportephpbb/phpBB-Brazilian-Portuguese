@@ -4,12 +4,12 @@
 * help_faq.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: help_faq.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: help_faq.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */  
 
@@ -67,7 +67,7 @@ $help = array(
    ), 
    array( 
       0 => 'O que é a COPPA?', 
-      1 => 'A COPPA (Child Online Privacy and Protection Act) é uma Lei de 1998 dos Estados Unidos que exije que aos websites que apenas possam receber informações de menores abaixo de 13 anos de idade com a devida autorização de seus pais ou responsáveis, ou sob qualquer outro método legalmente aceito em que possa ser autorizada a coleta de dados desses menores. No Brasil, esta lei não vigora e por isso não é realmente necessária a aplicação desta função, mas é sempre recomendável que os administradores apliquem as regras de suas comunidades e andem sempre de acordo com a lei vigente do país. Se você está inseguro quanto a aplicação da seguinte lei, contate um conselho judicial para maiores informações. Por favor, note que o Grupo phpBB não pode ser responsabilizado ou contatado para possíveis problemas legais e/ou judiciais de qualquer natureza, exceto sobre as linhas descritas por este sistema.', 
+      1 => 'A COPPA (Child Online Privacy and Protection Act) é uma Lei de 1998 dos Estados Unidos que exige que aos websites que apenas possam receber informações de menores abaixo de 13 anos de idade com a devida autorização de seus pais ou responsáveis, ou sob qualquer outro método legalmente aceito em que possa ser autorizada a coleta de dados desses menores. No Brasil, esta lei não vigora e por isso não é realmente necessária a aplicação desta função, mas é sempre recomendável que os administradores apliquem as regras de suas comunidades e andem sempre de acordo com a lei vigente do país. Se você está inseguro quanto a aplicação da seguinte lei, contate um conselho judicial para maiores informações. Por favor, note que o Grupo phpBB não pode ser responsabilizado ou contatado para possíveis problemas legais e/ou judiciais de qualquer natureza, exceto sobre as linhas descritas por este sistema.', 
    ), 
    array( 
       0 => 'Por que não consigo me registrar?', 
@@ -99,7 +99,7 @@ $help = array(
    ), 
    array( 
       0 => 'Como posso exibir uma imagem abaixo do meu nome de usuário?', 
-      1 => 'Deve haver duas imagens na parte inferior de cada nome de usuário quando se visualizam as mensagens. Dependendo do estilo em uso, a primeira representa o rank do usuário, normalmente em forma de blocos ou estrelas indicando a quantidade de mensagens que o usuário possui ou o seu estatuto no fórum. A segunda, geralmente uma imagem larga, é connhecida como avatar, que é normalmente única ou pessoal a cada usuário. Está ao critério do administrador permitir ou não o uso de avatares, e como os usuários podem enviar estas imagens. Se você não está autorizado a utilizar avatares, contate o administrador para receber uma justificativa.' 
+      1 => 'Deve haver duas imagens na parte inferior de cada nome de usuário quando se visualizam as mensagens. Dependendo do estilo em uso, a primeira representa o rank do usuário, normalmente em forma de blocos ou estrelas indicando a quantidade de mensagens que o usuário possui ou o seu estatuto no fórum. A segunda, geralmente uma imagem larga, é conhecida como avatar, que é normalmente única ou pessoal a cada usuário. Está ao critério do administrador permitir ou não o uso de avatares, e como os usuários podem enviar estas imagens. Se você não está autorizado a utilizar avatares, contate o administrador para receber uma justificativa.' 
    ), 
    array( 
       0 => 'Como posso alterar o meu rank?', 
@@ -143,7 +143,7 @@ $help = array(
    ), 
    array( 
       0 => 'Por que não posso votar?', 
-      1 => 'Apenas usuários registrados podem submeter os seus votos (para impedir duplicação nos resultados). Caso você esteja registrado, mas mesmo assim não consiga votar, então possivelmente não lhe foi atribuida permissão para tal.' 
+      1 => 'Apenas usuários registrados podem submeter os seus votos (para impedir duplicação nos resultados). Caso você esteja registrado, mas mesmo assim não consiga votar, então possivelmente não lhe foi atribuída permissão para tal.' 
    ), 
    array( 
       0 => 'Porque eu não consigo anexar arquivos?', 
@@ -151,7 +151,7 @@ $help = array(
    ), 
    array( 
       0 => 'Por que eu recebi uma advertência?', 
-      1 => 'Cada administrador possui suas próprias <u>Regras</u> para o seu website. Se ele perceber que elas estão sendo ignoradas, você receberá uma advertência. Por favor, note que esta é a decisão do administrador do fórum, e o Grupo phpBB não possui autoridade nenhuma sobre a advertência enviada em seu website.' 
+      1 => 'Cada administrador possui suas próprias regras para o seu website. Se ele perceber que elas estão sendo ignoradas, você receberá uma advertência. Por favor, note que esta é a decisão do administrador do fórum, e o Grupo phpBB não possui autoridade nenhuma sobre a advertência enviada em seu website. Contate o administrador se você não sabe as razões pelas quais recebeu esta advertência.' 
    ), 
    array( 
       0 => 'Como eu posso denunciar mensagens?', 
@@ -187,15 +187,15 @@ $help = array(
    ), 
    array( 
       0 => 'Posso exibir imagens?', 
-      1 => 'As imagens em geral, podem ser exibidas em suas mensagens. Se o administrador tiver autorizado o envio de anexos, você poderá enviar sua imagem ao painel. De outro modo, você pode exibir uma imagem armazenada em um servidor publicamente acessível, ex. http://www.example.com/my-picture.gif. Você não pode exibir imagens salvas no seu próprio PC (a menos que possua um servidor publicamente acessível), nem imagens armazenadas sob mecanismos que requeiram autenticação, como por exemplo caixas de correio eletrónico do hotmail ou yahoo!, páginas protegidas por senha, etc. Para exibir uma imagem use a tag BBCode [img].' 
+      1 => 'As imagens em geral, podem ser exibidas em suas mensagens. Se o administrador tiver autorizado o envio de anexos, você poderá enviar sua imagem ao painel. De outro modo, você pode exibir uma imagem armazenada em um servidor publicamente acessível, ex. http://www.example.com/my-picture.gif. Você não pode exibir imagens salvas no seu próprio PC (a menos que possua um servidor publicamente acessível), nem imagens armazenadas sob mecanismos que requeiram autenticação, como por exemplo caixas de correio eletrônico do hotmail ou yahoo!, páginas protegidas por senha, etc. Para exibir uma imagem use a tag BBCode [img].' 
    ), 
    array( 
       0 => 'O que são anúncios globais?', 
-      1 => 'Os anúncios globais contém normalmente informações importantes e devem ser lidos logo que possível. Eles irão aparecer no topo de todos os fóruns e também no seu painel de controle do usuário. Se você pode ou não utilizar essa função, depende das permissões que lhe foram atribuidas pelo administrador do fórum.' 
+      1 => 'Os anúncios globais contém normalmente informações importantes e devem ser lidos logo que possível. Eles irão aparecer no topo de todos os fóruns e também no seu painel de controle do usuário. Se você pode ou não utilizar essa função, depende das permissões que lhe foram atribuídas pelo administrador do fórum.' 
    ), 
    array( 
       0 => 'O que são anúncios?', 
-      1 => 'Os anúncios contém normalmente informações importantes e devem ser lidos logo que possível. Os anúncios são automaticamente colocados no topo de cada página de cada fórum onde são postados. Se você pode ou não utilizar essa função, depende das permissões que lhe foram atribuidas pelo administrador do fórum.' 
+      1 => 'Os anúncios contém normalmente informações importantes e devem ser lidos logo que possível. Os anúncios são automaticamente colocados no topo de cada página de cada fórum onde são postados. Se você pode ou não utilizar essa função, depende das permissões que lhe foram atribuídas pelo administrador do fórum.' 
    ), 
    array( 
       0 => 'O que são tópicos fixos?', 
@@ -203,11 +203,11 @@ $help = array(
    ), 
    array( 
       0 => 'O que são tópicos trancados?', 
-      1 => 'Os tópicos trancados são assim colocados por um administrador, ou moderador de cada fórum. Quando um tópico se encontra trancado, os usuários do fórum não podem mais respondê-lo, e qualquer enquete em curso logo será concluída. Apenas administradores e moderadores podem responder nestes tópicos, e você poderá também trancar os seus próprios tópicos, dependendo das permissões que lhe foram atribuidas pelo administrador do fórum. Algum determinado tópico pode ser trancado por diversos motivos.' 
+      1 => 'Os tópicos trancados são assim colocados por um administrador, ou moderador de cada fórum. Quando um tópico se encontra trancado, os usuários do fórum não podem mais respondê-lo, e qualquer enquete em curso logo será concluída. Apenas administradores e moderadores podem responder nestes tópicos, e você poderá também trancar os seus próprios tópicos, dependendo das permissões que lhe foram atribuídas pelo administrador do fórum. Algum determinado tópico pode ser trancado por diversos motivos.' 
    ), 
    array( 
       0 => 'O que são ícones de tópicos?', 
-      1 => 'Os ícones de tópicos são imagens que podem ser associadas com as mensagens para indicar o seu conteúdo. Se você pode ou não utilizar essa função, depende das permissões que lhe foram atribuidas pelo administrador do fórum.' 
+      1 => 'Os ícones de tópicos são imagens que podem ser associadas com as mensagens para indicar o seu conteúdo. Se você pode ou não utilizar essa função, depende das permissões que lhe foram atribuídas pelo administrador do fórum.' 
    ), 
    array( 
       0 => '--', 
@@ -223,7 +223,7 @@ $help = array(
    ), 
    array( 
       0 => 'O que são grupos de usuários?', 
-      1 => 'Os grupos de usuários são uma forma dos administradores agruparem os usuários da comunidade. Cada usuário pode pertencer a vários grupos (isto difere da maioria dos outros tipos de quadros de mensagens) e a cada grupo podem ser atribuidos direitos de acesso individuais. Isto torna mais fácil aos administradores destinar vários usuários como moderadores de um determinado fórum ou dar-lhes acesso a um fórum privado, etc.' 
+      1 => 'Os grupos de usuários são uma forma dos administradores agruparem os usuários da comunidade. Cada usuário pode pertencer a vários grupos (isto difere da maioria dos outros tipos de quadros de mensagens) e a cada grupo podem ser atribuídos direitos de acesso individuais. Isto torna mais fácil aos administradores destinar vários usuários como moderadores de um determinado fórum ou dar-lhes acesso a um fórum privado, etc.' 
    ), 
    array( 
       0 => 'Onde estão e como me inscrevo em um grupo de usuários?', 
@@ -239,7 +239,7 @@ $help = array(
    ), 
    array( 
       0 => 'O que é um <i>Grupo padrão</i>?', 
-      1 => 'Se você é membro de mais de um grupo de usuários, será determinado qual cor e rank lhe serão atribuidos por padrão. O administrador poderá lhe conceder a opção de escolha do seu grupo padrão através de seu painel de controle do usuário.' 
+      1 => 'Se você é membro de mais de um grupo de usuários, será determinado qual cor e rank lhe serão atribuídos por padrão. O administrador poderá lhe conceder a opção de escolha do seu grupo padrão através de seu painel de controle do usuário.' 
    ), 
    array( 
       0 => 'O que é o link <i>Equipe do fórum</i>?', 
@@ -335,7 +335,7 @@ $help = array(
    ), 
    array( 
       0 => 'Quem traduziu o phpBB?', 
-      1 => 'O phpBB foi traduzido por <a href="http://www.suportephpbb.org/">Suporte phpBB</a>, sendo esta tradução gratuita e disponível no link anterior. A tradução do Suporte phpBB é a oficial à lingua portuguesa do Brasil. Para mais informações, visite o Suporte phpBB!' 
+      1 => 'O phpBB foi traduzido por <a href="http://www.suportephpbb.org/">Suporte phpBB</a>, sendo esta tradução gratuita e disponível no link anterior. A tradução do Suporte phpBB é a oficial à Língua Portuguesa do Brasil. Para mais informações, visite o Suporte phpBB!' 
    ), 
    array( 
       0 => 'Porque não há a função X?', 

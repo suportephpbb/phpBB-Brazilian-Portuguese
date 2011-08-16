@@ -4,12 +4,12 @@
 * search_ignore_words.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: search_ignore_words.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: search_ignore_words.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */
 

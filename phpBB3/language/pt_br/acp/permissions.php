@@ -4,12 +4,12 @@
 * acp_permissions.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: permissions.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: permissions.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 		<p>Aqui você pode criar diferentes termos de permissão para os diversos tipos de permissões existentes. As configurações padrão devem acobertar a administração do fórum, entretanto com uma das quatro divisões, você ainda pode adicionar/editar/excluir configurações se assim desejar ou achar necessário.</p>
 
 		<h2>Máscara de Permissão</h2>
-		<p>Aqui você pode visualizar as permissões efetivas atribuidas a usuários, moderadores (locais e globais), administradores ou fóruns.</p> 
+		<p>Aqui você pode visualizar as permissões efetivas atribuídas a usuários, moderadores (locais e globais), administradores ou fóruns.</p> 
 	 
 		<br /> 
 
@@ -61,7 +61,7 @@ $lang = array_merge($lang, array(
 
 	'ACL_NEVER'				=> 'Nunca', 
 	'ACL_SET'				=> 'Permissões configuradas', 
-	'ACL_SET_EXPLAIN'		=> 'Permissões são baseadas em um simples sistema de <samp>SIM</samp>/<samp>NÃO</samp>. Configurando qualquer opção em <samp>Nunca</samp> para um usuário ou grupo irá substituir qualquer valor atribuido aos mesmos. Se você não deseja atribuir um valor de qualquer opção para este usuário ou grupo, selecione <samp>NÃO</samp>. Se valores são atribuidos para esta opção ou em outra qualquer, eles serão preferencialmente utilizados, senão o <samp>NUNCA</samp> assumirá este valor. Todos os objetos selecionados (com a checkbox em frente a eles) irão copiar as permissões que você definiu.', 
+	'ACL_SET_EXPLAIN'		=> 'Permissões são baseadas em um simples sistema de <samp>SIM</samp>/<samp>NÃO</samp>. Configurando qualquer opção em <samp>Nunca</samp> para um usuário ou grupo irá substituir qualquer valor atribuído aos mesmos. Se você não deseja atribuir um valor de qualquer opção para este usuário ou grupo, selecione <samp>NÃO</samp>. Se valores são atribuídos para esta opção ou em outra qualquer, eles serão preferencialmente utilizados, senão o <samp>NUNCA</samp> assumirá este valor. Todos os objetos selecionados (com a checkbox em frente a eles) irão copiar as permissões que você definiu.', 
 	'ACL_SETTING'			=> 'Configuração', 
 
 	'ACL_TYPE_A_'			=> 'Permissões de administrador', 
@@ -86,10 +86,10 @@ $lang = array_merge($lang, array(
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Aqui você pode determinar permissões de moderadores globais para usuários e grupos. Estes moderadores são como moderadores usuais, exceto se eles tiverem acesso a todos os fóruns do painel.', 
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aqui você pode determinar permissões de fóruns para grupos.', 
 	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Aqui você pode determinar permissões globais para grupos - permissões de usuários, permissões globais e permissões administrativas. As permissões de usuários incluem capacidades de uso de avatares, envio de mensagens particulares e etc; Permissões globais incluem a aprovação de mensagens, gerenciamento de tópicos, gerenciamento de banimentos e etc; Por último, as permissões administrativas incluem a alteração de permissões, definição de BBCodes, gerenciamento de fóruns e etc. Permissões de usuários individuais devem apenas ser alteradas em ocasiões raras, e o método mais apropriado é adicionando os usuários em grupos e alterando as permissões destes grupos.', 
-	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Aqui você pode gerenciar as tarefas para permissões administrativas. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuidos a mesma terão suas permissões alteradas também.', 
-	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Aqui você pode gerenciar as tarefas para permissões dos fóruns. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuidos a mesma terão suas permissões alteradas também.', 
-	'ACP_MOD_ROLES_EXPLAIN'						=> 'Aqui você pode gerenciar as tarefas para permissÃµes de moderador. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuidos a mesma terão suas permissões alteradas também.', 
-	'ACP_USER_ROLES_EXPLAIN'					=> 'Aqui você pode gerenciar as tarefas para permissões de usuários. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuidos a mesma terão suas permissões alteradas também.', 
+	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Aqui você pode gerenciar as tarefas para permissões administrativas. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuídos a mesma terão suas permissões alteradas também.', 
+	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Aqui você pode gerenciar as tarefas para permissões dos fóruns. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuídos a mesma terão suas permissões alteradas também.', 
+	'ACP_MOD_ROLES_EXPLAIN'						=> 'Aqui você pode gerenciar as tarefas para permissÃµes de moderador. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuídos a mesma terão suas permissões alteradas também.', 
+	'ACP_USER_ROLES_EXPLAIN'					=> 'Aqui você pode gerenciar as tarefas para permissões de usuários. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuídos a mesma terão suas permissões alteradas também.', 
 	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aqui você pode determinar permissões de fóruns para usuários.', 
 	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> 'Aqui você pode determinar permissões globais para usuários - As permissões de usuários incluem capacidades de uso de avatares, envio de mensagens particulares e etc; Permissões globais incluem a aprovação de mensagens, gerenciamento de tópicos, gerenciamento de banimentos etc; Por último, as permissÃµes administrativas como a alteração de permissões, definição de BBCodes, gerenciamento de fóruns e etc. Para alterar estas configurações à um grande número de usuários, o sistema de permissões de grupos é o método mais aconselhável. Permissões de usuários individuais devem apenas ser alteradas em ocasiões raras, e o método mais apropriado é adicionando os usuários em grupos e alterando as permissões destes grupos.', 
 	'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'		=> 'Aqui você pode ver as permissões administrativas efetivas determinadas aos usuários/grupos selecionados.',
@@ -118,13 +118,13 @@ $lang = array_merge($lang, array(
 
 	'DEFAULT'					=> 'Padrão', 
 	'DELETE_ROLE'				=> 'Excluir tarefa', 
-	'DELETE_ROLE_CONFIRM'		=> 'Você deseja realmente excluir esta tarefa? Itens atribuidos a esta tarefa <strong>não</strong> perderão a sua configuração de permissões.', 
+	'DELETE_ROLE_CONFIRM'		=> 'Você deseja realmente excluir esta tarefa? Itens atribuídos a esta tarefa <strong>não</strong> perderão a sua configuração de permissões.', 
 	'DISPLAY_ROLE_ITEMS'		=> 'Ver itens utilizando esta tarefa', 
 
 	'EDIT_PERMISSIONS'			=> 'Editar permissões', 
 	'EDIT_ROLE'					=> 'Editar tarefa', 
 
-	'GROUPS_NOT_ASSIGNED'		=> 'Nenhum grupo foi atribuido a esta tarefa', 
+	'GROUPS_NOT_ASSIGNED'		=> 'Nenhum grupo foi atribuído a esta tarefa', 
 
 	'LOOK_UP_GROUP'				=> 'Encontrar um grupo', 
 	'LOOK_UP_USER'				=> 'Encontrar um usuário', 
@@ -133,7 +133,7 @@ $lang = array_merge($lang, array(
 	'MANAGE_USERS'		=> 'Administrar usuários', 
 
 	'NO_AUTH_SETTING_FOUND'		=> 'A configuração de permissões não foi definida.', 
-	'NO_ROLE_ASSIGNED'			=> 'Nenhuma tarefa atribuida…', 
+	'NO_ROLE_ASSIGNED'			=> 'Nenhuma tarefa atribuída…', 
 	'NO_ROLE_ASSIGNED_EXPLAIN'	=> 'A configuração para esta tarefa não alterou as permissões na direita. Se você deseja desativar/excluir todas as permissões você deve utilizar o link "Tudo <samp>Não</samp>".', 
 	'NO_ROLE_AVAILABLE'			=> 'Não há tarefas disponíveis', 
 	'NO_ROLE_NAME_SPECIFIED'	=> 'Por favor, nomeie a tarefa.', 
@@ -143,14 +143,14 @@ $lang = array_merge($lang, array(
 	'ONLY_FORUM_DEFINED'	=> 'Você apenas definiu fóruns em sua seleção. Por favor, selecione também pelo menos um usuário ou um grupo.', 
 
 	'PERMISSION_APPLIED_TO_ALL'		=> 'As tarefas e permissões também serão aplicadas a todos os objetos selecionados', 
-	'PLUS_SUBFORUMS'				=> '+ Sub-fóruns', 
+	'PLUS_SUBFORUMS'				=> '+ Subfóruns', 
 
 	'REMOVE_PERMISSIONS'			=> 'Excluir permissões', 
 	'REMOVE_ROLE'					=> 'Excluir tarefa', 
 	'RESULTING_PERMISSION'			=> 'Resultando permissão',
 	'ROLE'							=> 'Tarefa', 
 	'ROLE_ADD_SUCCESS'				=> 'A tarefa foi adicionada com sucesso.', 
-	'ROLE_ASSIGNED_TO'				=> 'Os usuários/grupos foram atribuidos a %s', 
+	'ROLE_ASSIGNED_TO'				=> 'Os usuários/grupos foram atribuídos a %s', 
 	'ROLE_DELETED'					=> 'A tarefa foi excluída com sucesso.', 
 	'ROLE_DESCRIPTION'				=> 'Descrição da tarefa', 
 
@@ -206,12 +206,12 @@ $lang = array_merge($lang, array(
 	'ROLE_EDIT_SUCCESS'				=> 'A tarefa foi editada com sucesso.', 
 	'ROLE_NAME'						=> 'Nome da tarefa', 
 	'ROLE_NAME_ALREADY_EXIST'		=> 'Uma tarefa nomeada <strong>%s</strong> já existe para o tipo de permissão especificado.', 
-	'ROLE_NOT_ASSIGNED'				=> 'A tarefa ainda não foi atribuida.', 
+	'ROLE_NOT_ASSIGNED'				=> 'A tarefa ainda não foi atribuída.', 
 
 	'SELECTED_FORUM_NOT_EXIST'		=> 'Os fóruns selecionados não existem.', 
 	'SELECTED_GROUP_NOT_EXIST'		=> 'Os grupos selecionados não existem.', 
 	'SELECTED_USER_NOT_EXIST'		=> 'Os usuários selecionados não existem.', 
-	'SELECT_FORUM_SUBFORUM_EXPLAIN'	=> 'O fórum selecionado aqui irá incluir todas os seus sub-fóruns nesta seleção.', 
+	'SELECT_FORUM_SUBFORUM_EXPLAIN'	=> 'O fórum selecionado aqui irá incluir todas os seus subfóruns nesta seleção.', 
 	'SELECT_ROLE'					=> 'Selecionar tarefa…', 
 	'SELECT_TYPE'					=> 'Selecionar tipo', 
 	'SET_PERMISSIONS'				=> 'Atribuir permissões', 
@@ -263,11 +263,11 @@ $lang = array_merge($lang, array(
 	'TRACE_WHO'								=> 'Quem', 
 	'TRACE_TOTAL'							=> 'Total', 
 
-	'USERS_NOT_ASSIGNED'			=> 'Nenhum usuário foi atribuido para esta tarefa.', 
+	'USERS_NOT_ASSIGNED'			=> 'Nenhum usuário foi atribuído para esta tarefa.', 
 	'USER_IS_MEMBER_OF_DEFAULT'		=> 'é um membro dos seguintes grupos pré-definidos.', 
 	'USER_IS_MEMBER_OF_CUSTOM'		=> 'é um membro dos seguintes grupos personalizados.', 
 
-	'VIEW_ASSIGNED_ITEMS'	=> 'Ver itens atribuidos', 
+	'VIEW_ASSIGNED_ITEMS'	=> 'Ver itens atribuídos', 
 	'VIEW_LOCAL_PERMS'		=> 'Permissões locais', 
 	'VIEW_GLOBAL_PERMS'		=> 'Permissões globais', 
 	'VIEW_PERMISSIONS'		=> 'Ver permissões', 

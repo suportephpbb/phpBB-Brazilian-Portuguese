@@ -4,12 +4,12 @@
 * acp_users.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: users.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: users.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 
@@ -45,10 +45,10 @@ $lang = array_merge($lang, array(
 	
 	'CANNOT_BAN_FOUNDER'			=> 'Você não está autorizado a banir registros de fundador.',
 	'CANNOT_BAN_YOURSELF'			=> 'Você não está autorizado a banir a si próprio.', 
-	'CANNOT_DEACTIVATE_BOT'			=> 'Você não está autorizado a desativar registros de bots. Você deverá desativar este bot.',
+	'CANNOT_DEACTIVATE_BOT'			=> 'Você não está autorizado a desativar registros de bots. Por favor, desative o bot com a respectiva página de gerenciamento dos bots.',
 	'CANNOT_DEACTIVATE_FOUNDER'		=> 'Você não está autorizado a desativar registros de fundador.',	
 	'CANNOT_DEACTIVATE_YOURSELF'	=> 'Você não está autorizado a desativar a si próprio.', 
-	'CANNOT_FORCE_REACT_BOT'		=> 'Você não está autorizado a forçar a reativação de registros de bots. Você deverá desativar este bot.',
+	'CANNOT_FORCE_REACT_BOT'		=> 'Você não está autorizado a forçar a reativação de registros de bots. Por favor, reative o bot com a respectiva página de gerenciamento dos bots.',
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Você não está autorizado a forçar a reativação de uma conta de fundador.',		
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Você não está autorizado a forçar a sua própria reativação.', 
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Você não está autorizado a excluir o registro do usuário convidado.', 

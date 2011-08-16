@@ -4,12 +4,12 @@
 * viewtopic.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: viewtopic.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 
@@ -54,8 +54,8 @@ $lang = array_merge($lang, array(
 	'DELETE_TOPIC'			=> 'Excluir',
 	'DOWNLOAD_NOTICE'		=> 'Você não está autorizado a ver ou baixar esse anexo.',
 
-	'EDITED_TIMES_TOTAL'	=> 'Editado pela última vez por %1$s em %2$s, em um Total de %3$d vezes.',
-	'EDITED_TIME_TOTAL'		=> 'Editado pela última vez por %1$s em %2$s, em um Total de %3$d vez.',
+	'EDITED_TIMES_TOTAL'	=> 'Editado pela última vez por %1$s em %2$s, em um total de %3$d vezes.',
+	'EDITED_TIME_TOTAL'		=> 'Editado pela última vez por %1$s em %2$s, em um total de %3$d vez.',
 	'EMAIL_TOPIC'			=> 'Enviar para um amigo',
 	'ERROR_NO_ATTACHMENT'	=> 'O anexo selecionado já não existe mais.',
 
@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'NO_OLDER_TOPICS'		=> 'Não há tópicos antigos neste fórum.',
 	'NO_UNREAD_POSTS'		=> 'Não há mensagens novas não-lidas neste tópico.',
 	'NO_VOTE_OPTION'		=> 'Você deve selecionar uma opção de voto.',
-	'NO_VOTES'				=> 'Não há votos',
+	'NO_VOTES'				=> 'Não há votos registrados',
 
 	'POLL_ENDED_AT'			=> 'Esta enquete foi concluída em %s',
 	'POLL_RUN_TILL'			=> 'Esta enquete será concluída em %s',

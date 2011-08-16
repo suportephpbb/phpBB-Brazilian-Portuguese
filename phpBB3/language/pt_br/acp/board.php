@@ -4,12 +4,12 @@
 * acp_board.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: board.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $
+* @version $Id: board.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 
@@ -324,7 +324,7 @@ $lang = array_merge($lang, array(
 	'LDAP_USER'						=> 'Nome de usuário LDAP <var>dn</var>',
 	'LDAP_USER_EXPLAIN'				=> 'Deixe este campo em branco para utilizar um acesso anônimo. Se preenchido, o phpBB irá conectar-se ao servidor LDAP com o nome de usuário escrito dentro do número de tentativas de login para encontrar o usuário correto, ex. <samp>uid=Usuário,ou=MinhaUnidade,o=MinhaCompanhia,c=BR</samp>. Requerido para servidores de diretório ativo.',
 	'LDAP_USER_FILTER'              => 'Filtro de usuário LDAP',
-    'LDAP_USER_FILTER_EXPLAIN'      => 'Opcionalmente você pode aumentar o limite de objetos pesquisados com filtros adicionais. Por exemplo, <samp>objectClass=posixGroup</samp> deve resultar na utilização de <samp>(&(uid=$username)(objectClass=posixGroup))</samp>.',
+    'LDAP_USER_FILTER_EXPLAIN'      => 'Opcionalmente você pode aumentar o limite de objetos pesquisados com filtros adicionais. Por exemplo, <samp>objectClass=posixGroup</samp> deve resultar na utilização de <samp>(&amp;(uid=$username)(objectClass=posixGroup))</samp>.',
 )); 
 
 // Server Settings 

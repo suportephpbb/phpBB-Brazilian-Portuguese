@@ -4,12 +4,12 @@
 * acp_forums.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: forums.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $
+* @version $Id: forums.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 
@@ -48,17 +48,17 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Número de dias desde a última visualização depois que cada tópico é excluído.', 
 
 	'COPY_PERMISSIONS'				=> 'Copiar permissões de', 
-	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> 'Quando criado, este fórum possuirá as mesmas permissões do qual você selecionar aqui. Se nenhum fórum for selecionado, o fórum recentemente criado não será visível até que as suas permissões sejam atribuidas.', 
-	'COPY_PERMISSIONS_EDIT_EXPLAIN'	=> 'Se você desejar copiar as permissões, este fórum possuirá as mesmas permissões do qual você selecionar aqui. Isto irá substituir quaisquer permissões que você tenha previamente atribuido à este fórum com as permissões do fórum que você selecionou aqui. Se nenhum fórum for selecionado, as permissões atuais serão salvas.', 
+	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> 'Quando criado, este fórum possuirá as mesmas permissões do qual você selecionar aqui. Se nenhum fórum for selecionado, o fórum recentemente criado não será visível até que as suas permissões sejam atribuídas.', 
+	'COPY_PERMISSIONS_EDIT_EXPLAIN'	=> 'Se você desejar copiar as permissões, este fórum possuirá as mesmas permissões do qual você selecionar aqui. Isto irá substituir quaisquer permissões que você tenha previamente atribuído à este fórum com as permissões do fórum que você selecionou aqui. Se nenhum fórum for selecionado, as permissões atuais serão salvas.', 
 	'CREATE_FORUM'					=> 'Criar novo fórum', 
 
 	'DECIDE_MOVE_DELETE_CONTENT'		=> 'Excluir mensagens ou mover para fórum', 
-	'DECIDE_MOVE_DELETE_SUBFORUMS'		=> 'Excluir sub-fóruns ou mover para fórum', 
+	'DECIDE_MOVE_DELETE_SUBFORUMS'		=> 'Excluir subfóruns ou mover para fórum', 
 	'DEFAULT_STYLE'						=> 'Estilo padrão', 
 	'DELETE_ALL_POSTS'					=> 'Excluir mensagens', 
-	'DELETE_SUBFORUMS'					=> 'Excluir sub-fóruns e mensagens', 
+	'DELETE_SUBFORUMS'					=> 'Excluir subfóruns e mensagens', 
 	'DISPLAY_ACTIVE_TOPICS'				=> 'Permitir a ativação de tópicos', 
-	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'		=> 'Se você selecionar sim, a ativação de tópicos nos sub-fóruns selecionados será exibida abaixo desta categoria.', 
+	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'		=> 'Se você selecionar sim, a ativação de tópicos nos subfóruns selecionados será exibida abaixo desta categoria.', 
 
 	'EDIT_FORUM'					=> 'Editar fórum', 
 	'ENABLE_INDEXING'				=> 'Ativar atributos da pesquisa', 
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_ICONS'			=> 'Ativar ícones de tópicos', 
 
 	'FORUM_ADMIN'						=> 'Administração de fóruns', 
-	'FORUM_ADMIN_EXPLAIN'				=> 'No phpBB3 não existem categorias, tudo é baseado em fóruns. Cada fórum pode obter ilimitados números de sub-fóruns e você pode determinar o que poderá ser enviado à cada um ou não. Aqui você pode adicionar, editar, excluir, trancar, destrancar fóruns individuais assim como incluir controles adicionais. Se as suas mensagens e tópicos estiverem fora de sincronização, você também pode re-sincronizar os seus fóruns. <strong>Você deve copiar ou atribuir as permissões necessárias para que os fóruns recentemente criados sejam exibidos.</strong>', 
+	'FORUM_ADMIN_EXPLAIN'				=> 'No phpBB3 não existem categorias, tudo é baseado em fóruns. Cada fórum pode obter ilimitados números de subfóruns e você pode determinar o que poderá ser enviado à cada um ou não. Aqui você pode adicionar, editar, excluir, trancar, destrancar fóruns individuais assim como incluir controles adicionais. Se as suas mensagens e tópicos estiverem fora de sincronização, você também pode re-sincronizar os seus fóruns. <strong>Você deve copiar ou atribuir as permissões necessárias para que os fóruns recentemente criados sejam exibidos.</strong>', 
 	'FORUM_AUTO_PRUNE'					=> 'Ativar auto-limpeza', 
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Limpeza dos tópicos do fórum, determinando os parâmetros de frequência/tempo abaixo.', 
 	'FORUM_CREATED'						=> 'O fórum foi criado com sucesso.', 
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PARENT'						=> 'Fórum pai', 
 	'FORUM_PASSWORD'					=> 'Senha do fórum', 
 	'FORUM_PASSWORD_CONFIRM'			=> 'Confirmar senha do fórum', 
-	'FORUM_PASSWORD_CONFIRM_EXPLAIN'	=> 'Apenas precisa ser preenchido se uma senha for atribuida ao fórum.', 
+	'FORUM_PASSWORD_CONFIRM_EXPLAIN'	=> 'Apenas precisa ser preenchido se uma senha for atribuída ao fórum.', 
 	'FORUM_PASSWORD_EXPLAIN'			=> 'Define uma senha para este fórum. Utilize o sistema de permissões de sua preferência.', 
 	'FORUM_PASSWORD_UNSET'              => 'Excluir senha do fórum',
     'FORUM_PASSWORD_UNSET_EXPLAIN'      => 'Selecione aqui se você deseja excluir a senha do fórum.',
@@ -113,18 +113,20 @@ $lang = array_merge($lang, array(
 	'FORUM_TYPE'						=> 'Tipo de fórum', 
 	'FORUM_UPDATED'						=> 'A configuração do fórum foi atualizada com sucesso.',
 
-    'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'		=> 'Você está tentando modificar um fórum contendo sub-fóruns para um link. Por favor, mova todos os seus sub-fóruns antes de prosseguir, porque depois de alterá-lo para um link você não poderá mais visualizar os sub-fóruns conectados a este fórum.',
+    'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'		=> 'Você está tentando modificar um fórum contendo subfóruns para um link. Por favor, mova todos os seus subfóruns antes de prosseguir, porque depois de alterá-lo para um link você não poderá mais visualizar os subfóruns conectados a este fórum.',
 
 	'GENERAL_FORUM_SETTINGS'	=> 'Configuração geral dos fóruns', 
 
 	'LINK'					=> 'Link', 
-	'LIST_INDEX'			=> 'Listar fórum na lista de sub-fóruns', 
-	'LIST_INDEX_EXPLAIN'	=> 'Exibe este fórum no índice e qualquer lugar do painel como um link na legenda de seu fórum pai.', 
+	'LIST_INDEX'			=> 'Listar subfórum na legenda do fórum pai', 
+	'LIST_INDEX_EXPLAIN'	=> 'Exibe este fórum no índice e qualquer lugar do painel como um link na legenda de seu fórum pai se a opção "Listar subfóruns na legenda" estiver ativada.', 
+	'LIST_SUBFORUMS'            => 'Listar subfóruns na legenda',
+    'LIST_SUBFORUMS_EXPLAIN'    => 'Exibe os subfóruns deste fórum no índice e qualquer lugar do painel como um link na legenda de seu fórum pai se a opção "Listar subfórum na legenda do fórum pai" estiver ativada.',
 	'LOCKED'				=> 'Trancado', 
 
 	'MOVE_POSTS_NO_POSTABLE_FORUM'	=> 'O fórum escolhido para mover as mensagens não pode receber mensagens. Selecione um fórum que possa receber mensagens novas.',
 	'MOVE_POSTS_TO'					=> 'Mover mensagens para', 
-	'MOVE_SUBFORUMS_TO'				=> 'Mover sub-fóruns para', 
+	'MOVE_SUBFORUMS_TO'				=> 'Mover subfóruns para', 
 
 	'NO_DESTINATION_FORUM'			=> 'Você não especificou um fórum para mover o conteúdo.', 
 	'NO_FORUM_ACTION'				=> 'Sem ações definidas para o conteúdo do fórum.', 
@@ -133,7 +135,7 @@ $lang = array_merge($lang, array(
 	'NO_PERMISSION_FORUM_ADD'		=> 'Você não possui as permissões necessárias para adicionar fóruns.', 
 	'NO_PERMISSION_FORUM_DELETE'	=> 'Você não possui as permissões necessárias para excluir fóruns.', 
 
-	'PARENT_IS_LINK_FORUM'		=> 'O fórum pai especificado é um fórum em forma de link. Fóruns em forma de links não podem possuir sub-fóruns, por favor, selecione outro fórum ou categoria.',
+	'PARENT_IS_LINK_FORUM'		=> 'O fórum pai especificado é um fórum em forma de link. Fóruns em forma de links não podem possuir subfóruns, por favor, selecione outro fórum ou categoria.',
 	'PARENT_NOT_EXIST'			=> 'O pai selecionado não existe.', 
 	'PRUNE_ANNOUNCEMENTS'		=> 'Limpar anúncios', 
 	'PRUNE_STICKY'				=> 'Limpar tópicos fixos', 

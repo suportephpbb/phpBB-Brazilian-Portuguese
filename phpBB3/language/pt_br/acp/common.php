@@ -4,12 +4,12 @@
 * acp_common.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: common.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $
+* @version $Id: common.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 
@@ -127,7 +127,9 @@ $lang = array_merge($lang, array(
 	'ACP_MESSAGE_SETTINGS'			=> 'Configuração de MPs', 
 	'ACP_MODULE_MANAGEMENT'			=> 'Administração de módulos', 
 	'ACP_MOD_LOGS'					=> 'Log do moderador', 
-	'ACP_MOD_ROLES'					=> 'Tarefas do moderador', 
+	'ACP_MOD_ROLES'					=> 'Tarefas do moderador',
+	
+	'ACP_NO_ITEMS'              => 'Ainda não há itens disponíveis.',
 
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Anexos órfãos', 
 
@@ -263,7 +265,12 @@ $lang = array_merge($lang, array(
 	'RETURN_TO'							=> 'Voltar a', 
 
 	'SELECT_ANONYMOUS'		=> 'Selecionar usuário anônimo', 
-	'SELECT_OPTION'			=> 'Selecionar opção', 
+	'SELECT_OPTION'			=> 'Selecionar opção',
+	
+	'SETTING_TOO_LOW'       => 'O valor escrito para a configuração "%1$s" é muito baixo. O valor mínimo permitido é %2$d.',
+    'SETTING_TOO_BIG'       => 'O valor escrito para a configuração "%1$s" é muito alto. O valor máximo permitido é %2$d.',    
+    'SETTING_TOO_LONG'      => 'O valor escrito para a configuração "%1$s" é muito longo. O comprimento máximo permitido é %2$d.',
+    'SETTING_TOO_SHORT'     => 'O valor escrito para a configuração "%1$s" é muito curto. O comprimento mínimo permitido é %2$d.',
 
 	'UCP'					=> 'Painel de Controle do Usuário', 
 	'USERNAMES_EXPLAIN'		=> 'Insira cada usuário em uma linha separada.', 
@@ -505,14 +512,14 @@ $lang = array_merge($lang, array(
 
 	'LOG_FORUM_ADD'							=> '<strong>Novo fórum criado</strong><br />» %s', 
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Fórum excluído</strong><br />» %s', 
-	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum e sub-fóruns excluídos</strong><br />» %s', 
-	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum excluído e sub-fóruns movidos</strong> para %1$s<br />» %2$s', 
+	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum e subfóruns excluídos</strong><br />» %s', 
+	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum excluído e subfóruns movidos</strong> para %1$s<br />» %2$s', 
 	'LOG_FORUM_DEL_MOVE_POSTS'				=> '<strong>Fórum excluído e mensagens movidas</strong> para %1$s<br />» %2$s', 
-	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Fórum e sub-fóruns excluídos, mensagens movidas</strong> para %1$s<br />» %2$s', 
-	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Fórum excluído, mensagens movidas</strong> para %1$s <strong>e sub-fóruns</strong> para %2$s<br />» %3$s', 
+	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Fórum e subfóruns excluídos, mensagens movidas</strong> para %1$s<br />» %2$s', 
+	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Fórum excluído, mensagens movidas</strong> para %1$s <strong>e subfóruns</strong> para %2$s<br />» %3$s', 
 	'LOG_FORUM_DEL_POSTS'					=> '<strong>Fórum e mensagens excluídas</strong><br />» %s', 
-	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Fórum, sub-fóruns e mensagens excluídas</strong><br />» %s', 
-	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Fórum e mensagens excluídas, sub-fóruns movidos</strong> para %1$s<br />» %2$s', 
+	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Fórum, subfóruns e mensagens excluídas</strong><br />» %s', 
+	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Fórum e mensagens excluídas, subfóruns movidos</strong> para %1$s<br />» %2$s', 
 	'LOG_FORUM_EDIT'						=> '<strong>Informações do fórum editadas</strong><br />» %s', 
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>Fórum movido</strong> %1$s <strong>abaixo</strong> %2$s', 
 	'LOG_FORUM_MOVE_UP'						=> '<strong>Fórum movido</strong> %1$s <strong>acima</strong> %2$s', 

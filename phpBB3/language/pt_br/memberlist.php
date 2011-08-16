@@ -4,12 +4,12 @@
 * memberlist.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $
+* @version $Id: memberlist.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 
@@ -87,7 +87,7 @@ $lang = array_merge($lang, array(
 	'IM_MSNM_CONNECT'		=> 'O MSNM não está conectado.\nVocê deve conectar-se ao MSNM para continuar.',		
 	'IM_NAME'				=> 'Seu Nome',
     'IM_NO_DATA'			=> 'Não existe nenhuma informação de contato para este usuário.',
-	'IM_NO_JABBER'			=> 'Enviar mensagens instantâneas de usuários do jabber não é suportado por este servidor. Você precisa ter um cliente jabber instalado no seu sistema para contatar o destinatário',
+	'IM_NO_JABBER'			=> 'Desculpe, enviar mensagens instantâneas a outros usuários do jabber não é suportado por este servidor. Você precisa ter um cliente jabber instalado no seu sistema para contatar o destinatário acima.',
 	'IM_RECIPIENT'			=> 'Destinatário',
 	'IM_SEND'				=> 'Enviar mensagem',
 	'IM_SEND_MESSAGE'		=> 'Enviar mensagem',

@@ -4,12 +4,12 @@
 * ucp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: ucp.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $
+* @version $Id: ucp.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por: 
 * @Suporte phpBB - <http://www.suportephpbb.org/> 
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 
@@ -93,7 +93,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS_DELETED'			=> 'Os anexos foram excluídos com sucesso.', 
 	'ATTACHMENT_DELETED'			=> 'O anexo foi excluído com sucesso.', 
 	'AVATAR_CATEGORY'				=> 'Categoria', 
-	'AVATAR_EXPLAIN'				=> 'Dimensões máximas: largura %1$d pixels, altura %2$d pixels, tamanho %3$dkB.', 
+	'AVATAR_EXPLAIN'				=> 'Dimensões máximas: largura %1$d pixels, altura %2$d pixels, tamanho %3$.2lf KiB.', 
 	'AVATAR_FEATURES_DISABLED'		=> 'A função de avatar encontra-se desativada.',
 	'AVATAR_GALLERY'				=> 'Galeria de avatares', 
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Não foi possível enviar o avatar para %s.',
@@ -229,7 +229,8 @@ $lang = array_merge($lang, array(
 	'HOLD_NEW_MESSAGES_SHORT'	=> 'As mensagens novas serão presas', 
 
 	'IF_FOLDER_FULL'			=> 'Se a pasta estiver cheia', 
-	'IMPORTANT_NEWS'			=> 'Anúncios importantes', 
+	'IMPORTANT_NEWS'			=> 'Anúncios importantes',
+	'INVALID_USER_BIRTHDAY'     => 'O aniversário escrito não é uma data válida.',
 	'INVALID_CHARS_USERNAME'	=> 'O nome de usuário contém caracteres proibidos.', 
 	'INVALID_CHARS_NEW_PASSWORD'=> 'A senha não possui os caracteres exigidos.', 
 	'ITEMS_REQUIRED'			=> 'Os itens selecionados com * são obrigatórios, e precisam ser preenchidos.',
@@ -267,7 +268,7 @@ $lang = array_merge($lang, array(
 		 
 	'NEW_EMAIL_ERROR'				=> 'Os endereços de email escritos não coincidem entre si.', 
 	'NEW_FOLDER_NAME'				=> 'Nome da nova pasta', 
-	'NEW_PASSWORD'					=> 'Senha nova', 
+	'NEW_PASSWORD'					=> 'Nova senha', 
 	'NEW_PASSWORD_ERROR'			=> 'As senhas escritas não coincidem entre si.', 
 	'NOTIFY_METHOD'					=> 'Método de aviso', 
 	'NOTIFY_METHOD_BOTH'			=> 'Ambos', 

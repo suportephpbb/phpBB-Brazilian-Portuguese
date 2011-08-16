@@ -4,12 +4,12 @@
 * viewforum.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: viewforum.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: viewforum.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */ 
 
@@ -45,16 +45,16 @@ $lang = array_merge($lang, array(
 	'FORUM_PERMISSIONS'		=> 'Permissões do fórum',
 
 	'ICON_ANNOUNCEMENT'		=> 'Anúncio',
-	'ICON_STICKY'			=> 'Tópico Fixo',
+	'ICON_STICKY'			=> 'Tópico fixo',
 
 	'LOGIN_NOTIFY_FORUM'	=> 'Você foi notificado sobre este fórum. Por favor, faça o login para visualizá-lo.',
 
 	'MARK_TOPICS_READ'		=> 'Selecionar todos os tópicos como lidos',
 
-	'NEW_POSTS_HOT'			=> 'Mensagens novas [Popular]',
-	'NEW_POSTS_LOCKED'		=> 'Mensagens novas [Trancadas]',
-	'NO_NEW_POSTS_HOT'		=> 'Não há mensagens novas [Popular]',
-	'NO_NEW_POSTS_LOCKED'	=> 'Não há mensagens novas [Trancadas]',
+	'NEW_POSTS_HOT'			=> 'Mensagens novas [ Popular ]',
+	'NEW_POSTS_LOCKED'		=> 'Mensagens novas [ Trancadas ]',
+	'NO_NEW_POSTS_HOT'		=> 'Não há mensagens novas [ Popular ]',
+	'NO_NEW_POSTS_LOCKED'	=> 'Não há mensagens novas [ Trancadas ]',
 	'NO_READ_ACCESS'		=> 'Você não possui as permissões requeridas para ler tópicos neste fórum.',
 
 	'POST_FORUM_LOCKED'		=> 'Este fórum está trancado',

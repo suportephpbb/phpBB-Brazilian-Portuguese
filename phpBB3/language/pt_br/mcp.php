@@ -4,12 +4,12 @@
 * mcp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: mcp.php,v 1.0 2008/02/16 00:07:17 Suporte phpBB Exp $
+* @version $Id: mcp.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.0
+* @Versão do phpBB: 3.0.1
 * 
 */  
 
@@ -276,8 +276,8 @@ $lang = array_merge($lang, array(
 	'REPORT_TOTAL'				=> 'No total, há <strong>1</strong> denúncia para ser revisada.',
 	'RESYNC'					=> 'Re-Sincronizar', 
 	'RETURN_MESSAGE'			=> '%sVoltar à mensagem%s', 
-	'RETURN_NEW_FORUM'			=> '%sVoltar ao novo fórum%s', 
-	'RETURN_NEW_TOPIC'			=> '%sVoltar ao novo tópico%s', 
+	'RETURN_NEW_FORUM'			=> '%sIr ao novo fórum%s', 
+	'RETURN_NEW_TOPIC'			=> '%sIr ao novo tópico%s', 
 	'RETURN_POST'				=> '%sVoltar à mensagem%s', 
 	'RETURN_QUEUE'				=> '%sVoltar à lista%s', 
 	'RETURN_REPORTS'			=> '%sVoltar às denúncias%s', 
