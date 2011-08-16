@@ -1,17 +1,15 @@
 <?php 
-/** 
-* 
-* acp_search.php [Brazilian Portuguese] 
-* 
-* @package language 
-* @version $Id: search.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
-*/ 
+/**
+*
+* acp_search [Brazilian Portuguese]
+*
+* @package language
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
+*/
 
 /** 
 * DO NOT CHANGE 
@@ -62,7 +60,9 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_PCRE'					=> 'Suporte para caracteres non-latin UTF-8 utilizando PCRE:',
 	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'Se o PCRE não tiver propriedades de caractere unicode, o sistema de pesquisas tentará utilizar o sistema de expressão regular mbstring.',
 	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'Esta pesquisa exige propriedades de caractere PCRE, que somente estão presentes nas versões superiores ao PHP 4.4, 5.1, se você quiser procurar por caracteres non-latin.',
-				
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Palavras com pelo menos essa quantidade de caracteres serão indexadas na pesquisa. Você ou seu servidor só poderão alterar essa configuração se a configuração do mysql for alterada.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Palavras com no máximo esse número de caracteres serão indexadas na pesquisa. Você ou seu servidor só poderão alterar essa configuração se a configuração do mysql for alterada.',
+	
 	'GENERAL_SEARCH_SETTINGS'				=> 'Configurações gerais da pesquisa', 
 	'GO_TO_SEARCH_INDEX'					=> 'Ir à página inicial da pesquisa', 
 
@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 	'MAX_NUM_SEARCH_KEYWORDS'				=> 'Número máximo de palavras-chave permitido',
 	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Número máximo de palavras que o usuário pode pesquisar. Um valor como 0 permite um número ilimitado de palavras.',	
 	'MIN_SEARCH_CHARS'						=> 'Número mínimo de caracteres indexados por pesquisa', 
-	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Palavras que possuam menos caracteres que este número serão indexadas pela pesquisa.', 
+	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Palavras que possuam menos caracteres que este número não serão indexadas pela pesquisa.', 
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Núm. mín. de caracteres do nome do autor', 
 	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'Os usuários terão de escrever ao menos este número de caracteres enquanto executando uma pesquisa por autor. Se o nome do autor for menor que este número, você ainda poderá pesquisar pelas mensagens do mesmo, escrevendo o nome do usuário completo.', 
 

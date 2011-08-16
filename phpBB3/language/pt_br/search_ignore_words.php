@@ -1,16 +1,14 @@
 <?php 
-/** 
-* 
-* search_ignore_words.php [Brazilian Portuguese] 
-* 
-* @package language 
-* @version $Id: search_ignore_words.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
+/**
+*
+* search_ignore_words [Brazilian Portuguese]
+*
+* @package language
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
 */
 
 if (!defined('IN_PHPBB'))

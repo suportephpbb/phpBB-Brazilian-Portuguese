@@ -1,15 +1,13 @@
 <?php
 /**
 *
-* captcha_recaptcha.php [Brazilian Portuguese]
+* recaptcha [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: captcha_recaptcha.php,v 1.0 9933 2009/11/21 11:23:32Z Suporte phpBB $
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2009 phpBB Group
 *
 */
 
@@ -39,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'RECAPTCHA_LANG'				=> 'pt_br',
+	'RECAPTCHA_LANG'				=> 'pt',
 	'RECAPTCHA_NOT_AVAILABLE'		=> 'Para usar o reCaptcha, você deve criar um registro em <a href="http://recaptcha.net">reCaptcha.net</a>.',
 	'CAPTCHA_RECAPTCHA'				=> 'reCaptcha',
 	'RECAPTCHA_INCORRECT'			=> 'O código de confirmação visual escrito estava incorreto',
@@ -49,7 +47,7 @@ $lang = array_merge($lang, array(
 	'RECAPTCHA_PRIVATE'				=> 'Chave privada do reCaptcha',
 	'RECAPTCHA_PRIVATE_EXPLAIN'		=> 'A sua chave privada do reCaptcha. Chaves podem ser obtidas em <a href="http://recaptcha.net">reCaptcha.net</a>.',
 
-	'RECAPTCHA_EXPLAIN'				=> 'No esforço de prevenir submissões automáticas, nós solicitamos que você escreva ambas as palavras exibidas dentro da caixa de texto abaixo.',
+	'RECAPTCHA_EXPLAIN'				=> 'No esforço de prevenir submissões automáticas, nós solicitamos que você escreva ambas as palavras exibidas dentro da caixa de texto.',
 ));
 
 ?>

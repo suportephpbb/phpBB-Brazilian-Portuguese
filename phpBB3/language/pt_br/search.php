@@ -1,16 +1,14 @@
 <?php
-/** 
-* 
-* search.php [Brazilian Portuguese] 
-* 
-* @package language 
-* @version $Id: search.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
+/**
+*
+* search [Brazilian Portuguese]
+*
+* @package language
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
 */
 
 /** 
@@ -63,7 +61,8 @@ $lang = array_merge($lang, array(
 	'NO_RECENT_SEARCHES'	=> 'Nenhuma pesquisa tem sido realizada recentemente.',
 	'NO_SEARCH'				=> 'Você não pode utilizar o sistema de pesquisas do fórum.', 
 	'NO_SEARCH_RESULTS'		=> 'Nenhuma mensagem foi encontrada utilizando estes critérios', 
-	'NO_SEARCH_TIME'		=> 'Você não pode utilizar o sistema de pesquisas agora. Por favor, tente novamente em alguns minutos.', 
+	'NO_SEARCH_TIME'		=> 'Você não pode utilizar o sistema de pesquisas agora. Por favor, tente novamente em alguns minutos.',
+	'NO_SEARCH_UNREADS'		=> 'Desculpe, mas as pesquisas pelas mensagens não lidas está desativada neste fórum.',
 	'WORD_IN_NO_POST'		=> 'Nenhuma mensagem foi encontrada, pois a palavra %s não foi localizada em nenhuma ocorrência.', 
 	'WORDS_IN_NO_POST'		=> 'Nenhuma mensagem foi encontrada, pois as palavras %s não foram localizadas em nenhuma ocorrência.', 
 

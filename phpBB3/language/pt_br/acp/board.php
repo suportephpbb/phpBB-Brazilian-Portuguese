@@ -1,17 +1,15 @@
 <?php
-/** 
-* 
-* acp_board.php [Brazilian Portuguese] 
-* 
-* @package language 
-* @version $Id: board.php,v 1.0 2010/04/16 20:52:30 Suporte phpBB Exp $
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
-*/ 
+/**
+*
+* acp_board [Brazilian Portuguese]
+*
+* @package language
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
+*/
 
 /** 
 * DO NOT CHANGE 
@@ -51,7 +49,8 @@ $lang = array_merge($lang, array(
 	'SITE_DESC'						=> 'Descrição do site', 
 	'SITE_NAME'						=> 'Nome do site', 
 	'SYSTEM_DST'					=> 'Ativar horário de verão/<abbr title="Daylight Saving Time">DST</abbr>',
-	'SYSTEM_TIMEZONE'				=> 'Fuso horário do sistema', 
+	'SYSTEM_TIMEZONE'				=> 'Fuso horário para o visitante',
+	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Fuso horário para ser mostrado para os usuários que não estão logados (visitantes, bots). Usuários logados escolherão seu fuso horário no ato do registro e poderá ser alterado no Painel de Controle do Usuário',
 	'WARNINGS_EXPIRE'				=> 'Duração de advertência', 
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Número em dias que uma advertência deverá permanecer no registro do usuário.',
 )); 
@@ -86,7 +85,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SMILIES'				=> 'Permitir smilies', 
 	'ALLOW_TOPIC_NOTIFY'		=> 'Permitir subscrição de tópicos', 
 	'BOARD_PM'					=> 'Mensagens particulares', 
-	'BOARD_PM_EXPLAIN'			=> 'Ativa ou não o uso de mensagens particulares para todos os usuários.', 
+	'BOARD_PM_EXPLAIN'			=> 'Ativar mensagens privadas para todos os usuários.',
 )); 
 
 // Avatar Settings 
@@ -233,7 +232,7 @@ $lang = array_merge($lang, array(
 	'PASSWORD_LENGTH'			=> 'Comprimento da senha', 
 	'PASSWORD_LENGTH_EXPLAIN'	=> 'Número mínimo e máximo de caracteres das senhas.', 
 	'REG_LIMIT'					=> 'Tentativas de registro', 
-	'REG_LIMIT_EXPLAIN'			=> 'Número de tentativas de registro que o usuário pode realizar antes de ser bloqueado pelo painel.', 
+	'REG_LIMIT_EXPLAIN'			=> 'Número de tentativas que o usuários poderá responder antes de sua sessão ser bloqueada.',
 	'USERNAME_ALPHA_ONLY'		=> 'Alfanumérico apenas', 
 	'USERNAME_ALPHA_SPACERS'	=> 'Alfanumérico e espaços', 
 	'USERNAME_ASCII'			=> 'ASCII (nenhum padrão de codificação unicode internacional)',
@@ -288,46 +287,46 @@ $lang = array_merge($lang, array(
 
 // Visual Confirmation Settings 
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'		        => 'Aqui você pode selecionar e configurar diversos plugins CAPTCHA, os quais implementarão várias maneiras para rejeitar as tentativas de registro dos tão indesejáveis spambots.', 
+	'ACP_VC_SETTINGS_EXPLAIN'		        => 'Aqui você pode selecionar e configurar diversos plugins, que são designados com a função de bloquear envios automatizados de spam-bots. Esses plugins funcionam desafiando o usuário a decifrar números e letras embaralhados, o que dificulta a interpretação de um computador.', 
 	'AVAILABLE_CAPTCHAS'					=> 'Plugins disponíveis',
 
-	'CAPTCHA_UNAVAILABLE'					=> 'O CAPTCHA não pôde ser selecionado já que seus requerimentos não foram encontrados.',
-	'CAPTCHA_GD'							=> 'GD CAPTCHA',
-	'CAPTCHA_GD_3D'							=> 'GD 3D Captcha',
-	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'Embaralhamento GD CAPTCHA',
-	'CAPTCHA_GD_EXPLAIN'					=> 'Utilize GD para criar mais CAPCHAs avançados.',
-	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Use o embaralhamento para criar uma imagem GD CAPTCHA complexa.',
-	'CAPTCHA_GD_X_GRID'						=> 'Eixo X do embaralhamento do GD CAPTCHA',
-	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Utilize esta configuração para gerar uma imagem GD CAPTCHA mais complexa. Escreva 0 para desativar o embaralhamento no eixo X.',
-	'CAPTCHA_GD_Y_GRID'						=> 'Eixo Y do embaralhamento do GD CAPTCHA',
-	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Utilize esta configuração para gerar uma imagem GD CAPTCHA mais complexa. Escreva 0 para desativar o embaralhamento no eixo Y.',
-	'CAPTCHA_GD_WAVE'						=> 'Onda de distorção GD CAPTCHA',
-	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Isto aplica uma onda de distorção ao CAPTCHA.',
+	'CAPTCHA_UNAVAILABLE'					=> 'O plugin não pôde ser selecionado já que seus requerimentos não foram encontrados.',
+	'CAPTCHA_GD'							=> 'Imagem GD',
+	'CAPTCHA_GD_3D'							=> 'Imagem GD 3D',
+	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'Embaralhamento',
+	'CAPTCHA_GD_EXPLAIN'					=> 'Utilize GD para criar imagens anti-spam avançadas.',
+	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Use o embaralhamento para criar uma imagem difícil para leitura.',
+	'CAPTCHA_GD_X_GRID'						=> 'Eixo X do embaralhamento',
+	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Utilize esta configuração para gerar uma imagem difícil para leitura. Escreva 0 para desativar o embaralhamento no eixo X.',
+	'CAPTCHA_GD_Y_GRID'						=> 'Eixo Y do embaralhamento',
+	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Utilize esta configuração para gerar uma imagem difícil para leitura. Escreva 0 para desativar o embaralhamento no eixo Y.',
+	'CAPTCHA_GD_WAVE'						=> 'Onda de distorção',
+	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Isto aplica uma onda de distorção à imagem.',
 	'CAPTCHA_GD_3D_NOISE'					=> 'Adicionar objetos 3D-noise',
-	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'Isto inclui objetos adicionais ao CAPTCHA, acima das letras.',
+	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'Isto inclui objetos adicionais à imagem, acima das letras.',
 	'CAPTCHA_GD_FONTS'						=> 'Usar fontes diferentes',
 	'CAPTCHA_GD_FONTS_EXPLAIN'				=> 'Esta configuração controla quantas aparências de letras diferentes serão utilizadas. Você pode utilizar apenas a aparência padrão ou introduzir letras alteradas. Também é possível adicionar letras minúsculas.',
 	'CAPTCHA_FONT_DEFAULT'					=> 'Padrão',
 	'CAPTCHA_FONT_NEW'						=> 'Novas imagens',
 	'CAPTCHA_FONT_LOWER'					=> 'Também utilizar minúsculas',
 	
-	'CAPTCHA_NO_GD'							=> 'CAPTCHA sem GD',
-	'CAPTCHA_PREVIEW_MSG'					=> 'As suas alterações nas configurações da confirmação visual não foram salvas. Isto é apenas uma demonstração.',
-	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'O CAPTCHA parecerá com este. Use o botão de previsão para atualizar. Note que o código CAPTCHA é diferente e aleatório a cada visualização.',			
+	'CAPTCHA_NO_GD'							=> 'Imagem simples',
+	'CAPTCHA_PREVIEW_MSG'					=> 'As suas alterações não foram salvas. Isto é apenas uma demonstração.',
+	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'O plugin parecerá com este. Use o botão de previsão para atualizar. Note que o código CAPTCHA é diferente e aleatório a cada visualização.',			
 
-	'CAPTCHA_SELECT'						=> 'Plugins CAPTCHA instalados',
-	'CAPTCHA_SELECT_EXPLAIN'				=> 'A barra possui os plugins CAPTCHA resincronizados pelo painel. Entradas em cinza não estão disponíveis no momento e podem necessitar de configurações prévias para que possam ser usadas.',
-	'CAPTCHA_CONFIGURE'						=> 'Configurar CAPTCHAs',
-	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Defina as configurações para o CAPTCHA selecionado.',
+	'CAPTCHA_SELECT'						=> 'Plugins instalados',
+	'CAPTCHA_SELECT_EXPLAIN'				=> 'A barra possui os plugins  resincronizados pelo painel. Entradas em cinza não estão disponíveis no momento e podem necessitar de configurações prévias para que possam ser usadas.',
+	'CAPTCHA_CONFIGURE'						=> 'Configurar plugins',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Defina as configurações para o plugin selecionado.',
 	'CONFIGURE'								=> 'Configurar',
-	'CAPTCHA_NO_OPTIONS'					=> 'Este CAPTCHA não possui opções de configuração.',	
+	'CAPTCHA_NO_OPTIONS'					=> 'Este plugin não possui opções de configuração.',	
 
-	'VISUAL_CONFIRM_POST'					=> 'Ativar confirmação visual nas mensagens enviadas por visitantes',
-	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Exige que os visitantes informem o código aleatório da imagem ao enviar uma mensagem. Utilize isto para ajudar a evitar mensagens em demasia enviadas por estes navegantes.',
-	'VISUAL_CONFIRM_REG'					=> 'Ativar confirmação visual para novos registros',
-	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Exige que todos os novos usuários informem o código aleatório da imagem ao se registrar na comunidade.',
-	'VISUAL_CONFIRM_REFRESH'				=> 'Permitir ao usuário recarregar a imagem de confirmação',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Permite aos usuários solicitarem um novo código de confirmação visual caso não o consigam preencher corretamente durante o registro.',
+	'VISUAL_CONFIRM_POST'					=> 'Ativar medidas de combate a spambots nas mensagens enviadas por visitantes',
+	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Exige que os visitantes executem uma tarefa anti-spambot para ajudar a previnir o envio de mensagens automáticas.',
+	'VISUAL_CONFIRM_REG'					=> 'Ativar medidas de combate a spambots para novos registros',
+	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Exige que todos os novos usuários passem na tarefa anti-spambot para ajudar a previnir o envio de mensagens automáticas',
+	'VISUAL_CONFIRM_REFRESH'				=> 'Permitir ao usuário recarregar a tarefa anti-spambot',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Permite aos usuários solicitarem uma nova tarefa anti-spambot caso não o consigam executar corretamente durante o registro.',
 ));
 
 // Cookie Settings 
@@ -364,7 +363,7 @@ $lang = array_merge($lang, array(
 	'YES_ANON_READ_MARKING'			=> 'Permitir subscrição de tópicos por usuários anônimos', 
 	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Permite a seleção de lido/não-lido aos usuários anônimos. Se desativado, as mensagens aparecerão sempre como lidas para os anônimos.', 
 	'YES_BIRTHDAYS'					=> 'Exibir lista de aniversários',
-    'YES_BIRTHDAYS_EXPLAIN'			=> 'Se desativado, a lista de aniversários não será mais exibida. Para que esta configuração tenha efeito, o recurso de aniversários também deve ser ativo no painel.',
+   'YES_BIRTHDAYS_EXPLAIN'			=> 'Se desativado, a lista de aniversários não será mais exibida. Para que esta configuração tenha efeito, o recurso de aniversários também deve ser ativo no painel.',
 	'YES_JUMPBOX'					=> 'Ativar exibição da jumpbox',
 	'YES_MODERATORS'				=> 'Ativar exibição de moderadores', 
 	'YES_ONLINE'					=> 'Ativar lista de usuários online', 
@@ -376,7 +375,8 @@ $lang = array_merge($lang, array(
 	'YES_POST_MARKING'				=> 'Exibir tópicos pontilhados', 
 	'YES_POST_MARKING_EXPLAIN'		=> 'Indica se o usuário tem postado em um determinado tópico.', 
 	'YES_READ_MARKING'				=> 'Ativar a subscrição de tópicos no servidor', 
-	'YES_READ_MARKING_EXPLAIN'		=> 'Armazena a seleção de lido/não-lido no banco de dados ao invés de salvá-la em um cookie.', 
+	'YES_READ_MARKING_EXPLAIN'		=> 'Armazena a seleção de lido/não-lido no banco de dados ao invés de salvá-la em um cookie.',
+	'YES_UNREAD_SEARCH'				=> 'Ativar pesquisa para mensagens não lidas',
 )); 
 
 // Auth settings 
@@ -464,7 +464,7 @@ $lang = array_merge($lang, array(
 	'IP_VALID'						=> 'Validação do IP da sessão', 
 	'IP_VALID_EXPLAIN'				=> 'Determina quantas IPs de usuários são utilizadas para validar uma sessão. <samp>Todos</samp> compara o endereço de IP completo, <samp>A.B.C</samp> os primeiros x.x.x, <samp>A.B</samp> os primeiros x.x. <samp>Nenhum</samp> desativa esta verificação.',
 	'MAX_LOGIN_ATTEMPTS'			=> 'Número máximo de tentativas de login', 
-	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'O número máximo de tentativas de login a ser excedido no fórum. Após este número, os usuários deverão realizar visualmente a sua identificação.',
+	'MAX_LOGIN_ATTEMPTS_EXPLAIN'	=> 'Depois do número de tentativas de logins mal sucedidas, o usuário precisa resolver uma tarefa anti-spambot.',
 	'NO_IP_VALIDATION'				=> 'Nenhum',
 	'NO_REF_VALIDATION'				=> 'Nenhum',
 	'PASSWORD_TYPE'					=> 'Complexidade da senha', 

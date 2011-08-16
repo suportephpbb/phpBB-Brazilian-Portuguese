@@ -1,17 +1,15 @@
 <?php 
-/** 
-* 
-* acp_users.php [Brazilian Portuguese] 
-* 
-* @package language 
-* @version $Id: users.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
-*/ 
+/**
+*
+* acp_users [Brazilian Portuguese]
+*
+* @package language
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
+*/
 
 /** 
 * DO NOT CHANGE 
@@ -41,8 +39,9 @@ $lang = array_merge($lang, array(
 	'AT_LEAST_ONE_FOUNDER'	=> 'Você não pode alterar este fundador para um usuário normal. É necessário ter no mínimo um fundador para este painel. Se você deseja alterar os status deste fundador, deverá promover outro usuário para esta condição primeiro.', 
 
 	'BAN_ALREADY_ENTERED'	=> 'O banimento já havia sido previamente informado. A lista de banimentos não foi atualizada.',
-	'BAN_SUCCESSFUL'		=> 'O banimento foi enviado com sucesso.', 
+	'BAN_SUCCESSFUL'		=> 'O banimento foi enviado com sucesso.',
 	
+	'CANNOT_BAN_ANONYMOUS'			=> 'Você não tem permissão de banir uma conta anônima. Permissões para usuários anônimos podem ser definidas na guia Permissões.',
 	'CANNOT_BAN_FOUNDER'			=> 'Você não está autorizado a banir registros de fundador.',
 	'CANNOT_BAN_YOURSELF'			=> 'Você não está autorizado a banir a si próprio.', 
 	'CANNOT_DEACTIVATE_BOT'			=> 'Você não está autorizado a desativar registros de bots. Por favor, desative o bot com a respectiva página de gerenciamento dos bots.',

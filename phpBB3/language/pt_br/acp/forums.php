@@ -1,17 +1,15 @@
 <?php
-/** 
-* 
-* acp_forums.php [Brazilian Portuguese] 
-* 
-* @package language 
-* @version $Id: forums.php,v 1.0 2010/04/16 21:08:32 Suporte phpBB Exp $
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
-*/ 
+/**
+*
+* acp_forums [Brazilian Portuguese]
+*
+* @package language
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
+*/
 
 /** 
 * DO NOT CHANGE 
@@ -60,8 +58,8 @@ $lang = array_merge($lang, array(
 	'DEFAULT_STYLE'						=> 'Estilo padrão', 
 	'DELETE_ALL_POSTS'					=> 'Excluir mensagens', 
 	'DELETE_SUBFORUMS'					=> 'Excluir sub fóruns e mensagens', 
-	'DISPLAY_ACTIVE_TOPICS'				=> 'Permitir a ativação de tópicos', 
-	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'		=> 'Se você selecionar sim, a ativação de tópicos nos sub fóruns selecionados será exibida abaixo desta categoria.', 
+	'DISPLAY_ACTIVE_TOPICS'				=> 'Permitir exibição de tópicos ativos:',
+	'DISPLAY_ACTIVE_TOPICS_EXPLAIN'		=> 'Se você selecionar sim, serão exibidos os tópicos ativos abaixo desta categoria.',
 
 	'EDIT_FORUM'					=> 'Editar fórum', 
 	'ENABLE_INDEXING'				=> 'Ativar atributos da pesquisa', 

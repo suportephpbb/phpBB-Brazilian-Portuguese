@@ -1,17 +1,15 @@
 <?php 
-/** 
-* 
-* help_faq.php [Brazilian Portuguese] 
-* 
-* @package language 
-* @version $Id: help_faq.php,v 1.0 2010/04/16 21:2329:32 Suporte phpBB Exp $ 
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
-*/  
+/**
+*
+* help_faq [Brazilian Portuguese]
+*
+* @package language
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
+*/ 
 
 /** 
 */
@@ -94,7 +92,7 @@ $help = array(
       1 => 'Se você tem certeza de que selecionou o fuso horário e horário de verão/DST corretamente e a hora continua errada, então o horário armazenado no relógio do servidor está incorreto. Por favor, contate o administrador para que o problema seja resolvido.' 
    ), 
    array( 
-      0 => 'A língua de minha nacionalidade não está na lista!', 
+      0 => 'O idioma da minha nacionalidade não está na lista!', 
       1 => 'O administrador pode não ter instalado o seu idioma ou o phpBB ainda não foi traduzido para o mesmo. Peça ao administrador que instale o seu pacote de idiomas e, caso não exista, você poderá criar uma nova tradução. Mais informações, consulte a página oficial do Grupo phpBB (clicar no link ao fundo desta página).' 
    ), 
    array( 

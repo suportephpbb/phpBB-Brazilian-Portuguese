@@ -1,17 +1,16 @@
 <?php
-/** 
-* 
-* common.php [Brazilian Portuguese] 
+/**
 *
-* @package language 
-* @version $Id: common.php,v 1.0 2010/04/16 21:28:32 Suporte phpBB Exp $
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
-*/ 
+* common [Brazilian Portuguese]
+*
+* @package language
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
+*/
+
 /** 
 * DO NOT CHANGE 
 */ 
@@ -58,7 +57,7 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ALREADY_ACTIVATED'		=> 'O seu registro já foi ativado.',
 	'ACCOUNT_DEACTIVATED'			=> 'O seu registro foi desativado manualmente e somente pode ser reativado por um administrador.',
 	'ACCOUNT_NOT_ACTIVATED'			=> 'O seu registro ainda não foi ativado.',
-	'ACP'							=> 'Ir ao Painel de Administração', 
+	'ACP'							=> 'Painel de Controle da Administração', 
 	'ACTIVE'						=> 'Ativo', 
 	'ACTIVE_ERROR'					=> 'Você especificou um nome de usuário inativo. Por favor, tente reativar o seu registro e tente novamente. Se você continuar tendo problemas, contate um administrador.',
 	'ADMINISTRATOR'					=> 'Administrador', 
@@ -120,13 +119,13 @@ $lang = array_merge($lang, array(
 	'CHANGING_PREFERENCES'	=> 'Alterando as preferências do fórum',
 	'CHANGING_PROFILE'		=> 'Alterando as configurações de perfil',
 	'CLICK_VIEW_PRIVMSG'	=> 'Clique %saqui%s para ir à caixa de entrada', 
-	'COLLAPSE_VIEW'			=> 'Visão de colapso',
+	'COLLAPSE_VIEW'			=> 'Visão contraída',
 	'CLOSE_WINDOW'			=> 'Fechar janela', 
 	'COLOUR_SWATCH'			=> 'Palheta de cores', 
 	'COMMA_SEPARATOR'		=> ', ',	// Used in pagination and secret yet-to-be-release style, use localised comma if appropiate, eg: Ideographic or Arabic		 
 	'CONFIRM'				=> 'Confirmar', 
 	'CONFIRM_CODE'			=> 'Código de confirmação', 
-	'CONFIRM_CODE_EXPLAIN'	=> 'Digite o código exatamente como você o vê.', 
+	'CONFIRM_CODE_EXPLAIN'	=> 'Digite o código exatamente como você o vê. Não há diferenciação de maiúsculas e minúsculas.',
 	'CONFIRM_CODE_WRONG'	=> 'O código de confirmação enviado está incorreto.',	 
 	'CONFIRM_OPERATION'		=> 'Você deseja realmente prosseguir com esta operação?',	 
 	'CONGRATULATIONS'		=> 'Parabéns para', 
@@ -292,21 +291,22 @@ $lang = array_merge($lang, array(
 	'KB'				    => 'KB',
 	'KIB'                   => 'KiB',
 
-	'LAST_POST'							=> 'Última mensagem', 
-	'LAST_UPDATED'						=> 'Última atualização', 
-	'LAST_VISIT'						=> 'Última visita',	 
-	'LDAP_NO_LDAP_EXTENSION'			=> 'A extensão LDAP não está disponível.', 
-	'LDAP_NO_SERVER_CONNECTION'			=> 'Não foi possível conectar-se ao servidor LDAP.',		 
-	'LEGEND'							=> 'Legenda', 
-	'LOCATION'							=> 'Localização', 
-	'LOCK_POST'							=> 'Trancar mensagem', 
-	'LOCK_POST_EXPLAIN'					=> 'Prevenir a mensagem de sofrer possíveis atualizações.', 
-	'LOCK_TOPIC'						=> 'Trancar tópico', 
-	'LOGIN'								=> 'Entrar', 
+	'LAST_POST'							=> 'Última mensagem',
+	'LAST_UPDATED'						=> 'Última atualização',
+	'LAST_VISIT'						=> 'Última visita',
+	'LDAP_NO_LDAP_EXTENSION'			=> 'A extensão LDAP não está disponível.',
+	'LDAP_NO_SERVER_CONNECTION'			=> 'Não foi possível conectar-se ao servidor LDAP.',
+	'LDAP_SEARCH_FAILED'				=> 'Um erro ocorreu quando a busca estava sendo executada no diretório LDAP.',
+	'LEGEND'							=> 'Legenda',
+	'LOCATION'							=> 'Localização',
+	'LOCK_POST'							=> 'Trancar mensagem',
+	'LOCK_POST_EXPLAIN'					=> 'Prevenir a mensagem de sofrer possíveis alterações.',
+	'LOCK_TOPIC'						=> 'Trancar tópico',
+	'LOGIN'								=> 'Entrar',
 	'LOGIN_CHECK_PM'					=> 'Entrar e ver mensagens particulares',
-	'LOGIN_CONFIRMATION'				=> 'Confirmação de login', 
-	'LOGIN_CONFIRM_EXPLAIN'				=> 'Para prevenir ataques ao registro, o administrador exige o código de confirmação após sucessivas tentativas de login falhas. O código deverá ser exibido na imagem abaixo. Se você possui qualquer problema visual ou que possa impedir a sua confirmação, contate o %sadministrador%s do fórum para solicitar ajuda.', 
-	'LOGIN_ERROR_ATTEMPTS'				=> 'Você excedeu o número máximo de tentativas de login. Em adição ao seu nome de usuário e senha, você agora também deverá preencher o código de confirmação informado na imagem abaixo.', 
+	'LOGIN_CONFIRMATION'				=> 'Confirmação de login',
+	'LOGIN_CONFIRM_EXPLAIN'				=> 'Para prevenir ataques ao registro, o administrador exige o código de confirmação após sucessivas tentativas de login falhas. O código deverá ser exibido na imagem abaixo. Se você possui qualquer problema visual ou que possa impedir a sua confirmação, contate o %sadministrador%s do fórum para solicitar ajuda.', // unused
+	'LOGIN_ERROR_ATTEMPTS'				=> 'Você excedeu o número máximo de tentativas de login. Em adição ao seu nome de usuário e senha, você agora deverá resolver o CAPTCHA abaixo.',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Você não foi autenticado pelo Apache.',	 
 	'LOGIN_ERROR_PASSWORD'				=> 'Você especificou uma senha incorreta. Por favor, certifique-se de ter escrito uma senha correta e tente novamente. Se você continuar tendo problemas, por favor, contate o %sadministrador%s.',
 	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Não foi possível converter a sua senha ao atualizar este painel. Por favor, %ssolicite uma nova senha%s. Se continuar tendo problemas, contate o %sadministrador%s.',	 
@@ -315,7 +315,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_INFO'						=> 'Para autenticar-se você precisa estar registrado. O registro leva apenas alguns segundos, mas aumenta as suas permissões. O administrador também pode conceder permissões adicionais a usuários registrados. Antes de autenticar-se esteja familiarizado com os nossos termos de uso e políticas relacionadas. Por favor, assegure-se de ler as regras do fórum enquanto navegar pela comunidade.', 
 	'LOGIN_VIEWFORUM'					=> 'O administrador requer que você esteja registrado e autenticado para visualizar este fórum.', 
 	'LOGIN_EXPLAIN_EDIT'				=> 'Para editar mensagens você precisa estar registrado e autenticado.',
-    'LOGIN_EXPLAIN_VIEWONLINE'			=> 'Você deve estar registrado e autenticado para ver a lista de usuários online.',
+   'LOGIN_EXPLAIN_VIEWONLINE'			=> 'Você deve estar registrado e autenticado para ver a lista de usuários online.',
 	'LOGOUT'							=> 'Sair',
 	'LOGOUT_USER'						=> 'Sair [ %s ]', 
 	'LOG_ME_IN'							=> 'Lembrar minhas informações', 
@@ -348,8 +348,8 @@ $lang = array_merge($lang, array(
 	'NEW_MESSAGES'				=> 'Novas mensagens', 
 	'NEW_PM'					=> '<strong>%d</strong> mensagem nova', 
 	'NEW_PMS'					=> '<strong>%d</strong> mensagens novas', 
-	'NEW_POST'					=> 'Nova mensagem', 
-	'NEW_POSTS'					=> 'Novas mensagens', 
+	'NEW_POST'					=> 'Nova mensagem',  // Not used anymore
+	'NEW_POSTS'					=> 'Novas mensagens', // Not used anymore
 	'NEXT'						=> 'Próximo',      // Used in pagination
 	'NEXT_STEP'                 => 'Próximo',
 	'NEVER'						=> 'Nunca',	 
@@ -384,7 +384,7 @@ $lang = array_merge($lang, array(
 	'NO_ONLINE_USERS'			=> 'Nenhum usuário registrado',	 
 	'NO_NEW_PM'					=> '<strong>0</strong> mensagens novas', 
 	'NO_NEW_POSTS'				=> 'Não há mensagens novas', 
-	'NO_POSTS'					=> 'Não há mensagens', 
+	'NO_POSTS'					=> 'Não há mensagens',	// Not used anymore
 	'NO_POSTS_TIME_FRAME'		=> 'Não existem mensagens neste tópico no período selecionado.',	 
 	'NO_FEED_ENABLED'			=> 'Os feeds não estão disponíveis neste painel.',
 	'NO_FEED'					=> 'O feed solicitado não está disponível.',
@@ -395,7 +395,8 @@ $lang = array_merge($lang, array(
 	'NO_TOPIC_FORUM'            => 'O tópico ou fórum selecionado já não existe mais.',	 
 	'NO_TOPICS'					=> 'Não há mensagens neste fórum<br />Clique em <b>novo tópico</b> para adicionar uma mensagem nova.', 
 	'NO_TOPICS_TIME_FRAME'		=> 'Não existem tópicos neste fórum no período selecionado.',
-	'NO_UNREAD_PM'				=> '<strong>0</strong> mensagens não lidas', 
+	'NO_UNREAD_PM'				=> '<strong>0</strong> mensagens não lidas',
+	'NO_UNREAD_POSTS'			=> 'Nenhuma mensagem não lida',
 	'NO_UPLOAD_FORM_FOUND'		=> 'O envio do arquivo foi iniciado, mas nenhuma forma de envio válida foi encontrada.', 
 	'NO_USER'					=> 'O usuário selecionado não existe.', 
 	'NO_USERS'					=> 'Os usuários selecionados não existem.', 
@@ -420,7 +421,8 @@ $lang = array_merge($lang, array(
 	'PASSWORD'				=> 'Senha', 
 	'PIXEL'					=> 'px',
 	'PLAY_QUICKTIME_FILE'	=> 'Executar arquivo do Quicktime',	 
-	'PM'					=> 'MP', 
+	'PM'					=> 'MP',
+	'PM_REPORTED'			=> 'Clique para ver a notificação',
 	'POSTING_MESSAGE'		=> 'Enviar mensagem para %s', 
 	'POSTING_PRIVATE_MESSAGE'	=> 'Compondo mensagem particular',	 
 	'POST'					=> 'Mensagem', 
@@ -548,7 +550,7 @@ $lang = array_merge($lang, array(
 	'SORT_POSTS'				=> 'Mensagens',
 	'SORT_TOPIC_TITLE'			=> 'Título do tópico', 
 	'SORT_USERNAME'				=> 'Nome de usuário', 
-	'SPLIT_TOPIC'				=> 'Tópico fundido', 
+	'SPLIT_TOPIC'				=> 'Dividir tópico', 
 	'SQL_ERROR_OCCURRED'		=> 'Um erro SQL ocorreu enquanto processava está página. Contate o %sadministrador%s caso o problema persista.', 
 	'STATISTICS'				=> 'Estatísticas', 
 	'START_WATCHING_FORUM'		=> 'Subscrever fórum', 
@@ -564,8 +566,11 @@ $lang = array_merge($lang, array(
 	'TEST_CONNECTION'	=> 'Testar conexão', 
 	'THE_TEAM'			=> 'Equipe do fórum', 
 	'TIME'				=> 'Tempo', 
-	'TOO_LONG'			=> 'O valor definido é muito longo.',
 
+	'TOO_LARGE'						=> 'O valor que você digitou é muito grande.',
+	'TOO_LARGE_MAX_RECIPIENTS'		=> 'O valor para o <strong>Número máximo de destinatários por mensagem privada</strong> que você digitou é muito grande.',
+
+	'TOO_LONG'			=> 'O valor definido é muito longo.',
 	'TOO_LONG_AIM'					=> 'O AIM escrito é muito grande.', 
 	'TOO_LONG_CONFIRM_CODE'			=> 'O código de confirmação escrito é muito grande.', 
 	'TOO_LONG_DATEFORMAT'           => 'O formato da data escrito é muito grande.',
@@ -604,7 +609,10 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_EMAIL_CONFIRM'		=> 'A confirmação do endereço de e-mail escrita é muito pequena.', 
 	'TOO_SHORT_WEBSITE'				=> 'O website escrito é muito pequeno.', 
 	'TOO_SHORT_YIM'					=> 'O Yahoo! Messenger escrito é muito pequeno.', 
-	 
+	 	
+	'TOO_SMALL'						=> 'O valor que você digitou é muito pequeno.',
+	'TOO_SMALL_MAX_RECIPIENTS'		=> 'O valor para o <strong>Número máximo de destinatários por mensagem privada</strong> que você digitou é muito pequeno.',
+	
 	'TOPIC'				=> 'Tópico', 
 	'TOPICS'			=> 'Tópicos', 
 	'TOPICS_UNAPPROVED'	=> 'Pelo menos um tópico neste fórum ainda não foi aprovado.',
@@ -637,7 +645,9 @@ $lang = array_merge($lang, array(
 	'UNMARK_ALL'			=> 'Desselecionar todos', 
 	'UNREAD_MESSAGES'		=> 'Mensagens não lidas', 
 	'UNREAD_PM'				=> '<b>%d</b> mensagem não lida', 
-	'UNREAD_PMS'			=> '<b>%d</b> mensagens não lidas', 
+	'UNREAD_PMS'			=> '<b>%d</b> mensagens não lidas',
+	'UNREAD_POST'			=> 'Mensagem não lida',
+	'UNREAD_POSTS'			=> 'Mensagens não lidas',
 	'UNWATCHED_FORUMS'		=> 'Você não está mais subscrito nos fóruns selecionados.',
 	'UNWATCHED_TOPICS'		=> 'Você não está mais subscrito nos tópicos selecionados.',
 	'UNWATCHED_FORUMS_TOPICS'   => 'Você não está mais subscrito às entradas selecionadas.',

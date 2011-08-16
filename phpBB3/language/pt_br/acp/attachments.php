@@ -1,16 +1,14 @@
 <?php 
-/** 
-* 
-* acp_attachments.php [Brazilian Portuguese] 
-* 
-* @package language 
-* @version $Id: attachments.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
+/**
+*
+* acp_attachments [Brazilian Portuguese]
+*
+* @package language
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
 */ 
 
 /** 
@@ -84,19 +82,28 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_REMOVE_IPS_EXPLAIN'	=> 'Você pode excluir múltiplos endereços de IP de uma só vez, utilizando as combinações apropriadas de mouse em seu computador e navegador. Os IPs excluídos possuem um fundo em azul.', 
 	'DISPLAY_INLINED'				=> 'Exibir imagens', 
 	'DISPLAY_INLINED_EXPLAIN'		=> 'Se selecionar NÃO, as imagens anexas serão exibidas como links.', 
-	'DISPLAY_ORDER'					=> 'Ordem de exibição dos anexos', 
-	'DISPLAY_ORDER_EXPLAIN'			=> 'Exibir anexos ordenados pelo tempo.', 
-	 
-	'EDIT_EXTENSION_GROUP'			=> 'Editar grupo de extensões', 
-	'EXCLUDE_ENTERED_IP'			=> 'Ative isto para excluir o IP/hostname escrito.', 
-	'EXCLUDE_FROM_ALLOWED_IP'		=> 'Excluir IP de IPs/hostnames permitidos', 
-	'EXCLUDE_FROM_DISALLOWED_IP'	=> 'Excluir IP de IPs/hostnames proibidos', 
-	'EXTENSIONS_UPDATED'			=> 'As extensões foram atualizadas com sucesso.', 
-	'EXTENSION_EXIST'				=> 'A extensão %s já existe.', 
-	'EXTENSION_GROUP'				=> 'Grupo de extensões', 
-	'EXTENSION_GROUPS'				=> 'Grupos de extensões', 
-	'EXTENSION_GROUP_DELETED'		=> 'O grupo de extensões foi excluído com sucesso.', 
-	'EXTENSION_GROUP_EXIST'			=> 'O grupo de extensões %s já existe.', 
+	'DISPLAY_ORDER'					=> 'Ordem de exibição dos anexos',
+	'DISPLAY_ORDER_EXPLAIN'			=> 'Exibir anexos ordenados pelo tempo.',
+	
+	'EDIT_EXTENSION_GROUP'			=> 'Editar grupo de extensões',
+	'EXCLUDE_ENTERED_IP'			=> 'Ative isto para excluir o IP/hostname escrito.',
+	'EXCLUDE_FROM_ALLOWED_IP'		=> 'Excluir IP de IPs/hostnames permitidos',
+	'EXCLUDE_FROM_DISALLOWED_IP'	=> 'Excluir IP de IPs/hostnames proibidos',
+	'EXTENSIONS_UPDATED'			=> 'As extensões foram atualizadas com sucesso.',
+	'EXTENSION_EXIST'				=> 'A extensão %s já existe.',
+	'EXTENSION_GROUP'				=> 'Grupo de extensões',
+	'EXTENSION_GROUPS'				=> 'Grupos de extensões',
+	'EXTENSION_GROUP_DELETED'		=> 'O grupo de extensões foi excluído com sucesso.',
+	'EXTENSION_GROUP_EXIST'			=> 'O grupo de extensões %s já existe.',
+	'EXT_GROUP_ARCHIVES'			=> 'Arquivos',
+	'EXT_GROUP_DOCUMENTS'			=> 'Documentos',
+	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Arquivos para download',
+	'EXT_GROUP_FLASH_FILES'			=> 'Arquivos em Flash',
+	'EXT_GROUP_IMAGES'				=> 'Imagens',
+	'EXT_GROUP_PLAIN_TEXT'			=> 'Texto simples',
+	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Media',
+	'EXT_GROUP_REAL_MEDIA'			=> 'Real Media',
+	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media',
 
 	'GO_TO_EXTENSIONS'		=> 'Ir à administração de extensões', 
 	'GROUP_NAME'			=> 'Nome do grupo', 

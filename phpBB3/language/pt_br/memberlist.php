@@ -1,17 +1,15 @@
 <?php
-/** 
+/**
 *
-* memberlist.php [Brazilian Portuguese]
+* memberlist [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
-*/ 
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
+*/
 
 /**
 * DO NOT CHANGE
@@ -53,8 +51,8 @@ $lang = array_merge($lang, array(
 	'CC_EMAIL'				=> 'Enviar-me uma cópia deste e-mail.',
 	'CONTACT_USER'			=> 'Contato',
 
-	'DEST_LANG'				=> 'Língua',
-	'DEST_LANG_EXPLAIN'		=> 'Selecione a língua desejada (se ativa) para o destinatário dessa mensagem.',
+	'DEST_LANG'				=> 'Idioma',
+	'DEST_LANG_EXPLAIN'		=> 'Selecione o idioma desejado (se ativo) para o destinatário dessa mensagem.',
 
 	'EMAIL_BODY_EXPLAIN'	=> 'Esta Mensagem será enviada em texto. Por Favor, não adicione qualquer Código HTML ou BBCode. Para o endereço de resposta será anexado o seu endereço de e-mail.',
 	'EMAIL_DISABLED'		=> 'Todas as funções relativas aos e-mails encontram-se desativadas.',

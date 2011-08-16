@@ -1,15 +1,13 @@
 <?php
 /**
 *
-* install.php [Brazilian Portuguese]
+* install [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: install.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
 *
 */
 
@@ -131,7 +129,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Erro ao executar <var>query_first</var>, %s ("%s").',
 	'DB_ERR_SELECT'				=> 'Erro ao executar a query <code>SELECT</code>.',
 	'DB_HOST'					=> 'Nome do servidor do banco de dados ou DSN',
-	'DB_HOST_EXPLAIN'			=> 'DSN significa "Data Source Name" e é relevante apenas para instalações ODBC.',
+	'DB_HOST_EXPLAIN'			=> 'DSN significa "Data Source Name" e é relevante apenas para instalações ODBC. No PostgreSQL, use localhost para conectar no servidor local via domínio socket UNIX e 127.0.0.1 para conectar via TCP.',
 	'DB_NAME'					=> 'Nome do banco de dados',
 	'DB_PASSWORD'				=> 'Senha do banco de dados',
 	'DB_PORT'					=> 'Porta do servidor do banco de dados',
@@ -139,7 +137,7 @@ $lang = array_merge($lang, array(
 	'DB_UPDATE_NOT_SUPPORTED'	=> 'Desculpe, mas este script não suporta atualizações de versões do phpBB inferiores a "%1$s". A versão atualmente instalada em seus fóruns é a "%2$s". Por favor, atualize para uma versão posterior antes de executar este script. Assistência gratuita encontra-se disponível nos fóruns de suporte do phpBB.com e SuportephpBB.com.br.',
 	'DB_USERNAME'				=> 'Nome de usuário do banco de dados',
 	'DB_TEST'					=> 'Testar conexão',
-	'DEFAULT_LANG'				=> 'Língua padrão',
+	'DEFAULT_LANG'				=> 'Idioma padrão',
 	'DEFAULT_PREFIX_IS'			=> 'O conversor não pôde encontrar tabelas com o prefixo especificado. Por favor, verifique se você escreveu as informações corretas do painel que está convertendo. O prefixo padrão para a tabela %1$s é <strong>%2$s</strong>.',
 	'DEV_NO_TEST_FILE'			=> 'Não foi especificado um valor para a variável test_file no conversor. Se você é usuário deste conversor, e não deveria estar vendo este erro, por favor, contate o autor do conversor. Se você é o autor deste conversor, você deve especificar o nome de um arquivo que exista no fórum de destino para que seja possível a verificação de um diretório.',
 	'DIRECTORIES_AND_FILES'		=> 'Configuração de arquivo e diretório',
@@ -150,6 +148,7 @@ $lang = array_merge($lang, array(
 	'DLL_MBSTRING'				=> 'Suporte a caracteres Multi-byte',
 	'DLL_MSSQL'					=> 'MSSQL Server 2000+',
 	'DLL_MSSQL_ODBC'			=> 'MSSQL Server 2000+ via ODBC',
+	'DLL_MSSQLNATIVE'			=> 'MSSQL Server 2005+ [ Nativo ]',
 	'DLL_MYSQL'					=> 'MySQL 3.23.x/4.x',
 	'DLL_MYSQLI'				=> 'MySQL 4.1.x/5.x with MySQLi Extension',
 	'DLL_ORACLE'				=> 'Oracle',
@@ -216,6 +215,7 @@ $lang = array_merge($lang, array(
 		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 ou superior (direto ou via ODBC)</li>
 		<li>Oracle</li>
+		<li>MS SQL Server 2005 ou acima (nativo)</li>
 	</ul>
 
 	<p>Somente os banco de dados suportados pelo seu servidor serão exibidos.',
@@ -318,7 +318,7 @@ $lang = array_merge($lang, array(
 
 	'SCRIPT_PATH'				=> 'Pasta do sistema',
 	'SCRIPT_PATH_EXPLAIN'		=> 'A pasta onde os arquivos do phpBB estão localizados em seu servidor, ex. <samp>/phpBB3</samp>.',
-	'SELECT_LANG'				=> 'Selecionar língua',
+	'SELECT_LANG'				=> 'Selecionar idioma',
 	'SERVER_CONFIG'				=> 'Configuração do servidor',
 	'SEARCH_INDEX_UNCONVERTED'	=> 'Os índices de pesquisa não foram convertidos',
 	'SEARCH_INDEX_UNCONVERTED_EXPLAIN'	=> 'Seus antigos índices de pesquisa não foram convertidos. As pesquisas sempre resultarão em nenhuma ocorrência. Para criar um novo índice de pesquisa, vá até o painel de administração, selecione a gerência da pesquisa e escolha o índice de pesquisa no sub-menu.',
@@ -560,6 +560,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Atualizando os dados',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Atualizando banco de dados para o novo lançamento',
 	'UPDATED_VERSION'				=> 'Versão atualizada',
+	'UPGRADE_INSTRUCTIONS'			=> 'Um novo recurso lançado <strong>%1$s</strong> está disponível. Por favor, leia <a href="%2$s" title="%2$s"><strong>o anúncio de lançamento</strong></a> para aprender o que estamos oferecendo, e como atualizar.',
 	'UPLOAD_METHOD'					=> 'Método de envio',
 
 	'UPDATE_DB_SUCCESS'				=> 'A atualização do banco de dados foi executada com sucesso.',
@@ -587,16 +588,6 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITENAME'				=> 'seudominio.com',
 
 	'DEFAULT_INSTALL_POST'			=> 'Esta é apenas uma mensagem de exemplo em sua instalação do phpBB3. Tudo parece estar funcionando normalmente. Você pode excluir esta mensagem se desejar e continuar a configurar o seu painel. Durante o processo de instalação, a sua primeira categoria e o seu primeiro fórum foram assinalados em um set de permissões apropriado aos grupos de usuários pré-definidos, como administradores, bots, moderadores globais, visitantes, usuários registrados e usuários registrados da COPPA. Se você optar por deletar sua primeira categoria e o seu primeiro fórum, não se esqueça de atribuir as permissões para todos estes grupos em relação a todas as novas categorias e fóruns que criar. É recomendável que você renomeie a sua primeira categoria e o seu primeiro fórum e apenas copie as permissões destes enquanto criar suas novas categorias e fóruns. Divirta-se!',
-
-	'EXT_GROUP_ARCHIVES'			=> 'Arquivos',
-	'EXT_GROUP_DOCUMENTS'			=> 'Documentos',
-	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'Arquivos para Download',
-	'EXT_GROUP_FLASH_FILES'			=> 'Arquivos em Flash',
-	'EXT_GROUP_IMAGES'				=> 'Imagens',
-	'EXT_GROUP_PLAIN_TEXT'			=> 'Texto Puro',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Arquivo do Quicktime',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Arquivo do Real Player',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Arquivo do Windows Media',
 
 	'FORUMS_FIRST_CATEGORY'			=> 'Sua primeira categoria',
 	'FORUMS_TEST_FORUM_DESC'		=> 'Descrição de seu primeiro fórum.',

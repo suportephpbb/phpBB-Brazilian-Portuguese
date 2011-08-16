@@ -1,17 +1,15 @@
 <?php 
-/** 
-* 
-* acp_styles.php [Brazilian Portuguese] 
-* 
-* @package language 
-* @version $Id: styles.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
-*/ 
+/**
+*
+* acp_styles [Brazilian Portuguese]
+*
+* @package language
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
+*/
 
 /** 
 * DO NOT CHANGE 
@@ -79,13 +77,13 @@ $lang = array_merge($lang, array(
 	'DEACTIVATE_DEFAULT'		=> 'Você não pode desativar o estilo padrão do painel.', 
 	'DELETE_FROM_FS'			=> 'Excluir do sistema de arquivos', 
 	'DELETE_IMAGESET'			=> 'Excluir set de imagens', 
-	'DELETE_IMAGESET_EXPLAIN'	=> 'Aqui você pode excluir o set de imagens selecionado através do banco de dados. Adicionalmente, se você tiver permissão pode selecionar para excluir o set através do sistema de arquivos. Por favor, note que não é possível restaurar o set removido, sendo ele excluído para sempre. É recomendável que você primeiro exporte o seu set para um possível uso futuro.', 
-	'DELETE_STYLE'				=> 'Excluir estilo', 
-	'DELETE_STYLE_EXPLAIN'		=> 'Aqui você pode excluir o estilo selecionado. Você não pode excluir todos os elementos do estilo aqui. Eles devem ser removidos individualmente por suas respectivas formas. Cuidado ao excluir os estilos desejados, pois os efeitos são permanentes.', 
-	'DELETE_TEMPLATE'			=> 'Excluir template', 
-	'DELETE_TEMPLATE_EXPLAIN'	=> 'Aqui você pode excluir a template selecionada através do banco de dados. Adicionalmente, se você tiver permissão pode selecionar para excluir a template através do sistema de arquivos. Por favor, note que não é possível restaurar a template removida, sendo ela excluída para sempre. É recomendável que você primeiro exporte a sua template para um possível uso futuro.', 
-	'DELETE_THEME'				=> 'Excluir tema', 
-	'DELETE_THEME_EXPLAIN'		=> 'Aqui você pode excluir o tema selecionado através do banco de dados. Adicionalmente, se você tiver permissão pode selecionar para excluir o tema através do sistema de arquivos. Por favor, note que não é possível restaurar o tema removido, sendo ele excluído para sempre. É recomendável que você primeiro exporte o seu tema para um possível uso futuro.', 
+	'DELETE_IMAGESET_EXPLAIN'	=> 'Aqui você pode excluir o set de imagens selecionado através do banco de dados. Por favor, note que não é possível restaurar o set removido. É recomendável que você primeiro exporte o seu set para um possível uso futuro.',
+	'DELETE_STYLE'				=> 'Excluir estilo',
+	'DELETE_STYLE_EXPLAIN'		=> 'Aqui você pode excluir o estilo selecionado. Você não pode excluir todos os elementos do estilo aqui. Eles devem ser removidos individualmente por suas respectivas formas. Cuidado ao excluir os estilos desejados, pois os efeitos são permanentes.',
+	'DELETE_TEMPLATE'			=> 'Excluir template',
+	'DELETE_TEMPLATE_EXPLAIN'	=> 'Aqui você pode excluir a template selecionada através do banco de dados. Por favor, note que não é possível restaurar a template removida. É recomendável que você primeiro exporte a sua template para um possível uso futuro.',
+	'DELETE_THEME'				=> 'Excluir tema',
+	'DELETE_THEME_EXPLAIN'		=> 'Aqui você pode excluir o tema selecionado através do banco de dados. Por favor, note que não é possível restaurar o tema removido. É recomendável que você primeiro exporte o seu tema para um possível uso futuro.',
 	'DETAILS'					=> 'Informações', 
 	'DIMENSIONS_EXPLAIN'		=> 'Selecionando sim aqui você irá incluir os parâmetros de largura/altura.', 
 
@@ -167,11 +165,11 @@ $lang = array_merge($lang, array(
 	'IMG_FORUM_READ'			=> 'Fórum', 
 	'IMG_FORUM_READ_LOCKED'		=> 'Fórum trancado', 
 	'IMG_FORUM_READ_SUBFORUM'	=> 'Sub fórum', 
-	'IMG_FORUM_UNREAD'			=> 'Fórum com mensagens novas', 
-	'IMG_FORUM_UNREAD_LOCKED'	=> 'Fórum trancado com mensagens novas', 
-	'IMG_FORUM_UNREAD_SUBFORUM'	=> 'Sub fórum com mensagens novas', 
-	'IMG_SUBFORUM_READ'			=> 'Sub fórum',
-	'IMG_SUBFORUM_UNREAD'		=> 'Sub fórum com mensagens novas',
+	'IMG_FORUM_UNREAD'			=> 'Fórum com mensagens não lidas', 
+	'IMG_FORUM_UNREAD_LOCKED'	=> 'Fórum trancado com mensagens não lidas', 
+	'IMG_FORUM_UNREAD_SUBFORUM'	=> 'Subfórum com mensagens não lidas', 
+	'IMG_SUBFORUM_READ'			=> 'Subfórum',
+	'IMG_SUBFORUM_UNREAD'		=> 'Subfórum com mensagens não lidas',
 
 	'IMG_TOPIC_MOVED'			=> 'Tópico movido', 
 
@@ -182,39 +180,39 @@ $lang = array_merge($lang, array(
 	'IMG_TOPIC_READ_LOCKED'			=> 'Tópico trancado',
 	'IMG_TOPIC_READ_LOCKED_MINE'	=> 'Tópico trancado enviado para',
 
-	'IMG_TOPIC_UNREAD'				=> 'Tópico com novas mensagens',
+	'IMG_TOPIC_UNREAD'				=> 'Tópico com mensagens não lidas',
 	'IMG_TOPIC_UNREAD_MINE'			=> 'Tópico enviado para novo',
-	'IMG_TOPIC_UNREAD_HOT'			=> 'Tópico popular com novas mensagens',
-	'IMG_TOPIC_UNREAD_HOT_MINE'		=> 'Tópico popular enviado para novo',
-	'IMG_TOPIC_UNREAD_LOCKED'		=> 'Tópico trancado novo',
-	'IMG_TOPIC_UNREAD_LOCKED_MINE'	=> 'Tópico trancado enviado para novo',
+	'IMG_TOPIC_UNREAD_HOT'			=> 'Tópico popular com mensagens não lidas',
+	'IMG_TOPIC_UNREAD_HOT_MINE'		=> 'Tópico popular enviado como não lido',
+	'IMG_TOPIC_UNREAD_LOCKED'		=> 'Tópico não lido trancado',
+	'IMG_TOPIC_UNREAD_LOCKED_MINE'	=> 'Tópico trancado enviado para não lido',
 
 	'IMG_STICKY_READ'				=> 'Tópico fixado', 
 	'IMG_STICKY_READ_MINE'			=> 'Tópico fixado enviado para', 
 	'IMG_STICKY_READ_LOCKED'		=> 'Tópico fixado trancado', 
-	'IMG_STICKY_READ_LOCKED_MINE'	=> 'Tópico fixado trancado enviado para novo', 
-	'IMG_STICKY_UNREAD'				=> 'Tópico fixado com novas mensagens', 
-	'IMG_STICKY_UNREAD_MINE'		=> 'Tópico fixado enviado para novo', 
-	'IMG_STICKY_UNREAD_LOCKED'		=> 'Tópico fixado trancado com novas mensagens', 
-	'IMG_STICKY_UNREAD_LOCKED_MINE'	=> 'Tópico fixado trancado enviado para novo', 
+	'IMG_STICKY_READ_LOCKED_MINE'	=> 'Tópico fixado trancado enviado para não lido', 
+	'IMG_STICKY_UNREAD'				=> 'Tópico fixado com mensagens não lidas', 
+	'IMG_STICKY_UNREAD_MINE'		=> 'Tópico fixado enviado para não lido', 
+	'IMG_STICKY_UNREAD_LOCKED'		=> 'Tópico fixado trancado com mensagens não lidas', 
+	'IMG_STICKY_UNREAD_LOCKED_MINE'	=> 'Tópico fixado trancado enviado para não lido', 
 
 	'IMG_ANNOUNCE_READ'					=> 'Anúncio', 
 	'IMG_ANNOUNCE_READ_MINE'			=> 'Anúncio enviado para', 
 	'IMG_ANNOUNCE_READ_LOCKED'			=> 'Anúncio trancado', 
 	'IMG_ANNOUNCE_READ_LOCKED_MINE'		=> 'Anúncio trancado enviado para', 
-	'IMG_ANNOUNCE_UNREAD'				=> 'Anúncio com novas mensagens', 
-	'IMG_ANNOUNCE_UNREAD_MINE'			=> 'Anúncio enviado para novo', 
-	'IMG_ANNOUNCE_UNREAD_LOCKED'		=> 'Anúncio trancado novo mensagem', 
-	'IMG_ANNOUNCE_UNREAD_LOCKED_MINE'	=> 'Anúncio trancado enviado para novo', 
+	'IMG_ANNOUNCE_UNREAD'				=> 'Anúncio com mensagens não lidas', 
+	'IMG_ANNOUNCE_UNREAD_MINE'			=> 'Anúncio enviado para não lido', 
+	'IMG_ANNOUNCE_UNREAD_LOCKED'		=> 'Anúncio trancado com mensagens não lidas', 
+	'IMG_ANNOUNCE_UNREAD_LOCKED_MINE'	=> 'Anúncio trancado enviado para não lido', 
 
 	'IMG_GLOBAL_READ'					=> 'Global', 
 	'IMG_GLOBAL_READ_MINE'				=> 'Global enviado para', 
 	'IMG_GLOBAL_READ_LOCKED'			=> 'Global trancado', 
 	'IMG_GLOBAL_READ_LOCKED_MINE'		=> 'Global trancado enviado para', 
-	'IMG_GLOBAL_UNREAD'					=> 'Global com novas mensagens', 
-	'IMG_GLOBAL_UNREAD_MINE'			=> 'Global enviado para novo', 
-	'IMG_GLOBAL_UNREAD_LOCKED'			=> 'Global trancado com novas mensagens', 
-	'IMG_GLOBAL_UNREAD_LOCKED_MINE'		=> 'Global trancado enviado para novo', 
+	'IMG_GLOBAL_UNREAD'					=> 'Global com mensagens não lidas', 
+	'IMG_GLOBAL_UNREAD_MINE'			=> 'Global enviado para não lido', 
+	'IMG_GLOBAL_UNREAD_LOCKED'			=> 'Global trancado com mensagens não lidas', 
+	'IMG_GLOBAL_UNREAD_LOCKED_MINE'		=> 'Global trancado enviado para não lido', 
 
 	'IMG_PM_READ'		=> 'Mensagem particular lida', 
 	'IMG_PM_UNREAD'		=> 'Mensagem particular não-lida', 

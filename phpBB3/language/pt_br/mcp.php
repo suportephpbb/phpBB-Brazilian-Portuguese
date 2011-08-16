@@ -1,17 +1,15 @@
 <?php
-/** 
-* 
-* mcp.php [Brazilian Portuguese] 
-* 
+/**
+*
+* mcp [Brazilian Portuguese]
+*
 * @package language
-* @version $Id: mcp.php,v 1.0 2010/04/16 21:32:00 Suporte phpBB Exp $
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
-*/  
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
+*/
 
 /** 
 * DO NOT CHANGE 
@@ -323,15 +321,15 @@ $lang = array_merge($lang, array(
 	'SORT_DATE'							=> 'Data', 
 	'SORT_IP'							=> 'Endereço de IP', 
 	'SORT_WARNINGS'						=> 'Advertências', 
-	'SPLIT_AFTER'						=> 'Subdividir a partir da mensagem selecionada', 
-	'SPLIT_FORUM'						=> 'Fórum para o novo tópico', 
-	'SPLIT_POSTS'						=> 'Subdividir as mensagens selecionadas', 
-	'SPLIT_SUBJECT'						=> 'Novo título do tópico', 
-	'SPLIT_TOPIC_ALL'					=> 'Subdividir tópico das mensagens selecionadas', 
-	'SPLIT_TOPIC_ALL_CONFIRM'			=> 'Você deseja realmente subdividir o tópico selecionado?', 
-	'SPLIT_TOPIC_BEYOND'				=> 'Subdividir o tópico na mensagem selecionada', 
-	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Você deseja realmente subdividir o tópico na mensagem selecionada?', 
-	'SPLIT_TOPIC_EXPLAIN'				=> 'Aqui você pode subdividir um tópico em dois, tanto selecionando as mensagens individualmente, como dividindo a partir de uma mensagem selecionada.',
+	'SPLIT_AFTER'						=> 'Dividir a partir da mensagem selecionada', 
+	'SPLIT_FORUM'						=> 'Fórum do novo tópico',
+	'SPLIT_POSTS'						=> 'Dividir as mensagens selecionadas', 
+	'SPLIT_SUBJECT'						=> 'Título do novo tópico',
+	'SPLIT_TOPIC_ALL'					=> 'Dividir tópico das mensagens selecionadas', 
+	'SPLIT_TOPIC_ALL_CONFIRM'			=> 'Você deseja realmente dividir o tópico selecionado?', 
+	'SPLIT_TOPIC_BEYOND'				=> 'Dividir o tópico na mensagem selecionada', 
+	'SPLIT_TOPIC_BEYOND_CONFIRM'		=> 'Você deseja realmente dividir o tópico na mensagem selecionada?', 
+	'SPLIT_TOPIC_EXPLAIN'				=> 'Aqui você pode dividir um tópico em dois, tanto selecionando as mensagens individualmente, como dividindo a partir de uma mensagem selecionada.',
 	
 	'THIS_PM_IP'				=> 'Endereço IP para esta mensagem privada',
 	'THIS_POST_IP'				=> 'Endereço de IP para esta mensagem', 

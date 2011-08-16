@@ -1,17 +1,15 @@
 <?php
-/** 
-* 
-* acp_common.php [Brazilian Portuguese] 
-* 
-* @package language 
-* @version $Id: common.php,v 1.0 2010/04/16 21:04:16 Suporte phpBB Exp $
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
-*/ 
+/**
+*
+* acp_common [Brazilian Portuguese]
+*
+* @package language
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
+*/
 
 /** 
 * DO NOT CHANGE 
@@ -192,7 +190,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_USER_WARNINGS'				=> 'Advertências',
 
-	'ACP_VC_SETTINGS'					=> 'Configurações do módulo CAPTCHA', 
+	'ACP_VC_SETTINGS'					=> 'Medidas de combate à spambots',
 	'ACP_VC_CAPTCHA_DISPLAY'			=> 'Previsão da imagem CAPTCHA', 
 	'ACP_VERSION_CHECK'					=> 'Checar atualizações', 
 	'ACP_VIEW_ADMIN_PERMISSIONS'		=> 'Ver permissões de administração', 
@@ -503,12 +501,12 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_SERVER'			=> '<strong>Configurações do servidor alteradas</strong>', 
 	'LOG_CONFIG_SETTINGS'		=> '<strong>Configurações do fórum alteradas</strong>', 
 	'LOG_CONFIG_SIGNATURE'		=> '<strong>Configurações da assinatura alteradas</strong>', 
-	'LOG_CONFIG_VISUAL'			=> '<strong>Configurações da confirmação visual alteradas</strong>', 
+	'LOG_CONFIG_VISUAL'			=> '<strong>Configurações anti-spambots alteradas</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Tópico aprovado</strong><br />» %s', 
 	'LOG_BUMP_TOPIC'			=> '<strong>Tópico ressuscitado</strong><br />» %s', 
 	'LOG_DELETE_POST'			=> '<strong>Mensagem excluída</strong><br />» %s', 
-    'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Tópico fantasma excluído</strong><br />» %s',
+   'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Tópico fantasma excluído</strong><br />» %s',
 	'LOG_DELETE_TOPIC'			=> '<strong>Tópico excluído</strong><br />» %s',
 	'LOG_FORK'					=> '<strong>Tópico copiado</strong><br />» de %s',
 	'LOG_LOCK'					=> '<strong>Tópico trancado</strong><br />» %s',

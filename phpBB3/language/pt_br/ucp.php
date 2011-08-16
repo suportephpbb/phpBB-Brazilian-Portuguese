@@ -1,17 +1,15 @@
 <?php
-/** 
-* 
-* ucp.php [Brazilian Portuguese] 
-* 
+/**
+*
+* ucp [Brazilian Portuguese]
+*
 * @package language
-* @version $Id: ucp.php,v 1.0 2010/04/16 21:35:20 Suporte phpBB Exp $
-* @copyright (c) 2010 Suporte phpBB
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License 
-* @Traduzido por:
-* @Suporte phpBB - <http://www.suportephpbb.com.br/>
-* @Versão do phpBB: 3.0.7
-* 
-*/ 
+* @version 3.0.8
+* @copyright (c) 2010 Suporte phpBB < http://www.suportephpbb.com.br >
+* @license http://opensource.org/licenses/gpl-license.php GNU Public License
+* Original copyright: (c) 2005 phpBB Group
+*
+*/
 
 /** 
 * DO NOT CHANGE 
@@ -109,7 +107,7 @@ $lang = array_merge($lang, array(
 	'BOARD_DATE_FORMAT'			=> 'Formato da data', 
 	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'A sintaxe utilizada é idêntica à função PHP <a href="http://www.php.net/date">date()</a> existente.',
 	'BOARD_DST'					=> 'Ativar horário de verão', 
-	'BOARD_LANGUAGE'			=> 'Minha língua', 
+	'BOARD_LANGUAGE'			=> 'Meu idioma', 
 	'BOARD_STYLE'				=> 'Meu estilo', 
 	'BOARD_TIMEZONE'			=> 'Meu fuso horário', 
 	'BOOKMARKS'					=> 'Favoritos', 
@@ -243,7 +241,7 @@ $lang = array_merge($lang, array(
 	 
 	'JOIN_SELECTED'				=> 'Unir selecionados',	 
 
-	'LANGUAGE'					=> 'Língua', 
+	'LANGUAGE'					=> 'Idioma', 
 	'LINK_REMOTE_AVATAR'		=> 'Enviar um avatar fora desta página', 
 	'LINK_REMOTE_AVATAR_EXPLAIN'=> 'Escreva a URL da página que possui o avatar que será exibido no fórum.', 
 	'LINK_REMOTE_SIZE'			=> 'Dimensões do avatar', 
