@@ -4,12 +4,12 @@
 * ucp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: ucp.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
+* @version $Id: ucp.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por: 
 * @Suporte phpBB - <http://www.suportephpbb.org/> 
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 
@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	<br />
 	Você aceita <b>não enviar qualquer mensagem abusiva, obscena, vulgar, insultuosa, difamadora, de ódio, ameaçadora, sexualmente tendenciosa ou qualquer outro material que possa violar qualquer lei aplicável. A incidência desses fatos implicará em sua expulsão imediata e permanente</b>. <b>Os endereços de IP de todas as mensagens são registrados para ajudar a implementar essas condições.</b> Você concorda que os administradores e moderadores deste fórum possuem o direito de excluir, editar, mover ou trancar qualquer tópico a qualquer hora que eles assim o decidam e seja implícito. Como usuário você aceita que qualquer informação que forneceu acima seja salva em um banco de dados. Apesar dessa informação não ser fornecida a terceiros sem a sua autorização, os administradores ou moderadores não podem assumir a responsabilidade por qualquer tentativa ou ato de \'hacking\', intromissão forçada e ilegal que conduza a exposição dessa informação.<br />
 	<br />
-	O sistema phpBB utiliza \'cookies\' para salvar informações no seu computador. Esses \'cookies\' não possuem nenhuma das informações acima fornecidas, apenas servem para melhorar o seu conforto enquanto visita este fórum. O endereço de email é apenas utilizado para confirmar a informação do seu registro e a senha (bem como para enviar novas senhas caso se esqueça da que enviou ao se registrar).<br />
+	O sistema phpBB utiliza \'cookies\' para salvar informações no seu computador. Esses \'cookies\' não possuem nenhuma das informações acima fornecidas, apenas servem para melhorar o seu conforto enquanto visita este fórum. O endereço de e-mail é apenas utilizado para confirmar a informação do seu registro e a senha (bem como para enviar novas senhas caso se esqueça da que enviou ao se registrar).<br />
 	<br />
 	Ao clicar abaixo para prosseguir com o registro você concorda em seguir estas condições.', 
 	 
@@ -55,9 +55,9 @@ $lang = array_merge($lang, array(
 	<br /> 
 	Nós também precisamos criar cookies externos ao software phpBB enquanto navegando em "%1$s", e ainda que estes sejam externos, a extensão destes documentos pretende apenas proteger as páginas criadas pelo sistema. O segundo meio em que poderemos coletar as suas informações é pelo o quê você submeter à nós. Este pode ser, e não é limitado a: postando como um usuário anônimo, registrando-se em "%1$s" e ainda sob as mensagens enviadas por você após o registro e enquanto feito o login no fórum.<br /> 
 	<br /> 
-	O seu registro estará em exibição sobre um nome de usuário único, uma senha pessoal utilizada para entrar em sua conta e um endereço de email válido e restrito. As informações para o seu registro em "%1$s" são protegidas pelas leis de proteção de dados aplicáveis no país vigente e no servidor em que estamos hospedados. Qualquer informação além de seu nome de usuário, sua senha e seu endereço de email solicitados por "%1$s" durante o processo de registro estão em nossa digressão sobre o que é obrigatório e o que é opcional. Em todo caso, você possui a opção de selecionar quais informações você deseja que sejam exibidas. E ainda, com o seu registro você possui a opção de escolher receber ou não os emails automáticos gerados pelo software phpBB.<br /> 
+	O seu registro estará em exibição sobre um nome de usuário único, uma senha pessoal utilizada para entrar em sua conta e um endereço de e-mail válido e restrito. As informações para o seu registro em "%1$s" são protegidas pelas leis de proteção de dados aplicáveis no país vigente e no servidor em que estamos hospedados. Qualquer informação além de seu nome de usuário, sua senha e seu endereço de e-mail solicitados por "%1$s" durante o processo de registro estão em nossa digressão sobre o que é obrigatório e o que é opcional. Em todo caso, você possui a opção de selecionar quais informações você deseja que sejam exibidas. E ainda, com o seu registro você possui a opção de escolher receber ou não os e-mails automáticos gerados pelo software phpBB.<br /> 
 	<br /> 
-	A sua senha é codificada em nosso banco de dados para uma maior segurança. Entretanto, não é recomendável que você utilize a mesma senha para diferentes websites. A sua senha é solicitada para o acesso de seu registro em "%1$s", então por favor, salve-a de forma segura. Por favor, note que abaixo de quaisquer circunstâncias ninguém afiliado a "%1$s", o phpBB ou quaisquer terceiros, está legalmente autorizado para lhe exigir a sua senha. Em incidência da perda de sua senha, você pode utilizar a opção "Esqueci a senha" oferecida pelo software phpBB. Este processo irá lhe solicitar que envie o seu nome de usuário e endereço de email, para que o sistema gere uma nova senha e você possa reativar o seu registro.<br />', 
+	A sua senha é codificada em nosso banco de dados para uma maior segurança. Entretanto, não é recomendável que você utilize a mesma senha para diferentes websites. A sua senha é solicitada para o acesso de seu registro em "%1$s", então por favor, salve-a de forma segura. Por favor, note que abaixo de quaisquer circunstâncias ninguém afiliado a "%1$s", o phpBB ou quaisquer terceiros, está legalmente autorizado para lhe exigir a sua senha. Em incidência da perda de sua senha, você pode utilizar a opção "Esqueci a senha" oferecida pelo software phpBB. Este processo irá lhe solicitar que envie o seu nome de usuário e endereço de e-mail, para que o sistema gere uma nova senha e você possa reativar o seu registro.<br />', 
 )); 
 
 
@@ -67,13 +67,13 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'O seu registro foi ativado.',
 	'ACCOUNT_ACTIVE_PROFILE'		=> 'O seu registro foi reativado com sucesso.',
 	'ACCOUNT_ADDED'					=> 'Bem-vindo ao fórum!<br />Obrigado pelo seu registro<br />O seu registro foi criado. Agora, entre no fórum com o seu nome de usuário e senha.',
-	'ACCOUNT_COPPA'					=> 'Bem-vindo ao fórum!<br />Obrigado pelo seu registro<br />O seu registro foi criado, mas deve ser aprovado. Por favor, verifique o seu email para mais informações.', 
-	'ACCOUNT_EMAIL_CHANGED'			=> 'O seu registro foi atualizado. Entretanto, este fórum exige que as alterações de email sejam reativadas, uma chave de ativação foi enviada para o seu novo endereço de email informado. Por favor, verifique o seu email para mais informações.',
-	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'O seu registro foi atualizado. Entretanto, este fórum exige que as alterações de email sejam reativadas pelo administrador. Um email será enviado e você será devidamente avisado quando tal acontecer.',	
-	'ACCOUNT_INACTIVE'				=> 'Bem-vindo ao fórum!<br />Obrigado pelo seu registro<br />O seu registro foi criado. Porém, é necessário que o mesmo seja ativado. Por favor, verifique o seu email para mais informações.',
+	'ACCOUNT_COPPA'					=> 'Bem-vindo ao fórum!<br />Obrigado pelo seu registro<br />O seu registro foi criado, mas deve ser aprovado. Por favor, verifique o seu e-mail para mais informações.', 
+	'ACCOUNT_EMAIL_CHANGED'			=> 'O seu registro foi atualizado. Entretanto, este fórum exige que as alterações de e-mail sejam reativadas, uma chave de ativação foi enviada para o seu novo endereço de e-mail informado. Por favor, verifique o seu e-mail para mais informações.',
+	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'O seu registro foi atualizado. Entretanto, este fórum exige que as alterações de e-mail sejam reativadas pelo administrador. Um e-mail será enviado e você será devidamente avisado quando tal acontecer.',	
+	'ACCOUNT_INACTIVE'				=> 'Bem-vindo ao fórum!<br />Obrigado pelo seu registro<br />O seu registro foi criado. Porém, é necessário que o mesmo seja ativado. Por favor, verifique o seu e-mail para mais informações.',
 	'ACCOUNT_INACTIVE_ADMIN'		=> 'Bem-vindo ao fórum!<br />Obrigado pelo seu registro<br />O seu registro foi criado. Porém, é necessário que o mesmo seja ativado pelo administrador do fórum. Por favor, aguarde mais informações e até que seu registro seja ativado.',
-	'ACTIVATION_EMAIL_SENT'			=> 'O email de ativação foi enviado para o seu endereço de email.',
-	'ACTIVATION_EMAIL_SENT_ADMIN'   => 'O email de ativação foi enviado para o endereço de email do administrador.',
+	'ACTIVATION_EMAIL_SENT'			=> 'O e-mail de ativação foi enviado para o seu endereço de e-mail.',
+	'ACTIVATION_EMAIL_SENT_ADMIN'   => 'O e-mail de ativação foi enviado para o endereço de e-mail do administrador.',
 	'ADD'							=> 'Adicionar', 
 	'ADD_BCC'						=> 'Adicionar [BCC]', 
 	'ADD_FOES'						=> 'Adicionar novo inimigo', 
@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'ADD_NEW_RULE'					=> 'Adicionar nova regra', 
 	'ADD_RULE'						=> 'Aicionar regra', 
 	'ADD_TO'						=> 'Adicionar [Para]', 
-	'ADMIN_EMAIL'					=> 'Receber emails informativos do fórum', 
+	'ADMIN_EMAIL'					=> 'Receber e-mails informativos do fórum', 
 	'AGREE'							=> 'Eu aceito estes termos', 
 	'ALLOW_PM'						=> 'Receber mensagens particulares de outros usuários', 
 	'ALLOW_PM_EXPLAIN'				=> 'Note que os administradores e moderadores sempre poderão lhe enviar mensagens.', 
@@ -125,18 +125,18 @@ $lang = array_merge($lang, array(
 	'CLICK_RETURN_FOLDER'		=> '%1$sVoltar à sua pasta "%3$s"%2$s', 
 	'CONFIRMATION'				=> 'Confirmação de registro', 
 	'CONFIRM_CHANGES'			=> 'Confirmar alterações', 
-	'CONFIRM_EMAIL'				=> 'Confirmar endereço de email',
-	'CONFIRM_EMAIL_EXPLAIN'		=> 'Você precisa confirmar isso apenas caso pretenda alterar o endereço de email.', 
+	'CONFIRM_EMAIL'				=> 'Confirmar endereço de e-mail',
+	'CONFIRM_EMAIL_EXPLAIN'		=> 'Você precisa confirmar isso apenas caso pretenda alterar o endereço de e-mail.', 
 	'CONFIRM_EXPLAIN'			=> 'Para prevenir registros automáticos o administrador do fórum exige que você escreva um código de confirmação. O código é exibido na imagem que você deverá visualizar abaixo. Se você possui qualquer problema visual ou que possa impedir o seu registro, contate o %sadministrador%s do fórum para solicitar ajuda.', 
 	'CONFIRM_PASSWORD'			=> 'Confirmar senha', 
 	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Você precisa confirmar a sua senha apenas caso pretenda alterá-la.',
 	'COPPA_BIRTHDAY'			=> 'Para continuar com o seu procedimento de registro, por favor, informe quando você nasceu.', 
 	'COPPA_COMPLIANCE'			=> 'Complacência da COPPA', 
-	'COPPA_EXPLAIN'				=> 'Por favor, note que ao clicar em enviar você criará o seu registro. Porém, não pode ser ativado até que o seu pai ou responsável o aprove. Você receberá um email com uma cópia em detalhes do formulário a ser preenchido e para onde enviar o mesmo.', 
+	'COPPA_EXPLAIN'				=> 'Por favor, note que ao clicar em enviar você criará o seu registro. Porém, não pode ser ativado até que o seu pai ou responsável o aprove. Você receberá um e-mail com uma cópia em detalhes do formulário a ser preenchido e para onde enviar o mesmo.', 
 	'CREATE_FOLDER'				=> 'Adicionar pasta', 
 	'CURRENT_IMAGE'				=> 'Imagem atual', 
 	'CURRENT_PASSWORD'			=> 'Senha atual', 
-	'CURRENT_PASSWORD_EXPLAIN'	=> 'Você precisa confirmar a sua senha atual apenas caso pretenda modificá-la, alterar o endereço de email ou o nome de usuário.', 
+	'CURRENT_PASSWORD_EXPLAIN'	=> 'Você precisa confirmar a sua senha atual apenas caso pretenda modificá-la, alterar o endereço de e-mail ou o nome de usuário.', 
 	'CUR_PASSWORD_ERROR'		=> 'A senha atual que você escreveu está incorreta.', 
 	'CUSTOM_DATEFORMAT'			=> 'Personalizar…', 
 
@@ -165,18 +165,18 @@ $lang = array_merge($lang, array(
 	'DEMOTE_SELECTED'			=> 'Demição selecionada', 
 	'DISABLE_CENSORS'			=> 'Ativar palavras censuradas', 
 	'DISPLAY_GALLERY'			=> 'Exibir a galeria', 
-	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'O domínio do endereço de email escrito não é um registro MX válido.', 
+	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'O domínio do endereço de e-mail escrito não é um registro MX válido.', 
 	'DOWNLOADS'					=> 'Downloads', 
 	'DRAFTS_DELETED'			=> 'Todos os rascunhos selecionados foram excluídos com sucesso.', 
 	'DRAFTS_EXPLAIN'			=> 'Aqui você pode ver, editar e excluir os seus rascunhos salvos.', 
 	'DRAFT_UPDATED'				=> 'O rascunho foi atualizado com sucesso.', 
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Aqui você pode editar os seus rascunhos. Os rascunhos não contêm anexos e informações de enquetes.', 
-	'EMAIL_BANNED_EMAIL'		=> 'Este endereço de email foi banido.', 
-	'EMAIL_INVALID_EMAIL'		=> 'Este endereço de email é inválido.',
-	'EMAIL_REMIND'				=> 'Este deve ser o endereço de email associado à sua conta. Se você não alterou este email pelo painel de controle do usuário, este é o endereço que você informou ao se registrar.',
+	'EMAIL_BANNED_EMAIL'		=> 'Este endereço de e-mail foi banido.', 
+	'EMAIL_INVALID_EMAIL'		=> 'Este endereço de e-mail é inválido.',
+	'EMAIL_REMIND'				=> 'Este deve ser o endereço de e-mail associado à sua conta. Se você não alterou este e-mail pelo painel de controle do usuário, este é o endereço que você informou ao se registrar.',
 
-	'EMAIL_TAKEN_EMAIL'			=> 'Este endereço de email já foi registrado em nosso banco de dados.',
+	'EMAIL_TAKEN_EMAIL'			=> 'Este endereço de e-mail já foi registrado em nosso banco de dados.',
 	'EMPTY_DRAFT'				=> 'Você deve escrever uma mensagem para enviar as suas modificações.', 
 	'EMPTY_DRAFT_TITLE'			=> 'Você deve escrever um título para o rascunho.',
 	'EXPORT_AS_XML'				=> 'Exportar em XML', 
@@ -266,13 +266,13 @@ $lang = array_merge($lang, array(
 	'MOVE_TO_FOLDER'				=> 'Mover para a pasta', 
 	'MOVE_UP'						=> 'Mover - cima', 
 		 
-	'NEW_EMAIL_ERROR'				=> 'Os endereços de email escritos não coincidem entre si.', 
+	'NEW_EMAIL_ERROR'				=> 'Os endereços de e-mail escritos não coincidem entre si.', 
 	'NEW_FOLDER_NAME'				=> 'Nome da nova pasta', 
 	'NEW_PASSWORD'					=> 'Nova senha', 
 	'NEW_PASSWORD_ERROR'			=> 'As senhas escritas não coincidem entre si.', 
-	'NOTIFY_METHOD'					=> 'Método de aviso', 
+	'NOTIFY_METHOD'					=> 'Método de notificação', 
 	'NOTIFY_METHOD_BOTH'			=> 'Ambos', 
-	'NOTIFY_METHOD_EMAIL'			=> 'Somente email', 
+	'NOTIFY_METHOD_EMAIL'			=> 'Somente e-mail', 
 	'NOTIFY_METHOD_EXPLAIN'			=> 'O método de envio de mensagens pelo painel.', 
 	'NOTIFY_METHOD_IM'				=> 'Apenas jabber', 
 	'NOTIFY_ON_PM'					=> 'Notificar-me quando houver mensagens particulares novas', 
@@ -304,7 +304,7 @@ $lang = array_merge($lang, array(
 	'NO_BOOKMARKS'				=> 'Não há nenhum favorito', 
 	'NO_BOOKMARKS_SELECTED'		=> 'Nenhum favorito foi selecionado.', 
 	'NO_EDIT_READ_MESSAGE'      => 'A mensagem particular não pode ser editada porque a mesma já foi lida.',
-	'NO_EMAIL_USER'				=> 'A informação do nome de usuário/endereço de email informada não foi encontrada.', 
+	'NO_EMAIL_USER'				=> 'A informação do nome de usuário/endereço de e-mail informada não foi encontrada.', 
 	'NO_FOES'					=> 'Não há inimigos atualmente definidos', 
 	'NO_FRIENDS'				=> 'Não há amigos atualmente definidos', 
 	'NO_FRIENDS_OFFLINE'		=> 'Não há nenhum amigo offline', 
@@ -329,7 +329,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'A senha deve compreender entre %1$d e %2$d caracteres e deve conter símbolos.',
 	'PASSWORD'					=> 'Senha',			 
 	'PASSWORD_ACTIVATED'		=> 'A sua nova senha foi ativada.', 
-	'PASSWORD_UPDATED'			=> 'A sua senha foi enviada ao seu endereço de email com sucesso.', 
+	'PASSWORD_UPDATED'			=> 'A sua senha foi enviada ao seu endereço de e-mail com sucesso.', 
 	'PERMISSIONS_RESTORED'		=> 'As permissões originais foram restauradas com sucesso.', 
 	'PERMISSIONS_TRANSFERRED'	=> 'As permissões foram transferidas de <strong>%s</strong>, agora você pode navegar no fórum com as permissões do usuários.<br />Por favor, note que as permissões de administrador não foram transferidas. Você ainda pode restaurar as suas permissões originais a qualquer momento.', 
 	'PM_DISABLED'				=> 'As mensagens particulares foram desativadas neste painel.',
@@ -383,7 +383,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_YOUR_POSTS'			=> 'Ver as suas mensagens', 
 	'SEND_PASSWORD'				=> 'Enviar senha', 
 	'SENT_AT'					=> 'Enviado em', 
-	'SHOW_EMAIL'				=> 'Exibir meu endereço de email', 
+	'SHOW_EMAIL'				=> 'Exibir meu endereço de e-mail', 
 	'SIGNATURE_EXPLAIN'			=> 'Escreva aqui um texto que será adicionado às mensagens que você enviar no fórum. O limite existente é de %d caracteres.', 
 	'SIGNATURE_PREVIEW'			=> 'Prever assinatura', 
 	'SIGNATURE_TOO_LONG'		=> 'A sua assinatura é muito grande.', 
@@ -402,12 +402,12 @@ $lang = array_merge($lang, array(
 
 	'UCP'						=> 'Painel de Controle do Usuário', 
 	'UCP_ACTIVATE'				=> 'Ativar registro', 
-	'UCP_ADMIN_ACTIVATE'		=> 'Você precisará escrever um endereço de email válido para que o seu registro seja ativado. O administrador revisará a sua conta, e se aprovada, você vai receber um email com as informações para ativar o seu registro.',
+	'UCP_ADMIN_ACTIVATE'		=> 'Você precisará escrever um endereço de e-mail válido para que o seu registro seja ativado. O administrador revisará a sua conta, e se aprovada, você vai receber um e-mail com as informações para ativar o seu registro.',
 	'UCP_AIM'					=> 'AIM', 
 	'UCP_ATTACHMENTS'			=> 'Anexos', 
 	'UCP_COPPA_BEFORE'			=> 'Antes de %s', 
 	'UCP_COPPA_ON_AFTER'		=> 'Em ou depois de %s', 
-	'UCP_EMAIL_ACTIVATE'		=> 'Por favor, note que você precisará escrever um endereço de email válido para que o seu registro seja ativado. Você vai receber um email contendo as informações necessárias para a sua ativação.', 
+	'UCP_EMAIL_ACTIVATE'		=> 'Por favor, note que você precisará escrever um endereço de e-mail válido para que o seu registro seja ativado. Você vai receber um e-mail contendo as informações necessárias para a sua ativação.', 
 	'UCP_ICQ'					=> 'Número de ICQ', 
 	'UCP_JABBER'				=> 'Endereço jabber', 
 
@@ -447,7 +447,7 @@ $lang = array_merge($lang, array(
 
 	'UCP_REGISTER_DISABLE'			=> 'Não é possível criar novos registros atualmente.', 
 	'UCP_REMIND'					=> 'Enviar senha', 
-	'UCP_RESEND'					=> 'Enviar email de ativação', 
+	'UCP_RESEND'					=> 'Enviar e-mail de ativação', 
 	'UCP_WELCOME'					=> 'Bem-vindo ao painel de controle do usuário. Aqui você pode administrar, ver e atualizar o seu perfil, preferências, tópicos e fóruns subscritos. Você também pode enviar mensagens a outros usuários (se permitido). Por favor, certifique-se de ter lido qualquer dos anúncios antes de continuar.', 
 	'UCP_YIM'						=> 'Yahoo! Messenger', 
 	'UCP_ZEBRA'						=> 'Amigos &amp; Inimigos', 
@@ -489,7 +489,7 @@ $lang = array_merge($lang, array(
 	'VIEW_POSTS_DIR'			=> 'Exibir mensagens ordenadas por direção', 
 	'VIEW_POSTS_KEY'			=> 'Exibir mensagens ordenadas por', 
 
-	'WATCHED_EXPLAIN'			=> 'Abaixo há uma lista de fóruns e tópicos que você subscreveu. Você será devidamente avisado sobre novas mensagens nos mesmos. Para cancelar a sua subscrição, selecione o fórum ou tópico desejado e então pressione o botão <em>Desmarcar selecionados</em>.', 
+	'WATCHED_EXPLAIN'			=> 'Abaixo há uma lista de fóruns e tópicos que você subscreveu. Você será devidamente notificado sobre novas mensagens nos mesmos. Para cancelar a sua subscrição, selecione o fórum ou tópico desejado e então pressione o botão <em>Desmarcar selecionados</em>.', 
 	'WATCHED_FORUMS'				=> 'Fóruns subscritos', 
 	'WATCHED_TOPICS'				=> 'Tópicos subscritos', 
 	'WRONG_ACTIVATION'			=> 'A chave de ativação que você forneceu não coincide com nenhuma do banco de dados.',

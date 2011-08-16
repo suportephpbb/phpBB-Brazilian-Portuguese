@@ -1,8 +1,8 @@
-Subject: Denúncia trancada - "{POST_SUBJECT}"
+Subject: DenÃºncia trancada - "{POST_SUBJECT}"
 
-Olá {USERNAME},
+OlÃ¡ {USERNAME},
 
-Você recebeu esta mensagem porque a sua denúncia enviada sobre a mensagem "{POST_SUBJECT}" no tópico "{TOPIC_TITLE}" em "{SITENAME}" foi manuseada por um moderador ou administrador. A denúncia foi trancada em seguida. Se você tem mais perguntas a respeito, contate o usuário {CLOSER_NAME} com uma mensagem particular.
+VocÃª recebeu este e-mail porque a sua denÃºncia feita sobre a mensagem "{POST_SUBJECT}" no tÃ³pico "{TOPIC_TITLE}" em "{SITENAME}" foi manuseada por um moderador ou administrador e trancada em seguida. Se vocÃª tem mais perguntas a respeito, contate o usuÃ¡rio {CLOSER_NAME} com uma mensagem particular.
 
 
 {EMAIL_SIG}

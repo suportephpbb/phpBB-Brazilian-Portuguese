@@ -4,12 +4,12 @@
 * acp_common.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: common.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
+* @version $Id: common.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	 
 	'ACP_BACKUP'				=> 'Backup', 
 	'ACP_BAN'					=> 'Banimento', 
-	'ACP_BAN_EMAILS'			=> 'Banir emails', 
+	'ACP_BAN_EMAILS'			=> 'Banir e-mails', 
 	'ACP_BAN_IPS'				=> 'Banir IPs', 
 	'ACP_BAN_USERNAMES'			=> 'Banir nomes de usuários', 
 	'ACP_BBCODES'				=> 'BBCodes', 
@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'ACP_DISALLOW'				=> 'Desativar', 
 	'ACP_DISALLOW_USERNAMES'	=> 'Nomes proibidos', 
 
-	'ACP_EMAIL_SETTINGS'		=> 'Configurações de email', 
+	'ACP_EMAIL_SETTINGS'		=> 'Configurações de e-mail', 
 	'ACP_EXTENSION_GROUPS'		=> 'Administrar grupos de extensões', 
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> 'Permissões do fórum', 
@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'ACP_MANAGE_RANKS'				=> 'Ranks', 
 	'ACP_MANAGE_REASONS'			=> 'Administrar razões para denúncias/reprovações', 
 	'ACP_MANAGE_USERS'				=> 'Administrar usuários', 
-	'ACP_MASS_EMAIL'				=> 'Email em massa', 
+	'ACP_MASS_EMAIL'				=> 'E-mail em massa', 
 	'ACP_MESSAGES'					=> 'Mensagens', 
 	'ACP_MESSAGE_SETTINGS'			=> 'Configuração de MPs', 
 	'ACP_MODULE_MANAGEMENT'			=> 'Administração de módulos', 
@@ -202,7 +202,9 @@ $lang = array_merge($lang, array(
 	'ADD'					=> 'Adicionar', 
 	'ADMIN'					=> 'Administração', 
 	'ADMIN_INDEX'			=> 'Índice de administração', 
-	'ADMIN_PANEL'			=> 'Painel de Administração', 
+	'ADMIN_PANEL'			=> 'Painel de Administração',
+	'ADM_LOGOUT'			=> 'Sair do ACP',
+	'ADM_LOGGED_OUT'		=> 'O seu logout do painel de administração foi efetuado com sucesso.',
 
 	'BACK'					=> 'Voltar', 
 
@@ -246,7 +248,7 @@ $lang = array_merge($lang, array(
 
 	'NOTIFY'				=> 'Notificação', 
 	'NO_ADMIN'				=> 'Você não está autorizado a administrar este painel.', 
-	'NO_EMAILS_DEFINED'		=> 'Não há endereços de email válidos encontrados.',
+	'NO_EMAILS_DEFINED'		=> 'Não há endereços de e-mail válidos encontrados.',
 	'NO_PASSWORD_SUPPLIED'	=> 'Você precisa informar a sua senha para acessar ao painel de administração.',	
 
 	'OFF'					=> 'Inativo',
@@ -289,7 +291,7 @@ $lang = array_merge($lang, array(
 // Logs 
 $lang = array_merge($lang, array( 
 	'ACP_ADMIN_LOGS_EXPLAIN'	=> 'Isto lista todas as ações realizadas pelos administradores. Você pode classificar por usuário, data, IP ou ação. Se você tiver as permissões necessárias, você pode limpar operações individuais ou o log como um todo.', 
-	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Isto lista todas as ações realizadas pelo fórum em si. Estes logs provem com informações para você solucionar problemas específicos, por exemplo a falha no envio de emails. Você pode classificar por usuário, data, IP ou ação. Se você possuir as permissões necessárias, você pode limpar operações individuais ou o LOG como um todo.',
+	'ACP_CRITICAL_LOGS_EXPLAIN'	=> 'Isto lista todas as ações realizadas pelo fórum em si. Estes logs provem com informações para você solucionar problemas específicos, por exemplo a falha no envio de e-mails. Você pode classificar por usuário, data, IP ou ação. Se você possuir as permissões necessárias, você pode limpar operações individuais ou o LOG como um todo.',
 	'ACP_MOD_LOGS_EXPLAIN'		=> 'Isto lista todas as ações realizadas pelos moderadores do fórum, então selecione um fórum da lista. Você pode classificar por usuário, data, IP ou ação. Se você possuir as permissões necessárias, você pode limpar operações individuais ou o log como um todo.', 
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'Isto lista todas as ações realizadas pelos usuários do fórum.', 
 	'ALL_ENTRIES'				=> 'Todas as entradas',
@@ -375,8 +377,8 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_REMIND'		=> 'Forçar reativação de registro do usuário', 
 	'INACTIVE_REASON_UNKNOWN'		=> 'Desconhecido', 
 	'INACTIVE_USERS'				=> 'Usuários inativos', 
-	'INACTIVE_USERS_EXPLAIN'		=> 'Isto é uma lista de usuários que se registraram, mas os seus registros encontram-se inativos. Você pode ativar, excluir ou alertar (enviando um email) estes usuários se você desejar.', 
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Isto é uma lista dos 10 usuários recentemente registrados, os quais possuem os seus registros inativos. Uma lista completa está disponível pelo item apropriado no menu ou clicando no link abaixo através de onde você pode ativar, excluir ou alertar (enviando um email) estes usuários se você desejar.', 
+	'INACTIVE_USERS_EXPLAIN'		=> 'Isto é uma lista de usuários que se registraram, mas os seus registros encontram-se inativos. Você pode ativar, excluir ou alertar (enviando um e-mail) estes usuários se você desejar.', 
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Isto é uma lista dos 10 usuários recentemente registrados, os quais possuem os seus registros inativos. Uma lista completa está disponível pelo item apropriado no menu ou clicando no link abaixo através de onde você pode ativar, excluir ou alertar (enviando um e-mail) estes usuários se você desejar.', 
 
 	'NO_INACTIVE_USERS'	=> 'Não há usuários inativos', 
 
@@ -432,13 +434,13 @@ $lang = array_merge($lang, array(
 
 	'LOG_BAN_EXCLUDE_USER'	=> '<strong>Usuário excluído do banimento</strong> pela razão "<em>%1$s</em>"<br />» %2$s ', 
 	'LOG_BAN_EXCLUDE_IP'	=> '<strong>Endereço de IP excluído do banimento</strong> pela razão "<em>%1$s</em>"<br />» %2$s ', 
-	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>Endereço de email excluído do banimento</strong> pela razão "<em>%1$s</em>"<br />» %2$s ', 
+	'LOG_BAN_EXCLUDE_EMAIL' => '<strong>Endereço de e-mail excluído do banimento</strong> pela razão "<em>%1$s</em>"<br />» %2$s ', 
 	'LOG_BAN_USER'			=> '<strong>Usuário banido</strong> pela razão "<em>%1$s</em>"<br />» %2$s ', 
 	'LOG_BAN_IP'			=> '<strong>Endereço de IP banido</strong> pela razão "<em>%1$s</em>"<br />» %2$s', 
-	'LOG_BAN_EMAIL'			=> '<strong>Endereço de email banido</strong> pela razão "<em>%1$s</em>"<br />» %2$s', 
+	'LOG_BAN_EMAIL'			=> '<strong>Endereço de e-mail banido</strong> pela razão "<em>%1$s</em>"<br />» %2$s', 
 	'LOG_UNBAN_USER'		=> '<strong>Usuário desbanido</strong><br />» %s', 
 	'LOG_UNBAN_IP'			=> '<strong>Endereço de IP desbanido</strong><br />» %s', 
-	'LOG_UNBAN_EMAIL'		=> '<strong>Endereço de email desbanido</strong><br />» %s', 
+	'LOG_UNBAN_EMAIL'		=> '<strong>Endereço de e-mail desbanido</strong><br />» %s', 
 
 	'LOG_BBCODE_ADD'		=> '<strong>BBCode adicionado</strong><br />» %s', 
 	'LOG_BBCODE_EDIT'		=> '<strong>BBCode editado</strong><br />» %s', 
@@ -458,7 +460,7 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_AUTH'			=> '<strong>Configurações de autenticação alteradas</strong>', 
 	'LOG_CONFIG_AVATAR'			=> '<strong>Configurações dos avatares alteradas</strong>', 
 	'LOG_CONFIG_COOKIE'			=> '<strong>Configurações dos cookies alteradas</strong>', 
-	'LOG_CONFIG_EMAIL'			=> '<strong>Configurações de emails alteradas</strong>', 
+	'LOG_CONFIG_EMAIL'			=> '<strong>Configurações de e-mails alteradas</strong>', 
 	'LOG_CONFIG_FEATURES'		=> '<strong>Características do fórum alteradas</strong>', 
 	'LOG_CONFIG_LOAD'			=> '<strong>Configurações de carga alteradas</strong>', 
 	'LOG_CONFIG_MESSAGE'		=> '<strong>Configurações de mensagens Particulares alteradas</strong>', 
@@ -508,7 +510,7 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>Endereço de IP/hostname excluído da lista de downloads</strong><br />» %s', 
 
 	'LOG_ERROR_JABBER'		=> '<strong>Erro de jabber</strong><br />» %s', 
-	'LOG_ERROR_EMAIL'		=> '<strong>Erro no email</strong><br />» %s', 
+	'LOG_ERROR_EMAIL'		=> '<strong>Erro no e-mail</strong><br />» %s', 
 
 	'LOG_FORUM_ADD'							=> '<strong>Novo fórum criado</strong><br />» %s', 
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Fórum excluído</strong><br />» %s', 
@@ -549,9 +551,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_INACTIVE_ACTIVATE'	=> '<strong>Usuários inativos ativados</strong><br />» %s', 
 	'LOG_INACTIVE_DELETE'	=> '<strong>Usuários inativos excluídos</strong><br />» %s', 
-	'LOG_INACTIVE_REMIND'	=> '<strong>Enviado emails de alerta a usuários inativos</strong><br />» %s', 
-	'LOG_INSTALL_CONVERTED'	=> '<strong>Atualizado de %1$s para o phpBB %2$s</strong>', 
-	'LOG_INSTALL_INSTALLED'	=> '<strong>Versão do phpBB instalada %s</strong>', 
+	'LOG_INACTIVE_REMIND'	=> '<strong>Enviado e-mails de lembrete a usuários inativos</strong><br />» %s', 
+	'LOG_INSTALL_CONVERTED'	=> '<strong>Atualizado do phpBB %1$s para o phpBB %2$s</strong>', 
+	'LOG_INSTALL_INSTALLED'	=> '<strong>phpBB %s instalado</strong>', 
 
 	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>A verificação da sessão de IP/navegador/X_FORWARDED_FOR falhou</strong><br />»Verificado o endereço de IP do usuário "<em>%1$s</em>" em contraste com a sessão de IP "<em>%2$s</em>", verificado o navegador do usuário "<em>%3$s</em>" em contraste com a sessão de navegador "<em>%4$s</em>" e verificado o X_FORWARDED_FOR do usuário "<em>%5$s</em>" em contraste com a sessão de X_FORWARDED_FOR "<em>%6$s</em>".', 
 
@@ -566,7 +568,7 @@ $lang = array_merge($lang, array(
 	'LOG_LANGUAGE_FILE_REPLACED'	=> '<strong>Arquivos de linguagem substituidos</strong><br />» %s', 
 	'LOG_LANGUAGE_FILE_SUBMITTED'	=> '<strong>Arquivo de linguagem enviado e armazenado na pasta /store</strong><br />» %s',
 
-	'LOG_MASS_EMAIL'		=> '<strong>Email em massa enviado</strong><br />» %s', 
+	'LOG_MASS_EMAIL'		=> '<strong>E-mail em massa enviado</strong><br />» %s', 
 
 	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Autor alterado no tópico "%1$s"</strong><br />» de %2$s para %3$s', 
 
@@ -611,7 +613,8 @@ $lang = array_merge($lang, array(
 
 	'LOG_REASON_ADDED'		=> '<strong>Razão para denúncia/reprovação adicionada</strong><br />» %s', 
 	'LOG_REASON_REMOVED'	=> '<strong>Razão para denúncia/reprovação excluída</strong><br />» %s', 
-	'LOG_REASON_UPDATED'	=> '<strong>Razão para denúncia/reprovação atualizada</strong><br />» %s', 
+	'LOG_REASON_UPDATED'	=> '<strong>Razão para denúncia/reprovação atualizada</strong><br />» %s',
+	'LOG_REFERER_INVALID'	=> '<strong>Validação de referência falha</strong><br />»Referência foi “<em>%1$s</em>”. A requisição foi rejeitada e a sessão encerrada.',
 
 	'LOG_RESET_DATE'			=> '<strong>Início do fórum resetado</strong>', 
 	'LOG_RESET_ONLINE'			=> '<strong>Recorde de usuários online resetado</strong>', 
@@ -650,7 +653,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_ACTIVE'		=> '<strong>Usuário ativado</strong><br />» %s', 
 	'LOG_USER_BAN_USER'		=> '<strong>Usuário banido pela administração de usuários</strong> pela razão "<em>%1$s</em>"<br />» %2$s', 
 	'LOG_USER_BAN_IP'		=> '<strong>Endereço de IP banido pela administração de usuários</strong> pela razão "<em>%1$s</em>"<br />» %2$s', 
-	'LOG_USER_BAN_EMAIL'	=> '<strong>Endereço de email banido pela administração de usuários</strong> pela razão "<em>%1$s</em>"<br />» %2$s', 
+	'LOG_USER_BAN_EMAIL'	=> '<strong>Endereço de e-mail banido pela administração de usuários</strong> pela razão "<em>%1$s</em>"<br />» %2$s', 
 	'LOG_USER_DELETED'		=> '<strong>Usuário excluído</strong><br />» %s', 
 	'LOG_USER_DEL_ATTACH'	=> '<strong>Todos os anexos do usuário excluídos</strong><br />» %s', 
 	'LOG_USER_DEL_AVATAR'	=> '<strong>Avatar do usuário excluído</strong><br />» %s', 
@@ -660,7 +663,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_MOVE_POSTS'	=> '<strong>Mensagens do usuário movidas</strong><br />» mensagens de "%1$s" ao fórum "%2$s"', 
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>Senha do usuário alterada</strong><br />» %s', 
 	'LOG_USER_REACTIVATE'	=> '<strong>Reativação de registro do usuário forçada</strong><br />» %s', 
-	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Endereço de email do usuário "%1$s" alterado</strong><br />» de "%2$s" para "%3$s"', 
+	'LOG_USER_UPDATE_EMAIL'	=> '<strong>Endereço de e-mail do usuário "%1$s" alterado</strong><br />» de "%2$s" para "%3$s"', 
 	'LOG_USER_UPDATE_NAME'	=> '<strong>Nome de usuário alterado</strong><br />» de "%1$s" para "%2$s"', 
 	'LOG_USER_USER_UPDATE'	=> '<strong>Informações do usuário atualizadas</strong><br />» %s', 
 

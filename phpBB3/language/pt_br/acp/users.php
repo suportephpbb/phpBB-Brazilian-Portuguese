@@ -4,12 +4,12 @@
 * acp_users.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: users.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: users.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_YOURSELF'		=> 'Você não está autorizado a excluir a si próprio.', 
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Você não está autorizado a promover usuários ignorados a serem fundadores.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Você precisa ativar os usuários antes de você os promover a fundadores. Somente usuários ativos podem ser promovidos.',	
-	'CONFIRM_EMAIL_EXPLAIN'			=> 'Você apenas deve especificar isto se você estiver alterando o endereço de email dos usuários.', 
+	'CONFIRM_EMAIL_EXPLAIN'			=> 'Você apenas deve especificar isto se você estiver alterando o endereço de e-mail dos usuários.', 
 	 
 	'DELETE_POSTS'			=> 'Excluir mensagens', 
 	'DELETE_USER'			=> 'Excluir usuário', 
@@ -93,8 +93,8 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_ACTIVATE'			=> 'Ativar registro', 
 	'USER_ADMIN_ACTIVATED'			=> 'O usuário foi ativado com sucesso.', 
 	'USER_ADMIN_AVATAR_REMOVED'		=> 'O avatar foi excluído com sucesso.', 
-	'USER_ADMIN_BAN_EMAIL'			=> 'Banir por email', 
-	'USER_ADMIN_BAN_EMAIL_REASON'	=> 'Endereço de email banido pelo gerenciamento de usuários.',
+	'USER_ADMIN_BAN_EMAIL'			=> 'Banir por e-mail', 
+	'USER_ADMIN_BAN_EMAIL_REASON'	=> 'Endereço de e-mail banido pelo gerenciamento de usuários.',
 	'USER_ADMIN_BAN_IP'				=> 'Banir por IP', 
 	'USER_ADMIN_BAN_IP_REASON'		=> 'Endereço de IP banido pelo gerenciamento de usuários.', 
 	'USER_ADMIN_BAN_NAME_REASON'	=> 'Nome de usuário banido pelo gerenciamento de usuários.', 

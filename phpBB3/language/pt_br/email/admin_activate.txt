@@ -1,13 +1,13 @@
-Subject: Novo usuário registrado
+Subject: Novo usuÃ¡rio registrado
 
-Olá,
+OlÃ¡,
 
-O registro do usuário "{USERNAME}" foi desativado ou recém-criado. Você deverá verificar as informações deste usuário (caso necessário) e ativá-lo apropriadamente.
+O registro do usuÃ¡rio "{USERNAME}" foi desativado ou recÃ©m-criado. VocÃª deverÃ¡ verificar as informaÃ§Ãµes deste usuÃ¡rio (caso necessÃ¡rio) e ativÃ¡-lo apropriadamente.
 
-Use este endereço para visualizar o perfil do usuário:
+Use este endereÃ§o para visualizar o perfil do usuÃ¡rio:
 {U_USER_DETAILS}
 
-Use este endereço para ativar o registro:
+Use este endereÃ§o para ativar o registro:
 {U_ACTIVATE}
 
 

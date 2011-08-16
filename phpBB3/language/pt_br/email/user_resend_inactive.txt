@@ -1,20 +1,20 @@
-Subject: Bem-vindo ao fÛrum "{SITENAME}"
+Subject: Bem-vindo ao f√≥rum "{SITENAME}"
 
 {WELCOME_MSG}
 
-Por favor, salve este email para consultas posteriores. As informaÁıes de seu registro s„o as seguintes:
+Por favor, salve este e-mail para consultas posteriores. As informa√ß√µes de seu registro s√£o as seguintes:
 
 ----------------------------
-Username:  {USERNAME}
+Usu√°rio: {USERNAME}
 ----------------------------
 
-Por favor, n„o esqueÁa a sua senha, pois ela j· foi codificada em nosso banco de dados e n„o poderemos restaur·-la, caso seja necess·rio. Contudo, caso se esqueÁa da mesma, vocÍ poder· solicitar uma nova, sendo ativada desta mesma maneira.
+Por favor, n√£o esque√ßa a sua senha, pois ela j√° foi codificada em nosso banco de dados e n√£o poderemos restaur√°-la, caso seja necess√°rio. Contudo, caso se esque√ßa da mesma, voc√™ poder√° solicitar uma nova, sendo ativada desta mesma maneira.
 
-O seu registro encontra-se atualmente inativo. VocÍ n„o poder· utiliz·-lo enquanto n„o visitar o seguinte endereÁo:
+O seu registro encontra-se atualmente inativo. Voc√™ n√£o poder√° utiliz√°-lo enquanto n√£o visitar o seguinte endere√ßo:
 
 {U_ACTIVATE}
 
-Obrigado por registrar-se!
 
+Obrigado por registrar-se!
 
 {EMAIL_SIG}

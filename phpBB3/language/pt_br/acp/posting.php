@@ -4,12 +4,12 @@
 * acp_posting.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: posting.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: posting.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 
@@ -78,7 +78,7 @@ $lang = array_merge($lang, array(
 		'SIMPLETEXT'    => 'Caracteres do alfabeto latino (A-Z), números, espaços, vírgulas, dots, minus, plus, hífen e underline',
         'IDENTIFIER'    => 'Caracteres do alfabeto latino (A-Z), números, hífen e underline',
 		'NUMBER'		=> 'Qualquer série de digitos', 
-		'EMAIL'			=> 'Um endereço de email válido', 
+		'EMAIL'			=> 'Um endereço de e-mail válido', 
 		'URL'			=> 'Uma URL válida utilizando qualquer protocolo (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, &quot;http://&quot;" é o prefixado para a sequência.', 
 		'LOCAL_URL'		=> 'Uma URL local. A URL deve ser relativa à página do tópico e não pode ser um nome de servidor ou protocolo.', 
 		'COLOR'			=> 'Uma cor de HTML, pode ser tanto na forma hexadecimal <samp>#FF1234</samp> como em uma <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">cor de estilos CSS</a> assim como <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>' 

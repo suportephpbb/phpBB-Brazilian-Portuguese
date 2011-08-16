@@ -4,12 +4,12 @@
 * acp_groups.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: groups.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: groups.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */  
 
@@ -110,6 +110,7 @@ $lang = array_merge($lang, array(
 	'NO_PERMISSIONS'			=> 'Não copiar permissões', 
 	'NO_USERS'					=> 'Você não especificou quaisquer usuários.', 
     'NO_USERS_ADDED'            => 'Nenhum usuário foi adicionado ao grupo.',
+	'NO_VALID_USERS'			=> 'Você não inseriu quaisquer usuários convenientes para aquela ação.',
 
 	'SPECIAL_GROUPS'			=> 'Grupos pré-definidos', 
 	'SPECIAL_GROUPS_EXPLAIN'	=> 'Grupos pré-definidos são grupos especiais, eles não podem ser excluídos ou diretamente alterados. Porém, você ainda pode adicionar membros e alterar as suas configurações básicas.',

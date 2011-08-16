@@ -4,12 +4,12 @@
 * install.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: install.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
+* @version $Id: install.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 *
 */
 
@@ -75,7 +75,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_FILE_WRITTEN'		=> 'O arquivo de configuração foi escrito, você pode prosseguir para o próximo passo de sua instalação.',
 	'CONFIG_PHPBB_EMPTY'		=> 'A variável de configuração do phpBB3 para "$s" está vazia.',
 	'CONFIG_RETRY'				=> 'Tentar novamente',
-	'CONTACT_EMAIL_CONFIRM'		=> 'Confirmar email de contato',
+	'CONTACT_EMAIL_CONFIRM'		=> 'Confirmar e-mail de contato',
 	'CONTINUE_CONVERT'			=> 'Continuar a conversão',
 	'CONTINUE_CONVERT_BODY'		=> 'Uma tentativa de conversão prévia foi encontrada. Você deve escolher entre iniciar uma nova conversão ou continuar a previamente interrompida.',
 	'CONTINUE_LAST'				=> 'Continuar com as últimas atualizações',
@@ -84,11 +84,11 @@ $lang = array_merge($lang, array(
 	'CONVERT_COMPLETE'			=> 'Conversão concluída',
 	'CONVERT_COMPLETE_EXPLAIN'	=> 'Você converteu o seu fórum para o phpBB 3.0 com sucesso. Você pode já pode efetuar o login e <a href="../">acessar o seu painel</a>. Por favor, certifique-se de que as suas configurações foram transferidas corretamente antes de ativar o seu fórum deletando o diretório de instalação do sistema. E ainda, lembre-se de que você pode solicitar ajuda online através da <a href="http://www.phpbb.com/support/documentation/3.0/">Documentação do phpBB3</a>, no <a href="http://www.phpbb.com/phpBB/viewforum.php?f=46">phpBB.Com support forums</a> e ainda no <a href="http://www.suportephpbb.org/">Suporte Brasileiro ao phpBB</a>.',
 	'CONVERT_INTRO'				=> 'Bem-vindo à conversão unificada do phpBB',
-	'CONVERT_INTRO_BODY'		=> 'Aqui você pode importar os dados de outros sistemas de fóruns instalados. A lista abaixo exibe todos os módulos de conversão disponíveis. Se não existe um conversor na lista para o codigo de fórum que você deseja converter, por favor, verifique em nosso website onde outros conversores podem estar disponíveis para download.',
+	'CONVERT_INTRO_BODY'		=> 'Aqui você pode importar os dados de outros sistemas de fóruns instalados. A lista abaixo exibe todos os módulos de conversão disponíveis. Se não existe um conversor na lista para o código de fórum que você deseja converter, por favor, verifique em nosso website onde outros conversores podem estar disponíveis para download.',
 	'CONVERT_NOT_EXIST'			=> 'O conversor selecionado não existe.',
 	'CONVERT_OPTIONS'           => 'Opções',
 	'CONVERT_NEW_CONVERSION'	=> 'Iniciar nova conversão',
-	'CONVERT_SETTINGS_VERIFIED'	=> 'A informação de que você disponibilizou foi verificada. Para inciar a conversão, aperte o botão abaixo.',
+	'CONVERT_SETTINGS_VERIFIED'	=> 'A informação de que você disponibilizou foi verificada. Para iniciar a conversão, aperte o botão abaixo.',
 	'CONV_ERR_FATAL'					=> 'Erro fatal na conversão',
 
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> 'O envio de anexos por FTP está ativo no seu painel antigo. Desative a opção de envio por FTP, crie um diretório válido e envie todos os arquivos de anexos para este novo diretório acessível. Após concluir esta operação, reinicie o seu conversor.',
@@ -131,7 +131,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> 'Erro ao executar <var>query_first</var>, %s ("%s").',
 	'DB_ERR_SELECT'				=> 'Erro ao executar a query <code>SELECT</code>.',
 	'DB_HOST'					=> 'Nome do servidor do banco de dados ou DSN',
-	'DB_HOST_EXPLAIN'			=> 'DSN siginifica "Data Source Name" e é relevante apenas para instalações ODBC.',
+	'DB_HOST_EXPLAIN'			=> 'DSN significa "Data Source Name" e é relevante apenas para instalações ODBC.',
 	'DB_NAME'					=> 'Nome do banco de dados',
 	'DB_PASSWORD'				=> 'Senha do banco de dados',
 	'DB_PORT'					=> 'Porta do servidor do banco de dados',
@@ -164,7 +164,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_KEYS'				=> 'Reativando chaves. Isto pode demorar alguns minutos.',
 
 	'FILES_OPTIONAL'			=> 'Arquivos opcionais e diretórios',
-	'FILES_OPTIONAL_EXPLAIN'	=> '<strong>Opcional</strong> - Estes arquivos, diretórios ou permissões não são necessários. A rotina de instalação tentará usar outras técnicas para ser completada caso eles nao existam ou não possam ser escritos. No entanto, a presença destes arquivos, diretórios e permissões irá acelerar o processo de instalação.',
+	'FILES_OPTIONAL_EXPLAIN'	=> '<strong>Opcional</strong> - Estes arquivos, diretórios ou permissões não são necessários. A rotina de instalação tentará usar outras técnicas para ser completada caso eles não existam ou não possam ser escritos. No entanto, a presença destes arquivos, diretórios e permissões irá acelerar o processo de instalação.',
 	'FILES_REQUIRED'			=> 'Arquivos e diretórios',
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Necessário</strong> - Para funcionar corretamente, o phpBB precisa ter acesso ou escrever determinados arquivos ou diretórios. Se você visualizar "Não encontrado", precisará criar o diretório ou arquivo relevante. Se você visualizar "Não pode ser escrito", você precisará alterar as permissões no arquivo ou diretório para permitir que o phpBB escreva nele.',
 	'FILLING_TABLE'				=> 'Preenchendo a tabela <b>%s</b>',
@@ -199,7 +199,7 @@ $lang = array_merge($lang, array(
 	<ul>
 		<li>Tipo de banco de dados - o banco de dados que você estará utilizando em seu painel.</li>
 		<li>Nome do servidor do banco de dados ou DSN - o endereço do servidor de seu banco de dados.</li>
-		<li>Porta do servidor do danco de Dados - a porta do servidor de seu banco de dados (na maioria das vezes isso não é necessário).</li>
+		<li>Porta do servidor do banco de dados - a porta do servidor de seu banco de dados (na maioria das vezes isso não é necessário).</li>
 		<li>Nome do banco de dados - o nome do banco de dados em seu servidor.</li>
 		<li>Nome do usuário e senha do banco de dados - os dados de autenticação para acessar o seu banco de dados.</li>
 	</ul>
@@ -223,7 +223,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_NEXT_FAIL'			=> 'Alguns testes falharam e você deve corrigir esses problemas antes de prosseguir para o próximo passo. Caso não faça isso, a instalação deverá ficar incompleta.',
 	'INSTALL_NEXT_PASS'			=> 'Todos os teste básicos foram concluídos e você pode prosseguir para o próximo passo da sua instalação. Caso tenha modificado alguma permissão, módulo e etc, e deseja refazer os testes, você pode refazê-los agora mesmo.',
 	'INSTALL_PANEL'				=> 'Painel de Instalação',
-	'INSTALL_SEND_CONFIG'		=> 'Infelizmente não foi possível escrever as informações de confirguração no arquivo config.php. Isto aconteceu ou porque o arquivo não existe ou porque não pode ser escrito. Algumas opções serão listadas abaixo permitindo a você completar a instalação do config.php.',
+	'INSTALL_SEND_CONFIG'		=> 'Infelizmente não foi possível escrever as informações de configuração no arquivo config.php. Isto aconteceu ou porque o arquivo não existe ou porque não pode ser escrito. Algumas opções serão listadas abaixo permitindo a você completar a instalação do config.php.',
 	'INSTALL_START'				=> 'Iniciar instalação',
 	'INSTALL_TEST'				=> 'Testar novamente',
 	'INST_ERR'					=> 'Erro na instalação',
@@ -237,8 +237,8 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_FIREBIRD_PS'=> 'O banco de dados do Firebird selecionado possui o tamanho da página menor que 8192, é necessário que ela seja maior que 8192.',
 	'INST_ERR_DB_NO_POSTGRES'	=> 'O banco de dados selecionado não foi criado na codificação <var>UNICODE</var> ou <var>UTF-8</var>. Tente instalar com um banco de dados de codificação <var>UNICODE</var> ou <var>UTF-8</var>.',
 	'INST_ERR_DB_NO_NAME'		=> 'O nome do banco de dados deve ser especificado.',
-	'INST_ERR_EMAIL_INVALID'	=> 'O endereço de email informado é inválido.',
-	'INST_ERR_EMAIL_MISMATCH'	=> 'Os emails que você digitou não coincidem.',
+	'INST_ERR_EMAIL_INVALID'	=> 'O endereço de e-mail informado é inválido.',
+	'INST_ERR_EMAIL_MISMATCH'	=> 'Os e-mails que você digitou não coincidem.',
 	'INST_ERR_FATAL'			=> 'Erro fatal de instalação',
 	'INST_ERR_FATAL_DB'			=> 'Um erro fatal e irrecuperável no banco de dados ocorreu. Isto pode ter acontecido pelo fato de o usuário especificado não possuir a permissão para <code>CRIAR TABELAS</code> ou <code>INSERIR DADOS</code>, etc. Maiores informações serão exibidas abaixo. Por favor, contate o seu servidor ou o <a href="http://www.suportephpbb.org/">Suporte phpBB</a> para uma maior assistência.',
 	'INST_ERR_FTP_PATH'			=> 'Não foi possível alterar para o diretório especificado, por favor, verifique a pasta.',
@@ -281,12 +281,12 @@ $lang = array_merge($lang, array(
 	'NO_LOCATION'				=> 'Não foi possível determinar o local. Se o Imagemagick estiver instalado, você pode especificar o local mais tarde através do seu painel de administração.',
 	'NO_TABLES_FOUND'			=> 'Nenhuma tabela foi encontrada.',
 
-	'OVERVIEW_BODY'					=> 'Bem-vindo ao phpBB3!<br /><br />O phpBB™ é o open source bulletin board solution mais sabiamente utilizado no mundo inteiro. O phpBB3 é o último lançamento de uma linhagem de pacotes em sete longos anos. Como os seus antecessores, o phpBB3 é rico em diversas ferramentas, com uma interface amigável e de fácil compreensão, além de ser completamente suportado pelo phpBB Team e o Suporte phpBB no Brasil. O phpBB3 reuniu aprimorando o que de mais tornou o phpBB2 popular e adicionando as ferramentas requeridas frequentamente e que não encontravam-se presentes nas versões anteriores. Nós esperamos que tudo isto exceda as suas expectativas.<br /><br />Este sistema de instalação irá guiar-lhe através de diversas ferramentas, como a instalação do phpBB3, atualização do sistema para a mais nova versão do phpBB3 a partir de lançamentos anteriores, bem como a conversão para o phpBB3 de um sistema de fóruns diferente, incluindo o phpBB 2.0.x. Para mais informações, nós recomendamos que você leia <a href="../docs/INSTALL.html">o guia de instalação</a>.<br /><br />Para ler a licença do phpBB3 ou sobre como obter suporte online, por favor, selecione as respectivas opções do menu lateral. Para continuar, selecione a aba apropriada acima.',
+	'OVERVIEW_BODY'					=> 'Bem-vindo ao phpBB3!<br /><br />O phpBB™ é o open source bulletin board solution mais sabiamente utilizado no mundo inteiro. O phpBB3 é o último lançamento de uma linhagem de pacotes em sete longos anos. Como os seus antecessores, o phpBB3 é rico em diversas ferramentas, com uma interface amigável e de fácil compreensão, além de ser completamente suportado pelo phpBB Team e o Suporte phpBB no Brasil. O phpBB3 reuniu aprimorando o que de mais tornou o phpBB2 popular e adicionando as ferramentas requeridas freqüentemente e que não encontravam-se presentes nas versões anteriores. Nós esperamos que tudo isto exceda as suas expectativas.<br /><br />Este sistema de instalação irá guiar-lhe através de diversas ferramentas, como a instalação do phpBB3, atualização do sistema para a mais nova versão do phpBB3 a partir de lançamentos anteriores, bem como a conversão para o phpBB3 de um sistema de fóruns diferente, incluindo o phpBB 2.0.x. Para mais informações, nós recomendamos que você leia <a href="../docs/INSTALL.html">o guia de instalação</a>.<br /><br />Para ler a licença do phpBB3 ou sobre como obter suporte online, por favor, selecione as respectivas opções do menu lateral. Para continuar, selecione a aba apropriada acima.',
 	
 	'PCRE_UTF_SUPPORT'				=> 'Suporte ao PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'O phpBB <strong>não</strong> irá funcionar se a sua instalação PHP não for compilada com suporte a UTF-8 na extensão PCRE.',
 	'PHP_GETIMAGESIZE_SUPPORT'			=> 'Função do PHP getimagesize() está disponível',
-	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Necessário</strong> - Para o funcionamento correto do phpBB, é necessario que esta função seja disponível.',
+	'PHP_GETIMAGESIZE_SUPPORT_EXPLAIN'	=> '<strong>Necessário</strong> - Para o funcionamento correto do phpBB, é necessário que esta função esteja disponível.',
 	'PHP_OPTIONAL_MODULE'			=> 'Módulos opcionais',
 	'PHP_OPTIONAL_MODULE_EXPLAIN'	=> '<strong>Opcional</strong> - Estes módulos ou aplicações são opcionais, não sendo necessários para a utilização do phpBB 3.0. Entretanto, se você os possuir, irá ativar uma maior funcionalidade no sistema.',
 	'PHP_SUPPORTED_DB'				=> 'Bancos de dados suportados',
@@ -340,7 +340,7 @@ $lang = array_merge($lang, array(
 	'SUB_SUPPORT'				=> 'Suporte',
 	'SUCCESSFUL_CONNECT'		=> 'Conexão realizada com sucesso',
 
-	'SUPPORT_BODY'				=> 'Suporte completo será oferecido gratuitamente a todos os usuários no <a href="http://www.suportephpbb.org/">Suporte phpBB</a>, a comunidade de suporte oficial ao phpBB no Brasil. Em nossa página você encontrará suporte de qualidade para:</p><ul><li>Instalação</li><li>Configuração</li><li>Questões técnicas</li><li>Problemas relacionados a bugs em potencial no software</li><li>Atualização das versões Release Candidate (RC) para o mais novo lançamento</li><li>Conversão do phpBB 2.0.x para o phpBB 3.0.x</li><li>Conversão de outros sistemas de fóruns para o phpBB 3.0.x</li><li>MODs em geral</li><li>Estilos diversos</li><li>Tradução do phpBB para a Língua Portuguesa do Brasil</li><li>...</li></ul><p>E muito mais!<br />Nós aconselhamos a usuários que ainda estão utilizando versões beta do phpBB3 para substituir a sua instalação com a mais nova versão do sistema.</p><h2>Tradução</h2><p>A tradução do phpBB para a Língua Portuguesa do Brasil possui os seus créditos referentes ao <a href="http://www.suportephpbb.org/">Suporte phpBB</a>. Para questões relativas à tradução deste software, por favor, entre na comunidade e envie o seu comentário ao fórum correspondente <a href="http://www.suportephpbb.org/forum/viewforum.php?f=52">Tradução do phpBB</a>, onde são aceitos quaisquer tipos de críticas e/ou sugestões relacionadas ao nosso trabalho.</p><h2>Tutoriais</h2><p>Em nosso suporte você terá ao seu alcance uma excelente variedade de artigos e tutorias para ampliar os seus conhecimentos referentes ao phpBB, através do fórum <a href="http://www.suportephpbb.org/forum/viewforum.php?f=56">Artigos & Tutoriais</a>. Visite nossa biblioteca e tenha uma ótima leitura!</p><h2>MODs / Estilos</h2><p>Para questões relativas a MODs, por favor, envie sua mensagem no fórum apropriado <a href="http://www.suportephpbb.org/forum/viewforum.php?f=51">Suporte MODs</a>.<br />Para questões relativas aos estilos, templates e sets de imagem, por favor, envie sua mensagem no fórum apropriado <a href="http://www.suportephpbb.org/forum/viewforum.php?f=65">Suporte Templates</a>.<br /><br />Se a sua questão é relativa a quaisquer outros aspectos do sistema, por favor, envie sua mensagem diretamente ao fórum <a href="http://www.suportephpbb.org/forum/viewforum.php?f=50">Suporte Geral</a>, dedicado especialmente para as dúvidas gerais relacionadas ao phpBB.</p><h2>Suporte phpBB</h2><p>O Suporte phpBB há mais de 5 anos oferece suporte gratuito e de excelente qualidade a todos os seus visitantes, disponibilizando uma infinidade de materiais, como artigos, tutoriais, MODs e traduções diversas, estilos, tradução e suporte geral ao sistema, e muitas outras ferramentas para o seu phpBB. O que você está esperando? Acesse agora, e confira! Nós esperamos por você.<br /><br />Para manter-se atualizado com as últimas notícias e lançamentos do phpBB, por que não <a href="http://www.phpbb.com/support/">inscrever-se na lista de emails do phpBB.Com</a>?<br /><br />',
+	'SUPPORT_BODY'				=> 'Suporte completo será oferecido gratuitamente a todos os usuários no <a href="http://www.suportephpbb.org/">Suporte phpBB</a>, a comunidade de suporte oficial ao phpBB no Brasil. Em nossa página você encontrará suporte de qualidade para:</p><ul><li>Instalação</li><li>Configuração</li><li>Questões técnicas</li><li>Problemas relacionados a bugs em potencial no software</li><li>Atualização das versões Release Candidate (RC) para o mais novo lançamento</li><li>Conversão do phpBB 2.0.x para o phpBB 3.0.x</li><li>Conversão de outros sistemas de fóruns para o phpBB 3.0.x</li><li>MODs em geral</li><li>Estilos diversos</li><li>Tradução do phpBB para a Língua Portuguesa do Brasil</li><li>...</li></ul><p>E muito mais!<br />Nós aconselhamos a usuários que ainda estão utilizando versões beta do phpBB3 para substituir a sua instalação com a mais nova versão do sistema.</p><h2>Tradução</h2><p>A tradução do phpBB para a Língua Portuguesa do Brasil possui os seus créditos referentes ao <a href="http://www.suportephpbb.org/">Suporte phpBB</a>. Para questões relativas à tradução deste software, por favor, entre na comunidade e envie o seu comentário ao fórum correspondente <a href="http://www.suportephpbb.org/forum/viewforum.php?f=52">Tradução do phpBB</a>, onde são aceitos quaisquer tipos de críticas e/ou sugestões relacionadas ao nosso trabalho.</p><h2>Tutoriais</h2><p>Em nosso suporte você terá ao seu alcance uma excelente variedade de artigos e tutorias para ampliar os seus conhecimentos referentes ao phpBB, através do fórum <a href="http://www.suportephpbb.org/forum/viewforum.php?f=56">Artigos & Tutoriais</a>. Visite nossa biblioteca virtual e tenha uma ótima leitura!</p><h2>MODs / Estilos</h2><p>Para questões relativas a MODs, por favor, envie sua mensagem no fórum apropriado <a href="http://www.suportephpbb.org/forum/viewforum.php?f=51">Suporte MODs</a>.<br />Para questões relativas aos estilos, templates e sets de imagem, por favor, envie sua mensagem no fórum apropriado <a href="http://www.suportephpbb.org/forum/viewforum.php?f=65">Suporte Templates</a>.<br /><br />Se a sua questão é relativa a quaisquer outros aspectos do sistema, por favor, envie sua mensagem diretamente ao fórum <a href="http://www.suportephpbb.org/forum/viewforum.php?f=50">Suporte Geral</a>, dedicado especialmente para as dúvidas gerais relacionadas ao phpBB.</p><h2>Suporte phpBB</h2><p>O Suporte phpBB há mais de 6 anos oferece suporte gratuito e de excelente qualidade a todos os seus visitantes, disponibilizando uma infinidade de materiais, como artigos, tutoriais, MODs e traduções diversas, estilos, tradução e suporte geral ao sistema, e muitas outras ferramentas para o seu phpBB. O que você está esperando? Acesse agora, e confira! Nós esperamos por você.<br /><br />Para manter-se atualizado com as últimas notícias e lançamentos do phpBB, por que não <a href="http://www.phpbb.com/support/">inscrever-se na lista de e-mails do phpBB.Com</a>?<br /><br />',
 	'SYNC_FORUMS'				=> 'Iniciando a sincronização de fóruns',
 	'SYNC_POST_COUNT'           => 'Sincronizando post_counts',
     'SYNC_POST_COUNT_ID'        => 'Sincronizando post_counts de <var>entrada</var> %1$s para %2$s.',
@@ -379,7 +379,7 @@ $lang = array_merge($lang, array(
 	'CHECK_FILES'					=> 'Verificar arquivos',
 	'CHECK_FILES_AGAIN'				=> 'Verificar arquivos novamente',
 	'CHECK_FILES_EXPLAIN'			=> 'Na próxima etapa todos os arquivos serão verificados com os da atualização - essa operação pode levar algum tempo caso seja a primeira verificação.',
-	'CHECK_FILES_UP_TO_DATE'		=> 'De acordo com o seu banco de dados a sua versão do phpBB está atualizada. Você pode proceder com a verificação do arquivos para ter certeza de que todos os arquivos estão realmente atualizados com a versão mais recente do phpBB.',
+	'CHECK_FILES_UP_TO_DATE'		=> 'De acordo com o seu banco de dados a sua versão do phpBB está atualizada. Você pode proceder com a verificação dos arquivos para ter certeza de que todos os arquivos estão realmente atualizados com a versão mais recente do phpBB.',
 	'CHECK_UPDATE_DATABASE'			=> 'Continuar o processo de atualização',
 	'COLLECTED_INFORMATION'			=> 'Informação do arquivo',
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'A lista abaixo exibe os arquivos que precisam ser atualizados. Leia as informações a seguir para ver o que você precisa fazer para executar uma atualização sem erros ou problemas futuros.',
@@ -420,7 +420,7 @@ $lang = array_merge($lang, array(
 	'FILES_NEW'						=> 'Novos arquivos',
 	'FILES_NEW_EXPLAIN'				=> 'Os arquivos seguintes atualmente não existem em sua instalação. Estes arquivos serão adicionados em sua instalação.',
 	'FILES_NEW_CONFLICT'			=> 'Novos arquivos em conflito',
-	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'Os arquivos seguintes são novos na nova versão do phpBB, mas foi determinado que já exista um arquivo com o mesmo nome e mesma posição. Este arquivo será substituido pelo seu novo arquivo.',
+	'FILES_NEW_CONFLICT_EXPLAIN'	=> 'Os arquivos seguintes são novos na nova versão do phpBB, mas foi determinado que já exista um arquivo com o mesmo nome e mesma posição. Este arquivo será substituído por um novo.',
 	'FILES_NOT_MODIFIED'			=> 'Arquivos não-modificados',
 	'FILES_NOT_MODIFIED_EXPLAIN'	=> 'Os arquivos seguintes não foram alterados e representam os seus respectivos arquivos originais da versão a qual você deseja atualizar.',
 	'FILES_UP_TO_DATE'				=> 'Arquivos já atualizados',
@@ -547,7 +547,7 @@ $lang = array_merge($lang, array(
     'UPDATE_REQUIRES_FILE'			=> 'O atualizador necessita que o arquivo seguinte esteja presente: %s',
 	'UPDATE_SUCCESS'				=> 'A atualização foi executada com sucesso',
 	'UPDATE_SUCCESS_EXPLAIN'		=> 'Todos os arquivos foram atualizados com sucesso. A próxima etapa envolve verificar todos os arquivos novamente para ter certeza de que os arquivos foram atualizados corretamente.',
-	'UPDATE_VERSION_OPTIMIZE'		=> 'Atualizando versão e optimizando as tabelas',
+	'UPDATE_VERSION_OPTIMIZE'		=> 'Atualizando versão e otimizando as tabelas',
 	'UPDATING_DATA'					=> 'Atualizando os dados',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Atualizando banco de dados para o novo lançamento',
 	'UPDATED_VERSION'				=> 'Versão atualizada',
@@ -572,7 +572,7 @@ $lang = array_merge($lang, array(
 
 // Default database schema entries...
 $lang = array_merge($lang, array(
-	'CONFIG_BOARD_EMAIL_SIG'		=> 'Atencionsamente, a Administração.',
+	'CONFIG_BOARD_EMAIL_SIG'		=> 'Atenciosamente, a Administração.',
 	'CONFIG_SITE_DESC'				=> 'Um pequeno texto para descrever o seu painel',
 	'CONFIG_SITENAME'				=> 'seudominio.com',
 

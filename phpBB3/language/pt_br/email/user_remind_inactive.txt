@@ -1,12 +1,11 @@
 Subject: Lembrete de registro inativo
 
-Olá {USERNAME},
+OlÃ¡ {USERNAME},
 
-Em {REGISTER_DATE} você se registrou em "{SITENAME}". Mas você ainda não ativou o seu registro, você deve fazer isso para que possa autenticar-se no fórum. Para a sua conveniência, o endereço de ativação está sendo repetido abaixo.
+Em {REGISTER_DATE} vocÃª se registrou em "{SITENAME}". Mas vocÃª ainda nÃ£o ativou o seu registro, e deverÃ¡ fazer isso para poder autenticar-se no fÃ³rum. Para a sua conveniÃªncia, o endereÃ§o de ativaÃ§Ã£o estÃ¡ sendo repetido abaixo.
 
 {U_ACTIVATE}
 
-Obrigado por registrar-se em "{SITENAME}", nós aguardamos a sua participação!
-
+Obrigado por registrar-se em "{SITENAME}", nÃ³s aguardamos a sua participaÃ§Ã£o!
 
 {EMAIL_SIG}

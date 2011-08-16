@@ -1,14 +1,15 @@
 <?php 
 /** 
+*
 * acp_permissions_phpbb.php (phpBB Permission Set) [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: permissions_phpbb.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: permissions_phpbb.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 
@@ -105,7 +106,7 @@ $lang = array_merge($lang, array(
 	'acl_u_viewprofile'	=> array('lang' => 'Pode ver perfil, lista de membros e usuários online', 'cat' => 'profile'), 
 	'acl_u_chgname'		=> array('lang' => 'Pode editar nome de usuário', 'cat' => 'profile'), 
 	'acl_u_chgpasswd'	=> array('lang' => 'Pode editar senha', 'cat' => 'profile'), 
-	'acl_u_chgemail'	=> array('lang' => 'Pode editar endereço de email', 'cat' => 'profile'), 
+	'acl_u_chgemail'	=> array('lang' => 'Pode editar endereço de e-mail', 'cat' => 'profile'), 
 	'acl_u_chgavatar'	=> array('lang' => 'Pode editar avatar', 'cat' => 'profile'), 
 	'acl_u_chggrp'		=> array('lang' => 'Pode editar grupo padrão', 'cat' => 'profile'), 
 
@@ -121,7 +122,7 @@ $lang = array_merge($lang, array(
 	'acl_u_pm_edit'		=> array('lang' => 'Pode editar as próprias mensagens particulares', 'cat' => 'pm'), 
 	'acl_u_pm_delete'	=> array('lang' => 'Pode excluir mensagens particulares de sua pasta', 'cat' => 'pm'), 
 	'acl_u_pm_forward'	=> array('lang' => 'Pode encaminhar mensagens particulares', 'cat' => 'pm'), 
-	'acl_u_pm_emailpm'	=> array('lang' => 'Pode enviar mensagens particulares por email', 'cat' => 'pm'), 
+	'acl_u_pm_emailpm'	=> array('lang' => 'Pode enviar mensagens particulares por e-mail', 'cat' => 'pm'), 
 	'acl_u_pm_printpm'	=> array('lang' => 'Pode imprimir mensagens particulares', 'cat' => 'pm'), 
 	'acl_u_pm_attach'	=> array('lang' => 'Pode anexar arquivos em mensagens particulares', 'cat' => 'pm'), 
 	'acl_u_pm_download'	=> array('lang' => 'Pode baixar arquivos em mensagens particulares', 'cat' => 'pm'), 
@@ -130,7 +131,7 @@ $lang = array_merge($lang, array(
 	'acl_u_pm_img'		=> array('lang' => 'Pode usar imagens em mensagens particulares', 'cat' => 'pm'), 
 	'acl_u_pm_flash'	=> array('lang' => 'Pode usar Flashs em mensagens particulares', 'cat' => 'pm'), 
 
-	'acl_u_sendemail'	=> array('lang' => 'Pode enviar emails', 'cat' => 'misc'), 
+	'acl_u_sendemail'	=> array('lang' => 'Pode enviar e-mails', 'cat' => 'misc'), 
 	'acl_u_sendim'		=> array('lang' => 'Pode enviar mensagens instantâneas', 'cat' => 'misc'), 
 	'acl_u_ignoreflood'	=> array('lang' => 'Pode ignorar limite de flood', 'cat' => 'misc'), 
 	'acl_u_hideonline'	=> array('lang' => 'Pode ocultar os status online', 'cat' => 'misc'), 
@@ -167,7 +168,7 @@ $lang = array_merge($lang, array(
 	'acl_f_report'		=> array('lang' => 'Pode denunciar mensagens', 'cat' => 'actions'), 
 	'acl_f_subscribe'	=> array('lang' => 'Pode subscrever fóruns', 'cat' => 'actions'), 
 	'acl_f_print'		=> array('lang' => 'Pode imprimir tópicos', 'cat' => 'actions'), 
-	'acl_f_email'		=> array('lang' => 'Pode enviar tópicos por email', 'cat' => 'actions'), 
+	'acl_f_email'		=> array('lang' => 'Pode enviar tópicos por e-mail', 'cat' => 'actions'), 
 
 	'acl_f_search'		=> array('lang' => 'Pode pesquisar no painel', 'cat' => 'misc'), 
 	'acl_f_ignoreflood' => array('lang' => 'Pode ignorar o limite de flood', 'cat' => 'misc'), 
@@ -235,7 +236,7 @@ $lang = array_merge($lang, array(
 	'acl_a_clearlogs'	=> array('lang' => 'Pode limpar logs', 'cat' => 'misc'), 
 	'acl_a_modules'		=> array('lang' => 'Pode gerenciar módulos', 'cat' => 'misc'), 
 	'acl_a_language'	=> array('lang' => 'Pode gerenciar pacotes de idiomas', 'cat' => 'misc'), 
-	'acl_a_email'		=> array('lang' => 'Pode enviar email em massa', 'cat' => 'misc'), 
+	'acl_a_email'		=> array('lang' => 'Pode enviar e-mail em massa', 'cat' => 'misc'), 
 	'acl_a_bots'		=> array('lang' => 'Pode gerenciar bots', 'cat' => 'misc'), 
 	'acl_a_reasons'		=> array('lang' => 'Pode gerenciar razões para as denúncias/reprovações', 'cat' => 'misc'), 
 	'acl_a_backup'		=> array('lang' => 'Pode copiar/restaurar banco de dados', 'cat' => 'misc'), 

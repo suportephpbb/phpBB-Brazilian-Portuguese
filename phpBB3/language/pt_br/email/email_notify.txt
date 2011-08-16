@@ -1,18 +1,16 @@
-Subject: "{SITENAME}" - Email de um amigo
+Subject: "{SITENAME}" - E-mail de um amigo
 
-Ol· {TO_USERNAME},
+Ol√° {TO_USERNAME},
 
-Esta mensagem foi enviada de "{SITENAME}" por {FROM_USERNAME} que se apresentou interessado no seguinte tÛpico:
+Esta mensagem foi enviada de "{SITENAME}" por {FROM_USERNAME} que se apresentou interessado no seguinte t√≥pico:
 
 {TOPIC_NAME}
 
-VocÍ pode acess·-lo no seguinte endereÁo:
+Voc√™ pode acess√°-lo no seguinte endere√ßo:
 
 {U_TOPIC}
 
-A mensagem de {FROM_USERNAME} est· incluÌda abaixo. Por favor, note que esta mensagem n„o foi revisada nem aprovada pelos administradores e moderadores. Se esta mensagem contÈm material abusivo, spam, ou coment·rios que vocÍ ache ofensivos, por favor, contate o "Webmaster" do fÛrum pelo seguinte endereÁo: {BOARD_CONTACT}. 
-
-Inclua este email completo (particularmente os cabeÁalhos).
+A mensagem de {FROM_USERNAME} est√° inclu√≠da abaixo. Por favor, note que esta mensagem n√£o foi revisada nem aprovada pelos administradores. Se esta mensagem cont√©m material abusivo, spam, ou coment√°rios que voc√™ ache ofensivos, por favor, contate o webmaster do f√≥rum pelo seguinte endere√ßo: {BOARD_CONTACT}. Por favor, inclua este e-mail completo, particularmente os cabe√ßalhos.
 
 ----------
 

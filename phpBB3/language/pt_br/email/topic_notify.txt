@@ -1,21 +1,20 @@
-Subject: Aviso de resposta ao tópico - "{TOPIC_TITLE}"
+Subject: NotificaÃ§Ã£o de resposta ao tÃ³pico - "{TOPIC_TITLE}"
 
-Olá {USERNAME},
+OlÃ¡ {USERNAME},
 
-Você recebeu este email porque está visualizando o tópico "{TOPIC_TITLE}" em "{SITENAME}". Este tópico recebeu uma resposta desde a sua última visita. Você pode usar o seguinte endereço para ler as respostas escritas. Não serão enviados mais avisos enquanto você não visitar este tópico.
+VocÃª recebeu este e-mail porque estÃ¡ visualizando o tÃ³pico "{TOPIC_TITLE}" em "{SITENAME}". Este tÃ³pico recebeu uma resposta desde a sua Ãºltima visita. VocÃª pode usar o seguinte endereÃ§o para ler as respostas escritas. NÃ£o serÃ£o enviadas mais notificaÃ§Ãµes enquanto vocÃª nÃ£o visitar este tÃ³pico.
 
-Se você deseja visualizar a mensagem mais recente desde sua última visita, clique no seguinte endereço:
+Se vocÃª deseja visualizar a mensagem mais recente desde sua Ãºltima visita, clique no seguinte link:
 {U_NEWEST_POST}
 
-Se você deseja visualizar o tópico, clique no endereço abaixo:
+Se vocÃª deseja visualizar o tÃ³pico, clique no seguinte link:
 {U_TOPIC}
 
-Se você deseja visualizar o fórum, clique no seguinte link:
+Se vocÃª deseja visualizar o fÃ³rum, clique no seguinte link:
 {U_FORUM}
 
-Se você deseja parar de visualizar este tópico, clique no link "Parar de visualizar este tópico", na parte inferior esquerda do tópico, ou clique no seguinte endereço:
+Se vocÃª deseja parar de visualizar este tÃ³pico, clique no link "Parar de visualizar este tÃ³pico" na parte inferior esquerda do tÃ³pico, ou clique no seguinte endereÃ§o:
 
 {U_STOP_WATCHING_TOPIC}
-
 
 {EMAIL_SIG}

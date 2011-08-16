@@ -4,12 +4,12 @@
 * help_faq.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: help_faq.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: help_faq.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */  
 
@@ -43,7 +43,7 @@ $help = array(
    ), 
    array( 
       0 => 'O registro é obrigatório para utilizar este fórum?', 
-      1 => 'Pode não ser necessário, e está inteiramente ao critério do administrador decidir se o registro é ou não obrigatório para que sejam enviadas mensagens. Entretanto, o registro lhe dará acesso a ferramentas adicionais não disponíveis aos visitantes, como a definição de avatares, o uso de mensagens particulares, o envio de emails através do painel para outros usuários, a sua participação em grupos e etc. São necessários apenas alguns segundos para se fazer o registro, então é recomendável que o faça.' 
+      1 => 'Pode não ser necessário, e está inteiramente ao critério do administrador decidir se o registro é ou não obrigatório para que sejam enviadas mensagens. Entretanto, o registro lhe dará acesso a ferramentas adicionais não disponíveis aos visitantes, como a definição de avatares, o uso de mensagens particulares, o envio de e-mails através do painel para outros usuários, a sua participação em grupos e etc. São necessários apenas alguns segundos para se fazer o registro, então é recomendável que o faça.' 
    ), 
    array( 
       0 => 'Por que entro automaticamente no fórum?', 
@@ -59,11 +59,11 @@ $help = array(
    ), 
    array( 
       0 => 'Registrei-me mas não consigo entrar!', 
-      1 => 'Primeiro, verifique se está escrevendo o seu nome de usuário e senha corretamente. Caso estejam corretos, então uma entre duas coisas podem estar acontecendo. Se a função COPPA estiver ativa no fórum e você especificou ter menos de 13 anos de idade em seu registro, você terá que seguir às instruções que recebeu. Se este não é o seu caso, será que o seu registro encontra-se ativado? Alguns fóruns exigem que o registro de novos usuários seja ativado, tanto por você como por um administrador, antes que seja efetuado o login; está informação encontra-se presente durante o registro. Se recebeu um email, então siga às suas instruções. Se não recebeu email algum, você deve ter escrito um endereço de email incorreto ou o mesmo foi detectado por um filtro de spam. Se você tem certeza que o endereço de email que forneceu é válido e correto, então tente contatar o administrador do fórum.' 
+      1 => 'Primeiro, verifique se está escrevendo o seu nome de usuário e senha corretamente. Caso estejam corretos, então uma entre duas coisas podem estar acontecendo. Se a função COPPA estiver ativa no fórum e você especificou ter menos de 13 anos de idade em seu registro, você terá que seguir às instruções que recebeu. Se este não é o seu caso, será que o seu registro encontra-se ativado? Alguns fóruns exigem que o registro de novos usuários seja ativado, tanto por você como por um administrador, antes que seja efetuado o login; está informação encontra-se presente durante o registro. Se recebeu um e-mail, então siga às suas instruções. Se não recebeu e-mail algum, você deve ter escrito um endereço de e-mail incorreto ou o mesmo foi detectado por um filtro de spam. Se você tem certeza que o endereço de e-mail que forneceu é válido e correto, então tente contatar o administrador do fórum.' 
    ), 
    array( 
       0 => 'Registrei-me anteriormente mas não consigo mais entrar?!', 
-      1 => 'Tente localizar o email que lhe foi enviado quando se registrou anteriormente, e verifique o seu nome de usuário e senha e tente novamente. É possível que o administrador tenha excluído o seu registro por algum motivo. É comum administradores excluírem registros de usuários que não enviaram mensagens durante um longo período, para reduzir o tamanho do seu banco de dados. Tente registrar-se novamente e participar das discussões do fórum.' 
+      1 => 'Tente localizar o e-mail que lhe foi enviado quando se registrou anteriormente, e verifique o seu nome de usuário e senha e tente novamente. É possível que o administrador tenha excluído o seu registro por algum motivo. É comum administradores excluírem registros de usuários que não enviaram mensagens durante um longo período, para reduzir o tamanho do seu banco de dados. Tente registrar-se novamente e participar das discussões do fórum.' 
    ), 
    array( 
       0 => 'O que é a COPPA?', 
@@ -106,8 +106,8 @@ $help = array(
       1 => 'Os ranks, os quais aparecem abaixo do nome de usuário, indicam o número de mensagens enviadas ou identificam determinados usuários, ex. moderadores e administradores. Em geral, você não pode alterar diretamente o seu rank, bem como eles são determinados pelo administrador do fórum. Por favor, não abuse do envio de mensagens desnecessárias apenas para aumentar o seu rank. A maior parte dos fóruns não tolera este tipo de atitude e os moderadores ou administradores irão simplesmente diminuir o seu contador de mensagens.' 
    ), 
    array( 
-      0 => 'Quando clico no email de um usuário, uma página aparece solicitando que eu faça o login?!', 
-      1 => 'Apenas usuários registrados poderão enviar emails a outros usuários através do formulário exclusivo do fórum, e apenas se o administrador tiver ativado esta função. Isso é para evitar o uso malicioso do sistema de emails por usuários anônimos.' 
+      0 => 'Quando clico no e-mail de um usuário, uma página aparece solicitando que eu faça o login?!', 
+      1 => 'Apenas usuários registrados poderão enviar e-mails a outros usuários através do formulário exclusivo do fórum, e apenas se o administrador tiver ativado esta função. Isso é para evitar o uso malicioso do sistema de e-mails por usuários anônimos.' 
    ), 
    array( 
       0 => '--', 
@@ -258,8 +258,8 @@ $help = array(
       1 => 'Você pode bloquear as mensagens particulares enviadas por um usuário em específico utilizando o seu painel de controle do usuário. Se estiver recebendo mensagens indesejáveis por parte de algum usuário, contate o administrador do fórum para que possa proibir o determinado usuário de enviar este tipo de mensagem.' 
    ), 
    array( 
-      0 => 'Recebi de alguém neste fórum mensagens de email com assuntos irrelevantes ou abusivos!', 
-      1 => 'Embora o sistema de emails deste fórum possuir funções de segurança que tentem detectar usuários que enviem este tipo de mensagens, lamentamos que tal tenha acontecido. Você deve informar o acontecido ao administrador do fórum com uma cópia completa do email recebido, sendo muito importante que inclua os cabeçalhos (nestes encontram-se os detalhes do usuário que enviou o email). O administrador poderá então agir em conformidade.' 
+      0 => 'Recebi de alguém neste fórum mensagens de e-mail com assuntos irrelevantes ou abusivos!', 
+      1 => 'Embora o sistema de e-mails deste fórum possuir funções de segurança que tentem detectar usuários que enviem este tipo de mensagens, lamentamos que tal tenha acontecido. Você deve informar o acontecido ao administrador do fórum com uma cópia completa do e-mail recebido, sendo muito importante que inclua os cabeçalhos (nestes encontram-se os detalhes do usuário que enviou o e-mail). O administrador poderá então agir em conformidade.' 
    ), 
    array( 
       0 => '--', 
@@ -303,7 +303,7 @@ $help = array(
    ), 
    array( 
       0 => 'Qual é a diferença existente entre os favoritos e a subscrição?', 
-      1 => 'Os favoritos no phpBB3 são muito parecidos com os favoritos de seu navegador. Você não será necessariamente alertado quando houver alguma atualização, mas poderá retornar depois ao tópico desejado. Ao contrário disso, a subscrição irá lhe avisar quando houver qualquer atualização ao tópico ou fórum pelo seu método ou métodos selecionados.' 
+      1 => 'Os favoritos no phpBB3 são muito parecidos com os favoritos de seu navegador. Você não será necessariamente alertado quando houver alguma atualização, mas poderá retornar depois ao tópico desejado. Ao contrário disso, a subscrição irá notificar-lhe quando houver qualquer atualização ao tópico ou fórum pelo seu método ou métodos selecionados.' 
    ), 
    array( 
       0 => 'Como eu posso subscrever um tópico ou fórum específico?', 
@@ -343,7 +343,7 @@ $help = array(
    ), 
    array( 
       0 => 'Contatos sobre questões abusivas e/ou ilegais relacionadas a este fórum', 
-      1 => 'Qualquer administrador listado na página "Equipe do fórum" deve ser um alvo apropriado para as suas dúvidas. Se você não obter resposta, deverá contatar o dono do domínio (faça uma <a href="http://www.google.com/search?q=whois">pesquisa</a>) ou, caso o fórum esteja hospedado em um servidor grátis (por exemplo, CJB.NET, Free Forums, Yahoo!, etc.), a gerência desse serviço. Por favor, note que o Grupo phpBB não possui <strong>absolutamente nenhuma jurisdição</strong> e não pode ser responsável sobre quando, onde e por quem este fórum é utilizado. Não existe motivo em contatar o Grupo phpBB em relação a qualquer questão legal (interrupção e desistência, de responsabilidade, comentário difamatório, etc.) <strong>não diretamente relacionado</strong> com o site phpBB.Com ou o software discreto do phpBB por si próprio. Caso envie algum email ao Grupo phpBB acerca do <strong>uso de terceiros</strong> deste software, poderá receber uma resposta concisa ou não receber resposta alguma.' 
+      1 => 'Qualquer administrador listado na página "Equipe do fórum" deve ser um alvo apropriado para as suas dúvidas. Se você não obter resposta, deverá contatar o dono do domínio (faça uma <a href="http://www.google.com/search?q=whois">pesquisa</a>) ou, caso o fórum esteja hospedado em um servidor grátis (por exemplo, CJB.NET, Free Forums, Yahoo!, etc.), a gerência desse serviço. Por favor, note que o Grupo phpBB não possui <strong>absolutamente nenhuma jurisdição</strong> e não pode ser responsável sobre quando, onde e por quem este fórum é utilizado. Não existe motivo em contatar o Grupo phpBB em relação a qualquer questão legal (interrupção e desistência, de responsabilidade, comentário difamatório, etc.) <strong>não diretamente relacionado</strong> com o site phpBB.Com ou o software discreto do phpBB por si próprio. Caso envie algum e-mail ao Grupo phpBB acerca do <strong>uso de terceiros</strong> deste software, poderá receber uma resposta concisa ou não receber resposta alguma.' 
    ) 
 ); 
 

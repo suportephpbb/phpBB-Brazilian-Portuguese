@@ -1,10 +1,10 @@
 Subject: Mensagem reprovada - "{POST_SUBJECT}"
 
-Ol· {USERNAME},
+Ol√° {USERNAME},
 
-VocÍ est· recebendo este email porque a sua mensagem "{POST_SUBJECT}" em "{SITENAME}" foi reprovada por um moderador ou administrador do fÛrum.
+Voc√™ est√° recebendo este e-mail porque a sua mensagem "{POST_SUBJECT}" em "{SITENAME}" foi reprovada por um moderador ou administrador do f√≥rum.
 
-A seguinte raz„o foi dada para a reprovaÁ„o:
+A seguinte raz√£o foi dada para a reprova√ß√£o:
 
 {REASON}
 

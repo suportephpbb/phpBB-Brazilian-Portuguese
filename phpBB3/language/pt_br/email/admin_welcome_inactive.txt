@@ -1,19 +1,20 @@
-Subject: Bem-vindo ao fórum "{SITENAME}"
+Subject: Bem-vindo ao fÃ³rum "{SITENAME}"
 
 {WELCOME_MSG}
 
-Por favor, salve este email para consultas posteriores. As informações de seu registro são as seguintes:
+Por favor, salve este e-mail para consultas posteriores. As informaÃ§Ãµes de seu registro sÃ£o as seguintes:
 
 ----------------------------
-Usuário:  {USERNAME}
-Senha:  {PASSWORD}
+UsuÃ¡rio: {USERNAME}
+Senha: {PASSWORD}
+
+EndereÃ§o: {U_BOARD}
 ----------------------------
 
-O seu registro encontra-se atualmente inativo. O administrador do fórum pede que ele seja ativado para que você possa utilizá-lo. Você não poderá utilizar o seu registro enquanto não ativá-lo. Você ainda receberá mais informações a respeito de sua conta em breve.
+O seu registro encontra-se atualmente inativo. O administrador do fÃ³rum pede que ele seja ativado para que vocÃª possa utilizÃ¡-lo. VocÃª nÃ£o poderÃ¡ utilizar o seu registro enquanto nÃ£o ativÃ¡-lo. VocÃª ainda receberÃ¡ mais informaÃ§Ãµes a respeito de sua conta em breve.
 
-Por favor, não esqueça a sua senha, pois ela já foi codificada em nosso banco de dados e não poderemos restaurá-la, caso seja necessário. Contudo, caso se esqueça da mesma, você poderá solicitar uma nova, sendo ativada desta mesma maneira.
+Por favor, nÃ£o esqueÃ§a a sua senha, pois ela jÃ¡ foi codificada em nosso banco de dados e nÃ£o poderemos restaurÃ¡-la, caso seja necessÃ¡rio. Contudo, caso se esqueÃ§a da mesma, vocÃª poderÃ¡ solicitar uma nova, sendo ativada desta mesma maneira.
 
 Obrigado por registrar-se!
-
 
 {EMAIL_SIG}

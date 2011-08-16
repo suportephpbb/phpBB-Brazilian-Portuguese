@@ -1,8 +1,8 @@
-Subject: Denúncia excluída - "{POST_SUBJECT}"
+Subject: DenÃºncia excluÃ­da - "{POST_SUBJECT}"
 
-Olá {USERNAME},
+OlÃ¡ {USERNAME},
 
-Você recebeu esta mensagem porque a sua denúncia enviada sobre a mensagem "{POST_SUBJECT}" no tópico "{TOPIC_TITLE}" em "{SITENAME}" foi excluída por um moderador ou administrador da comunidade.
+VocÃª recebeu este e-mail porque a sua denÃºncia feita sobre a mensagem "{POST_SUBJECT}" no tÃ³pico "{TOPIC_TITLE}" em "{SITENAME}" foi excluÃ­da por um moderador ou administrador do fÃ³rum.
 
 
 {EMAIL_SIG}

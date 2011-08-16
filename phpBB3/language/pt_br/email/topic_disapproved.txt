@@ -1,10 +1,10 @@
-Subject: Tópico reprovado - "{TOPIC_TITLE}"
+Subject: TÃ³pico reprovado - "{TOPIC_TITLE}"
 
-Olá {USERNAME},
+OlÃ¡ {USERNAME},
 
-Você recebeu este email porque o seu tópico "{TOPIC_TITLE}" em "{SITENAME}" foi reprovado por um moderador ou administrador do fórum.
+VocÃª recebeu este e-mail porque o seu tÃ³pico "{TOPIC_TITLE}" em "{SITENAME}" foi reprovado por um moderador ou administrador do fÃ³rum.
 
-A seguinte razão foi dada para a reprovação:
+A seguinte razÃ£o foi dada para a reprovaÃ§Ã£o:
 
 {REASON}
 

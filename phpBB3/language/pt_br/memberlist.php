@@ -4,12 +4,12 @@
 * memberlist.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
+* @version $Id: memberlist.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 
@@ -50,25 +50,25 @@ $lang = array_merge($lang, array(
 
 	'BEFORE'				=> 'Antes',
 
-	'CC_EMAIL'				=> 'Enviar-me uma cópia deste email.',
+	'CC_EMAIL'				=> 'Enviar-me uma cópia deste e-mail.',
 	'CONTACT_USER'			=> 'Contato',
 
 	'DEST_LANG'				=> 'Língua',
 	'DEST_LANG_EXPLAIN'		=> 'Selecione a língua desejada (se ativa) para o destinatário dessa mensagem.',
 
-	'EMAIL_BODY_EXPLAIN'	=> 'Esta Mensagem será enviada em texto. Por Favor, não adicione qualquer Código HTML ou BBCode. Para o endereço de resposta será anexado o seu endereço de email.',
-	'EMAIL_DISABLED'		=> 'Todas as funções relativas aos emails encontram-se desativadas.',
-	'EMAIL_SENT'			=> 'O seu email foi enviado com sucesso',
-	'EMAIL_TOPIC_EXPLAIN'	=> 'Esta mensagem será enviada em texto. Por favor, não adicione qualquer código HTML ou BBCode. Para o endereço de resposta será anexado o seu endereço de email.',
-	'EMPTY_ADDRESS_EMAIL'	=> 'Você deve escrever um endereço de email válido para o destinatário.',
+	'EMAIL_BODY_EXPLAIN'	=> 'Esta Mensagem será enviada em texto. Por Favor, não adicione qualquer Código HTML ou BBCode. Para o endereço de resposta será anexado o seu endereço de e-mail.',
+	'EMAIL_DISABLED'		=> 'Todas as funções relativas aos e-mails encontram-se desativadas.',
+	'EMAIL_SENT'			=> 'O seu e-mail foi enviado com sucesso',
+	'EMAIL_TOPIC_EXPLAIN'	=> 'Esta mensagem será enviada em texto. Por favor, não adicione qualquer código HTML ou BBCode. Para o endereço de resposta será anexado o seu endereço de e-mail.',
+	'EMPTY_ADDRESS_EMAIL'	=> 'Você deve escrever um endereço de e-mail válido para o destinatário.',
 	'EMPTY_MESSAGE_EMAIL'	=> 'Você deve escrever uma mensagem para ser enviada.',
  	'EMPTY_MESSAGE_IM'		=> 'Você deve escrever uma mensagem para ser enviada.',
 	'EMPTY_NAME_EMAIL'		=> 'Você deve escrever o nome do destinatário.',
-	'EMPTY_SUBJECT_EMAIL'	=> 'Você deve escrever um título para o email.',
+	'EMPTY_SUBJECT_EMAIL'	=> 'Você deve escrever um título para o e-mail.',
 	'EQUAL_TO'				=> 'Igual a',
 
 	'FIND_USERNAME_EXPLAIN'	=> 'Aqui você pode pesquisar por usuários especificos. Você não precisa preencher todos os campos. Use * como complemento para palavras parciais. Se informar uma data, utilize o formato <kbd>YYYY-MM-DD</kbd>, ex. <samp>2007-03-14</samp>. Além disso, use as marcas de seleção para selecionar um ou mais nomes de usuários (podem ser aceitos vários usuários), e clique no botão selecionado para voltar à forma anterior.',
-	'FLOOD_EMAIL_LIMIT'		=> 'Você não pode enviar um email em seguida. Por favor, tente novamente mais tarde.',
+	'FLOOD_EMAIL_LIMIT'		=> 'Você não pode enviar um e-mail em seguida. Por favor, tente novamente mais tarde.',
 
 	'GROUP_LEADER'			=> 'Líder do grupo',
 
@@ -94,7 +94,7 @@ $lang = array_merge($lang, array(
 	'IM_SENT_JABBER'		=> 'A sua mensagem para %1$s foi enviada com sucesso.',
 	'IM_USER'				=> 'Enviar uma mensagem instantânea',
 	
-	'LAST_ACTIVE'				=> 'Último ativo',
+	'LAST_ACTIVE'				=> 'Última visita',
 	'LESS_THAN'					=> 'Menor que',
 	'LIST_USER'					=> '1 usuário',
 	'LIST_USERS'				=> '%d usuários',
@@ -105,7 +105,7 @@ $lang = array_merge($lang, array(
 
 	'MORE_THAN'				=> 'Maior que',
 
-	'NO_EMAIL'				=> 'Você não está autorizado a enviar emails para este usuário.',
+	'NO_EMAIL'				=> 'Você não está autorizado a enviar e-mails para este usuário.',
 	'NO_VIEW_USERS'			=> 'Você não está autorizado a ver a lista de membros ou perfis.',
 
 	'ORDER'					=> 'Ordenar',
@@ -129,12 +129,13 @@ $lang = array_merge($lang, array(
 	'SEND_MESSAGE'			=> 'Mensagem',
 	'SEND_MSNM_MESSAGE'		=> 'Enviar mensagem MSNM/WLM',
 	'SEND_YIM_MESSAGE'		=> 'Enviar mensagem YIM',		
-	'SORT_EMAIL'			=> 'Email',
+	'SORT_EMAIL'			=> 'E-mail',
 	'SORT_LAST_ACTIVE'		=> 'Último ativo',
 	'SORT_POST_COUNT'		=> 'Número de mensagens',
 
 	'USERNAME_BEGINS_WITH'	=> 'Nomes de usuários que iniciem com',
 	'USER_ADMIN'			=> 'Administrar usuário',
+	'USER_BAN'				=> 'Banir',
 	'USER_FORUM'			=> 'Estatísticas do usuário',
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Frequência no fórum',

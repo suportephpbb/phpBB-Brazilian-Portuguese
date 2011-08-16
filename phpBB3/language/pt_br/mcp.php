@@ -4,12 +4,12 @@
 * mcp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: mcp.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
+* @version $Id: mcp.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */  
 
@@ -136,7 +136,7 @@ $lang = array_merge($lang, array(
 	'MCP_ADD'						=> 'Adicionar uma advertência', 
 	
 	'MCP_BAN'					=> 'Banimento', 
-	'MCP_BAN_EMAILS'			=> 'Banir endereços de email', 
+	'MCP_BAN_EMAILS'			=> 'Banir endereços de e-mail', 
 	'MCP_BAN_IPS'				=> 'Banir endereços de IP', 
 	'MCP_BAN_USERNAMES'			=> 'Banir usuários', 
 	
@@ -211,9 +211,9 @@ $lang = array_merge($lang, array(
 	'MOVE_TOPICS'			=> 'Mover tópicos selecionados', 
 	'MOVE_TOPICS_CONFIRM'	=> 'Você deseja realmente mover os tópicos selecionados?', 
 	
-	'NOTIFY_POSTER_APPROVAL'		=> 'Avisar o autor da mensagem sobre a aprovação?', 
-	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Avisar o autor da mensagem sobre a reprovação?', 
-	'NOTIFY_USER_WARN'				=> 'Avisar o usuário sobre a advertência?', 
+	'NOTIFY_POSTER_APPROVAL'		=> 'Notificar o autor da mensagem sobre a aprovação?', 
+	'NOTIFY_POSTER_DISAPPROVAL'		=> 'Notificar o autor da mensagem sobre a reprovação?', 
+	'NOTIFY_USER_WARN'				=> 'Notificar o usuário sobre a advertência?', 
 	'NOT_MODERATOR'					=> 'Você não é moderador deste fórum.',
 	'NO_DESTINATION_FORUM'			=> 'Por favor, selecione um fórum de destino.',
 	'NO_DESTINATION_FORUM_FOUND'	=> 'Não há fóruns de destino disponíveis.', 
@@ -268,7 +268,7 @@ $lang = array_merge($lang, array(
 	'REPORT_DETAILS'			=> 'Informações da denúncia', 
 	'REPORT_MESSAGE'			=> 'Denunciar esta mensagem', 
 	'REPORT_MESSAGE_EXPLAIN'	=> 'Use esta ferramenta para denunciar a mensagem selecionada. A mensagem deve ser denunciada geralmente quando a mesma quebrar as regras do fórum.', 
-	'REPORT_NOTIFY'				=> 'Avisar-me', 
+	'REPORT_NOTIFY'				=> 'Notificar-me', 
 	'REPORT_NOTIFY_EXPLAIN'		=> 'Você será informado quando a sua denúncia for manuseada.', 
 	'REPORT_POST_EXPLAIN'		=> 'Use esta ferramenta para denunciar as mensagens selecionadas aos moderadores do fórum e aos administradores do painel. A mensagem deve ser denunciada geralmente quando a mesma quebrar as regras do fórum.', 
 	'REPORT_REASON'				=> 'Razão para a denúncia', 

@@ -4,12 +4,12 @@
 * common.php [Brazilian Portuguese] 
 *
 * @package language 
-* @version $Id: common.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
+* @version $Id: common.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 /** 
@@ -79,7 +79,8 @@ $lang = array_merge($lang, array(
 	'ATTACHMENTS'					=> 'Anexos', 
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> 'O arquivo de imagem que você tentou anexar é inválido.',
 	'AUTHOR'						=> 'Autor', 
-	'AUTH_NO_PROFILE_CREATED'		=> 'Não foi possível criar o perfil do usuário.',	 
+	'AUTH_NO_PROFILE_CREATED'		=> 'Não foi possível criar o perfil do usuário.',
+	'AVATAR_DISALLOWED_CONTENT'		=> 'O envio foi rejeitado porque o anexo foi identificado como um possível vetor de ataque.',
 	'AVATAR_DISALLOWED_EXTENSION'	=> 'A extensão %s não é permitida.', 
 	'AVATAR_EMPTY_REMOTE_DATA'		=> 'Avatar não pôde ser enviado, por favor, tente enviar o arquivo manualmente.', 
 	'AVATAR_EMPTY_FILEUPLOAD'		=> 'O anexo selecionado encontra-se vazio.',
@@ -96,7 +97,7 @@ $lang = array_merge($lang, array(
 
 	'BACK_TO_TOP'			=> 'Voltar ao topo', 
 	'BACK_TO_PREV'			=> 'Voltar à página anterior', 
-	'BAN_TRIGGERED_BY_EMAIL'=> 'O seu endereço de email foi banido.',
+	'BAN_TRIGGERED_BY_EMAIL'=> 'O seu endereço de e-mail foi banido.',
 	'BAN_TRIGGERED_BY_IP'	=> 'O seu endereço de IP foi banido.', 
 	'BAN_TRIGGERED_BY_USER'	=> 'O seu nome de usuário foi banido.',		 
 	'BBCODE_GUIDE'			=> 'Guia de BBCode', 
@@ -159,9 +160,9 @@ $lang = array_merge($lang, array(
 	'VIEWED_COUNT_NONE'		=> 'Exibido 0 vezes',
 
 	'EDIT_POST'							=> 'Editar mensagem', 
-	'EMAIL'								=> 'Email',
-	'EMAIL_ADDRESS'						=> 'Endereço de email',
-	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Ocorreu um problema ao enviar o email na <strong>Linha %1$s</strong>. Erro: %2$s.',
+	'EMAIL'								=> 'E-mail',
+	'EMAIL_ADDRESS'						=> 'Endereço de e-mail',
+	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Ocorreu um problema ao enviar o e-mail na <strong>Linha %1$s</strong>. Erro: %2$s.',
 	'EMPTY_SUBJECT'						=> 'Você deve especificar um título quando enviar um novo tópico.', 
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Você deve especificar um título quando compor uma nova mensagem.',
 	'ENABLED'							=> 'Ativado', 
@@ -249,11 +250,14 @@ $lang = array_merge($lang, array(
 	'G_GLOBAL_MODERATORS'		=> 'Moderadores globais', 
 
 	'HIDDEN_USERS_ONLINE'		=> '%d usuários invisíveis online', 
-	'HIDDEN_USERS_TOTAL'		=> '%d invisíveis e ', 
+	'HIDDEN_USERS_TOTAL'		=> '%d invisíveis',
+	'HIDDEN_USERS_TOTAL_AND'	=> '%d invisíveis e ',
 	'HIDDEN_USERS_ZERO_ONLINE'	=> '0 usuários invisíveis online', 
-	'HIDDEN_USERS_ZERO_TOTAL'	=> 'nenhum invisível e ', 
+	'HIDDEN_USERS_ZERO_TOTAL'	=> 'nenhum invisível',
+	'HIDDEN_USERS_ZERO_TOTAL_AND'	=> 'nenhum invisível e ',
 	'HIDDEN_USER_ONLINE'		=> '%d usuários invisíveis online', 
-	'HIDDEN_USER_TOTAL'			=> '%d invisíveis e ', 
+	'HIDDEN_USER_TOTAL'			=> '%d invisíveis',
+	'HIDDEN_USER_TOTAL_AND'		=> '%d invisíveis e ',
 	'HIDE_GUESTS'				=> 'Ocultar visitantes', 
 	'HIDE_ME'					=> 'Ocultar meus status nesta sessão', 
 	'HOURS'						=> 'Horas', 
@@ -270,7 +274,7 @@ $lang = array_merge($lang, array(
 	'INFORMATION'				=> 'Informação', 
 	'INTERESTS'					=> 'Interesses', 
 	'INVALID_DIGEST_CHALLENGE'	=> 'O desafio de sumário é inválido.',
-	'INVALID_EMAIL_LOG'			=> '<b>%s</b> é um possível endereço de email inválido?', 
+	'INVALID_EMAIL_LOG'			=> '<b>%s</b> é um possível endereço de e-mail inválido?', 
 	'IP'						=> 'IP', 
 	'IP_BLACKLISTED'			=> 'O seu endereço de IP %1$s foi banido porque está na lista negra. Para mais informações, por favor leia <a href="%2$s">%2$s</a>.',	 
 
@@ -301,7 +305,7 @@ $lang = array_merge($lang, array(
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Você não foi autenticado pelo Apache.',	 
 	'LOGIN_ERROR_PASSWORD'				=> 'Você especificou uma senha incorreta. Por favor, certifique-se de ter escrito uma senha correta e tente novamente. Se você continuar tendo problemas, por favor, contate o %sadministrador%s.',
 	'LOGIN_ERROR_PASSWORD_CONVERT'		=> 'Não foi possível converter a sua senha ao atualizar este painel. Por favor, %ssolicite uma nova senha%s. Se continuar tendo problemas, contate o %sadministrador%s.',	 
-	'LOGIN_ERROR_USERNAME'				=> 'Você especificou um nome de usuário incorreto. Por favor, certifique-se de seu nome de usuário e tente novamente. Se você continuar tento problemas, por favor, contate o %sadministrador%s.', 
+	'LOGIN_ERROR_USERNAME'				=> 'Você especificou um nome de usuário incorreto. Por favor, certifique-se de seu nome de usuário e tente novamente. Se você continuar tendo problemas, por favor, contate o %sadministrador%s.', 
 	'LOGIN_FORUM'						=> 'Para visualizar ou enviar mensagens neste fórum você deve informar uma senha.', 
 	'LOGIN_INFO'						=> 'Para autenticar-se você precisa estar registrado. O registro leva apenas alguns segundos, mas aumenta as suas permissões. O administrador também pode conceder permissões adicionais a usuários registrados. Antes de autenticar-se esteja familiarizado com os nossos termos de uso e políticas relacionadas. Por favor, assegure-se de ler as regras do fórum enquanto navegar pela comunidade.', 
 	'LOGIN_VIEWFORUM'					=> 'O administrador requer que você esteja registrado e autenticado para visualizar este fórum.', 
@@ -316,7 +320,7 @@ $lang = array_merge($lang, array(
 	'MARK_FORUMS_READ'		=> 'Assinalar todos os fóruns como lidos', 
 	'MB'					=> 'MB',
 	'MIB'                   => 'MiB',
-	'MCP'					=> 'Painel de Moderação', 
+	'MCP'					=> 'Painel de Controle do Moderador', 
 	'MEMBERLIST'			=> 'Membros', 
 	'MEMBERLIST_EXPLAIN'	=> 'Aqui você pode ver a lista completa dos usuários registrados neste painel.', 
 	'MERGE'					=> 'Fundir',
@@ -359,9 +363,9 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_OPERATION'			=> 'Você não tem as permissões necessárias para concluir esta operação.', 
 	'NO_CONNECT_TO_SMTP_HOST'	=> 'Não foi possível conectar-se ao servidor SMTP : %s : %s',	 
 	'NO_BIRTHDAYS'				=> 'Não há aniversários hoje', 
-	'NO_EMAIL_MESSAGE'			=> 'A mensagem do email estava em branco.',
-	'NO_EMAIL_RESPONSE_CODE'	=> 'Não foi possível receber os códigos de erro do servidor de email.',
-	'NO_EMAIL_SUBJECT'			=> 'Não foi especificado um título para o email.',
+	'NO_EMAIL_MESSAGE'			=> 'O corpo da mensagem do e-mail estava em branco.',
+	'NO_EMAIL_RESPONSE_CODE'	=> 'Não foi possível receber os códigos de erro do servidor de e-mail.',
+	'NO_EMAIL_SUBJECT'			=> 'Não foi especificado um título para o e-mail.',
 	'NO_FORUM'					=> 'O fórum selecionado não existe.', 
 	'NO_FORUMS'					=> 'Este painel não possui fóruns.',
 	'NO_GROUP'					=> 'O grupo selecionado não existe.', 
@@ -465,7 +469,7 @@ $lang = array_merge($lang, array(
 	'REPORT_BY'					=> 'Denúncia de', 
 	'REPORT_POST'				=> 'Denunciar esta mensagem', 
 	'REPORTING_POST'			=> 'Denunciando mensagem', 
-	'RESEND_ACTIVATION'			=> 'Reenviar email de ativação',
+	'RESEND_ACTIVATION'			=> 'Reenviar e-mail de ativação',
 	'RESET'						=> 'Resetar', 
 	'RESTORE_PERMISSIONS'		=> 'Restaurar permissões',	 
 	'RETURN_INDEX'				=> '%sClique aqui para voltar ao índice%s', 
@@ -509,8 +513,8 @@ $lang = array_merge($lang, array(
 	'SELECT'					=> 'Selecionar', 
 	'SELECT_ALL_CODE'			=> 'Selecionar todos',
 	'SELECT_FORUM'				=> 'Selecione um fórum', 
-	'SEND_EMAIL'				=> 'Email',
-	'SEND_EMAIL_USER'           => 'Email',            // Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
+	'SEND_EMAIL'				=> 'E-mail',
+	'SEND_EMAIL_USER'           => 'E-mail',            // Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
 	'SEND_PRIVATE_MESSAGE'		=> 'Enviar mensagem particular', 
 	'SETTINGS'					=> 'Configurações',	 
 	'SIGNATURE'					=> 'Assinatura', 
@@ -555,8 +559,8 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_PASSWORD_CONFIRM'		=> 'A confirmação da senha escrita é muito grande.', 
 	'TOO_LONG_USER_PASSWORD'		=> 'A senha escrita é muito grande.', 
 	'TOO_LONG_USERNAME'				=> 'O nome de usuário escrito é muito grande.', 
-	'TOO_LONG_EMAIL'				=> 'O endereço de email escrito é muito grande.',
-	'TOO_LONG_EMAIL_CONFIRM'		=> 'A confirmação do endereço de email escrita é muito grande.',
+	'TOO_LONG_EMAIL'				=> 'O endereço de e-mail escrito é muito grande.',
+	'TOO_LONG_EMAIL_CONFIRM'		=> 'A confirmação do endereço de e-mail escrita é muito grande.',
 	'TOO_LONG_WEBSITE'				=> 'O website escrito é muito grande.', 
 	'TOO_LONG_YIM'					=> 'O Yahoo! Messenger escrito é muito grande.', 
 	 
@@ -575,8 +579,8 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_PASSWORD_CONFIRM'	=> 'A confirmação da senha escrita é muito pequena.', 
 	'TOO_SHORT_USER_PASSWORD'		=> 'A senha escrita é muito pequena.', 
 	'TOO_SHORT_USERNAME'			=> 'O nome de usuário escrito é muito pequeno.', 
-	'TOO_SHORT_EMAIL'				=> 'O endereço de email escrito é muito pequeno.', 
-	'TOO_SHORT_EMAIL_CONFIRM'		=> 'A confirmação do endereço de email escrita é muito pequena.', 
+	'TOO_SHORT_EMAIL'				=> 'O endereço de e-mail escrito é muito pequeno.', 
+	'TOO_SHORT_EMAIL_CONFIRM'		=> 'A confirmação do endereço de e-mail escrita é muito pequena.', 
 	'TOO_SHORT_WEBSITE'				=> 'O website escrito é muito pequeno.', 
 	'TOO_SHORT_YIM'					=> 'O Yahoo! Messenger escrito é muito pequeno.', 
 	 

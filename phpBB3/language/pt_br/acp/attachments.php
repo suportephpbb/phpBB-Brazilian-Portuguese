@@ -4,12 +4,12 @@
 * acp_attachments.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: attachments.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: attachments.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por: 
 * @Suporte phpBB - 
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 
@@ -47,10 +47,10 @@ $lang = array_merge($lang, array(
 	'ALLOWED_FORUMS'					=> 'Fóruns permitidos', 
 	'ALLOWED_FORUMS_EXPLAIN'			=> 'Permitir o envio de extensões assinaladas aos fóruns selecionados (ou à todos, se selecionado).', 
 	'ALLOWED_IN_PM_POST'				=> 'Permitido',
-	'ALLOW_ATTACHMENTS'					=> 'Ativar anexos', 
-	'ALLOW_ALL_FORUMS'					=> 'Ativar em todos os fóruns', 
+	'ALLOW_ATTACHMENTS'					=> 'Permitir anexos', 
+	'ALLOW_ALL_FORUMS'					=> 'Permitir em todos os fóruns', 
 	'ALLOW_IN_PM'						=> 'Permitido em mensagens particulares', 
-	'ALLOW_PM_ATTACHMENTS'				=> 'Ativar em mensagens particulares', 
+	'ALLOW_PM_ATTACHMENTS'				=> 'Permitir em mensagens particulares', 
 	'ALLOW_SELECTED_FORUMS'				=> 'Apenas os fóruns selecionados abaixo', 
 	'ASSIGNED_EXTENSIONS'				=> 'Extensões selecionadas', 
 	'ASSIGNED_GROUP'					=> 'Grupo de extensões selecionado', 
@@ -71,7 +71,9 @@ $lang = array_merge($lang, array(
 	'CAT_IMAGES'				=> 'Imagens', 
 	'CAT_QUICKTIME_FILES'		=> 'Arquivos do Quicktime',
 	'CAT_RM_FILES'				=> 'Arquivos do RealMedia', 
-	'CAT_WM_FILES'				=> 'Aquivos do Windows Media', 
+	'CAT_WM_FILES'				=> 'Aquivos do Windows Media',
+	'CHECK_CONTENT'				=> 'Verificar arquivos anexos',
+	'CHECK_CONTENT_EXPLAIN'		=> 'Alguns navegadores podem serem enganados e assumir funções incorretas a alguns dos arquivos enviados. Esta opção lhe assegura que estes arquivos sejam rejeitados.',
 	'CREATE_GROUP'				=> 'Criar novo grupo', 
 	'CREATE_THUMBNAIL'			=> 'Criar miniatura', 
 	'CREATE_THUMBNAIL_EXPLAIN'	=> 'Sempre criar uma miniatura em todas as situações possíveis.', 

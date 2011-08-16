@@ -1,14 +1,13 @@
-Subject: Aviso de novo tópico - "{FORUM_NAME}"
+Subject: NotificaÃ§Ã£o de novo tÃ³pico - "{FORUM_NAME}"
 
-Olá {USERNAME},
+OlÃ¡ {USERNAME},
 
-Você recebeu este email porque está visualizando o fórum "{FORUM_NAME}" em "{SITENAME}". Este fórum recebeu um novo tópico desde a sua última visita, nomeado "{TOPIC_TITLE}". Você pode usar o seguinte endereço para ler o novo tópico. Não serão enviados mais avisos enquanto você não visitar este fórum.
+VocÃª recebeu este e-mail porque estÃ¡ visualizando o fÃ³rum "{FORUM_NAME}" em "{SITENAME}". Este fÃ³rum recebeu um tÃ³pico novo desde a sua Ãºltima visita, nomeado "{TOPIC_TITLE}". VocÃª pode usar o seguinte endereÃ§o para ler o novo tÃ³pico. NÃ£o serÃ£o enviadas mais notificaÃ§Ãµes enquanto vocÃª nÃ£o visitar este fÃ³rum.
 
 {U_FORUM}
 
-Se você deseja parar de visualizar este fórum, clique no link "Parar de visualizar este fórum" no fórum citado, ou clique no seguinte endereço:
+Se vocÃª deseja parar de visualizar este fÃ³rum, clique no link "Parar de visualizar este fÃ³rum" no fÃ³rum citado, ou clique no seguinte endereÃ§o:
 
 {U_STOP_WATCHING_FORUM}
-
 
 {EMAIL_SIG}

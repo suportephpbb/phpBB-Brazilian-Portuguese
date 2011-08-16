@@ -1,10 +1,9 @@
-Subject: Reativação de registro
+Subject: ReativaÃ§Ã£o de registro
 
-Olá {USERNAME},
+OlÃ¡ {USERNAME},
 
-O seu registro em "{SITENAME}" foi desativado, devido a alteração de informações importantes em seu perfil. Para reativar o seu registro, você deverá clicar no endereço abaixo:
+O seu registro em "{SITENAME}" foi desativado, devido a alteraÃ§Ã£o de informaÃ§Ãµes importantes em seu perfil. Para reativar o seu registro, vocÃª deverÃ¡ clicar no endereÃ§o abaixo:
 
 {U_ACTIVATE}
-
 
 {EMAIL_SIG}

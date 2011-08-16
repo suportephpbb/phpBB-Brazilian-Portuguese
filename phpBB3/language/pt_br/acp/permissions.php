@@ -4,12 +4,12 @@
 * acp_permissions.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: permissions.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: permissions.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 
@@ -195,7 +195,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Pode utilizar apenas opções básicas de tópicos. Não pode enviar advertências ou utilizar a lista de moderação.', 
 	'ROLE_DESCRIPTION_MOD_STANDARD'			=> 'Pode utilizar a maior parte das ferramentas de moderador, mas não pode banir usuários ou alterar o autor da mensagem.', 
 	'ROLE_DESCRIPTION_USER_FULL'			=> 'Pode utilizar todas as funções do fórum disponíveis para usuários, incluindo a alteração do nome de usuário ou ignorar o limite de flood.<br />Não recomendado.', 
-	'ROLE_DESCRIPTION_USER_LIMITED'			=> 'Pode acessar algumas das funções de usuários. Anexos, emails, ou mensagens instantâneas não são permitidos.', 
+	'ROLE_DESCRIPTION_USER_LIMITED'			=> 'Pode acessar algumas das funções de usuários. Anexos, e-mails, ou mensagens instantâneas não são permitidos.', 
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Ter funções limitadas e não está permitido a utilizar avatares.', 
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Ter funções limitadas e não está permitido a utilizar mensagens particulares.', 
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Pode ter acesso à maior parte das funções, mas não todas as ferramentas do usuário. Não pode alterar o nome de usuário ou ignorar o limite de flood, por exemplo.', 

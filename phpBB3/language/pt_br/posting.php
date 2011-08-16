@@ -4,12 +4,12 @@
 * posting.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: posting.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $
+* @version $Id: posting.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 
@@ -85,6 +85,7 @@ $lang = array_merge($lang, array(
 	'DISABLE_BBCODE'			=> 'Desativar BBCode nesta mensagem',
 	'DISABLE_MAGIC_URL'			=> 'Desativar as URLs automáticas nesta mensagem',
 	'DISABLE_SMILIES'			=> 'Desativar smileys nesta mensagem',
+	'DISALLOWED_CONTENT'		=> 'O envio foi rejeitado porque o anexo foi identificado como um possível vetor de ataque.',
 	'DISALLOWED_EXTENSION'		=> 'A extensão %s não é permitida.',
 	'DRAFT_LOADED'				=> 'O rascunho foi carregado com sucesso. Você pode terminar a sua mensagem agora. O seu rascunho será excluído ao enviar esta mensagem.',
 	'DRAFT_LOADED_PM'			=> 'O rascunho foi carregado com sucesso. Você pode terminar a sua mensagem agora. O seu rascunho será excluído ao enviar esta mensagem particular.',
@@ -159,7 +160,7 @@ $lang = array_merge($lang, array(
 	'POLL_VOTE_CHANGE'			=> 'Ativar mudança de voto',
 	'POLL_VOTE_CHANGE_EXPLAIN'	=> 'Se ativado, os usuários poderão alterar o seu voto.',
 	'POSTED_ATTACHMENTS'		=> 'Anexos adicionados',
- 	'POST_APPROVAL_NOTIFY'		=> 'Você será avisado quando a sua mensagem for aprovada.',
+ 	'POST_APPROVAL_NOTIFY'		=> 'Você será notificado quando a sua mensagem for aprovada.',
 	'POST_CONFIRMATION'			=> 'Confirmação da mensagem',
 	'POST_CONFIRM_EXPLAIN'		=> 'Para evitar mensagens automáticas, o painel exige que você informe o código de confirmação. O código será exibido na imagem abaixo. Se você possui qualquer problema visual, contate o %sadministrador%s do fórum para solicitar ajuda.',
 	'POST_DELETED'				=> 'A mensagem foi excluída com sucesso',

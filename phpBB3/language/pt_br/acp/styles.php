@@ -4,12 +4,12 @@
 * acp_styles.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: styles.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: styles.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 
@@ -221,7 +221,7 @@ $lang = array_merge($lang, array(
 	'IMG_ICON_BACK_TOP'		=> 'Voltar ao topo',
 
 	'IMG_ICON_CONTACT_AIM'		=> 'AIM', 
-	'IMG_ICON_CONTACT_EMAIL'	=> 'Enviar email', 
+	'IMG_ICON_CONTACT_EMAIL'	=> 'Enviar e-mail', 
 	'IMG_ICON_CONTACT_ICQ'		=> 'ICQ', 
 	'IMG_ICON_CONTACT_JABBER'	=> 'Jabber', 
 	'IMG_ICON_CONTACT_MSNM'		=> 'MSNM', 

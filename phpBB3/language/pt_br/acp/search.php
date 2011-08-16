@@ -4,12 +4,12 @@
 * acp_search.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: search.php,v 1.0 2008/04/09 00:07:17 Suporte phpBB Exp $ 
+* @version $Id: search.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
 * @copyright (c) 2007 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.1
+* @Versão do phpBB: 3.0.2
 * 
 */ 
 
@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_WORDS'							=> 'Número total de palavras indexadas', 
 	'TOTAL_MATCHES'							=> 'Número total de palavras relacionadas à mensagens indexadas', 
 
-	'YES_SEARCH'							=> 'Ativar ferramentas da pesquisa', 
+	'YES_SEARCH'							=> 'Ativar ferramentas de pesquisa', 
 	'YES_SEARCH_EXPLAIN'					=> 'Ativa a funcionalidade da pesquisa, incluindo a pesquisa de usuários.', 
 	'YES_SEARCH_UPDATE'						=> 'Ativar a atualização de textos completos', 
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Os índices de texto completo são atualizados ao enviar uma mensagem, mesmo se a pesquisa estiver desativada.', 
