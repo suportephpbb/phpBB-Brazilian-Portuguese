@@ -16,7 +16,6 @@ Ou correio normal para:
 PERMISSÃO PARA PARTICIPAR EM "{SITENAME}" - {U_BOARD}
 
 Usuário: {USERNAME}
-Senha: {PASSWORD}
 E-mail: {EMAIL_ADDRESS}
 
 EU REVI A INFORMAÇÃO FORNECIDA PELA MINHA CRIANÇA E COMO TAL DOU PERMISSÃO A "{SITENAME}" PARA SALVAR ESTA INFORMAÇÃO. 
@@ -36,7 +35,7 @@ Data: _______________
 
 Assim que o administrador receber as informações acima apresentadas via fax ou correio normal, o seu registro será ativado.
 
-Por favor, não esqueça a sua senha, pois ela já foi codificada em nosso banco de dados e não poderemos restaurá-la, caso seja necessário. Contudo, caso se esqueça da mesma, você poderá solicitar uma nova, sendo ativada desta mesma maneira.
+A sua senha foi codificada de forma segura em nosso banco de dados e não podemos restaurá-la. Contudo, caso se esqueça da mesma, você poderá resetá-la usando o endereço de e-mail associado ao seu registro.
 
 Obrigado por registrar-se!
 

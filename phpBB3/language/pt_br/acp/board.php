@@ -4,12 +4,12 @@
 * acp_board.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: board.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @version $Id: board.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -71,14 +71,18 @@ $lang = array_merge($lang, array(
 	'ALLOW_NO_CENSORS'			=> 'Desativar a censura de palavras', 
 	'ALLOW_NO_CENSORS_EXPLAIN'	=> 'O usuário poderá desativar a censura automática de palavras em mensagens normais e mensagens particulares.', 
 	'ALLOW_PM_ATTACHMENTS'		=> 'Permitir anexos em mensagens particulares', 
+	'ALLOW_PM_REPORT'			=> 'Permitir aos usuários denunciar mensagens particulares',
+	'ALLOW_PM_REPORT_EXPLAIN'	=> 'Caso esta configuração esteja ativa, os usuários terão a opção de denunciar mensagens particulares que eles tenham recebido ou enviado aos moderadores. Estas mensagens particulares estarão então visíveis no painel de controle do moderador.',
+	'ALLOW_QUICK_REPLY'			=> 'Permitir resposta rápida',
+	'ALLOW_QUICK_REPLY_EXPLAIN'	=> 'Esta configuração define se a resposta rápida estará ativa ou não. Caso esta configuração esteja ativa, os fóruns necessitarão ter a sua opção de resposta rápida ativa também.',
 	'ALLOW_SIG'					=> 'Permitir assinaturas', 
 	'ALLOW_SIG_BBCODE'			=> 'Permitir BBCode na assinatura dos usuários', 
 	'ALLOW_SIG_FLASH'			=> 'Permitir <code>[FLASH]</code> na assinatura dos usuários', 
 	'ALLOW_SIG_IMG'				=> 'Permitir <code>[IMG]</code> na assinatura dos usuários', 
 	'ALLOW_SIG_LINKS'			=> 'Permitir o uso de links na assinatura dos usuários',
 	'ALLOW_SIG_LINKS_EXPLAIN'	=> 'Se desativado, a tag <code>[URL]</code> e os links mágicos serão extintos da assinatura do usuário.',
-	'ALLOW_SIG_SMILIES'			=> 'Permitir smileys na assinatura dos usuários', 
-	'ALLOW_SMILIES'				=> 'Permitir smileys', 
+	'ALLOW_SIG_SMILIES'			=> 'Permitir smilies na assinatura dos usuários', 
+	'ALLOW_SMILIES'				=> 'Permitir smilies', 
 	'ALLOW_TOPIC_NOTIFY'		=> 'Permitir subscrição de tópicos', 
 	'BOARD_PM'					=> 'Mensagens particulares', 
 	'BOARD_PM_EXPLAIN'			=> 'Ativa ou não o uso de mensagens particulares para todos os usuários.', 
@@ -88,9 +92,13 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array( 
 	'ACP_AVATAR_SETTINGS_EXPLAIN'	=> 'Os avatares são pequenas imagens que o usuário pode associar a ele mesmo. Dependendo do estilo em uso, eles normalmente são exibidos abaixo do nome do usuário na visualização de tópicos. Aqui você pode determinar como os usuários poderão definir os seus avatares. Por favor, note que para enviar avatares você precisa já ter criado o respectivo diretório e estar certo de que ele aceita a permissão de escrita pelo servidor do painel. O limite do tamanho da imagem de avatar é válido apenas para avatares enviados, não se aplicando a imagens utilizadas de outros websites.',
 
+	'ALLOW_AVATARS'					=> 'Permitir avatares',
+	'ALLOW_AVATARS_EXPLAIN'			=> 'Permite o uso geral de avatares;<br />Caso você desative os avatares de forma geral ou de um certo modo, os avatares desativados não serão mais exibidos no painel, mas os usuários ainda poderão baixar seus próprios avatares no painel de controle do usuário.',	
 	'ALLOW_LOCAL'					=> 'Permitir galeria de avatares', 
 	'ALLOW_REMOTE'					=> 'Permitir avatares remotos',
 	'ALLOW_REMOTE_EXPLAIN'			=> 'Os avatares utilizados a partir de outro website.',
+	'ALLOW_REMOTE_UPLOAD'			=> 'Permitir o envio de avatares remotos',
+	'ALLOW_REMOTE_UPLOAD_EXPLAIN'	=> 'Permite o envio de avatares de outros websites.',
 	'ALLOW_UPLOAD'					=> 'Permitir o envio de avatares',
 	'AVATAR_GALLERY_PATH'			=> 'Pasta da galeria de avatares', 
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Pasta sob o diretório raiz do seu phpBB, ex. <samp>images/avatars/gallery</samp>.',
@@ -118,7 +126,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_PRINT_PM'			=> 'Permitir impressão em mensagens particulares', 
 	'ALLOW_QUOTE_PM'			=> 'Permitir citações em mensagens particulares', 
 	'ALLOW_SIG_PM'				=> 'Permitir assinaturas em mensagens particulares', 
-	'ALLOW_SMILIES_PM'			=> 'Permitir smileys em mensagens particulares', 
+	'ALLOW_SMILIES_PM'			=> 'Permitir smilies em mensagens particulares', 
 	'BOXES_LIMIT'				=> 'Número total de mensagens particulares por caixa', 
 	'BOXES_LIMIT_EXPLAIN'		=> 'Os usuários podem receber não mais que este total de mensagens em cada uma de suas caixas de mensagens particulares, sendo 0 igual a um valor ilimitado.', 
 	'BOXES_MAX'					=> 'Número máximo de pastas de mensagens particulares', 
@@ -146,12 +154,12 @@ $lang = array_merge($lang, array(
 	'BUMP_INTERVAL_EXPLAIN'			=> 'Tempo em minutos, horas ou dias entre a última mensagem de um tópico e a sua ressurreição.', 
 	'CHAR_LIMIT'					=> 'Número máximo de caracteres por mensagem', 
 	'CHAR_LIMIT_EXPLAIN'			=> 'O número de caracteres permitidos em uma mensagem, sendo 0 igual a um valor ilimitado.', 
+	'DELETE_TIME'					=> 'Limite do tempo de deleção',
+	'DELETE_TIME_EXPLAIN'			=> 'Limita o tempo disponível para deletar uma nova mensagem. Escreva 0 para desativar esta configuração.',
 	'DISPLAY_LAST_EDITED'			=> 'Exibir informação da data da última edição', 
 	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Selecione para exibir informações da última atualização da mensagem.',
 	'EDIT_TIME'						=> 'Limite do tempo de edição', 
-	'EDIT_TIME_EXPLAIN'				=> 'Limita o tempo para disponível para se editar uma nova mensagem, escreva 0 para desativar este recurso.', 
-    'ENABLE_QUEUE_TRIGGER'			=> 'Ativar mensagens listadas',
-	'ENABLE_QUEUE_TRIGGER_EXPLAIN'	=> 'Habilidade de setar as mensagens de usuários registrados para aprovação, caso o seu contador de mensagens esteja especificado com um valor abaixo do que o exibido abaixo. Esta configuração não possui nenhum efeito sobre a aprovação padrão de tópicos/mensagens.',
+	'EDIT_TIME_EXPLAIN'				=> 'Limita o tempo para disponível para se editar uma nova mensagem, escreva 0 para desativar este recurso.',
 	'FLOOD_INTERVAL'				=> 'Intervalo de novas mensagens', 
 	'FLOOD_INTERVAL_EXPLAIN'		=> 'Tempo em segundos que um usuário deve aguardar entre o envio de novas mensagens.', 
 	'HOT_THRESHOLD'					=> 'Número de mensagens para um tópico popular',
@@ -165,14 +173,15 @@ $lang = array_merge($lang, array(
 	'MAX_POST_IMG_WIDTH_EXPLAIN'	=> 'Largura máxima dos arquivos de imagem/flash nas mensagens, sendo 0 igual a um valor ilimitado.', 
 	'MAX_POST_URLS'					=> 'Número máximo de links por mensagem', 
 	'MAX_POST_URLS_EXPLAIN'			=> 'Número máximo de links por mensagem, sendo 0 igual a um valor ilimitado.', 
+	'MIN_CHAR_LIMIT'				=> 'Número mínimo de caracteres por mensagem',
+	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'O número mínimo de caracteres que um usuário precisa escrever para enviar um novo post ou mensagem particular.',
 	'POSTING'						=> 'Enviando mensagens', 
 	'POSTS_PER_PAGE'				=> 'Mensagens por página', 
-    'QUEUE_TRIGGER_POSTS'			=> 'Contagem máxima para mensagens listadas',
-	'QUEUE_TRIGGER_POSTS_EXPLAIN'	=> 'Se as mensagens listadas estiverem ativas, esta será a contagem necessária que um usuário deverá alcançar para que possa enviar suas mensagens sem a necessidade de aprovação. Caso o contador de mensagens do usuário esteja abaixo deste valor, a mensagem será armazenada na lista automaticamente.',
 	'QUOTE_DEPTH_LIMIT'				=> 'Número máximo de citações por mensagem', 
 	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Número máximo de citações por mensagem, sendo 0 igual a um valor ilimitado.', 
-	'SMILIES_LIMIT'					=> 'Número máximo de smileys por mensagem', 
-	'SMILIES_LIMIT_EXPLAIN'			=> 'Número máximo de smileys por mensagem, sendo 0 igual a um valor ilimitado.', 
+	'SMILIES_LIMIT'					=> 'Número máximo de smilies por mensagem', 
+	'SMILIES_LIMIT_EXPLAIN'			=> 'Número máximo de smilies por mensagem, sendo 0 igual a um valor ilimitado.', 
+	'SMILIES_PER_PAGE'				=> 'Smilies por página',
 	'TOPICS_PER_PAGE'				=> 'Tópicos por página', 
 )); 
 
@@ -188,8 +197,8 @@ $lang = array_merge($lang, array(
 	'MAX_SIG_IMG_WIDTH_EXPLAIN'		=> 'Largura máxima dos arquivos de imagem/flash na assinatura do usuário, sendo 0 igual a um valor ilimitado.', 
 	'MAX_SIG_LENGTH'				=> 'Comprimento máximo da assinatura', 
 	'MAX_SIG_LENGTH_EXPLAIN'		=> 'Número máximo de caracteres na assinatura do usuário.', 
-	'MAX_SIG_SMILIES'				=> 'Número máximo de smileys na assinatura', 
-	'MAX_SIG_SMILIES_EXPLAIN'		=> 'Número máximo de smileys permitido na assinatura do usuário, sendo 0 igual a um valor ilimitado.', 
+	'MAX_SIG_SMILIES'				=> 'Número máximo de smilies na assinatura', 
+	'MAX_SIG_SMILIES_EXPLAIN'		=> 'Número máximo de smilies permitido na assinatura do usuário, sendo 0 igual a um valor ilimitado.', 
 	'MAX_SIG_URLS'					=> 'Número máximo de links na assinatura', 
 	'MAX_SIG_URLS_EXPLAIN'			=> 'Número máximo de links permitido na assinatura do usuário, sendo 0 igual a um valor ilimitado.', 
 )); 
@@ -200,6 +209,10 @@ $lang = array_merge($lang, array(
 
 	'ACC_ACTIVATION'			=> 'Ativação de registro', 
 	'ACC_ACTIVATION_EXPLAIN'	=> 'Determina se o usuário terá acesso imediato ao fórum ou se deverá realizar uma confirmação para tal. Você também pode desativar novos registros completamente.', 
+	'NEW_MEMBER_POST_LIMIT'			    => 'Limite de mensagem para novos membros',
+	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	    => 'Novos usuários estarão inseridos na lista do grupo <em>Usuários recentemente registrados</em> até que alcancem o número de posts determinado. Você pode usar este grupo para privá-los do uso de MPs ou da revisão de suas mensagens. <strong>Um valor igual a 0 desativa esta ferramenta.</strong>',
+	'NEW_MEMBER_GROUP_DEFAULT'		    => 'Definir grupo de usuários recentemente registrados como padrão',
+	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Caso escolha sim e um limite de mensagens para novos membros for especificado, usuários novatos não serão apenas inseridos no grupo <em>Usuários recentemente registrados</em>, como terão este definido enquanto seu grupo padrão. Caso você deseje assinalar um rank e/ou avatar padrão ao grupo, todos os usuários inseridos no mesmo deverão herdar as suas configurações.',
 	'ACC_ADMIN'					=> 'Administrador', 
 	'ACC_DISABLE'				=> 'Desativar', 
 	'ACC_NONE'					=> 'Nunca', 
@@ -232,11 +245,46 @@ $lang = array_merge($lang, array(
 	'USERNAME_LENGTH_EXPLAIN'	=> 'Número mínimo e máximo de caracteres dos nomes de usuários.', 
 )); 
 
+// Feeds
+$lang = array_merge($lang, array(
+	'ACP_FEED_MANAGEMENT'				=> 'Configuração geral dos Feeds',
+	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Este módulo disponibiliza vários ATOM Feeds, analisando qualquer BBCode nos posts para torná-los legíveis a leitores de feeds externos.',
+
+	'ACP_FEED_ENABLE'					=> 'Ativar feeds',
+	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Define como ativo ou não os ATOM Feeds para o painel inteiro.<br />Desativando, todos os feeds deverão tornar-se inativos, não importando qual configuração abaixo seja definida.',
+	'ACP_FEED_LIMIT'					=> 'Número de itens',
+	'ACP_FEED_LIMIT_EXPLAIN'			=> 'O número máximo de itens feed que serão exibidos.',
+
+	'ACP_FEED_OVERALL_FORUMS'			=> 'Ativar feeds para os fóruns',
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Este feed exibe as últimas mensagens enviadas de todos os tópicos dos fóruns.',
+	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Número de itens por página a serem exibidos no feed dos fóruns',
+
+	'ACP_FEED_OVERALL_TOPIC'			=> 'Ativar feeds para os tópicos',
+	'ACP_FEED_OVERALL_TOPIC_EXPLAIN'	=> 'Ativa os feeds para todos os tópicos.',
+	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Número de itens por página a serem exibidos no feed dos tópicos',
+	'ACP_FEED_FORUM'					=> 'Ativar feeds por fórum',
+	'ACP_FEED_FORUM_EXPLAIN'			=> 'Novos posts de um fórum único.',
+	'ACP_FEED_TOPIC'					=> 'Ativar feeds por tópico',
+	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Novos posts de um único tópico.',
+	'ACP_FEED_NEWS'						=> 'Feed de notícias',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'Captura a primeira mensagem destes fóruns. Selecione nenhum fórum para desativar o feed de notícias.<br />Selecione múltiplos fóruns pressionando <samp>CTRL</samp> e clicando.',
+
+	'ACP_FEED_GENERAL'					=> 'Configuração geral dos feeds',
+
+	'ACP_FEED_ITEM_STATISTICS'			=> 'Estatísticas do item',
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Exibe estatísticas individuais abaixo dos itens do feed<br />(Enviado por, data e hora, Respostas, Exibições)',
+	'ACP_FEED_EXCLUDE_ID'				=> 'Excluir estes fóruns',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'O conteúdo destes fóruns <strong>não será incluído nos feeds</strong>. Selecione nenhum para ocultar os dados de todos os fóruns.<br />Selecione ou desmarque múltiplos fóruns pressionando <samp>CTRL</samp> e clicando.',
+));
+
 // Visual Confirmation Settings 
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'		=> 'Aqui você pode definir as opções gerais do uso da confirmação visual e o uso de CAPTCHA (figuras com códigos alfanuméricos gerados aleatóriamente, utilizados para confirmar a interação humana em algum ato na internet).', 
+	'ACP_VC_SETTINGS_EXPLAIN'		        => 'Aqui você pode selecionar e configurar diversos plugins CAPTCHA, os quais implementarão várias maneiras para rejeitar as tentativas de registro dos tão indesejáveis spambots.', 
+	'AVAILABLE_CAPTCHAS'					=> 'Plugins disponíveis',
 
+	'CAPTCHA_UNAVAILABLE'					=> 'O CAPTCHA não pôde ser selecionado já que seus requerimentos não foram encontrados.',
 	'CAPTCHA_GD'							=> 'GD CAPTCHA',
+	'CAPTCHA_GD_3D'							=> 'GD 3D Captcha',
 	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'Embaralhamento GD CAPTCHA',
 	'CAPTCHA_GD_EXPLAIN'					=> 'Utilize GD para criar mais CAPCHAs avançados.',
 	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Use o embaralhamento para criar uma imagem GD CAPTCHA complexa.',
@@ -254,8 +302,17 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_FONT_NEW'						=> 'Novas imagens',
 	'CAPTCHA_FONT_LOWER'					=> 'Também utilizar minúsculas',
 	
+	'CAPTCHA_NO_GD'							=> 'CAPTCHA sem GD',
 	'CAPTCHA_PREVIEW_MSG'					=> 'As suas alterações nas configurações da confirmação visual não foram salvas. Isto é apenas uma demonstração.',
 	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'O CAPTCHA parecerá com este. Use o botão de previsão para atualizar. Note que o código CAPTCHA é diferente e aleatório a cada visualização.',			
+
+	'CAPTCHA_SELECT'						=> 'Plugins CAPTCHA instalados',
+	'CAPTCHA_SELECT_EXPLAIN'				=> 'A barra possui os plugins CAPTCHA resincronizados pelo painel. Entradas em cinza não estão disponíveis no momento e podem necessitar de configurações prévias para que possam ser usadas.',
+	'CAPTCHA_CONFIGURE'						=> 'Configurar CAPTCHAs',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Defina as configurações para o CAPTCHA selecionado.',
+	'CONFIGURE'								=> 'Configurar',
+	'CAPTCHA_NO_OPTIONS'					=> 'Este CAPTCHA não possui opções de configuração.',	
+
 	'VISUAL_CONFIRM_POST'					=> 'Ativar confirmação visual nas mensagens enviadas por visitantes',
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Exige que os visitantes informem o código aleatório da imagem ao enviar uma mensagem. Utilize isto para ajudar a evitar mensagens em demasia enviadas por estes navegantes.',
 	'VISUAL_CONFIRM_REG'					=> 'Ativar confirmação visual para novos registros',
@@ -347,7 +404,7 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS_EXPLAIN'	=> 'Aqui você pode definir configurações gerais dependentes de seus servidores e domínios. Por favor, esteja certo da precisão dos dados que você digitar, pois erros resultarão em e-mails contendo informações incorretas. Quando digitar o nome do domínio, lembre-se de incluir o "http://" ou qualquer outro termo de protocolo. Apenas altere o numero da porta do servidor se você tiver a certeza de que seu servidor utiliza um valor diferente, o qual normalmente é 80.',
 
 	'ENABLE_GZIP'				=> 'Ativar compressão Gzip', 
-	'ENABLE_GZIP_EXPLAIN'		=> 'O conteúdo gerado será comprimido e enviado ao navegador do usuário, se ele suportar. Isto poderá reduzir o tráfego da rede, mas aumentará o consumo da CPU do servidor e do computador do usuário.',
+	'ENABLE_GZIP_EXPLAIN'		=> 'O conteúdo gerado será comprimido e enviado ao navegador do usuário, se ele suportar. Isto poderá reduzir o tráfego da rede, mas aumentará o consumo da CPU do servidor e do computador do usuário. Requer a extensão PHP zlib para ser carregado.',
 	'FORCE_SERVER_VARS'			=> 'Forçar configurações da URL do servidor', 
 	'FORCE_SERVER_VARS_EXPLAIN'	=> 'Se selecionado como sim, as configurações do servidor definidas aqui serão utilizadas no lugar dos valores escritos automaticamente.',
 	'ICONS_PATH'				=> 'Pasta dos ícones', 
@@ -364,7 +421,7 @@ $lang = array_merge($lang, array(
 	'SERVER_PROTOCOL'			=> 'Protocolo do servidor', 
 	'SERVER_PROTOCOL_EXPLAIN'	=> 'Será utilizado como o protocolo do servidor se essa configuração for forçada. Se vazio ou não forçado, o protocolo será determinado pelas configurações de segurança do cookie (<samp>http://</samp> ou <samp>https://</samp>).',
 	'SERVER_URL_SETTINGS'		=> 'Configurações da URL do servidor', 
-	'SMILIES_PATH'				=> 'Pasta dos smileys', 
+	'SMILIES_PATH'				=> 'Pasta dos smilies', 
 	'SMILIES_PATH_EXPLAIN'		=> 'Pasta sob o diretório raiz do seu phpBB, ex. <samp>images/smilies</samp>.',
 	'UPLOAD_ICONS_PATH'			=> 'Pasta dos ícones de grupos de extensões', 
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'Pasta sob o diretório raiz do seu phpBB, ex. <samp>images/upload_icons</samp>.',
@@ -386,7 +443,7 @@ $lang = array_merge($lang, array(
 	'CLASS_B'						=> 'A.B', 
 	'CLASS_C'						=> 'A.B.C', 
 	'EMAIL_CHECK_MX'				=> 'Verificar se o dominio é um registro MX válido',
-	'EMAIL_CHECK_MX_EXPLAIN'		=> 'Se ativado, o domínio do e-mail quando informado nos registros ou alterações de perfil será verficado nos registros MX.',
+	'EMAIL_CHECK_MX_EXPLAIN'		=> 'Se ativado, o domínio do e-mail quando informado nos registros ou alterações de perfil será verificado nos registros MX.',
 	'FORCE_PASS_CHANGE'				=> 'Forçar a mudança de senha', 
 	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Solicita que o usuário altere a sua senha após o número de dias especificado. Escreva 0 para desativar esta opção.',
 	'FORM_TIME_MAX'                 => 'Tempo máximo para submeter formas',
@@ -434,7 +491,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_SIG'						=> 'Assinatura do e-mail', 
 	'EMAIL_SIG_EXPLAIN'				=> 'Este texto será anexado a todos os e-mails enviados pelo painel.',
 	'ENABLE_EMAIL'					=> 'Ativar os e-mails do painel', 
-	'ENABLE_EMAIL_EXPLAIN'			=> 'Se for desativado, os e-mails não serão enviados pelo painel.',
+	'ENABLE_EMAIL_EXPLAIN'			=> 'Se for desativado, os e-mails não serão enviados pelo painel. <em>Note que as configurações para ativação de registro por parte do administrador ou do usuário requerem que esta configuração esteja ativada. Caso esteja utilizando a ativação por parte do administrador ou do usuário em sua configuração, desativando esta ferramenta não será mais necessária a ativação de novos registros.</em>',
 	'SMTP_AUTH_METHOD'				=> 'Método de autenticação de SMTP', 
 	'SMTP_AUTH_METHOD_EXPLAIN'		=> 'Apenas utilizado se um nome/senha for especificado, pergunte ao seu provedor se não souber qual método usar.', 
 	'SMTP_CRAM_MD5'					=> 'CRAM-MD5', 

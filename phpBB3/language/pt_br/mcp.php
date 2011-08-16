@@ -4,12 +4,12 @@
 * mcp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: mcp.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @version $Id: mcp.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */  
 
@@ -49,6 +49,7 @@ $lang = array_merge($lang, array(
 	'ALL_NOTES_DELETED'		=> 'Todas as notas do usuário foram excluídas com sucesso.',
 	'ALL_REPORTS'			=> 'Todas as denúncias', 
 	'ALREADY_REPORTED'		=> 'Esta mensagem já foi denunciada anteriormente.',
+	'ALREADY_REPORTED_PM'	=> 'Esta mensagem particular já foi denunciada anteriormente.',
 	'ALREADY_WARNED'		=> 'Uma advertência já foi enviada para esta mensagem anteriormente.', 
 	'APPROVE'				=> 'Aprovar', 
 	'APPROVE_POST'			=> 'Aprovar mensagem', 
@@ -57,14 +58,22 @@ $lang = array_merge($lang, array(
 	'APPROVE_POSTS_CONFIRM'	=> 'Você deseja realmente aprovar as mensagens selecionadas?', 
 	
 	'CANNOT_MOVE_SAME_FORUM'=> 'Você não pode mover o tópico para o fórum onde ele já se encontra inserido.', 
-	'CANNOT_WARN_ANONYMOUS' => 'Você não pode adverter visitantes não-registrados.',
-	'CANNOT_WARN_SELF'		=> 'Você não pode adverter a si mesmo.',
+	'CANNOT_WARN_ANONYMOUS' => 'Você não pode advertir visitantes não-registrados.',
+	'CANNOT_WARN_SELF'		=> 'Você não pode advertir a si mesmo.',
 	'CAN_LEAVE_BLANK'		=> 'Isto pode ser deixado em branco.', 
 	'CHANGE_POSTER'			=> 'Alterar autor', 
+	'CLOSE_PM_REPORT'		=> 'Trancar denúncia de MP',
+	'CLOSE_PM_REPORT_CONFIRM'	=> 'Você deseja realmente trancar a denúncia de MP selecionada?',
+	'CLOSE_PM_REPORTS'		=> 'Trancar denúncias de MP',
+	'CLOSE_PM_REPORTS_CONFIRM'	=> 'Você deseja realmente trancar as denúncias de MP selecionadas?',
 	'CLOSE_REPORT'			=> 'Fechar denúncia', 
 	'CLOSE_REPORT_CONFIRM'	=> 'Você deseja realmente fechar a denúncia selecionada?', 
 	'CLOSE_REPORTS'			=> 'Fechar denúncias', 
 	'CLOSE_REPORTS_CONFIRM'	=> 'Você deseja realmente fechar as denúncias selecionadas?', 
+	'DELETE_PM_REPORT'			=> 'Excluir denúncia de MP',
+	'DELETE_PM_REPORT_CONFIRM'	=> 'Você deseja realmente excluir a denúncia de MP selecionada?',
+	'DELETE_PM_REPORTS'			=> 'Excluir denúncias de MP',
+	'DELETE_PM_REPORTS_CONFIRM'	=> 'Você deseja realmente excluir as denúncias de MP selecionadas?',
 	
 	'DELETE_POSTS'				=> 'Excluir mensagens', 
 	'DELETE_POSTS_CONFIRM'		=> 'Você deseja realmente excluir as mensagens selecionadas?', 
@@ -109,6 +118,7 @@ $lang = array_merge($lang, array(
 		
 	'LATEST_LOGS'				=> 'Últimas 5 ações registradas', 
 	'LATEST_REPORTED'			=> 'Últimas 5 denúncias', 
+	'LATEST_REPORTED_PMS'		=> 'Últimas 5 MPs denunciadas',
 	'LATEST_UNAPPROVED'			=> 'Últimos 5 tópicos aguardando aprovação',
 	'LATEST_WARNING_TIME'		=> 'Última advertência enviada', 
 	'LATEST_WARNINGS'			=> 'Últimas 5 advertências', 
@@ -173,9 +183,16 @@ $lang = array_merge($lang, array(
 	
 	'MCP_POST_REPORTS'				=> 'Denúncias enviadas a esta mensagem',
 	
+	'MCP_PM_REPORTS'				=> 'MPs denunciadas',
+	'MCP_PM_REPORT_DETAILS'			=> 'Informações de denúncia da MP',
+	'MCP_PM_REPORTS_CLOSED'			=> 'Denúncias de MP trancadas',
+	'MCP_PM_REPORTS_CLOSED_EXPLAIN'	=> 'Esta é uma lista de todas as denúncias acerca de mensagens particulares que foram previamente concluídas.',
+	'MCP_PM_REPORTS_OPEN'			=> 'Denúncias de MP abertas',
+	'MCP_PM_REPORTS_OPEN_EXPLAIN'	=> 'Esta é uma lista de todas as denúncias acerca de mensagens particulares que ainda não foram concluídas.',
+
 	'MCP_REPORTS'					=> 'Mensagens denunciadas', 
 	'MCP_REPORT_DETAILS'			=> 'Informações da denúncia', 
-	'MCP_REPORTS_CLOSED'			=> 'Denúncias fechadas', 
+	'MCP_REPORTS_CLOSED'			=> 'Denúncias trancadas', 
 	'MCP_REPORTS_CLOSED_EXPLAIN'	=> 'Esta é uma lista de todas as denúncias de mensagens que foram previamente concluídas.',
 	'MCP_REPORTS_OPEN'				=> 'Denúncias abertas', 
 	'MCP_REPORTS_OPEN_EXPLAIN'		=> 'Esta é uma lista de todas as denúncias de mensagens que ainda não foram concluídas.',
@@ -192,8 +209,8 @@ $lang = array_merge($lang, array(
 	'MCP_WARN'				=> 'Advertências', 
 	'MCP_WARN_FRONT'		=> 'Página Inicial', 
 	'MCP_WARN_LIST'			=> 'Lista de advertências', 
-	'MCP_WARN_POST'			=> 'Adverter uma mensagem específica', 
-	'MCP_WARN_USER'			=> 'Adverter usuário', 
+	'MCP_WARN_POST'			=> 'Advertir uma mensagem específica', 
+	'MCP_WARN_USER'			=> 'Advertir usuário', 
 	
 	'MERGE_POSTS'			=> 'Fundir mensagens', 
 	'MERGE_POSTS_CONFIRM'	=> 'Você deseja realmente fundir as mensagens selecionadas?', 
@@ -221,7 +238,7 @@ $lang = array_merge($lang, array(
 	'NO_FEEDBACK'					=> 'Não existem relatórios deste usuário.',
 	'NO_FINAL_TOPIC_SELECTED'		=> 'Você deve selecionar um tópico de destino para fundir as mensagens.',
 	'NO_MATCHES_FOUND'				=> 'Nenhum resultado foi encontrado.',
-	'NO_POST'						=> 'Você deve selecionar uma mensagem para adverter o usuário sobre ela.',
+	'NO_POST'						=> 'Você deve selecionar uma mensagem para advertir o usuário sobre ela.',
 	'NO_POST_REPORT'				=> 'A mensagem selecionada ainda não foi denunciada.', 
 	'NO_POST_SELECTED'				=> 'Você deve selecionar pelo menos uma mensagem para realizar esta ação.',
 	'NO_REASON_DISAPPROVAL'			=> 'Por favor, dê uma razão apropriada para esta reprovação.',
@@ -234,6 +251,14 @@ $lang = array_merge($lang, array(
 	
 	'ONLY_TOPIC'			=> 'Somente o tópico "%s"', 
 	'OTHER_USERS'			=> 'Usuários que enviaram mensagens a partir deste IP',
+
+	'PM_REPORT_CLOSED_SUCCESS'	=> 'A denúncia da MP selecionada foi trancada com sucesso.',
+	'PM_REPORT_DELETED_SUCCESS'	=> 'A denúncia da MP selecionada foi excluída com sucesso.',
+	'PM_REPORTED_SUCCESS'		=> 'Esta mensagem particular foi denunciada com sucesso.',
+	'PM_REPORT_TOTAL'			=> 'No total, há <strong>1</strong> denúncia de MP para ser revisada.',
+	'PM_REPORTS_TOTAL'			=> 'No total, há <strong>%d</strong> denúncias de MP para serem revisadas.',
+	'PM_REPORTS_ZERO_TOTAL'		=> 'Não há denúncias de MP a serem revisadas.',
+	'PM_REPORT_DETAILS'			=> 'Informações de denúncia da MP',
 	
 	'POSTER'					=> 'Autor', 
 	'POSTS_APPROVED_SUCCESS'	=> 'As mensagens selecionadas foram aprovadas com sucesso.',
@@ -246,7 +271,7 @@ $lang = array_merge($lang, array(
 	'POSTS_PER_PAGE_EXPLAIN'	=> '(Escreva 0 para ver todas as mensagens.)',
 	'POST_APPROVED_SUCCESS' 	=> 'A mensagem selecionada foi aprovada com sucesso.',
 	'POST_DELETED_SUCCESS'		=> 'A mensagem selecionada foi excluída com sucesso.', 
-	'POST_DISAPPROVED_SUCCESS'	=> 'A mensagem seleconada foi reprovada com sucesso.',
+	'POST_DISAPPROVED_SUCCESS'	=> 'A mensagem selecionada foi reprovada com sucesso.',
 	'POST_LOCKED_SUCCESS'		=> 'A mensagem selecionada foi trancada com sucesso.', 
 	'POST_NOT_EXIST'			=> 'A mensagem selecionada não existe.', 
 	'POST_REPORTED_SUCCESS'		=> 'A mensagem foi denunciada com sucesso.', 
@@ -267,7 +292,7 @@ $lang = array_merge($lang, array(
 	'REPORT_DELETED_SUCCESS'	=> 'A denúncia selecionada foi removida com sucesso.', 
 	'REPORT_DETAILS'			=> 'Informações da denúncia', 
 	'REPORT_MESSAGE'			=> 'Denunciar esta mensagem', 
-	'REPORT_MESSAGE_EXPLAIN'	=> 'Use esta ferramenta para denunciar a mensagem selecionada. A mensagem deve ser denunciada geralmente quando a mesma quebrar as regras do fórum.', 
+	'REPORT_MESSAGE_EXPLAIN'	=> 'Use esta ferramenta para denunciar a mensagem particular selecionada. A mensagem deve ser denunciada geralmente quando a mesma quebrar as regras do fórum. <strong>Quando uma mensagem particular é denunciada o seu conteúdo torna-se visível a todos os moderadores.</strong>', 
 	'REPORT_NOTIFY'				=> 'Notificar-me', 
 	'REPORT_NOTIFY_EXPLAIN'		=> 'Você será informado quando a sua denúncia for manuseada.', 
 	'REPORT_POST_EXPLAIN'		=> 'Use esta ferramenta para denunciar as mensagens selecionadas aos moderadores do fórum e aos administradores do painel. A mensagem deve ser denunciada geralmente quando a mesma quebrar as regras do fórum.', 
@@ -278,6 +303,7 @@ $lang = array_merge($lang, array(
 	'RETURN_MESSAGE'			=> '%sVoltar à mensagem%s', 
 	'RETURN_NEW_FORUM'			=> '%sIr ao novo fórum%s', 
 	'RETURN_NEW_TOPIC'			=> '%sIr ao novo tópico%s', 
+	'RETURN_PM'					=> '%sVoltar à mensagem particular%s',
 	'RETURN_POST'				=> '%sVoltar à mensagem%s', 
 	'RETURN_QUEUE'				=> '%sVoltar à lista%s', 
 	'RETURN_REPORTS'			=> '%sVoltar às denúncias%s', 
@@ -319,7 +345,7 @@ $lang = array_merge($lang, array(
 	'TOPIC_DELETED_SUCCESS'		=> 'O tópico selecionado foi excluído com sucesso.', 
 	'TOPIC_DISAPPROVED_SUCCESS' => 'O tópico selecionado foi reprovado com sucesso.',
 	'TOPIC_FORKED_SUCCESS'		=> 'O tópico selecionado foi copiado com sucesso.', 
-	'TOPIC_LOCKED_SUCCESS'		=> 'O tópico selecionad foi trancado com sucesso.',
+	'TOPIC_LOCKED_SUCCESS'		=> 'O tópico selecionado foi trancado com sucesso.',
 	'TOPIC_MOVED_SUCCESS'		=> 'O tópico selecionado foi movido com sucesso.', 
 	'TOPIC_NOT_EXIST'			=> 'O tópico selecionado não existe.', 
 	'TOPIC_RESYNC_SUCCESS'		=> 'O tópico selecionado foi re-sincronizado com sucesso.',
@@ -349,6 +375,7 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_ADDED'			=> 'O usuário foi advertido com sucesso.', 
 	
 	'VIEW_DETAILS' 			=> 'Ver informações', 
+	'VIEW_PM'				=> 'Ver mensagem particular',
 	'VIEW_POST'				=> 'Ver mensagem',
 	
 	'WARNED_USERS' 			=> 'Usuários advertidos',
@@ -368,7 +395,7 @@ $lang = array_merge($lang, array(
 			'OTHER' 	=> 'Outros' 
 		), 
 		'DESCRIPTION' => array( 
-			'WAREZ'		=> 'A mensagem denunciada possui endereços ilegais ou softwares piratiados.', 
+			'WAREZ'		=> 'A mensagem denunciada possui endereços ilegais ou softwares pirateados.', 
 			'SPAM' 		=> 'A mensagem denunciada possui apenas o propósito de anunciar algum outro website ou produto.', 
 			'OFF_TOPIC' => 'A mensagem denunciada encontra-se fora de discussão no tópico.', 
 			'OTHER' 	=> 'A mensagem denunciada não se encaixa em qualquer outra categoria. Por favor, utilize o campo de informações adicionais.'

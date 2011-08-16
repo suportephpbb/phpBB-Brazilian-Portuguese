@@ -4,12 +4,12 @@
 * acp_posting.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: posting.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: posting.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -70,17 +70,17 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'					=> 'Símbolo', 
 	'TOKENS'				=> 'Símbolos', 
-	'TOKENS_EXPLAIN'		=> 'Os símbolos são campos especiais a serem adicionados pelos usuários. Mas estes apenas serão válidos se igualmente estiverem com as suas definições correspondentes. Se necessário, você pode numerá-las adicionando um número como o último caractere entre os braços, ex. {TEXT1}, {TEXT2}.<br /><br />Adicionalmente, você pode utilizar estes símbolos com qualquer sequência de linguagem presente em seu diretório /language como este: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que você deseja adicionar. Por exemplo, {L_WROTE} será exibido como "wrote" ou traduzido de acordo com a localidade do usuário.<br /><br /><strong>Por favor, note que apenas os símbolos listados abaixo serão autorizados a serem utilizados com os BBCodes personalizados.</strong>',
+	'TOKENS_EXPLAIN'		=> 'Os símbolos são campos especiais a serem preenchidos pelos usuários. Mas estes serão apenas válidos se igualmente estiverem com as suas definições correspondentes. Se necessário, você pode numerá-las adicionando um número como o último caractere entre os braços, ex. {TEXT1}, {TEXT2}.<br /><br />Adicionalmente, você pode utilizar estes símbolos com qualquer sequência de linguagem presente em seu diretório /language como este: {L_<em>&lt;STRINGNAME&gt;</em>} onde <em>&lt;STRINGNAME&gt;</em> é o nome da sequência traduzida que você deseja adicionar. Por exemplo, {L_WROTE} será exibido como "wrote" ou traduzido de acordo com a localidade do usuário.<br /><br /><strong>Por favor, note que apenas os símbolos listados abaixo serão autorizados a serem utilizados com os BBCodes personalizados.</strong>',
 	'TOKEN_DEFINITION'		=> 'O que pode ser isso?', 
 	'TOO_MANY_BBCODES'		=> 'Você não pode criar mais BBCodes. Por favor, remova um ou mais BBCodes e tente novamente.', 
 
 	'tokens'	=>	array( 
 		'TEXT'			=> 'Qualquer texto, incluindo caracteres externos, números e etc. Você não deverá utilizar este símbolo em tags de HTML. Mas tente utilizar IDENTIFIER ou SIMPLETEXT.', 
-		'SIMPLETEXT'    => 'Caracteres do alfabeto latino (A-Z), números, espaços, vírgulas, dots, minus, plus, hífen e underline',
-        'IDENTIFIER'    => 'Caracteres do alfabeto latino (A-Z), números, hífen e underline',
-		'NUMBER'		=> 'Qualquer série de digitos', 
+		'SIMPLETEXT'    => 'Caracteres do alfabeto latino (A-Z), números, espaços, vírgulas, pontos, menos, mais, hífen e sublinha',
+        'IDENTIFIER'    => 'Caracteres do alfabeto latino (A-Z), números, hífen e sublinha',
+		'NUMBER'		=> 'Qualquer série de dígitos', 
 		'EMAIL'			=> 'Um endereço de e-mail válido', 
-		'URL'			=> 'Uma URL válida utilizando qualquer protocolo (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, &quot;http://&quot;" é o prefixado para a sequência.', 
+		'URL'			=> 'Uma URL válida utilizando qualquer protocolo (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, "http://" é o prefixo padrão para a sequência.', 
 		'LOCAL_URL'		=> 'Uma URL local. A URL deve ser relativa à página do tópico e não pode ser um nome de servidor ou protocolo.', 
 		'COLOR'			=> 'Uma cor de HTML, pode ser tanto na forma hexadecimal <samp>#FF1234</samp> como em uma <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">cor de estilos CSS</a> assim como <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>' 
 	) 
@@ -89,8 +89,8 @@ $lang = array_merge($lang, array(
 // Smilies and topic icons 
 $lang = array_merge($lang, array( 
 	'ACP_ICONS_EXPLAIN'		=> 'Aqui você pode adicionar, editar e excluir os ícones os quais os usuários adicionarão em seus tópicos e mensagens. Estes ícones são exibidos geralmente perto do título dos tópicos na listagem de fóruns, ou no título do tópico na listagem de tópicos. Você pode também instalar e criar novos pacotes de ícones.', 
-	'ACP_SMILIES_EXPLAIN'	=> 'Os smileys ou emoções são tipicamente pequenos às vezes imagens animadas utilizadas para expressar alguma emoção ou sentimento. Aqui você pode adicionar, editar e excluir os smileys que os usuários poderão utilizar em seus tópicos e mensagens particulares. Você também pode instalar e criar novos pacotes de smileys.', 
-	'ADD_SMILIES'			=> 'Adicionar smileys múltiplos', 
+	'ACP_SMILIES_EXPLAIN'	=> 'Os smilies ou emoções são tipicamente pequenos às vezes imagens animadas utilizadas para expressar alguma emoção ou sentimento. Aqui você pode adicionar, editar e excluir os smilies que os usuários poderão utilizar em seus tópicos e mensagens particulares. Você também pode instalar e criar novos pacotes de smilies.', 
+	'ADD_SMILIES'			=> 'Adicionar smilies múltiplos', 
 	'ADD_SMILEY_CODE'		=> 'Adicionar código adicional ao smiley',
 	'ADD_ICONS'				=> 'Adicionar ícones múltiplos', 
 	'AFTER_ICONS'			=> 'Depois %s', 
@@ -99,20 +99,20 @@ $lang = array_merge($lang, array(
 	'CODE'						=> 'Código', 
 	'CURRENT_ICONS'				=> 'Ícones atuais', 
 	'CURRENT_ICONS_EXPLAIN'		=> 'Escolha o que fazer com os ícones atualmente instalados.',
-	'CURRENT_SMILIES'			=> 'Smileys atuais', 
-	'CURRENT_SMILIES_EXPLAIN'	=> 'Escolha o que fazer com os smileys atualmente instalados.',
+	'CURRENT_SMILIES'			=> 'Smilies atuais', 
+	'CURRENT_SMILIES_EXPLAIN'	=> 'Escolha o que fazer com os smilies atualmente instalados.',
 
 	'DISPLAY_ON_POSTING'	=> 'Exibir na página do envio de mensagens',
 	'DISPLAY_POSTING'       => 'Na página do envio de mensagens',
     'DISPLAY_POSTING_NO'    => 'Não exibir na página do envio de mensagens',
 
 	'EDIT_ICONS'				=> 'Editar ícones', 
-	'EDIT_SMILIES'				=> 'Editar smileys', 
+	'EDIT_SMILIES'				=> 'Editar smilies', 
 	'EMOTION'					=> 'Emoção', 
 	'EXPORT_ICONS'				=> 'Exportar e baixar icons.pak', 
 	'EXPORT_ICONS_EXPLAIN'		=> '%sClicando neste link, a configuração para os seus ícones instalados será compactada para o pacote <samp>icons.pak</samp>, que uma vez baixado pode ser utilizado para criar um arquivo <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus ícones e mais este arquivo de configuração <samp>icons.pak</samp>%s.', 
 	'EXPORT_SMILIES'			=> 'Exportar e baixar smilies.pak', 
-	'EXPORT_SMILIES_EXPLAIN'	=> '%sClicando neste link, a configuração para os seus smileys instalados será compactada para o pacote <samp>smilies.pak</samp>, que uma vez baixado pode ser utilizado para criar um arquivo <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus smileys e mais este arquivo de configuração <samp>smilies.pak</samp>%s.', 
+	'EXPORT_SMILIES_EXPLAIN'	=> '%sClicando neste link, a configuração para os seus smilies instalados será compactada para o pacote <samp>smilies.pak</samp>, que uma vez baixado pode ser utilizado para criar um arquivo <samp>.zip</samp> ou <samp>.tgz</samp> contendo todos os seus smilies e mais este arquivo de configuração <samp>smilies.pak</samp>%s.', 
 
 	'FIRST'			=> 'Primeiro', 
 
@@ -136,20 +136,20 @@ $lang = array_merge($lang, array(
 	'ICONS_URL'				=> 'Arquivo de imagem do ícone', 
 	'ICONS_WIDTH'			=> 'Largura do ícone', 
 	'IMPORT_ICONS'			=> 'Instalar pacote de ícones',
-	'IMPORT_SMILIES'		=> 'Instalar pacote de smileys', 
+	'IMPORT_SMILIES'		=> 'Instalar pacote de smilies', 
 
 	'KEEP_ALL'			=> 'Salvar todos', 
 
-	'MASS_ADD_SMILIES'	=> 'Adicionar smileys múltiplos', 
+	'MASS_ADD_SMILIES'	=> 'Adicionar smilies múltiplos', 
 
 	'NO_ICONS_ADD'		=> 'Não há ícones disponíveis para adicionar.',
 	'NO_ICONS_EDIT'		=> 'Não há ícones disponíveis para editar.',
 	'NO_ICONS_EXPORT'	=> 'Você não possui ícones para criar um pacote.', 
-	'NO_ICONS_PAK'		=> 'Nenhum Pacote de Ícones foi encontrado.',
-	'NO_SMILIES_ADD'	=> 'Não há smileys disponíveis para adicionar.',
-	'NO_SMILIES_EDIT'	=> 'Não há smileys disponíveis para editar.',	 
-	'NO_SMILIES_EXPORT'	=> 'Você não possui smileys para criar um pacote.', 
-	'NO_SMILIES_PAK'	=> 'Nenhum Pacote de Smileys foi encontrado.', 
+	'NO_ICONS_PAK'		=> 'Nenhum pacote de ícones foi encontrado.',
+	'NO_SMILIES_ADD'	=> 'Não há smilies disponíveis para adicionar.',
+	'NO_SMILIES_EDIT'	=> 'Não há smilies disponíveis para editar.',	 
+	'NO_SMILIES_EXPORT'	=> 'Você não possui smilies para criar um pacote.', 
+	'NO_SMILIES_PAK'	=> 'Nenhum pacote de smilies foi encontrado.', 
 
 	'PAK_FILE_NOT_READABLE'		=> 'Não é possível ler o arquivo <samp>.pak</samp>.', 
 
@@ -159,7 +159,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_ADD'				=> 'Adicionar novo smiley', 
 	'SMILIES_NONE_ADDED'        => 'Nenhum smiley foi adicionado.',
     'SMILIES_ONE_ADDED'         => 'O smiley foi adicionado com sucesso.',
-	'SMILIES_ADDED'				=> 'Os smileys foram adicionados com sucesso.', 
+	'SMILIES_ADDED'				=> 'Os smilies foram adicionados com sucesso.', 
 	'SMILIES_CODE'				=> 'Código do smiley', 
 	'SMILIES_CONFIG'			=> 'Configuração do smiley', 
 	'SMILIES_DELETED'			=> 'O smiley foi excluído com sucesso.', 
@@ -168,18 +168,20 @@ $lang = array_merge($lang, array(
     'SMILIE_NO_EMOTION'         => 'O smiley "%s" foi ignorado, como se nenhuma emoção tivesse sido escrita.',
 	'SMILIES_NONE_EDITED'       => 'Nenhum smiley foi atualizado.',
     'SMILIES_ONE_EDITED'        => 'O smiley foi atualizado com sucesso.',
-	'SMILIES_EDITED'			=> 'Os smileys foram atualizados com sucesso.', 
+	'SMILIES_EDITED'			=> 'Os smilies foram atualizados com sucesso.', 
 	'SMILIES_EMOTION'			=> 'Emoção', 
 	'SMILIES_HEIGHT'			=> 'Altura do smiley', 
 	'SMILIES_IMAGE'				=> 'Imagem do smiley', 
-	'SMILIES_IMPORTED'			=> 'O pacote de smileys foi instalado com sucesso.', 
-	'SMILIES_IMPORT_SUCCESS'	=> 'O pacote de smileys foi importado com sucesso.', 
+	'SMILIES_IMPORTED'			=> 'O pacote de smilies foi instalado com sucesso.', 
+	'SMILIES_IMPORT_SUCCESS'	=> 'O pacote de smilies foi importado com sucesso.', 
 	'SMILIES_LOCATION'			=> 'Local do smiley', 
-	'SMILIES_NOT_DISPLAYED'		=> 'Os smileys seguintes não serão exibidos na página do envio de mensagens.', 
+	'SMILIES_NOT_DISPLAYED'		=> 'Os smilies seguintes não serão exibidos na página do envio de mensagens.', 
 	'SMILIES_ORDER'				=> 'Ordem do smiley', 
 	'SMILIES_URL'				=> 'Arquivo de imagem do smiley', 
 	'SMILIES_WIDTH'				=> 'Largura do smiley', 
 
+	'TOO_MANY_SMILIES'	=> 'O limite de %d smilies foi alcançado.',	
+	
 	'WRONG_PAK_TYPE'	=> 'O pacote selecionado não possui as informações apropriadas.', 
 )); 
 
@@ -217,6 +219,7 @@ $lang = array_merge($lang, array(
 	'RANK_ADDED'			=> 'O rank foi adicionado com sucesso.', 
 	'RANK_IMAGE'			=> 'Imagem do rank', 
 	'RANK_IMAGE_EXPLAIN'	=> 'Use esta ferramenta para definir uma pequena imagem associada a este rank, relativa à pasta raíz do phpBB.', 
+	'RANK_IMAGE_IN_USE'		=> '(em uso)',
 	'RANK_MINIMUM'			=> 'Número mínimo de mensagens', 
 	'RANK_REMOVED'			=> 'O rank foi excluído com sucesso.', 
 	'RANK_SPECIAL'			=> 'Rank especial', 
@@ -242,14 +245,14 @@ $lang = array_merge($lang, array(
 
 // Reasons 
 $lang = array_merge($lang, array( 
-	'ACP_REASONS_EXPLAIN'	=> 'Aqui você pode gerenciar as razões utilizadas para as denúncias e reprovações quando desaprovando alguma mensagem. Existe uma razão padrão (marcada com um (*)) em que você não pode excluir, esta razão é normalmente utilizada para mensagens personalizadas se não possuirem motivos plausíveis.', 
+	'ACP_REASONS_EXPLAIN'	=> 'Aqui você pode gerenciar as razões utilizadas para as denúncias e reprovações quando desaprovando alguma mensagem. Existe uma razão padrão (marcada com um (*)) em que você não pode excluir, esta razão é normalmente utilizada para mensagens personalizadas se não possuírem motivos plausíveis.', 
 	'ADD_NEW_REASON'		=> 'Adicionar nova razão', 
 	'AVAILABLE_TITLES'		=> 'Títulos de razões locais disponíveis',
 	 
 	'IS_NOT_TRANSLATED'			=> 'A razão <strong>não</strong> foi localizada.',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'A razão <strong>não</strong> foi localizada. Se você deseja estabelecer a forma local, especifique a chave correta através dos arquivos de linguagem da seção de razões para denúncias.',
 	'IS_TRANSLATED'				=> 'A razão foi localizada.',
-	'IS_TRANSLATED_EXPLAIN'		=> 'A razão foi localizada. Se o título que você escreveu aqui for especificado nos arquivos de linguagem da seção de razóes para denúncias, a forma localizada para o título e a descrição serão utilizadas.',
+	'IS_TRANSLATED_EXPLAIN'		=> 'A razão foi localizada. Se o título que você escreveu aqui for especificado nos arquivos de linguagem da seção de razões para denúncias, a forma localizada para o título e a descrição serão utilizadas.',
 	 
 	'NO_REASON'					=> 'A razão não pôde ser encontrada.', 
 	'NO_REASON_INFO'			=> 'Você deve especificar um título e uma descrição para esta razão.', 

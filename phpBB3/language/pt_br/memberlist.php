@@ -4,12 +4,12 @@
 * memberlist.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: memberlist.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @version $Id: memberlist.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_SUBJECT_EMAIL'	=> 'Você deve escrever um título para o e-mail.',
 	'EQUAL_TO'				=> 'Igual a',
 
-	'FIND_USERNAME_EXPLAIN'	=> 'Aqui você pode pesquisar por usuários especificos. Você não precisa preencher todos os campos. Use * como complemento para palavras parciais. Se informar uma data, utilize o formato <kbd>YYYY-MM-DD</kbd>, ex. <samp>2007-03-14</samp>. Além disso, use as marcas de seleção para selecionar um ou mais nomes de usuários (podem ser aceitos vários usuários), e clique no botão selecionado para voltar à forma anterior.',
+	'FIND_USERNAME_EXPLAIN'	=> 'Aqui você pode pesquisar por usuários específicos. Você não precisa preencher todos os campos. Use * como complemento para palavras parciais. Se informar uma data, utilize o formato <kbd>YYYY-MM-DD</kbd>, ex. <samp>2007-03-14</samp>. Além disso, use as marcas de seleção para selecionar um ou mais nomes de usuários (podem ser aceitos vários usuários), e clique no botão selecionado para voltar à forma anterior.',
 	'FLOOD_EMAIL_LIMIT'		=> 'Você não pode enviar um e-mail em seguida. Por favor, tente novamente mais tarde.',
 
 	'GROUP_LEADER'			=> 'Líder do grupo',
@@ -137,6 +137,10 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN'			=> 'Administrar usuário',
 	'USER_BAN'				=> 'Banir',
 	'USER_FORUM'			=> 'Estatísticas do usuário',
+	'USER_LAST_REMINDED'	=> array(
+		0		=> 'Nenhum lembrete enviado atualmente',
+		1		=> '%1$d lembretes enviados<br />» %2$s',
+	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Frequência no fórum',
 

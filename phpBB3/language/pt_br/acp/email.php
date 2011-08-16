@@ -4,12 +4,12 @@
 * acp_email.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: email.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: email.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'SEND_IMMEDIATELY'		=> 'Enviar imediatamente',
 	'SEND_TO_GROUP'			=> 'Enviar para grupo', 
 	'SEND_TO_USERS'			=> 'Enviar para usuários', 
-	'SEND_TO_USERS_EXPLAIN'	=> 'Escrevendo nomes de usuários aqui, voce substituirá qualquer grupo selecionado acima. Insira cada nome em uma nova linha.', 
+	'SEND_TO_USERS_EXPLAIN'	=> 'Escrevendo nomes de usuários aqui, você substituirá qualquer grupo selecionado acima. Insira cada nome em uma nova linha.', 
 
 	'MAIL_HIGH_PRIORITY'	=> 'Alta',
 	'MAIL_LOW_PRIORITY'		=> 'Baixa',

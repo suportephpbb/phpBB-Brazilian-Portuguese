@@ -4,12 +4,12 @@
 * acp_bots.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: bots.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: bots.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 	'BOT_ADD'			=> 'Adicionar um bot',
 	'BOT_ADDED'			=> 'Novo bot adicionado com sucesso.',
 	'BOT_AGENT'			=> 'Agente de partida',
-	'BOT_AGENT_EXPLAIN'	=> 'Uma sequência inciando os agentes de navegadores de bots, partidas parciais são permitidas.',
+	'BOT_AGENT_EXPLAIN'	=> 'Uma sequência iniciando os agentes de navegadores de bots, partidas parciais são permitidas.',
 	'BOT_DEACTIVATE'	=> 'Desativar',
 	'BOT_DELETED'		=> 'O bot foi excluído com sucesso.',
 	'BOT_EDIT'			=> 'Editar bots',

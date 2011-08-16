@@ -4,12 +4,12 @@
 * ucp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: ucp.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @version $Id: ucp.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
 * @copyright (c) 2009 Suporte phpBB 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por: 
 * @Suporte phpBB - <http://www.suportephpbb.org/> 
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	 
 	'PRIVACY_POLICY'		=> 'Estas Políticas de Privacidade irão explicar em detalhes como "%1$s" juntamente com as suas afiliações e o phpBB utilizam quaisquer informações coletadas por você durante alguma sessão de aplicações dentro de nosso sistema.<br /> 
 	<br /> 
-	As suas informações são coletadas por dois meios. Primeiramente, através de seu navegador, "%1$s" irá fazer com que o software phpBB gere um determinado número de cookies, que são pequenos arquivos de texto adicionados ao seu navegador. Os primeiros dois cookies contém um identificador de usuários e um identificador de sessão anônima, automaticamente concedidos a você pelo software. Um terceiro cookie será criado uma vez que você tenha visualizado tópicos e/ou fóruns em "%1$s" e será utilizado para armazenar quais tópicos foram lidos, e por meio disso e outros, aperfeiçoar a sua experiência enquanto usuário em nossa comunidade.<br /> 
+	As suas informações são coletadas por dois meios. Primeiramente, através de seu navegador, "%1$s" irá fazer com que o software phpBB gere um determinado número de cookies, que são pequenos arquivos de texto adicionados ao seu navegador. Os primeiros dois cookies contêm um identificador de usuários e um identificador de sessão anônima, automaticamente concedidos a você pelo software. Um terceiro cookie será criado uma vez que você tenha visualizado tópicos e/ou fóruns em "%1$s" e será utilizado para armazenar quais tópicos foram lidos, e por meio disso e outros, aperfeiçoar a sua experiência enquanto usuário em nossa comunidade.<br /> 
 	<br /> 
 	Nós também precisamos criar cookies externos ao software phpBB enquanto navegando em "%1$s", e ainda que estes sejam externos, a extensão destes documentos pretende apenas proteger as páginas criadas pelo sistema. O segundo meio em que poderemos coletar as suas informações é pelo o quê você submeter à nós. Este pode ser, e não é limitado a: postando como um usuário anônimo, registrando-se em "%1$s" e ainda sob as mensagens enviadas por você após o registro e enquanto feito o login no fórum.<br /> 
 	<br /> 
@@ -82,8 +82,9 @@ $lang = array_merge($lang, array(
 	'ADD_FRIENDS'					=> 'Adicionar novo amigo', 
 	'ADD_FRIENDS_EXPLAIN'			=> 'Você pode adicionar diversos nomes de usuários em cada linha.',
 	'ADD_NEW_RULE'					=> 'Adicionar nova regra', 
-	'ADD_RULE'						=> 'Aicionar regra', 
+	'ADD_RULE'						=> 'Adicionar regra', 
 	'ADD_TO'						=> 'Adicionar [Para]', 
+	'ADD_USERS_UCP_EXPLAIN'			=> 'Aqui você pode adicionar novos usuários ao grupo. Você pode escolher inclusive que este grupo torne-se padrão aos usuários selecionados. Por favor, escreva cada nome de usuário em uma linha separada.',
 	'ADMIN_EMAIL'					=> 'Receber e-mails informativos do fórum', 
 	'AGREE'							=> 'Eu aceito estes termos', 
 	'ALLOW_PM'						=> 'Receber mensagens particulares de outros usuários', 
@@ -97,8 +98,10 @@ $lang = array_merge($lang, array(
 	'AVATAR_FEATURES_DISABLED'		=> 'A função de avatar encontra-se desativada.',
 	'AVATAR_GALLERY'				=> 'Galeria de avatares', 
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Não foi possível enviar o avatar para %s.',
+	'AVATAR_NOT_ALLOWED'			=> 'O seu avatar não pode ser exibido porque o sistema de avatares foi desativado.',
 	'AVATAR_PAGE'					=> 'Página', 
-
+	'AVATAR_TYPE_NOT_ALLOWED'		=> 'O seu avatar atual não pode ser exibido porque o seu tipo de arquivo foi desativado.',
+	
 	'BACK_TO_DRAFTS'			=> 'Voltar aos rascunhos salvos', 
 	'BACK_TO_LOGIN'				=> 'Voltar à tela de login', 
 	'BIRTHDAY'					=> 'Aniversário', 
@@ -147,7 +150,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_ADD_SIG'			=> 'Sempre anexar minha assinatura', 
 	'DEFAULT_BBCODE'			=> 'Sempre ativar BBCode', 
 	'DEFAULT_NOTIFY'			=> 'Sempre notificar-me quando houver respostas', 
-	'DEFAULT_SMILIES'			=> 'Sempre ativar os smileys', 
+	'DEFAULT_SMILIES'			=> 'Sempre ativar os smilies', 
 	'DEFINED_RULES'				=> 'Regras definidas', 
 	'DELETED_TOPIC'				=> 'O tópico foi excluído.',
 	'DELETE_ATTACHMENT'			=> 'Excluir anexo', 
@@ -203,6 +206,7 @@ $lang = array_merge($lang, array(
 	'FOES_UPDATED'				=> 'A sua lista de inimigos foi atualizada com sucesso.', 
 	'FOLDER_ADDED'				=> 'A pasta foi adicionada com sucesso.',
 	'FOLDER_MESSAGE_STATUS'		=> '%1$d de %2$d mensagens foram armazenadas.', 
+	'FOLDER_NAME_EMPTY'			=> 'Você deve especificar um nome para este diretório.',
 	'FOLDER_NAME_EXIST'			=> 'A pasta <b>%s</b> já existe.',
 	'FOLDER_OPTIONS'			=> 'Opções de pasta', 
 	'FOLDER_RENAMED'			=> 'A pasta foi renomeada com sucesso.',
@@ -279,10 +283,12 @@ $lang = array_merge($lang, array(
 	'NOTIFY_METHOD_IM'				=> 'Apenas jabber', 
 	'NOTIFY_ON_PM'					=> 'Notificar-me quando houver mensagens particulares novas', 
 	'NOT_ADDED_FRIENDS_ANONYMOUS'	=> 'Você não pode adicionar um visitante à sua lista de amigos.', 
+	'NOT_ADDED_FRIENDS_BOTS'		=> 'Você não pode adicionar bots à sua lista de amigos.',
 	'NOT_ADDED_FRIENDS_FOES'		=> 'Você não pode adicionar usuários à sua lista de amigos que estejam em sua lista de inimigos.', 
 	'NOT_ADDED_FRIENDS_SELF'		=> 'Você não pode adicionar a si mesmo em sua lista de amigos.', 
 	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Você não pode adicionar administradores ou moderadores à sua lista de inimigos.', 
 	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Você não pode adicionar um visitante à sua lista de inimigos.', 
+	'NOT_ADDED_FOES_BOTS'			=> 'Você não pode adicionar bots à sua lista de inimigos.',
 	'NOT_ADDED_FOES_FRIENDS'		=> 'Você não pode adicionar usuários à sua lista de inimigos que estejam em sua lista de amigos.', 
 	'NOT_ADDED_FOES_SELF'			=> 'Você não pode adicionar a si mesmo em sua lista de inimigos.', 
 	'NOT_AGREE'						=> 'Eu não aceito estes termos', 
@@ -352,7 +358,7 @@ $lang = array_merge($lang, array(
 	'POST_EDIT_PM'				=> 'Editar mensagem', 
 	'POST_FORWARD_PM'			=> 'Encaminhar mensagem', 
 	'POST_NEW_PM'				=> 'Enviar mensagem', 
-	'POST_PM_LOCKED'			=> 'Mensagem particular está trancada', 
+	'POST_PM_LOCKED'			=> 'Mensagem particular está trancada.', 
 	'POST_QUOTE_PM'				=> 'Citar mensagem', 
 	'POST_PM_POST'				=> 'Citar mensagem', 
 	'POST_REPLY_PM'				=> 'Responder à mensagem', 
@@ -374,6 +380,8 @@ $lang = array_merge($lang, array(
 	'RENAME'							=> 'Renomear', 
 	'RENAME_FOLDER'						=> 'Renomear pasta', 
 	'REPLIED_MESSAGE'					=> 'Mensagens respondidas', 
+	'REPLY_TO_ALL'						=> 'Responder ao autor e todos os destinatários.',
+	'REPORT_PM'							=> 'Denunciar mensagem particular',
 	'RESIGN_SELECTED'					=> 'Cancelar selecionados', 
 	'RETURN_FOLDER'						=> '%1$sVoltar à pasta anterior%2$s', 
 	'RETURN_UCP'						=> '%sVoltar ao Painel de Controle do Usuário%s', 
@@ -423,8 +431,8 @@ $lang = array_merge($lang, array(
 	'UCP_MAIN_FRONT'			=> 'Página Principal', 
 	'UCP_MAIN_SUBSCRIBED'		=> 'Subscrições', 
 
-	'UCP_MSNM'					=> 'MSN Messenger', 
-	'UCP_NO_ATTACHMENTS'		=> 'Não não enviou nenhum anexo.',
+	'UCP_MSNM'					=> 'WL/MSN Messenger', 
+	'UCP_NO_ATTACHMENTS'		=> 'Nenhum anexo foi enviado.',
 
 	'UCP_PREFS'					=> 'Preferências', 
 	'UCP_PREFS_PERSONAL'		=> 'Editar configurações globais', 
@@ -486,7 +494,7 @@ $lang = array_merge($lang, array(
 	'VIEW_PREVIOUS_HISTORY'		=> 'MP anterior no histórico', 
 	'VIEW_PREVIOUS_PM'			=> 'MP anterior', 
 	'VIEW_SIGS'					=> 'Exibir assinaturas', 
-	'VIEW_SMILIES'				=> 'Exibir smileys como imagens', 
+	'VIEW_SMILIES'				=> 'Exibir smilies como imagens', 
 	'VIEW_TOPICS_DAYS'			=> 'Exibir tópicos de dias anteriores', 
 	'VIEW_TOPICS_DIR'			=> 'Exibir tópico ordenado por direção', 
 	'VIEW_TOPICS_KEY'			=> 'Exibir tópicos ordenados por', 
@@ -538,7 +546,7 @@ $lang = array_merge($lang, array(
 	), 
 
 
-	'GROUPS_EXPLAIN'		=> 'Os grupos de usuários permitem aos administradores gerenciar melhor os seus usuários. De forma padrão, você será colocado em um grupo específico, e este será o seu grupo padrão. Este grupo define como você será exibido aos outros usuários, por exemplo, a cor de seu nome de usuário, avatar, rank, etc. Dependendo das permissões concedidas pelo administrador, você poderá alterar o seu grupo padrão. Você também pode ser inserido ou ter a liberdade para increver-se em outros grupos. Alguns grupos podem lhe conceder permissões extras para ver o conteúdo ou aumentar as suas capacidades em outras áreas.', 
+	'GROUPS_EXPLAIN'	=> 'Os grupos de usuários permitem aos administradores gerenciarem melhor os seus usuários. De maneira comum, você será colocado em um grupo específico, e este será o seu grupo padrão. Este grupo define como você será exibido aos demais usuários, por exemplo, a cor de seu nome de usuário, avatar, rank, etc. Dependendo das permissões concedidas pelo administrador, você poderá alterar o seu grupo padrão. Você também pode ser inserido ou ter a liberdade para increver-se em outros grupos. Alguns grupos podem lhe conceder permissões extras para ver o conteúdo ou aumentar as suas capacidades em outras áreas.', 
 	'GROUP_LEADER'		=> 'Líderes', 
 	'GROUP_MEMBER'		=> 'Membros', 
 	'GROUP_PENDING'		=> 'Membros pendentes', 

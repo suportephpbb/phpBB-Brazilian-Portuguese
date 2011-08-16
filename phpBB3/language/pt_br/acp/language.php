@@ -4,12 +4,12 @@
 * acp_language.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: language.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: language.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */  
 
@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array( 
 	'ACP_FILES'						=> 'Administração de Idiomas', 
-	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Aqui você pode instalar/desinstalar pacotes de idiomas para o seu painel.', 
+	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Aqui você pode instalar/desinstalar pacotes de idiomas para o seu painel. O pacote de idiomas padrão está marcado com um asterisco (*).', 
 
 	'EMAIL_FILES'			=> 'Arquivos de e-mail',
 

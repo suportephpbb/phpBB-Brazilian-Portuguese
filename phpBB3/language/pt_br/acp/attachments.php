@@ -4,12 +4,12 @@
 * acp_attachments.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: attachments.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: attachments.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por: 
 * @Suporte phpBB - <http://www.suportephpbb.org/> 
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -71,7 +71,7 @@ $lang = array_merge($lang, array(
 	'CAT_IMAGES'				=> 'Imagens', 
 	'CAT_QUICKTIME_FILES'		=> 'Arquivos do Quicktime',
 	'CAT_RM_FILES'				=> 'Arquivos do RealMedia', 
-	'CAT_WM_FILES'				=> 'Aquivos do Windows Media',
+	'CAT_WM_FILES'				=> 'Arquivos do Windows Media',
 	'CHECK_CONTENT'				=> 'Verificar arquivos anexos',
 	'CHECK_CONTENT_EXPLAIN'		=> 'Alguns navegadores podem serem enganados e assumir funções incorretas a alguns dos arquivos enviados. Esta opção lhe assegura que estes arquivos sejam rejeitados.',
 	'CREATE_GROUP'				=> 'Criar novo grupo', 

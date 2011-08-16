@@ -4,12 +4,12 @@
 * posting.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: posting.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @version $Id: posting.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -84,7 +84,7 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_WARN'			=> 'Se você excluir a mensagem selecionada, ela não poderá ser restaurada.',
 	'DISABLE_BBCODE'			=> 'Desativar BBCode nesta mensagem',
 	'DISABLE_MAGIC_URL'			=> 'Desativar as URLs automáticas nesta mensagem',
-	'DISABLE_SMILIES'			=> 'Desativar smileys nesta mensagem',
+	'DISABLE_SMILIES'			=> 'Desativar smilies nesta mensagem',
 	'DISALLOWED_CONTENT'		=> 'O envio foi rejeitado porque o anexo foi identificado como um possível vetor de ataque.',
 	'DISALLOWED_EXTENSION'		=> 'A extensão %s não é permitida.',
 	'DRAFT_LOADED'				=> 'O rascunho foi carregado com sucesso. Você pode terminar a sua mensagem agora. O seu rascunho será excluído ao enviar esta mensagem.',
@@ -132,7 +132,7 @@ $lang = array_merge($lang, array(
 
 	'MESSAGE_BODY_EXPLAIN'		=> 'Escreva sua mensagem aqui, ela não pode ultrapassar o número de <strong>%d</strong> caracteres.',
 	'MESSAGE_DELETED'			=> 'A mensagem foi excluída com sucesso.',
-	'MORE_SMILIES'				=> 'Ver mais Smileys',
+	'MORE_SMILIES'				=> 'Ver mais Smilies',
 
 	'NOTIFY_REPLY'				=> 'Notificar-me quando for respondida',
 	'NOT_UPLOADED'				=> 'O arquivo selecionado não pôde ser enviado.',
@@ -156,7 +156,7 @@ $lang = array_merge($lang, array(
 	'POLL_OPTIONS_EDIT_EXPLAIN' => 'Escreva cada opção em uma nova linha. Você pode adicionar mais de <strong>%d</strong> opções. Se você excluir ou adicionar opções, todos os votos anteriores serão resetados.',
 	'POLL_QUESTION'				=> 'Título para a enquete',
 	'POLL_TITLE_TOO_LONG'		=> 'O título para a enquete é muito grande. Ele deve possuir no máximo 100 caracteres.',
-	'POLL_TITLE_COMP_TOO_LONG'	=> 'O título para a enquete é muito grande. Você deve excluir BBCodes e smileys.',
+	'POLL_TITLE_COMP_TOO_LONG'	=> 'O título para a enquete é muito grande. Você deve excluir BBCodes e smilies.',
 	'POLL_VOTE_CHANGE'			=> 'Ativar mudança de voto',
 	'POLL_VOTE_CHANGE_EXPLAIN'	=> 'Se ativado, os usuários poderão alterar o seu voto.',
 	'POSTED_ATTACHMENTS'		=> 'Anexos adicionados',
@@ -170,6 +170,8 @@ $lang = array_merge($lang, array(
 	'POST_ICON'					=> 'Ícone da mensagem',
 	'POST_NORMAL'				=> 'Normal',
 	'POST_REVIEW'				=> 'Revisão da mensagem',
+	'POST_REVIEW_EDIT'			=> 'Revisão da mensagem',
+	'POST_REVIEW_EDIT_EXPLAIN'	=> 'Esta mensagem foi alterada por outro usuário enquanto você a estava editando. Você deve revisar a versão atual de seu post e ajustar suas informações.',
 	'POST_REVIEW_EXPLAIN'		=> 'Pelo menos uma mensagem nova foi enviada a este tópico. Você pode desejar revisar a sua mensagem levando isso em conta.',
 	'POST_STORED'				=> 'A mensagem foi enviada com sucesso',
 	'POST_STORED_MOD'			=> 'A mensagem foi enviada com sucesso, mas ainda precisa ser aprovada por um moderador antes de se tornar publicamente visível.',
@@ -182,22 +184,23 @@ $lang = array_merge($lang, array(
 	'SAVE_DATE'					=> 'Salvar em',
 	'SAVE_DRAFT'				=> 'Salvar rascunho',
 	'SAVE_DRAFT_CONFIRM'		=> 'Por favor, note que os rascunhos salvos apenas incluem o título e a mensagem, qualquer outro elemento será excluído. Você deseja realmente salvar o seu rascunho agora?',
-	'SMILIES'					=> 'Smileys',
-	'SMILIES_ARE_OFF'			=> 'Smileys estão <em>inativos</em>',
-	'SMILIES_ARE_ON'			=> 'Smileys estão <em>ativos</em>',
+	'SMILIES'					=> 'Smilies',
+	'SMILIES_ARE_OFF'			=> 'Smilies estão <em>inativos</em>',
+	'SMILIES_ARE_ON'			=> 'Smilies estão <em>ativos</em>',
 	'STICKY_ANNOUNCE_TIME_LIMIT'=> 'Tempo limite do anúncio/tópico fixo',
 	'STICK_TOPIC_FOR'			=> 'Fixar tópico por',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Escreva 0 ou deixe em branco para um anúncio/tópico fixo sem tempo limite.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> 'Escreva 0 ou deixe em branco para um anúncio/tópico fixo sem tempo limite. Por favor, note que este número é relativo a data da mensagem.',
 	'STYLES_TIP'				=> 'Dica: Estilos podem ser aplicados rapidamente ao texto selecionado.',
 
 	'TOO_FEW_CHARS'				=> 'A mensagem possui poucos caracteres.',
+	'TOO_FEW_CHARS_LIMIT'		=> 'A sua mensagem contém %1$d caracteres. O número mínimo de caracteres que você precisa inserir é %2$d.',
 	'TOO_FEW_POLL_OPTIONS'		=> 'Você deverá escrever pelo menos duas opções de voto para a enquete.',
 	'TOO_MANY_ATTACHMENTS'		=> 'O anexo não pôde ser adicionado, pois o número máximo de %d anexos neste tópico já foi alcançado.',
 	'TOO_MANY_CHARS'			=> 'A mensagem possui muitos caracteres.',
 	'TOO_MANY_CHARS_POST'       => 'A sua mensagem contém %1$d caracteres. O número máximo de caracteres permitidos é %2$d.',
     'TOO_MANY_CHARS_SIG'        => 'A sua assinatura contém %1$d caracteres. O número máximo de caracteres permitidos é %2$d.',
 	'TOO_MANY_POLL_OPTIONS'		=> 'Você tentou adicionar muitas opções de voto para a enquete.',
-	'TOO_MANY_SMILIES'			=> 'A mensagem possui muitos smileys. O número máximo permitido é de %d smileys.',
+	'TOO_MANY_SMILIES'			=> 'A mensagem possui muitos smilies. O número máximo permitido é de %d smilies.',
 	'TOO_MANY_URLS'				=> 'A mensagem possui muitas URLs. O número máximo permitido é de %d URLs.',
 	'TOO_MANY_USER_OPTIONS'		=> 'Você não pode selecionar mais opções por usuário do que na enquete existente.',
 	'TOPIC_BUMPED'				=> 'O tópico foi ressuscitado com sucesso.',

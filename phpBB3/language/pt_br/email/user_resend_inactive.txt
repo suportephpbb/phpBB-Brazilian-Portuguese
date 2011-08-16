@@ -8,9 +8,9 @@ Por favor, salve este e-mail para consultas posteriores. As informações de seu
 Usuário: {USERNAME}
 ----------------------------
 
-Por favor, não esqueça a sua senha, pois ela já foi codificada em nosso banco de dados e não poderemos restaurá-la, caso seja necessário. Contudo, caso se esqueça da mesma, você poderá solicitar uma nova, sendo ativada desta mesma maneira.
+A sua senha foi codificada de forma segura em nosso banco de dados e não podemos restaurá-la. Contudo, caso se esqueça da mesma, você poderá resetá-la usando o endereço de e-mail associado ao seu registro.
 
-O seu registro encontra-se atualmente inativo. Você não poderá utilizá-lo enquanto não visitar o seguinte endereço:
+Por favor, visite o seguinte endereço para ativar o seu registro:
 
 {U_ACTIVATE}
 

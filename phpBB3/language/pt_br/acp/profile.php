@@ -4,12 +4,12 @@
 * acp_profile.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: profile.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: profile.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'ALWAYS_TODAY'			=> 'Sempre a data atual', 
 
 	'BOOL_ENTRIES_EXPLAIN'	=> 'Escreva suas opções agora.', 
-	'BOOL_TYPE_EXPLAIN'		=> 'Defina o tipo, entre uma caixa de seleção (checkbox) ou botões de rádio (radio). Uma caixa só será apresentada se estiver marcada para um determinado usuário. Nesse caso a <strong>segunda</strong> opção de línguagem será utilizada. Botões de rádio serão apresentados, independentemente dos seus valores.',
+	'BOOL_TYPE_EXPLAIN'		=> 'Defina o tipo, entre uma caixa de seleção (checkbox) ou botões de rádio (radio). Uma caixa só será apresentada se estiver marcada para um determinado usuário. Nesse caso a <strong>segunda</strong> opção de linguagem será utilizada. Botões de rádio serão apresentados, independentemente dos seus valores.',
 
 	'CHANGED_PROFILE_FIELD'		=> 'O campo de perfil foi alterado com sucesso.', 
 	'CHARS_ANY'					=> 'Qualquer caractere', 
@@ -69,6 +69,8 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'O usuário está autorizado a alterar este campo de perfil com o painel de controle do usuário.', 
 	'DISPLAY_AT_REGISTER'			=> 'Exibir na tela de registro', 
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Se esta opção estiver ativa, o campo será exibido na tela de registro.', 
+	'DISPLAY_ON_VT'					=> 'Exibir no viewtopic',
+	'DISPLAY_ON_VT_EXPLAIN'			=> 'Caso esta opção esteja ativa, o campo será exibido no mini-perfil do usuário no viewtopic.',
 	'DISPLAY_PROFILE_FIELD'			=> 'Exibir campo de perfil publicamente', 
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'O campo de perfil será visualizado em todas as localizações permitidas com as configurações de carga. Configurando aqui como "não", irá ocultar o campo das páginas de tópicos, perfis e lista de membros.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Escreva suas opções agora, todas elas em uma linha.',
@@ -133,7 +135,7 @@ $lang = array_merge($lang, array(
 	'SAVE'							=> 'Salvar', 
 	'SECOND_OPTION'					=> 'Segunda opção', 
 	'STEP_1_EXPLAIN_CREATE'			=> 'Aqui você pode escrever os primeiros parâmetros básicos de seu novo campo no perfil. Estas informações são necessárias para a segunda etapa, onde você poderá inserir as opções restantes e prever seu campo mais adiante.',
-	'STEP_1_EXPLAIN_EDIT'			=> 'Aqui você pode alterar os parâmetros básicos de seu campo no perfil. As opções relevantes são re-cauculadas com a segunda etapa, onde você poderá prever e testar as suas novas configurações.', 
+	'STEP_1_EXPLAIN_EDIT'			=> 'Aqui você pode alterar os parâmetros básicos de seu campo no perfil. As opções relevantes são recauculadas com a segunda etapa, onde você poderá prever e testar as suas novas configurações.', 
 	'STEP_1_TITLE_CREATE'			=> 'Adicionar campo de perfil', 
 	'STEP_1_TITLE_EDIT'				=> 'Editar campo de perfil', 
 	'STEP_2_EXPLAIN_CREATE'			=> 'Aqui você pode definir algumas opções comuns. Além disso, você pode prever o campo o qual você gerou, visualizando-o enquanto usuário. Por favor, teste as suas configurações para ver se tudo está funcionando corretamente.', 

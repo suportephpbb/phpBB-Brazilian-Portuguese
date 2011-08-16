@@ -4,12 +4,12 @@
 * common.php [Brazilian Portuguese] 
 *
 * @package language 
-* @version $Id: common.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @version $Id: common.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 /** 
@@ -251,7 +251,8 @@ $lang = array_merge($lang, array(
 	'G_GUESTS'					=> 'Visitantes', 
 	'G_REGISTERED'				=> 'Usuários registrados', 
 	'G_REGISTERED_COPPA'		=> 'Usuários registrados da COPPA', 
-	'G_GLOBAL_MODERATORS'		=> 'Moderadores globais', 
+	'G_GLOBAL_MODERATORS'		=> 'Moderadores globais',
+	'G_NEWLY_REGISTERED'		=> 'Usuários registrados recentemente',	
 
 	'HIDDEN_USERS_ONLINE'		=> '%d usuários invisíveis online', 
 	'HIDDEN_USERS_TOTAL'		=> '%d invisíveis',
@@ -259,7 +260,7 @@ $lang = array_merge($lang, array(
 	'HIDDEN_USERS_ZERO_ONLINE'	=> '0 usuários invisíveis online', 
 	'HIDDEN_USERS_ZERO_TOTAL'	=> 'nenhum invisível',
 	'HIDDEN_USERS_ZERO_TOTAL_AND'	=> 'nenhum invisível e ',
-	'HIDDEN_USER_ONLINE'		=> '%d usuários invisíveis online', 
+	'HIDDEN_USER_ONLINE'		=> '%d usuário invisível online', 
 	'HIDDEN_USER_TOTAL'			=> '%d invisíveis',
 	'HIDDEN_USER_TOTAL_AND'		=> '%d invisíveis e ',
 	'HIDE_GUESTS'				=> 'Ocultar visitantes', 
@@ -385,6 +386,8 @@ $lang = array_merge($lang, array(
 	'NO_NEW_POSTS'				=> 'Não há mensagens novas', 
 	'NO_POSTS'					=> 'Não há mensagens', 
 	'NO_POSTS_TIME_FRAME'		=> 'Não existem mensagens neste tópico no período selecionado.',	 
+	'NO_FEED_ENABLED'			=> 'Os feeds não estão disponíveis neste painel.',
+	'NO_FEED'					=> 'O feed solicitado não está disponível.',
 	'NO_SUBJECT'				=> 'Nenhum título foi especificado.',
 	'NO_SUCH_SEARCH_MODULE'		=> 'O modo de pesquisa especificado não existe.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Nenhum método de autenticação suportado.',
@@ -471,7 +474,7 @@ $lang = array_merge($lang, array(
 	'REG_USER_TOTAL'			=> '%d usuário registrado, ', 
 	'REG_USER_TOTAL_AND'        => '%d usuário registrado e ',
 	'REMOVE'					=> 'Excluir', 
-	'REMOVE_INSTALL'			=> 'Por favor, delete, mova ou renomeie o diretório de instalação antes de utilizar o seu painel. Se este diretório ainda estiver presente, apenas o painel de administração (ACP) será acessível.',
+	'REMOVE_INSTALL'			=> 'Por favor, delete, mova ou renomeie o diretório de instalação antes de utilizar o seu painel. Se este diretório ainda estiver presente, apenas o painel de administração (ACP) estará acessível.',
 	'REPLIES'					=> 'Respostas', 
 	'REPLY_WITH_QUOTE'			=> 'Responder com citação', 
 	'REPLYING_GLOBAL_ANNOUNCE'	=> 'Respondendo anúncio global', 
@@ -486,23 +489,25 @@ $lang = array_merge($lang, array(
 	'RETURN_FORUM'				=> '%sClique aqui para voltar ao fórum%s', 
 	'RETURN_PAGE'				=> '%sClique aqui para voltar à página anterior%s', 
 	'RETURN_TOPIC'				=> '%sClique aqui para voltar ao tópico%s', 
+	'FEED'						=> 'Feed',
+	'FEED_NEWS'					=> 'Notícias',
 	'RETURN_TO'					=> 'Voltar para', 
-	'RULES_ATTACH_CAN'			=> 'Enviar Anexos: <b>Permitido</b>', 
-	'RULES_ATTACH_CANNOT'		=> 'Enviar Anexos: <b>Proibido</b>', 
-	'RULES_DELETE_CAN'			=> 'Excluir Mensagens: <b>Permitido</b>', 
-	'RULES_DELETE_CANNOT'		=> 'Excluir Mensagens: <b>Proibido</b>', 
-	'RULES_DOWNLOAD_CAN'		=> 'Baixar Anexos: <b>Permitido</b>', 
-	'RULES_DOWNLOAD_CANNOT'		=> 'Baixar Anexos: <b>Proibido</b>', 
-	'RULES_EDIT_CAN'			=> 'Editar Mensagens: <b>Permitido</b>', 
-	'RULES_EDIT_CANNOT'			=> 'Editar Mensagens: <b>Proibido</b>', 
-	'RULES_LOCK_CAN'			=> 'Trancar Tópicos: <b>Permitido</b>', 
-	'RULES_LOCK_CANNOT'			=> 'Trancar Tópicos: <b>Proibido</b>', 
-	'RULES_POST_CAN'			=> 'Enviar Mensagens: <b>Permitido</b>', 
-	'RULES_POST_CANNOT'			=> 'Enviar Mensagens: <b>Proibido</b>', 
-	'RULES_REPLY_CAN'			=> 'Responder Mensagens: <b>Permitido</b>', 
-	'RULES_REPLY_CANNOT'		=> 'Responder Mensagens: <b>Proibido</b>', 
-	'RULES_VOTE_CAN'			=> 'Votar em Enquetes: <b>Permitido</b>', 
-	'RULES_VOTE_CANNOT'			=> 'Votar em Enquetes: <b>Proibido</b>', 
+	'RULES_ATTACH_CAN'			=> 'Enviar anexos: <b>Permitido</b>', 
+	'RULES_ATTACH_CANNOT'		=> 'Enviar anexos: <b>Proibido</b>', 
+	'RULES_DELETE_CAN'			=> 'Excluir mensagens: <b>Permitido</b>', 
+	'RULES_DELETE_CANNOT'		=> 'Excluir mensagens: <b>Proibido</b>', 
+	'RULES_DOWNLOAD_CAN'		=> 'Baixar anexos: <b>Permitido</b>', 
+	'RULES_DOWNLOAD_CANNOT'		=> 'Baixar anexos: <b>Proibido</b>', 
+	'RULES_EDIT_CAN'			=> 'Editar mensagens: <b>Permitido</b>', 
+	'RULES_EDIT_CANNOT'			=> 'Editar mensagens: <b>Proibido</b>', 
+	'RULES_LOCK_CAN'			=> 'Trancar tópicos: <b>Permitido</b>', 
+	'RULES_LOCK_CANNOT'			=> 'Trancar tópicos: <b>Proibido</b>', 
+	'RULES_POST_CAN'			=> 'Enviar mensagens: <b>Permitido</b>', 
+	'RULES_POST_CANNOT'			=> 'Enviar mensagens: <b>Proibido</b>', 
+	'RULES_REPLY_CAN'			=> 'Responder mensagens: <b>Permitido</b>', 
+	'RULES_REPLY_CANNOT'		=> 'Responder mensagens: <b>Proibido</b>', 
+	'RULES_VOTE_CAN'			=> 'Votar em enquetes: <b>Permitido</b>', 
+	'RULES_VOTE_CANNOT'			=> 'Votar em enquetes: <b>Proibido</b>', 
 
 	'SEARCH'					=> 'Pesquisar', 
 	'SEARCH_MINI'				=> 'Pesquisar…',	 
@@ -519,6 +524,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_SELF'				=> 'Ver as suas mensagens', 
 	'SEARCH_TOPIC'				=> 'Pesquisar neste tópico…',	 
 	'SEARCH_UNANSWERED'			=> 'Ler mensagens sem resposta', 
+	'SEARCH_UNREAD'				=> 'Ver mensagens não-lidas',
 	'SECONDS'					=> 'Segundos',	 
 	'SELECT'					=> 'Selecionar', 
 	'SELECT_ALL_CODE'			=> 'Selecionar todos',
@@ -536,6 +542,7 @@ $lang = array_merge($lang, array(
 	'SORT_JOINED'				=> 'Data de registro', 
 	'SORT_LOCATION'				=> 'Localização', 
 	'SORT_RANK'					=> 'Rank', 
+	'SORT_POSTS'				=> 'Mensagens',
 	'SORT_TOPIC_TITLE'			=> 'Título do tópico', 
 	'SORT_USERNAME'				=> 'Nome de usuário', 
 	'SPLIT_TOPIC'				=> 'Tópico fundido', 
@@ -597,6 +604,7 @@ $lang = array_merge($lang, array(
 	 
 	'TOPIC'				=> 'Tópico', 
 	'TOPICS'			=> 'Tópicos', 
+	'TOPICS_UNAPPROVED'	=> 'Pelo menos um tópico neste fórum ainda não foi aprovado.',
 	'TOPIC_ICON'		=> 'Ícone do tópico', 
 	'TOPIC_LOCKED'		=> 'Este tópico está trancado. Você não pode responder ou editar mensagens.', 
     'TOPIC_LOCKED_SHORT'=> 'Tópico trancado',
@@ -642,7 +650,8 @@ $lang = array_merge($lang, array(
 	'USER_POSTS'			=> '%d Mensagens', 
 	'USERS'					=> 'Usuários', 
 	'USE_PERMISSIONS'		=> 'Testar permissões do usuário',	 
-
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Desculpe, mas você não está autorizado a usar este recurso. Você se registrou recentemente em nossos fóruns e precisa participar um pouco mais para poder utilizá-lo.',
+	
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Used in date format dropdown, eg: "Today, 13:37 / 01 Jan 2007, 13:37" ... to join a relative date with calendar date
 	'VIEWED'					=> 'Visto', 
 	'VIEWING_FAQ'				=> 'Vendo FAQ - Questões Mais Freqüentes', 

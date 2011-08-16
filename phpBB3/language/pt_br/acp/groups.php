@@ -4,12 +4,12 @@
 * acp_groups.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: groups.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: groups.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */  
 
@@ -79,8 +79,9 @@ $lang = array_merge($lang, array(
 	'GROUP_LIST_EXPLAIN'			=> 'Esta é uma lista completa de todos os membros atuais com inscrição neste grupo. Você pode excluir usuários (exceto em certos grupos especiais) ou adicionar novos, se achar necessário.', 
     'GROUP_MAX_RECIPIENTS'			=> 'Número máximo de destinatários permitido por mensagem particular',
 	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'O número máximo de destinatários permitido por mensagem particular. Se definido 0, então as configurações gerais do painel serão utilizadas.',
+	'GROUP_OPTIONS_SAVE'			=> 'Opções gerais do grupo',
 	'GROUP_MEMBERS'					=> 'Membros do grupo', 
-	'GROUP_MEMBERS_EXPLAIN'			=> 'Aqui está uma lista completa de todos os usuários pertencentes a este grupo. Isto inclue seções separadas para líderes, membros pendentes e membros existentes. Através deste painel você pode gerenciar todos os aspectos sobre quem possue inscrição neste grupo e o que eles realizam. Para excluir um líder sem retirá-lo do grupo, utilize Demitir. Similarmente, use Promover para tornar um membro existente um líder.', 
+	'GROUP_MEMBERS_EXPLAIN'			=> 'Aqui está uma lista completa de todos os usuários pertencentes a este grupo. Isto inclui seções separadas para líderes, membros pendentes e membros existentes. Através deste painel você pode gerenciar todos os aspectos sobre quem possui inscrição neste grupo e o que eles realizam. Para excluir um líder sem retirá-lo do grupo, utilize Demitir. Similarmente, use Promover para tornar um membro existente um líder.', 
 	'GROUP_MESSAGE_LIMIT'			=> 'Limite de mensagens particulares do grupo por pasta', 
 	'GROUP_MESSAGE_LIMIT_EXPLAIN'	=> 'Esta configuração substitui o limite da pasta de mensagens particulares por usuário. Um valor igual a 0 significa manter as configurações individuais ao usuário.', 
 	'GROUP_MODS_ADDED'				=> 'Novos líderes do grupo adicionados com sucesso.', 
@@ -96,6 +97,8 @@ $lang = array_merge($lang, array(
 	'GROUP_RECEIVE_PM_EXPLAIN'		=> 'Os grupos invisíveis não podem receber mensagens particulares, mesmo selecionando esta opção.',	
 	'GROUP_REQUEST'					=> 'Inscrição', 
 	'GROUP_SETTINGS_SAVE'			=> 'Propriedades do grupo',
+	'GROUP_SKIP_AUTH'				=> 'Isentar líder do grupo das permissões',
+	'GROUP_SKIP_AUTH_EXPLAIN'		=> 'Se ativado, o líder não estará mais sujeito às permissões do grupo.',
 	'GROUP_TYPE'					=> 'Tipo do grupo', 
 	'GROUP_TYPE_EXPLAIN'			=> 'Isto determina quais usuários podem entrar ou ver este grupo.', 
 	'GROUP_UPDATED'					=> 'O grupo foi atualizado com sucesso.', 

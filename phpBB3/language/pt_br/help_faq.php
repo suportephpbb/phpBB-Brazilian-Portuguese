@@ -4,12 +4,12 @@
 * help_faq.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: help_faq.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: help_faq.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */  
 
@@ -182,8 +182,8 @@ $help = array(
       1 => 'Não. Não é possível enviar mensagens em HTML no sistema phpBB3. A maioria dos formatos utilizados em HTML podem ser reproduzidos na utilização das tags de BBCode.' 
    ), 
    array( 
-      0 => 'O que são smileys?', 
-      1 => 'Os smileys, ou emoticons, são pequenas representações gráficas que podem ser usadas para expressar algum sentimento utilizando poucos caracteres, ou seja, :) quer dizer feliz, :( quer dizer triste. Uma lista completa de smileys pode ser vista no formulário junto à caixa de cada mensagem. Tente evitar o uso excessivo dos smileys, já que podem tornar uma mensagem ilegível, podendo o administrador ou um moderador excluí-los ou deletar a mensagem inteira. O administrador também pode ter configurado um limite para o número de smileys que você pode utilizar em uma mensagem.' 
+      0 => 'O que são smilies?', 
+      1 => 'Os smilies, ou emoticons, são pequenas representações gráficas que podem ser usadas para expressar algum sentimento utilizando poucos caracteres, ou seja, :) quer dizer feliz, :( quer dizer triste. Uma lista completa de smilies pode ser vista no formulário junto à caixa de cada mensagem. Tente evitar o uso excessivo dos smilies, já que podem tornar uma mensagem ilegível, podendo o administrador ou um moderador excluí-los ou deletar a mensagem inteira. O administrador também pode ter configurado um limite para o número de smilies que você pode utilizar em uma mensagem.' 
    ), 
    array( 
       0 => 'Posso exibir imagens?', 
@@ -208,7 +208,12 @@ $help = array(
    array( 
       0 => 'O que são ícones de tópicos?', 
       1 => 'Os ícones de tópicos são imagens que podem ser associadas com as mensagens para indicar o seu conteúdo. Se você pode ou não utilizar essa função, depende das permissões que lhe foram atribuídas pelo administrador do fórum.' 
-   ), 
+   ),
+   // This block will switch the FAQ-Questions to the second template column
+	array(
+		0 => '--',
+		1 => '--'
+   ),   
    array( 
       0 => '--', 
       1 => 'Sobre os <i>níveis de usuários</i> e <i>grupos</i>' 
@@ -331,7 +336,7 @@ $help = array(
    ), 
    array( 
       0 => 'Quem escreveu o phpBB?', 
-      1 => 'Este software (em sua forma não modificada) é produzido, publicado e com direitos reservados ao <a href=\"http://www.phpbb.com/\" target=\"_blank\">phpBB Group</a>. Está disponível sob a licensa <strong>GNU</strong> <em>General Public Licence</em> e pode ser distribuido gratuitamente. Verifique o link para mais informações.' 
+      1 => 'Este software (em sua forma não modificada) é produzido, publicado e com direitos reservados ao <a href="http://www.phpbb.com/" target="_blank">phpBB Group</a>. Está disponível sob a licença <strong>GNU</strong> <em>General Public Licence</em> e pode ser distribuído gratuitamente. Verifique o link para mais informações.' 
    ), 
    array( 
       0 => 'Quem traduziu o phpBB?', 

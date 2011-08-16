@@ -4,12 +4,12 @@
 * acp_database.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: database.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: database.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */  
 
@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 	'BACKUP_INVALID'	=> 'O arquivo selecionado para o backup é inválido.', 
 	'BACKUP_OPTIONS'	=> 'Opções de backup', 
 	'BACKUP_SUCCESS'	=> 'O backup foi criado com sucesso.', 
-	'BACKUP_TYPE'		=> 'Típo de backup', 
+	'BACKUP_TYPE'		=> 'Tipo de backup', 
 
 	'DATABASE'			=> 'Ferramentas do banco de dados', 
 	'DATA_ONLY'			=> 'Backup apenas dos dados', 
@@ -56,7 +56,8 @@ $lang = array_merge($lang, array(
 	'DESELECT_ALL'		=> 'Deselecionar todos', 
 	'DOWNLOAD_BACKUP'	=> 'Download do backup', 
 
-	'FILE_TYPE'			=> 'Típo de arquivo', 
+	'FILE_TYPE'			=> 'Tipo de arquivo', 
+	'FILE_WRITE_FAIL'	=> 'Não foi possível escrever o arquivo para o diretório de armazenamento.',
 	'FULL_BACKUP'		=> 'Completo', 
 
 	'RESTORE_FAILURE'		=> 'O backup pode estar corrompido.',

@@ -4,12 +4,12 @@
 * acp_styles.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: styles.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: styles.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -140,7 +140,7 @@ $lang = array_merge($lang, array(
 	'IMAGESET_EXPORT'			=> 'Exportar set de imagens', 
 	'IMAGESET_EXPORT_EXPLAIN'	=> 'Aqui você pode exportar um set de imagens na forma de um arquivo. Este arquivo deve conter todas as informações necessárias para a instalação do set de imagens em outro fórum. Você deve selecionar entre baixar o arquivo diretamente ou enviá-lo à sua pasta de armazenamento para download posterior via FTP.', 
 	'IMAGESET_EXPORTED'			=> 'O set de imagens foi exportado e armazenado em %s com sucesso.', 
-	'IMAGESET_NAME'				=> 'Nome do det de imagens', 
+	'IMAGESET_NAME'				=> 'Nome do set de imagens', 
 	'IMAGESET_REFRESHED'		=> 'O set de imagens foi atualizado com sucesso.', 
 	'IMAGESET_UPDATED'			=> 'O set de imagens foi atualizado com sucesso.', 
 	'ITALIC'					=> 'Itálico', 
@@ -249,7 +249,7 @@ $lang = array_merge($lang, array(
 	'IMG_ICON_USER_OFFLINE'		=> 'Usuário offline', 
 	'IMG_ICON_USER_PROFILE'		=> 'Exibir perfil', 
 	'IMG_ICON_USER_SEARCH'		=> 'Pesquisar mensagens', 
-	'IMG_ICON_USER_WARN'		=> 'Adverter usuário', 
+	'IMG_ICON_USER_WARN'		=> 'Advertir usuário', 
 
 	'IMG_BUTTON_PM_FORWARD'		=> 'Encaminhar mensagem particular', 
 	'IMG_BUTTON_PM_NEW'			=> 'Nova mensagem particular', 
@@ -393,6 +393,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_LOCATION'			=> 'Armazenar templates em', 
 	'TEMPLATE_LOCATION_EXPLAIN'	=> 'Imagens são sempre armazenadas no sistema de arquivos.', 
 	'TEMPLATE_NAME'				=> 'Nome da template', 
+	'TEMPLATE_FILE_NOT_WRITABLE'=> 'Não foi possível escrever o arquivo de template %s. Por favor, cheque as permissões para o diretório e os arquivos.',
 	'TEMPLATE_REFRESHED'		=> 'A template foi atualizada com sucesso.', 
 
 	'THEME_ADDED'				=> 'Novo tema adicionado e armazenado no sistema de arquivos.', 

@@ -4,12 +4,12 @@
 * search.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: search.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @version $Id: search.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */
 
@@ -53,9 +53,10 @@ $lang = array_merge($lang, array(
 	'IGNORED_TERMS'			=> 'ignorados', 
 	'IGNORED_TERMS_EXPLAIN'	=> 'As seguintes palavras foram ignoradas em sua pesquisa porque são termos muito comuns: <strong>%s</strong>',
 	
-	'JUMP_TO_POST'			=> 'Ir à Mensagem',	
+	'JUMP_TO_POST'			=> 'Ir à mensagem',	
 
  	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Este painel exige que você esteja registrado e autenticado para ver as suas mensagens.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Este painel exige que você esteja registrado e autenticado para ver as suas mensagens não-lidas.',
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Você especificou muitas palavras em sua pesquisa. Por favor, não insira mais que %1$d palavras.',
 	
 	'NO_KEYWORDS'			=> 'Você deve especificar pelo menos uma palavra para efetuar a pesquisa. Cada palavra deve ter no mínimo %d caracteres e não deve ultrapassar o limite de %d caracteres.', 

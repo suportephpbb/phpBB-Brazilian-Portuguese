@@ -4,12 +4,12 @@
 * acp_forums.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: forums.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @version $Id: forums.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -47,9 +47,12 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_VIEWED'			=> 'Dias para a limpeza pela data de visualização', 
 	'AUTO_PRUNE_VIEWED_EXPLAIN'	=> 'Número de dias desde a última visualização depois que cada tópico é excluído.', 
 
+	'CONTINUE'						=> 'Continuar',
 	'COPY_PERMISSIONS'				=> 'Copiar permissões de', 
+	'COPY_PERMISSIONS_EXPLAIN'		=> 'Para facilitar a configuração de permissões para o seu novo fórum, você pode copiar as permissões de um já existente.',
 	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> 'Quando criado, este fórum possuirá as mesmas permissões do qual você selecionar aqui. Se nenhum fórum for selecionado, o fórum recentemente criado não será visível até que as suas permissões sejam atribuídas.', 
 	'COPY_PERMISSIONS_EDIT_EXPLAIN'	=> 'Se você desejar copiar as permissões, este fórum possuirá as mesmas permissões do qual você selecionar aqui. Isto irá substituir quaisquer permissões que você tenha previamente atribuído à este fórum com as permissões do fórum que você selecionou aqui. Se nenhum fórum for selecionado, as permissões atuais serão salvas.', 
+	'COPY_TO_ACL'					=> 'Alternativamente, você também pode %sdefinir novas permissões%s para este fórum.',
 	'CREATE_FORUM'					=> 'Criar novo fórum', 
 
 	'DECIDE_MOVE_DELETE_CONTENT'		=> 'Excluir mensagens ou mover para fórum', 
@@ -65,6 +68,8 @@ $lang = array_merge($lang, array(
 	'ENABLE_INDEXING_EXPLAIN'		=> 'Se você selecionar sim, mensagens escritas à este fórum serão indexadas para pesquisas.', 
 	'ENABLE_POST_REVIEW'			=> 'Ativar revisão das mensagens', 
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Se você selecionar sim, os usuários poderão fazer uma revisão nas mensagens enviadas ao tópico, enquanto eles escreveram as deles. Isto deveria ser desativado para fóruns de chat geral.', 
+	'ENABLE_QUICK_REPLY'			=> 'Ativar resposta rápida',
+	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Se escolher sim, os usuários ganharão uma caixa de resposta rápida para este fórum. Caso a opção global para resposta rápida esteja desativada ou o fórum esteja trancado para novas mensagens, a caixa de resposta rápida não será exibida, mesmo que definido como sim aqui.',
 	'ENABLE_RECENT'					=> 'Exibir tópicos ativos', 
 	'ENABLE_RECENT_EXPLAIN'			=> 'Se você selecionar sim, tópicos escritos à este fórum serão exibidos na lista de tópicos ativos.', 
 	'ENABLE_TOPIC_ICONS'			=> 'Ativar ícones de tópicos', 

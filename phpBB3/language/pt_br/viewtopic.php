@@ -4,12 +4,12 @@
 * viewtopic.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: viewtopic.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -51,7 +51,8 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'Ressuscitar',
 
 	'CODE'					=> 'Código',
-
+	'COLLAPSE_QR'			=> 'Ocultar Resposta Rápida',
+	
 	'DELETE_TOPIC'			=> 'Excluir',
 	'DOWNLOAD_NOTICE'		=> 'Você não está autorizado a ver ou baixar esse anexo.',
 
@@ -62,6 +63,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_NOT_FOUND_404'	=> 'O arquivo <strong>%s</strong> não existe.',
 	'FORK_TOPIC'			=> 'Copiar',
+	'FULL_EDITOR'			=> 'Editor Completo',
 
 	'LINKAGE_FORBIDDEN'		=> 'Você não está autorizado a ver, baixar, ou criar links de/para este site.',
 	'LOGIN_NOTIFY_TOPIC'	=> 'Você foi notificado sobre este tópico. Por favor, faça o login para visualizá-lo.',
@@ -89,11 +91,13 @@ $lang = array_merge($lang, array(
 	'PRINT_TOPIC'			=> 'Exibir página para impressão',
 
 	'QUICK_MOD'				=> 'Ferramentas rápidas',
+	'QUICKREPLY'			=> 'Resposta Rápida',
 	'QUOTE'					=> 'Citação',
 
 	'REPLY_TO_TOPIC'		=> 'Responder',
 	'RETURN_POST'			=> '%sVoltar à sua Mensagem%s',
 
+	'SHOW_QR'				=> 'Resposta Rápida',
 	'SUBMIT_VOTE'			=> 'Votar',
 
 	'TOTAL_VOTES'			=> 'Total de votos',

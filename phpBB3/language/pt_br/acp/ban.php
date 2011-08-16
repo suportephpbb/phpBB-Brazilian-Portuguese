@@ -4,12 +4,12 @@
 * acp_ban.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: ban.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: ban.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */
 
@@ -42,14 +42,16 @@ $lang = array_merge($lang, array(
 	'30_MINS'		=> '30 minutos', 
 	'6_HOURS'		=> '6 horas', 
 
-	'ACP_BAN_EXPLAIN'	=> 'Aqui você pode controlar os banimentos de usuários por nome, endereço de IP, ou endereço de e-mail. Estes métodos proibem o usuário de acessar a qualquer parte do fórum. Você pode especificar uma pequena razão para o banimento (máximo de 3000 caracteres) se assim desejar. Esta razão será exibida no log do administrador. A duração do banimento também pode ser selecionada. Se você quiser que o banimento termine em uma data específica depois de outro período de tempo configurado, selecione <span style="text-decoration: underline;">Até -&gt;</span> para a longevidade do mesmo e escreva a data no formato <kbd>YYYY-MM-DD</kbd>, ou seja, em ano-mês-dia.',
+	'ACP_BAN_EXPLAIN'	=> 'Aqui você pode controlar os banimentos de usuários por nome, endereço de IP, ou endereço de e-mail. Estes métodos proíbem o usuário de acessar a qualquer parte do fórum. Você pode especificar uma pequena razão para o banimento (máximo de 3000 caracteres) se assim desejar. Esta razão será exibida no log do administrador. A duração do banimento também pode ser selecionada. Se você quiser que o banimento termine em uma data específica depois de outro período de tempo configurado, selecione <span style="text-decoration: underline;">Até -&gt;</span> para a longevidade do mesmo e escreva a data no formato <kbd>YYYY-MM-DD</kbd>, ou seja, em ano-mês-dia.',
 
 	'BAN_EXCLUDE'			=> 'Excluir banimento',
 	'BAN_LENGTH'			=> 'Duração do banimento',
 	'BAN_REASON'			=> 'Razão para o banimento',
 	'BAN_GIVE_REASON'		=> 'A razão ou motivo escrito para o banimento.',
 	'BAN_UPDATE_SUCCESSFUL'	=> 'A lista de banimentos foi atualizada com sucesso.',
-
+	'BANNED_UNTIL_DATE'		=> 'até %s', // Example: "until Mon 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'	=> '%1$s (até %2$s)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
+	
 	'EMAIL_BAN'					=> 'Banir um ou mais endereços de e-mail',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Ative a seguinte opção para banir a todos os endereços de e-mail desejados.',
 	'EMAIL_BAN_EXPLAIN'			=> 'Quando você utilizar mais de um endereço de e-mail, separe cada item em uma nova linha. Para selecionar endereços de e-mail parciais, utilize asteriscos (*), como por exemplo, <samp>*@hotmail.com</samp>, <samp>*@*.domain.tld</samp>, etc.', 

@@ -4,12 +4,12 @@
 * acp_permissions_phpbb.php (phpBB Permission Set) [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: permissions_phpbb.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @version $Id: permissions_phpbb.php,v 1.0 2009/11/21 11:23:32 Suporte phpBB Exp $ 
 * @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.5
+* @Versão do phpBB: 3.0.6
 * 
 */ 
 
@@ -128,9 +128,9 @@ $lang = array_merge($lang, array(
 	'acl_u_pm_attach'	=> array('lang' => 'Pode anexar arquivos em mensagens particulares', 'cat' => 'pm'), 
 	'acl_u_pm_download'	=> array('lang' => 'Pode baixar arquivos em mensagens particulares', 'cat' => 'pm'), 
 	'acl_u_pm_bbcode'	=> array('lang' => 'Pode usar BBCode em mensagens particulares', 'cat' => 'pm'), 
-	'acl_u_pm_smilies'	=> array('lang' => 'Pode usar smileys em mensagens particulares', 'cat' => 'pm'), 
-	'acl_u_pm_img'		=> array('lang' => 'Pode usar imagens em mensagens particulares', 'cat' => 'pm'), 
-	'acl_u_pm_flash'	=> array('lang' => 'Pode usar Flashs em mensagens particulares', 'cat' => 'pm'), 
+	'acl_u_pm_smilies'	=> array('lang' => 'Pode usar smilies em mensagens particulares', 'cat' => 'pm'), 
+	'acl_u_pm_img'		=> array('lang' => 'Pode usar a tag [img] em mensagens particulares', 'cat' => 'pm'), 
+	'acl_u_pm_flash'	=> array('lang' => 'Pode usar a tag [flash] em mensagens particulares', 'cat' => 'pm'), 
 
 	'acl_u_sendemail'	=> array('lang' => 'Pode enviar e-mails', 'cat' => 'misc'), 
 	'acl_u_sendim'		=> array('lang' => 'Pode enviar mensagens instantâneas', 'cat' => 'misc'), 
@@ -158,9 +158,9 @@ $lang = array_merge($lang, array(
 	'acl_f_download'	=> array('lang' => 'Pode baixar arquivos', 'cat' => 'content'), 
 	'acl_f_sigs'		=> array('lang' => 'Pode usar assinaturas', 'cat' => 'content'), 
 	'acl_f_bbcode'		=> array('lang' => 'Pode usar BBCode', 'cat' => 'content'), 
-	'acl_f_smilies'		=> array('lang' => 'Pode usar smileys', 'cat' => 'content'), 
-	'acl_f_img'			=> array('lang' => 'Pode usar imagens', 'cat' => 'content'), 
-	'acl_f_flash'		=> array('lang' => 'Pode usar Flashs', 'cat' => 'content'), 
+	'acl_f_smilies'		=> array('lang' => 'Pode usar smilies', 'cat' => 'content'), 
+	'acl_f_img'			=> array('lang' => 'Pode usar a tag [img]', 'cat' => 'content'), 
+	'acl_f_flash'		=> array('lang' => 'Pode usar a tag [flash]', 'cat' => 'content'), 
 
 	'acl_f_edit'		=> array('lang' => 'Pode editar as próprias mensagens', 'cat' => 'actions'), 
 	'acl_f_delete'		=> array('lang' => 'Pode excluir as próprias mensagens', 'cat' => 'actions'), 
@@ -207,7 +207,7 @@ $lang = array_merge($lang, array(
 	'acl_a_forumdel'	=> array('lang' => 'Pode excluir fóruns', 'cat' => 'forums'), 
 	'acl_a_prune'		=> array('lang' => 'Pode executar a limpeza de fóruns', 'cat' => 'forums'), 
 
-	'acl_a_icons'		=> array('lang' => 'Pode alterar ícones de tópicos/mensagem e smileys', 'cat' => 'posting'), 
+	'acl_a_icons'		=> array('lang' => 'Pode alterar ícones de tópico/mensagem e smilies', 'cat' => 'posting'), 
 	'acl_a_words'		=> array('lang' => 'Pode alterar censura de palavras', 'cat' => 'posting'), 
 	'acl_a_bbcode'		=> array('lang' => 'Pode definir tags de BBCode', 'cat' => 'posting'), 
 	'acl_a_attach'		=> array('lang' => 'Pode alterar configurações de anexos', 'cat' => 'posting'), 
