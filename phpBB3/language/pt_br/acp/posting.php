@@ -4,12 +4,12 @@
 * acp_posting.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: posting.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
-* @copyright (c) 2007 Suporte phpBB
+* @version $Id: posting.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $ 
+* @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 * 
 */ 
 
@@ -50,6 +50,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_HELPLINE'			=> 'Linha de ajuda',
 	'BBCODE_HELPLINE_EXPLAIN'	=> 'Este campo contém o texto a ser exibido quando o usuário passar o mouse acima do BBCode.',
 	'BBCODE_HELPLINE_TEXT'		=> 'Texto da linha de ajuda',
+	'BBCODE_HELPLINE_TOO_LONG'	=> 'A linha de ajuda que você escreveu é muito longa.',
 	'BBCODE_INVALID_TAG_NAME'	=> 'O nome da tag de BBCode selecionado já existe.',
 	'BBCODE_INVALID'            => 'O seu BBCode está construído em uma forma inválida.',
 	'BBCODE_OPEN_ENDED_TAG'		=> 'O seu BBCode personalizado deve conter um código de início e outro de fim.', 

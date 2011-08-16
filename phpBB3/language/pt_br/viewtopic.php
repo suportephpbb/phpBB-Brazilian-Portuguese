@@ -4,12 +4,12 @@
 * viewtopic.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: viewtopic.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
-* @copyright (c) 2007 Suporte phpBB
+* @version $Id: viewtopic.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $ 
+* @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 * 
 */ 
 
@@ -43,6 +43,7 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'A ferramenta de anexos encontra-se desativada.',
 
 	'BOOKMARK_ADDED'		=> 'O tópico foi adicionado aos favoritos com sucesso.',
+	'BOOKMARK_ERR'			=> 'Erro ao adicionar o tópico aos favoritos. Por favor, tente novamente.',
 	'BOOKMARK_REMOVED'		=> 'O tópico foi excluído dos favoritos com sucesso.',
 	'BOOKMARK_TOPIC'		=> 'Adicionar aos favoritos',
 	'BOOKMARK_TOPIC_REMOVE'	=> 'Excluir dos favoritos',

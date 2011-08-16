@@ -4,12 +4,12 @@
 * groups.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: groups.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
-* @copyright (c) 2007 Suporte phpBB
+* @version $Id: groups.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $ 
+* @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 *
 */ 
 
@@ -93,7 +93,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_CHANGE'			=> 'Do grupo "%1$s" para "%2$s"', 
 	'USER_GROUP_DEMOTE'			=> 'Demitir liderança', 
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Você deseja realmente demitir-se do grupo selecionado?', 
-	'USER_GROUP_DEMOTED'		=> 'A sua demição foi realizada com sucesso.', 
+	'USER_GROUP_DEMOTED'		=> 'A sua demissão foi realizada com sucesso.', 
 )); 
 
 ?>

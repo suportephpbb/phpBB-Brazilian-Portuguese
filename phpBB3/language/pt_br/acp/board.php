@@ -4,12 +4,12 @@
 * acp_board.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: board.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
-* @copyright (c) 2007 Suporte phpBB
+* @version $Id: board.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $
+* @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 * 
 */ 
 
@@ -113,7 +113,8 @@ $lang = array_merge($lang, array(
     'ALLOW_FLASH_PM_EXPLAIN'    => 'Note que a habilidade de se utilizar flash em mensagens particulares, se ativa aqui, também dependerá das respectivas permissões.',
 	'ALLOW_FORWARD_PM'			=> 'Permitir encaminhamento de mensagens particulares', 
 	'ALLOW_IMG_PM'				=> 'Permitir <code>[IMG]</code> em mensagens particulares', 
-	'ALLOW_MASS_PM'				=> 'Permitir envio de mensagens particulares para múltiplos usuários e grupos', 
+	'ALLOW_MASS_PM'				=> 'Permitir envio de mensagens particulares para múltiplos usuários e grupos',
+    'ALLOW_MASS_PM_EXPLAIN'		=> 'O envio para grupos pode ser ajustado a cada um existente de acordo com a página de configurações do grupo.',	
 	'ALLOW_PRINT_PM'			=> 'Permitir impressão em mensagens particulares', 
 	'ALLOW_QUOTE_PM'			=> 'Permitir citações em mensagens particulares', 
 	'ALLOW_SIG_PM'				=> 'Permitir assinaturas em mensagens particulares', 
@@ -128,6 +129,9 @@ $lang = array_merge($lang, array(
 	'HOLD_NEW_MESSAGES'			=> 'Segurar novas mensagens', 
 	'PM_EDIT_TIME'				=> 'Limite do tempo de edição', 
 	'PM_EDIT_TIME_EXPLAIN'		=> 'Limita o tempo disponível para se editar uma mensagem particular ainda não enviada, escreva 0 para desativar este recurso.', 
+    'PM_MAX_RECIPIENTS'			=> 'Número máximo de destinatários permitidos',
+	'PM_MAX_RECIPIENTS_EXPLAIN'	=> 'O número máximo de destinatários permitidos em uma mensagem particular. Se definido 0, um número ilimitado será permitido. Esta configuração pode ser ajustada para cada grupo através da página de configurações do grupo.',
+	
 )); 
 
 // Post Settings 
@@ -146,6 +150,8 @@ $lang = array_merge($lang, array(
 	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Selecione para exibir informações da última atualização da mensagem.',
 	'EDIT_TIME'						=> 'Limite do tempo de edição', 
 	'EDIT_TIME_EXPLAIN'				=> 'Limita o tempo para disponível para se editar uma nova mensagem, escreva 0 para desativar este recurso.', 
+    'ENABLE_QUEUE_TRIGGER'			=> 'Ativar mensagens listadas',
+	'ENABLE_QUEUE_TRIGGER_EXPLAIN'	=> 'Habilidade de setar as mensagens de usuários registrados para aprovação, caso o seu contador de mensagens esteja especificado com um valor abaixo do que o exibido abaixo. Esta configuração não possui nenhum efeito sobre a aprovação padrão de tópicos/mensagens.',
 	'FLOOD_INTERVAL'				=> 'Intervalo de novas mensagens', 
 	'FLOOD_INTERVAL_EXPLAIN'		=> 'Tempo em segundos que um usuário deve aguardar entre o envio de novas mensagens.', 
 	'HOT_THRESHOLD'					=> 'Número de mensagens para um tópico popular',
@@ -161,6 +167,8 @@ $lang = array_merge($lang, array(
 	'MAX_POST_URLS_EXPLAIN'			=> 'Número máximo de links por mensagem, sendo 0 igual a um valor ilimitado.', 
 	'POSTING'						=> 'Enviando mensagens', 
 	'POSTS_PER_PAGE'				=> 'Mensagens por página', 
+    'QUEUE_TRIGGER_POSTS'			=> 'Contagem máxima para mensagens listadas',
+	'QUEUE_TRIGGER_POSTS_EXPLAIN'	=> 'Se as mensagens listadas estiverem ativas, esta será a contagem necessária que um usuário deverá alcançar para que possa enviar suas mensagens sem a necessidade de aprovação. Caso o contador de mensagens do usuário esteja abaixo deste valor, a mensagem será armazenada na lista automaticamente.',
 	'QUOTE_DEPTH_LIMIT'				=> 'Número máximo de citações por mensagem', 
 	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Número máximo de citações por mensagem, sendo 0 igual a um valor ilimitado.', 
 	'SMILIES_LIMIT'					=> 'Número máximo de smileys por mensagem', 
@@ -363,7 +371,7 @@ $lang = array_merge($lang, array(
 	'BROWSER_VALID'					=> 'Validar o navegador', 
 	'BROWSER_VALID_EXPLAIN'			=> 'Ativa a validação do navegador em cada sessão, aumentando a sua segurança.', 
 	'CHECK_DNSBL'					=> 'Verificar se o IP está na lista de DNSs bloqueados',
-	'CHECK_DNSBL_EXPLAIN'			=> 'Se ativado, os endereços de IP dos usuários serão checados nos serviços DNSBL ao enviarem mensagens ou criarem novos registros de usuário: <a href="http://spamcop.net">spamcop.net</a>, <a href="http://dsbl.org">dsbl.org</a> e <a href="http://spamhaus.org">spamhaus.org</a>. Essa operação pode levar algum tempo, dependendo da configuração do servidor. Se essa operação ficar muito lenta ou acusar falsamente endereços de IP, é recomendado que a desative.',
+	'CHECK_DNSBL_EXPLAIN'			=> 'Se ativado, os endereços de IP dos usuários serão checados nos serviços DNSBL ao enviarem mensagens ou criarem novos registros de usuário: <a href="http://spamcop.net">spamcop.net</a> e <a href="http://spamhaus.org">spamhaus.org</a>. Essa operação pode levar algum tempo, dependendo da configuração do servidor. Se essa operação ficar muito lenta ou acusar falsamente endereços de IP, é recomendado que seja desativada.',
 	'CLASS_B'						=> 'A.B', 
 	'CLASS_C'						=> 'A.B.C', 
 	'EMAIL_CHECK_MX'				=> 'Verificar se o dominio é um registro MX válido',
@@ -390,8 +398,8 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL'				=> 'Deve conter símbolos',
 	'REF_HOST'						=> 'Apenas validar servidor',
 	'REF_PATH'						=> 'Também validar pasta',
-	'REFERER_VALID'					=> 'Validar referência',
-	'REFERER_VALID_EXPLAIN'			=> 'Se ativado, a referência de requisição de POST será checada junto à configuração da pasta do servidor/script. Isto pode ocasionar erros em fóruns que utilizem diversos domínios e/ou logins externos.',
+	'REFERER_VALID'					=> 'Validar referenciador',
+	'REFERER_VALID_EXPLAIN'			=> 'Se ativado, o referenciador de requisição de POST será checada junto à configuração da pasta do servidor/script. Isto pode ocasionar erros em fóruns que utilizem diversos domínios e/ou logins externos.',
 	'TPL_ALLOW_PHP'					=> 'Permitir php nas templates', 
 	'TPL_ALLOW_PHP_EXPLAIN'			=> 'Se esta opção for ativada, comandos <code>PHP</code> e <code>INCLUDEPHP</code> serão reconhecidos e inseridos nas templates.',
 )); 
@@ -444,16 +452,16 @@ $lang = array_merge($lang, array(
 	'JAB_GTALK_NOTE'            => 'Por favor, note que o GTalk não irá funcionar porque a função <samp>dns_get_record</samp> não pôde ser encontrada. Esta função não se encontra disponível no PHP4, e não é implementada nas plataformas do windows. Isto não é executável atualmente em sistemas BSD-based, incluindo o Mac OS.',
 	'JAB_PACKAGE_SIZE'			=> 'Tamanho do pacote de jabber', 
 	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'Este é o número de mensagens enviadas em um pacote. Se escrever 0, a mensagem será enviada imediatamente e não será salva para um envio posterior.', 
-	'JAB_PASSWORD'				=> 'Senha de jabber', 
-	'JAB_PORT'					=> 'Porta de jabber', 
+	'JAB_PASSWORD'				=> 'Senha jabber', 
+	'JAB_PORT'					=> 'Porta jabber', 
 	'JAB_PORT_EXPLAIN'			=> 'Deixe em branco, a menos que você saiba que não é a porta 5222.',
-	'JAB_SERVER'				=> 'Servidor de jabber', 
+	'JAB_SERVER'				=> 'Servidor jabber', 
 	'JAB_SERVER_EXPLAIN'		=> 'Veja em %sjabber.org%s uma lista completa de servidores.',
 	'JAB_SETTINGS_CHANGED'      => 'Configurações de jabber alteradas com sucesso.', 
 	'JAB_USE_SSL'               => 'Usar SLL para conexão',
     'JAB_USE_SSL_EXPLAIN'       => 'Se ativo, uma conexão segura tentará ser estabilizada. A porta Jabber será alterada para 5223 se a porta 5222 tiver sido especificada.',
-	'JAB_USERNAME'				=> 'Usuário de jabber', 
-	'JAB_USERNAME_EXPLAIN'		=> 'Escreva um nome de usuário registrado. O usuário não será checado para uma devida validação.', 
+	'JAB_USERNAME'				=> 'Usuário jabber ou JID', 
+	'JAB_USERNAME_EXPLAIN'		=> 'Escreva um nome de usuário registrado ou um JID válido. O usuário não será checado para uma devida validação. Se você apenas especificar um nome de usuário, então seu JID será o seu nome de usuário junto ao servidor especificado acima. Especifique um JID válido, por exemplo user@jabber.org.', 
 )); 
 
 ?>

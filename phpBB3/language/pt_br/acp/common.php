@@ -4,12 +4,12 @@
 * acp_common.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: common.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
-* @copyright (c) 2007 Suporte phpBB
+* @version $Id: common.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $
+* @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 * 
 */ 
 
@@ -364,7 +364,8 @@ $lang = array_merge($lang, array(
 	'VIEW_ADMIN_LOG'		=> 'Ver log do administrador', 
 	'VIEW_INACTIVE_USERS'	=> 'Ver usuários inativos', 
 
-	'WELCOME_PHPBB'			=> 'Bem-vindo ao phpBB', 
+	'WELCOME_PHPBB'			=> 'Bem-vindo ao phpBB',
+    'WRITABLE_CONFIG'		=> 'O seu arquivo de configuração (config.php) encontra-se universalmente configurável. É altamente recomendável que suas permissões de leitura sejam modificadas para 640 ou pelo menos 644 (por exemplo: <a href="http://en.wikipedia.org/wiki/Chmod" rel="external">chmod</a> 640 config.php).',	
 )); 
 
 // Inactive Users 
@@ -476,12 +477,13 @@ $lang = array_merge($lang, array(
 	'LOG_APPROVE_TOPIC'			=> '<strong>Tópico aprovado</strong><br />» %s', 
 	'LOG_BUMP_TOPIC'			=> '<strong>Tópico ressuscitado</strong><br />» %s', 
 	'LOG_DELETE_POST'			=> '<strong>Mensagem excluída</strong><br />» %s', 
-	'LOG_DELETE_TOPIC'			=> '<strong>Tópico excluído</strong><br />» %s', 
-	'LOG_FORK'					=> '<strong>Tópico copiado</strong><br />» de %s', 
-	'LOG_LOCK'					=> '<strong>Tópico trancado</strong><br />» %s', 
-	'LOG_LOCK_POST'				=> '<strong>Mensagem trancada</strong><br />» %s', 
-	'LOG_MERGE'					=> '<strong>Mensagens fundidas</strong> ao tópico<br />» %s', 
-	'LOG_MOVE'					=> '<strong>Tópico movido</strong><br />» de %s', 
+    'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Tópico fantasma excluído</strong><br />Â» %s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Tópico excluído</strong><br />Â» %s',
+	'LOG_FORK'					=> '<strong>Tópico copiado</strong><br />Â» de %s',
+	'LOG_LOCK'					=> '<strong>Tópico trancado</strong><br />Â» %s',
+	'LOG_LOCK_POST'				=> '<strong>Mensagem trancada</strong><br />Â» %s',
+	'LOG_MERGE'					=> '<strong>Mensagens fundidas</strong> no tópico<br />Â» %s',
+	'LOG_MOVE'					=> '<strong>Tópico movido</strong><br />Â» de %1$s para %2$s', 
 	'LOG_POST_APPROVED'			=> '<strong>Mensagem aprovada</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Mensagem reprovada “%1$s” pela seguinte razão</strong><br />%2$s',
 	'LOG_POST_EDITED'			=> '<strong>Mensagem editada “%1$s” escrita por “%3$s”</strong><br />» %2$s',
@@ -490,8 +492,7 @@ $lang = array_merge($lang, array(
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Mensagens subdivididas movidas</strong><br />» para %s', 
 	'LOG_SPLIT_SOURCE'			=> '<strong>Mensagens subdivididas</strong><br />» de %s', 
 
-	'LOG_TOPIC_DELETED'			=> '<strong>Tópico excluído</strong><br />» %s', 
-	'LOG_TOPIC_APPROVED'		=> '<strong>Tópido aprovado</strong><br />» %s',
+ 	'LOG_TOPIC_APPROVED'		=> '<strong>Tópido aprovado</strong><br />» %s',
 	'LOG_TOPIC_DISAPPROVED'		=> '<strong>Tópico reprovado “%1$s” pela seguinte razão</strong><br />%2$s',
 	'LOG_TOPIC_RESYNC'			=> '<strong>Contadores de tópico re-sincronizados</strong><br />» %s', 
 	'LOG_TOPIC_TYPE_CHANGED'	=> '<strong>Tipo de tópico alterado</strong><br />» %s', 

@@ -4,12 +4,12 @@
 * acp_permissions_phpbb.php (phpBB Permission Set) [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: permissions_phpbb.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
-* @copyright (c) 2007 Suporte phpBB
+* @version $Id: permissions_phpbb.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $ 
+* @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 * 
 */ 
 
@@ -117,7 +117,8 @@ $lang = array_merge($lang, array(
 	'acl_u_sig'			=> array('lang' => 'Pode usar assinaturas', 'cat' => 'post'), 
 
 	'acl_u_sendpm'		=> array('lang' => 'Pode enviar mensagens particulares', 'cat' => 'pm'), 
-	'acl_u_masspm'		=> array('lang' => 'Pode enviar MPs para diversos usuários e grupos', 'cat' => 'pm'), 
+	'acl_u_masspm'		=> array('lang' => 'Pode enviar mensagens para múltiplos usuários', 'cat' => 'pm'),
+	'acl_u_masspm_group'=> array('lang' => 'Pode enviar mensagens para grupos', 'cat' => 'pm'), 
 	'acl_u_readpm'		=> array('lang' => 'Pode ler mensagens particulares', 'cat' => 'pm'), 
 	'acl_u_pm_edit'		=> array('lang' => 'Pode editar as próprias mensagens particulares', 'cat' => 'pm'), 
 	'acl_u_pm_delete'	=> array('lang' => 'Pode excluir mensagens particulares de sua pasta', 'cat' => 'pm'), 

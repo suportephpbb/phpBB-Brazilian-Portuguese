@@ -4,12 +4,12 @@
 * common.php [Brazilian Portuguese] 
 *
 * @package language 
-* @version $Id: common.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
-* @copyright (c) 2007 Suporte phpBB
+* @version $Id: common.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $
+* @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 * 
 */ 
 /** 
@@ -172,6 +172,8 @@ $lang = array_merge($lang, array(
 	'ERR_JAB_AUTH'                      => 'Não foi possível autenticar-se no servidor do jabber.',
     'ERR_JAB_CONNECT'                   => 'Não foi possível conectar-se ao servidor do jabber.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'O seu nome de usuário está incorreto ou inativo ou a sua senha é inválida.',	 
+	'ERR_UNWATCHING'					=> 'Um erro ocorreu durante o cancelamento da subscrição.',
+	'ERR_WATCHING'						=> 'Um erro ocorreu durante a subscrição.',	
 	'ERR_WRONG_PATH_TO_PHPBB'			=> 'O local do script phpBB informado parece não ser válido.',
 	'EXPAND_VIEW'						=> 'Visualização expandida', 
 	'EXTENSION'							=> 'Extensão', 
@@ -280,7 +282,7 @@ $lang = array_merge($lang, array(
 
 	'JABBER'				=> 'Jabber', 
 	'JOINED'				=> 'Registrado em', 
-	'JUMP_PAGE'				=> 'Escreva o número da página a qual você deseja ir.',
+	'JUMP_PAGE'				=> 'Escreva o número da página a qual você deseja ir',
 	'JUMP_TO'				=> 'Ir para', 
 	'JUMP_TO_PAGE'			=> 'Clique para ir à página...', 
 
@@ -393,7 +395,13 @@ $lang = array_merge($lang, array(
 	'NO_USER'					=> 'O usuário selecionado não existe.', 
 	'NO_USERS'					=> 'Os usuários selecionados não existem.', 
 	'NO_USER_SPECIFIED'			=> 'Nenhum nome de usuário foi especificado.',
-	 
+	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
+	'NUM_POSTS_IN_QUEUE'		=> array(
+		0			=> 'Nenhuma mensagem na lista',		// 0
+		1			=> '1 mensagem na lista',		// 1
+		2			=> '%d mensagens na lista',		// 2+
+	),	
+	
 	'OCCUPATION'				=> 'Ocupação', 
 	'OFFLINE'					=> 'Offline', 
 	'ONLINE'					=> 'Online', 
@@ -544,7 +552,7 @@ $lang = array_merge($lang, array(
 	'TEST_CONNECTION'	=> 'Testar conexão', 
 	'THE_TEAM'			=> 'Equipe do fórum', 
 	'TIME'				=> 'Tempo', 
-
+	'TOO_LONG'			=> 'O valor definido é muito longo.',
 
 	'TOO_LONG_AIM'					=> 'O AIM escrito é muito grande.', 
 	'TOO_LONG_CONFIRM_CODE'			=> 'O código de confirmação escrito é muito grande.', 
@@ -565,7 +573,8 @@ $lang = array_merge($lang, array(
 	'TOO_LONG_YIM'					=> 'O Yahoo! Messenger escrito é muito grande.', 
 	 
 	'TOO_MANY_VOTE_OPTIONS'			=> 'Você tentou votar em muitas opções.', 
-
+	'TOO_SHORT'						=> 'O valor definido é muito curto.',
+	
 	'TOO_SHORT_AIM'					=> 'O AIM escrito é muito pequeno.', 
 	'TOO_SHORT_CONFIRM_CODE'		=> 'O código de confirmação escrito é muito pequeno.', 
 	'TOO_SHORT_DATEFORMAT'          => 'O formato da data escrito é muito pequeno.',
@@ -684,9 +693,9 @@ $lang = array_merge($lang, array(
 	'YOU_NO_NEW_PM'		=> 'Nenhuma mensagem particular está lhe aguardando em sua caixa de entrada.',
 
 	'datetime'			=> array( 
-		'TODAY'		=> 'Hoje, ',
+		'TODAY'		=> 'Hoje',
 		'TOMORROW'	=> 'Amanhã',
-		'YESTERDAY'	=> 'Ontem, ', 
+		'YESTERDAY'	=> 'Ontem', 
 
 		'Sunday'	=> 'Domingo', 
 		'Monday'	=> 'Segunda-feira', 
@@ -741,6 +750,7 @@ $lang = array_merge($lang, array(
 		'-7'	=> 'GMT - 7 horas', 
 		'-6'	=> 'GMT - 6 horas', 
 		'-5'	=> 'GMT - 5 horas', 
+		'-4.5'	=> 'GMT - 4.5 horas',
 		'-4'	=> 'GMT - 4 horas', 
 		'-3.5'	=> 'GMT - 3.5 horas', 
 		'-3'	=> 'GMT - 3 horas', 
@@ -776,6 +786,7 @@ $lang = array_merge($lang, array(
 		'-7'	=> '[GMT-7] Denver, Edmonton, Phoenix, Salt Lake City, Santa Fe', 
 		'-6'	=> '[GMT-6] Chicago, Guatamala, Mexico City, Saskatchewan East', 
 		'-5'	=> '[GMT-5] Bogota, Kingston, Lima, New York', 
+		'-4.5'	=> '[GMT-4.5] Venezuela',
 		'-4'	=> '[GMT-4] Caracas, Labrador, La Paz, Maritimes, Santiago', 
 		'-3.5'	=> '[GMT-3.5] Standard Time [Canada], Newfoundland', 
 		'-3'	=> '[GMT-3] Brasília, Buenos Aires, Georgetown, Rio de Janeiro', 

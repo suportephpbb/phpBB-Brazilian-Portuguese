@@ -4,12 +4,12 @@
 * acp_styles.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: styles.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
-* @copyright (c) 2007 Suporte phpBB
+* @version $Id: styles.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $ 
+* @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 * 
 */ 
 
@@ -106,6 +106,7 @@ $lang = array_merge($lang, array(
 	'EDIT_THEME_EXPLAIN'				=> 'Aqui você pode editar o tema selecionado, substituindo cores, imagens, etc.',
 	'EDIT_THEME_STORED_DB'				=> 'A folha de estilos não pode ser escrita, então será armazenada no banco de dados contendo as suas alterações realizadas.',
 	'EDIT_THEME_STORE_PARSED'			=> 'O tema requer que a sua folha de estilos seja analisada gramaticalmente. Isto só é possível se estiver armazenado no banco de dados.',
+	'EDITOR_DISABLED'					=> 'O editor de templates encontra-se desativado.',
 	'EXPORT'							=> 'Exportar', 
 
 	'FOREGROUND'			=> 'Fundo de tela', 
@@ -272,6 +273,7 @@ $lang = array_merge($lang, array(
 	'INCLUDE_IMAGESET'			=> 'Incluir set de imagens', 
 	'INCLUDE_TEMPLATE'			=> 'Incluir template', 
 	'INCLUDE_THEME'				=> 'Incluir tema', 
+	'INHERITING_FROM'			=> 'Heranças de',
 	'INSTALL_IMAGESET'			=> 'Instalar set de imagens', 
 	'INSTALL_IMAGESET_EXPLAIN'	=> 'Aqui você pode instalar os sets de imagens selecionados. Você pode editar algumas informações se desejar ou utilizar os padrões de instalação.', 
 	'INSTALL_STYLE'				=> 'Instalar estilo', 
@@ -287,7 +289,8 @@ $lang = array_merge($lang, array(
 
 	'LINE_SPACING'				=> 'Espaço da linha', 
 	'LOCALISED_IMAGES'			=> 'Localizado', 
-
+	'LOCATION_DISABLED_EXPLAIN'	=> 'Esta configuração é hereditária e não pode ser modificada.',
+	
 	'NO_CLASS'					=> 'Não foi possível encontrar a classe na folha de estilos.', 
 	'NO_IMAGESET'				=> 'Não foi possível encontrar o set de imagens no sistema de arquivos.', 
 	'NO_IMAGE'					=> 'Não há imagens', 
@@ -367,6 +370,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_CACHE_CLEARED'	=> 'O cache da template foi limpo com sucesso.', 
 	'TEMPLATE_CACHE_EMPTY'		=> 'Não há templates em cache.', 
 	'TEMPLATE_DELETED'			=> 'A template foi excluída com sucesso.', 
+	'TEMPLATE_DELETE_DEPENDENT'	=> 'A template selecionada não pode ser excluída porque existem uma ou mais definições sendo herdadas desta:',
 	'TEMPLATE_DELETED_FS'		=> 'A template foi excluída do banco de dados, mas alguns arquivos ainda continuam no sistema de arquivos.', 
 	'TEMPLATE_DETAILS_UPDATED'	=> 'Informações da template atualizadas com sucesso.', 
 	'TEMPLATE_EDITOR'			=> 'Editor de template de código HTML', 
@@ -378,12 +382,14 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_ERR_NAME_EXIST'	=> 'O nome da template já encontra-se em uso.', 
 	'TEMPLATE_ERR_NAME_LONG'	=> 'O nome da template não pode ter mais que 30 caracteres.', 
 	'TEMPLATE_ERR_NOT_TEMPLATE'	=> 'O arquivo selecionado não contém uma template válida.', 
+	'TEMPLATE_ERR_REQUIRED_OR_INCOMPLETE' => 'A nova template escolhida requer a template %s para ser instalada e não herdando de si mesma.',
 	'TEMPLATE_ERR_STYLE_NAME'	=> 'Você deve escrever um nome para essa template.',
 	'TEMPLATE_EXPORT'			=> 'Exportar template', 
 	'TEMPLATE_EXPORT_EXPLAIN'	=> 'Aqui você pode exportar uma template na forma de um arquivo. Este arquivo deve conter todas as informações necessárias para a instalação da template em outro fórum. Você deve selecionar entre baixar o arquivo diretamente ou enviá-lo à sua pasta de armazenamento para download posterior via FTP.', 
 	'TEMPLATE_EXPORTED'			=> 'A template foi exportada e armazenada em %s com sucesso.', 
 	'TEMPLATE_FILE'				=> 'Arquivo de template', 
 	'TEMPLATE_FILE_UPDATED'		=> 'O arquivo de template foi atualizado com sucesso.', 
+	'TEMPLATE_INHERITS'			=> 'Esta template possui heranças de %s e então não pode ter uma configuração de armazenamento diferente como uma super template.',
 	'TEMPLATE_LOCATION'			=> 'Armazenar templates em', 
 	'TEMPLATE_LOCATION_EXPLAIN'	=> 'Imagens são sempre armazenadas no sistema de arquivos.', 
 	'TEMPLATE_NAME'				=> 'Nome da template', 

@@ -4,12 +4,12 @@
 * install.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: install.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
-* @copyright (c) 2007 Suporte phpBB
+* @version $Id: install.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $
+* @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 *
 */
 
@@ -281,7 +281,7 @@ $lang = array_merge($lang, array(
 	'NO_LOCATION'				=> 'Não foi possível determinar o local. Se o Imagemagick estiver instalado, você pode especificar o local mais tarde através do seu painel de administração.',
 	'NO_TABLES_FOUND'			=> 'Nenhuma tabela foi encontrada.',
 
-	'OVERVIEW_BODY'					=> 'Bem-vindo ao phpBB3!<br /><br />O phpBB™ é o open source bulletin board solution mais sabiamente utilizado no mundo inteiro. O phpBB3 é o último lançamento de uma linhagem de pacotes em sete longos anos. Como os seus antecessores, o phpBB3 é rico em diversas ferramentas, com uma interface amigável e de fácil compreensão, além de ser completamente suportado pelo phpBB Team e o Suporte phpBB no Brasil. O phpBB3 reuniu aprimorando o que de mais tornou o phpBB2 popular e adicionando as ferramentas requeridas freqüentemente e que não encontravam-se presentes nas versões anteriores. Nós esperamos que tudo isto exceda as suas expectativas.<br /><br />Este sistema de instalação irá guiar-lhe através de diversas ferramentas, como a instalação do phpBB3, atualização do sistema para a mais nova versão do phpBB3 a partir de lançamentos anteriores, bem como a conversão para o phpBB3 de um sistema de fóruns diferente, incluindo o phpBB 2.0.x. Para mais informações, nós recomendamos que você leia <a href="../docs/INSTALL.html">o guia de instalação</a>.<br /><br />Para ler a licença do phpBB3 ou sobre como obter suporte online, por favor, selecione as respectivas opções do menu lateral. Para continuar, selecione a aba apropriada acima.',
+	'OVERVIEW_BODY'					=> 'Bem-vindo ao phpBB3!<br /><br />O phpBB™ é o open source bulletin board solution mais sabiamente utilizado no mundo inteiro. O phpBB3 é o último lançamento de uma linhagem de pacotes iniciada no ano 2000. Como os seus antecessores, o phpBB3 é rico em diversas ferramentas, com uma interface amigável e de fácil compreensão, além de ser completamente suportado pelo phpBB Team e o Suporte phpBB no Brasil. O phpBB3 reuniu aprimorando o que de mais tornou o phpBB2 popular e adicionando as ferramentas requeridas freqüentemente e que não encontravam-se presentes nas versões anteriores. Nós esperamos que tudo isto exceda as suas expectativas.<br /><br />Este sistema de instalação irá guiar-lhe através de diversas ferramentas, como a instalação do phpBB3, atualização do sistema para a mais nova versão do phpBB3 a partir de lançamentos anteriores, bem como a conversão para o phpBB3 de um sistema de fóruns diferente, incluindo o phpBB 2.0.x. Para mais informações, nós recomendamos que você leia <a href="../docs/INSTALL.html">o guia de instalação</a>.<br /><br />Para ler a licença do phpBB3 ou sobre como obter suporte online, por favor, selecione as respectivas opções do menu lateral. Para continuar, selecione a aba apropriada acima.',
 	
 	'PCRE_UTF_SUPPORT'				=> 'Suporte ao PCRE UTF-8',
 	'PCRE_UTF_SUPPORT_EXPLAIN'		=> 'O phpBB <strong>não</strong> irá funcionar se a sua instalação PHP não for compilada com suporte a UTF-8 na extensão PCRE.',
@@ -404,6 +404,7 @@ $lang = array_merge($lang, array(
 	'DONE'								=> 'Pronto',
 	'DOWNLOAD'							=> 'Baixar',
 	'DOWNLOAD_AS'						=> 'Baixar como',
+	'DOWNLOAD_UPDATE_METHOD_BUTTON'		=> 'Baixar o arquivo de modificações (recomendado)',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Baixar os arquivos modificados',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Uma vez baixados, você deve descompactar os arquivos. Você encontrará os arquivos modificados que deverá enviar para o diretório raiz do seu phpBB. Por favor, envie os arquivos para os seus respectivos diretórios. Após você ter enviado todos os arquivos, confira-os novamente clicando no outro botão abaixo.',
 
@@ -503,7 +504,9 @@ $lang = array_merge($lang, array(
 	'STATUS_UP_TO_DATE'			=> 'Arquivo já atualizado',
 
 	'TOGGLE_DISPLAY'            => 'Exibir/Ocultar lista de arquivos',
-
+	'TRY_DOWNLOAD_METHOD'		=> 'Você pode tentar o método de download dos arquivos modificados.<br />Este método sempre funciona e é também o pacote de atualização recomendado.',
+	'TRY_DOWNLOAD_METHOD_BUTTON'=> 'Tente este método agora',
+	
 	'UPDATE_COMPLETED'				=> 'Atualização completa',
 	'UPDATE_DATABASE'				=> 'Atualizar banco de dados',
 	'UPDATE_DATABASE_EXPLAIN'		=> 'Na próxima etapa o banco de dados será atualizado.',

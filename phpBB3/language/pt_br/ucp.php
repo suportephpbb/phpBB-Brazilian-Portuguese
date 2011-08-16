@@ -4,12 +4,12 @@
 * ucp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: ucp.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
-* @copyright (c) 2007 Suporte phpBB 
+* @version $Id: ucp.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $
+* @copyright (c) 2008 Suporte phpBB 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por: 
 * @Suporte phpBB - <http://www.suportephpbb.org/> 
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 * 
 */ 
 
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	<br /> 
 	Nós também precisamos criar cookies externos ao software phpBB enquanto navegando em "%1$s", e ainda que estes sejam externos, a extensão destes documentos pretende apenas proteger as páginas criadas pelo sistema. O segundo meio em que poderemos coletar as suas informações é pelo o quê você submeter à nós. Este pode ser, e não é limitado a: postando como um usuário anônimo, registrando-se em "%1$s" e ainda sob as mensagens enviadas por você após o registro e enquanto feito o login no fórum.<br /> 
 	<br /> 
-	O seu registro estará em exibição sobre um nome de usuário único, uma senha pessoal utilizada para entrar em sua conta e um endereço de e-mail válido e restrito. As informações para o seu registro em "%1$s" são protegidas pelas leis de proteção de dados aplicáveis no país vigente e no servidor em que estamos hospedados. Qualquer informação além de seu nome de usuário, sua senha e seu endereço de e-mail solicitados por "%1$s" durante o processo de registro estão em nossa digressão sobre o que é obrigatório e o que é opcional. Em todo caso, você possui a opção de selecionar quais informações você deseja que sejam exibidas. E ainda, com o seu registro você possui a opção de escolher receber ou não os e-mails automáticos gerados pelo software phpBB.<br /> 
+	O seu registro estará em exibição sobre um nome de usuário único, uma senha pessoal utilizada para entrar em sua conta e um endereço de e-mail válido e restrito. As informações para o seu registro em "%1$s" são protegidas pelas leis de proteção de dados aplicáveis no país vigente e no servidor em que estamos hospedados. Qualquer informação além de seu nome de usuário, sua senha e seu endereço de e-mail solicitados por "%1$s" durante o processo de registro estão sob a digressão de "%1$s" sobre o que é obrigatório e o que é opcional. Em todo caso, você possui a opção de selecionar quais informações você deseja que sejam exibidas. E ainda, com o seu registro você possui a opção de escolher receber ou não os e-mails automáticos gerados pelo software phpBB.<br /> 
 	<br /> 
 	A sua senha é codificada em nosso banco de dados para uma maior segurança. Entretanto, não é recomendável que você utilize a mesma senha para diferentes websites. A sua senha é solicitada para o acesso de seu registro em "%1$s", então por favor, salve-a de forma segura. Por favor, note que abaixo de quaisquer circunstâncias ninguém afiliado a "%1$s", o phpBB ou quaisquer terceiros, está legalmente autorizado para lhe exigir a sua senha. Em incidência da perda de sua senha, você pode utilizar a opção "Esqueci a senha" oferecida pelo software phpBB. Este processo irá lhe solicitar que envie o seu nome de usuário e endereço de e-mail, para que o sistema gere uma nova senha e você possa reativar o seu registro.<br />', 
 )); 
@@ -162,7 +162,7 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGES_IN_FOLDER'	=> 'Excluir todas as mensagens dentro de pasta excluída', 
 	'DELETE_RULE'				=> 'Excluir regra', 
 	'DELETE_RULE_CONFIRM'		=> 'Você deseja realmente excluir esta regra?', 
-	'DEMOTE_SELECTED'			=> 'Demição selecionada', 
+	'DEMOTE_SELECTED'			=> 'Demissão selecionada', 
 	'DISABLE_CENSORS'			=> 'Ativar palavras censuradas', 
 	'DISPLAY_GALLERY'			=> 'Exibir a galeria', 
 	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'O domínio do endereço de e-mail escrito não é um registro MX válido.', 
@@ -295,9 +295,11 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_EDIT_MESSAGE'		=> 'Você não está autorizado a editar mensagens particulares.', 
 	'NO_AUTH_FORWARD_MESSAGE'	=> 'Você não está autorizado a encaminhar mensagens particulares.', 
 	'NO_AUTH_GROUP_MESSAGE'		=> 'Você não está autorizado a enviar mensagens particulares para grupos.', 
-	'NO_AUTH_READ_MESSAGE'		=> 'Você não está autorizado a ler mensagens particulares.', 
-	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Você não está autorizado a ler mensagens particulares excluídas pelo autor.', 
-	'NO_AUTH_SEND_MESSAGE'		=> 'Você não está autorizado a enviar mensagens particulares.', 
+	'NO_AUTH_PASSWORD_REMINDER'		=> 'Você não está autorizado a solicitar uma nova senha.',
+	'NO_AUTH_READ_HOLD_MESSAGE'		=> 'Você não está autorizado a ler mensagens particulares que estejam presas.',
+	'NO_AUTH_READ_MESSAGE'			=> 'Você não está autorizado a ler mensagens particulares.',
+	'NO_AUTH_READ_REMOVED_MESSAGE'	=> 'Você não está autorizado a ler esta mensagem porque foi removida pelo autor.',
+	'NO_AUTH_SEND_MESSAGE'			=> 'Você não está autorizado a enviar mensagens particulares.', 
 	'NO_AUTH_SIGNATURE'			=> 'Você não está autorizado a definir sua assinatura.', 
 
 	'NO_BCC_RECIPIENT'			=> 'Nenhum', 
@@ -321,6 +323,7 @@ $lang = array_merge($lang, array(
 	'NO_SAVED_DRAFTS'			=> 'Não há rascunhos salvos.', 
 	'NO_TO_RECIPIENT'			=> 'Nenhum',	 
 	'NO_WATCHED_FORUMS'			=> 'Você não está subscrito a nenhum fórum.', 
+	'NO_WATCHED_SELECTED'		=> 'Você não selecionou nenhum tópico ou fórum subscrito.',
 	'NO_WATCHED_TOPICS'			=> 'Você não está subscrito a nenhum tópico.', 
 
 	'PASS_TYPE_ALPHA_EXPLAIN'	=> 'A senha deve compreender entre %1$d e %2$d caracteres alfanuméricos.',
@@ -397,7 +400,7 @@ $lang = array_merge($lang, array(
 
 	'TIMEZONE'					=> 'Fuso horário', 
 	'TO'						=> 'Para', 
-	'TOO_MANY_RECIPIENTS'		=> 'Muitos destinatários', 
+	'TOO_MANY_RECIPIENTS'		=> 'Você tentou enviar uma mensagem particular a muitos destinatários.', 
 	'TOO_MANY_REGISTERS'		=> 'Você excedeu o número máximo de tentativas de registro para esta sessão. Por favor, tente novamente mais tarde.', 
 
 	'UCP'						=> 'Painel de Controle do Usuário', 

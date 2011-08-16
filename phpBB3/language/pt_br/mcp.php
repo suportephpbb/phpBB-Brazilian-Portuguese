@@ -4,12 +4,12 @@
 * mcp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: mcp.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $
-* @copyright (c) 2007 Suporte phpBB
+* @version $Id: mcp.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $
+* @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 * 
 */  
 
@@ -349,6 +349,7 @@ $lang = array_merge($lang, array(
 	'USER_WARNING_ADDED'			=> 'O usuário foi advertido com sucesso.', 
 	
 	'VIEW_DETAILS' 			=> 'Ver informações', 
+	'VIEW_POST'				=> 'Ver mensagem',
 	
 	'WARNED_USERS' 			=> 'Usuários advertidos',
 	'WARNED_USERS_EXPLAIN' 	=> 'Esta é uma lista dos usuários com advertências permanentes enviadas aos mesmos.', 

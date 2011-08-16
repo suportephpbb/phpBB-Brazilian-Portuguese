@@ -4,12 +4,12 @@
 * acp_attachments.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: attachments.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
-* @copyright (c) 2007 Suporte phpBB 
+* @version $Id: attachments.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $ 
+* @copyright (c) 2008 Suporte phpBB 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por: 
 * @Suporte phpBB - 
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 * 
 */ 
 
@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_FILESIZE'				=> 'Tamanho máximo do arquivo', 
 	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'O tamanho máximo para cada arquivo, sendo 0 um valor ilimitado.', 
 	'ATTACH_MAX_PM_FILESIZE'			=> 'Quota de anexos em mensagens particulares', 
-	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Quota de arquivos que cada usuário pode salvar na pasta de mensagens particulares, sendo 0 um valor ilimitado.', 
+	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Tamanho máximo de cada arquivo anexo em mensagens particulares, sendo 0 um valor ilimitado .', 
 	'ATTACH_ORPHAN_URL'					=> 'Anexos órfãos', 
 	'ATTACH_POST_ID'					=> 'ID da mensagem', 
 	'ATTACH_QUOTA'						=> 'Quota total de anexos', 
@@ -106,8 +106,8 @@ $lang = array_merge($lang, array(
 	'IMAGICK_PATH'				=> 'Local do Imagemagick', 
 	'IMAGICK_PATH_EXPLAIN'		=> 'O local completo ao programa de aplicação do imagemagick, ex. <samp>/usr/bin/</samp>.', 
 
-	'MAX_ATTACHMENTS'				=> 'Número máximo de anexos em mensagens', 
-	'MAX_ATTACHMENTS_PM'			=> 'Número máximo de anexos em mensagens particulares', 
+	'MAX_ATTACHMENTS'				=> 'Número máximo de anexos por mensagem', 
+	'MAX_ATTACHMENTS_PM'			=> 'Número máximo de anexos por mensagem particular', 
 	'MAX_EXTGROUP_FILESIZE'			=> 'Tamanho máximo de arquivos', 
 	'MAX_IMAGE_SIZE'				=> 'Dimensões máximas de imagens', 
 	'MAX_IMAGE_SIZE_EXPLAIN'		=> 'Dimensões máximas de imagem anexas. Escreva 0px por 0px para desativar este recurso.', 

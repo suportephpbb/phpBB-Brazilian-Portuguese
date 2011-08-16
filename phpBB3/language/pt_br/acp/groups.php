@@ -4,12 +4,12 @@
 * acp_groups.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: groups.php,v 1.0 2008/10/18 10:45:27 Suporte phpBB Exp $ 
-* @copyright (c) 2007 Suporte phpBB
+* @version $Id: groups.php,v 1.0 2008/11/16 09:33:27 Suporte phpBB Exp $ 
+* @copyright (c) 2008 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.2
+* @Versão do phpBB: 3.0.3
 * 
 */  
 
@@ -77,6 +77,8 @@ $lang = array_merge($lang, array(
 	'GROUP_LEGEND'					=> 'Exibir grupo na legenda', 
 	'GROUP_LIST'					=> 'Membros atuais', 
 	'GROUP_LIST_EXPLAIN'			=> 'Esta é uma lista completa de todos os membros atuais com inscrição neste grupo. Você pode excluir usuários (exceto em certos grupos especiais) ou adicionar novos, se achar necessário.', 
+    'GROUP_MAX_RECIPIENTS'			=> 'Número máximo de destinatários permitido por mensagem particular',
+	'GROUP_MAX_RECIPIENTS_EXPLAIN'	=> 'O número máximo de destinatários permitido por mensagem particular. Se definido 0, então as configurações gerais do painel serão utilizadas.',
 	'GROUP_MEMBERS'					=> 'Membros do grupo', 
 	'GROUP_MEMBERS_EXPLAIN'			=> 'Aqui está uma lista completa de todos os usuários pertencentes a este grupo. Isto inclue seções separadas para líderes, membros pendentes e membros existentes. Através deste painel você pode gerenciar todos os aspectos sobre quem possue inscrição neste grupo e o que eles realizam. Para excluir um líder sem retirá-lo do grupo, utilize Demitir. Similarmente, use Promover para tornar um membro existente um líder.', 
 	'GROUP_MESSAGE_LIMIT'			=> 'Limite de mensagens particulares do grupo por pasta', 
