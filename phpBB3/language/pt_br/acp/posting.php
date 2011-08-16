@@ -4,12 +4,12 @@
 * acp_posting.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: posting.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $ 
-* @copyright (c) 2008 Suporte phpBB
+* @version $Id: posting.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 * 
 */ 
 
@@ -185,7 +185,7 @@ $lang = array_merge($lang, array(
 
 // Word censors 
 $lang = array_merge($lang, array( 
-	'ACP_WORDS_EXPLAIN'		=> 'Aqui você pode adicionar, editar e excluir palavras que serão automaticamente censuradas em seu fórum. Adicionando esta opção, os visitantes não estarão permitidos a se registrar com nomes de usuários contendo estas palavras. Podem ser utilizados asteriscos (*) para abranger um maior número de variações de uma mesma palavra, ex. *testa* abrangerá detestável, testa* abrangerá testando e *testa abrangerá detesta.', 
+	'ACP_WORDS_EXPLAIN'		=> 'Aqui você pode adicionar, editar e excluir palavras que serão automaticamente censuradas em seu fórum. Todos ainda encontram-se autorizados a registrar-se com nomes de usuários contendo estas palavras. Podem ser utilizados asteriscos (*) para abranger um maior número de variações de uma mesma palavra, ex. *testa* abrangerá detestável, testa* abrangerá testando e *testa abrangerá detesta.', 
 	'ADD_WORD'				=> 'Adicionar nova palavra', 
 
 	'EDIT_WORD'		=> 'Editar palavra censurada', 

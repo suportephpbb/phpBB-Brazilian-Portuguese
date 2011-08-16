@@ -4,12 +4,12 @@
 * acp_forums.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: forums.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $
-* @copyright (c) 2008 Suporte phpBB
+* @version $Id: forums.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 * 
 */ 
 
@@ -84,6 +84,7 @@ $lang = array_merge($lang, array(
 	'FORUM_EDIT_EXPLAIN'				=> 'Esta ferramenta lhe permitirá customizar o seu fórum. Por favor, note que a moderação e o controle do contador de mensagens são determinados pelas permissões de fóruns para cada usuário ou grupo.', 
 	'FORUM_IMAGE'						=> 'Imagem do fórum', 
 	'FORUM_IMAGE_EXPLAIN'				=> 'Local da imagem (relativo à pasta raíz do phpBB), para uma imagem adicional associada a este fórum.', 
+	'FORUM_IMAGE_NO_EXIST'				=> 'A imagem do fórum especificada não existe.',
 	'FORUM_LINK_EXPLAIN'				=> 'URL completa (incluindo o protocolo, ex. <samp>http://</samp>) para o local em que o usuário será redirecionado ao clicar, ex. <samp>http://www.phpbb.com/</samp> ou <samp>http://www.suportephpbb.org/</samp>.',
 	'FORUM_LINK_TRACK'					=> 'Salvar redirecionamento de links', 
 	'FORUM_LINK_TRACK_EXPLAIN'			=> 'Salva o número de vezes em que o link de um fórum foi clicado.', 

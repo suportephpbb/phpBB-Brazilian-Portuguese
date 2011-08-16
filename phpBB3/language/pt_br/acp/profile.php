@@ -4,12 +4,12 @@
 * acp_profile.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: profile.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $ 
-* @copyright (c) 2008 Suporte phpBB
+* @version $Id: profile.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 * 
 */ 
 
@@ -69,7 +69,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_AT_PROFILE_EXPLAIN'	=> 'O usuário está autorizado a alterar este campo de perfil com o painel de controle do usuário.', 
 	'DISPLAY_AT_REGISTER'			=> 'Exibir na tela de registro', 
 	'DISPLAY_AT_REGISTER_EXPLAIN'	=> 'Se esta opção estiver ativa, o campo será exibido na tela de registro.', 
-	'DISPLAY_PROFILE_FIELD'			=> 'Exibir campo de perfil', 
+	'DISPLAY_PROFILE_FIELD'			=> 'Exibir campo de perfil publicamente', 
 	'DISPLAY_PROFILE_FIELD_EXPLAIN'	=> 'O campo de perfil será visualizado em todas as localizações permitidas com as configurações de carga. Configurando aqui como "não", irá ocultar o campo das páginas de tópicos, perfis e lista de membros.',
 	'DROPDOWN_ENTRIES_EXPLAIN'		=> 'Escreva suas opções agora, todas elas em uma linha.',
 

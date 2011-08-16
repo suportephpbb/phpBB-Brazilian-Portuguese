@@ -4,12 +4,12 @@
 * acp_common.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: common.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $
-* @copyright (c) 2008 Suporte phpBB
+* @version $Id: common.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 * 
 */ 
 
@@ -234,7 +234,7 @@ $lang = array_merge($lang, array(
 	'IP'					=> 'IP do usuário', 
 	'IP_HOSTNAME'			=> 'Endereços de IP ou hostnames', 
 
-	'LOGGED_IN_AS'			=> 'Você está autenticado como:', 
+	'LOGGED_IN_AS'			=> 'Você está logado como:', 
 	'LOGIN_ADMIN'			=> 'Para administrar o fórum, você precisa ser um usuário autenticado.', 
 	'LOGIN_ADMIN_CONFIRM'	=> 'Para administrar o fórum, você precisa reautenticar o seu registro.', 
 	'LOGIN_ADMIN_SUCCESS'	=> 'O seu registro foi autenticado com sucesso e agora você será redirecionado ao painel de administração.',
@@ -518,11 +518,11 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Fórum e subfóruns excluídos</strong><br />» %s', 
 	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Fórum excluído e subfóruns movidos</strong> para %1$s<br />» %2$s', 
 	'LOG_FORUM_DEL_MOVE_POSTS'				=> '<strong>Fórum excluído e mensagens movidas</strong> para %1$s<br />» %2$s', 
-	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Fórum e subfóruns excluídos, mensagens movidas</strong> para %1$s<br />» %2$s', 
-	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Fórum excluído, mensagens movidas</strong> para %1$s <strong>e subfóruns</strong> para %2$s<br />» %3$s', 
-	'LOG_FORUM_DEL_POSTS'					=> '<strong>Fórum e mensagens excluídas</strong><br />» %s', 
-	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Fórum, subfóruns e mensagens excluídas</strong><br />» %s', 
-	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Fórum e mensagens excluídas, subfóruns movidos</strong> para %1$s<br />» %2$s', 
+	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Fórum e subfóruns excluídos, mensagens movidas</strong> para %1$s<br />Â» %2$s',
+	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Fórum excluído, mensagens movidas</strong> para %1$s <strong>e subfóruns</strong> para %2$s<br />Â» %3$s',
+	'LOG_FORUM_DEL_POSTS'					=> '<strong>Fórum e mensagens excluídas</strong><br />Â» %s',
+	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Fórum, subfóruns e mensagens excluídas</strong><br />Â» %s',
+	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Fórum e mensagens excluídas, subfóruns movidos</strong> para %1$s<br />Â» %2$s', 
 	'LOG_FORUM_EDIT'						=> '<strong>Informações do fórum editadas</strong><br />» %s', 
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>Fórum movido</strong> %1$s <strong>abaixo</strong> %2$s', 
 	'LOG_FORUM_MOVE_UP'						=> '<strong>Fórum movido</strong> %1$s <strong>acima</strong> %2$s', 

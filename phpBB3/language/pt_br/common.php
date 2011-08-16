@@ -4,12 +4,12 @@
 * common.php [Brazilian Portuguese] 
 *
 * @package language 
-* @version $Id: common.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $
-* @copyright (c) 2008 Suporte phpBB
+* @version $Id: common.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 * 
 */ 
 /** 
@@ -89,7 +89,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_NO_SIZE'				=> 'Não foi possível obter a largura e a altura do avatar, por favor, informe-os manualmente.', 
 	'AVATAR_PARTIAL_UPLOAD'			=> 'O arquivo foi parcialmente enviado.',	 
 	'AVATAR_PHP_SIZE_NA'			=> 'O tamanho do avatar é muito grande.<br />Não foi possível determinar o tamanho máximo definido pelo PHP no php.ini.',
-	'AVATAR_PHP_SIZE_OVERRUN'		=> 'O tamanho do avatar é muito grande. O tamanho máximo permitido é de %d MB.<br />Isto é fixo do PHP no php.ini e não pode ser substituído.',
+	'AVATAR_PHP_SIZE_OVERRUN'		=> 'O tamanho do avatar é muito grande. O tamanho máximo permitido é de %1$d %2$s.<br />Isto é fixo do PHP no php.ini e não pode ser substituído.',
 	'AVATAR_URL_INVALID'			=> 'A URL que você especificou é inválida.', 
 	'AVATAR_URL_NOT_FOUND'			=> 'O arquivo informado não foi encontrado.',	 
 	'AVATAR_WRONG_FILESIZE'			=> 'O tamanho do avatar deve estar entre 0 e %1d %2s.', 
@@ -160,7 +160,7 @@ $lang = array_merge($lang, array(
 	'VIEWED_COUNT_NONE'		=> 'Exibido 0 vezes',
 
 	'EDIT_POST'							=> 'Editar mensagem', 
-	'EMAIL'								=> 'E-mail',
+	'EMAIL'								=> 'E-mail', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'Endereço de e-mail',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'Ocorreu um problema ao enviar o e-mail na <strong>Linha %1$s</strong>. Erro: %2$s.',
 	'EMPTY_SUBJECT'						=> 'Você deve especificar um título quando enviar um novo tópico.', 
@@ -230,6 +230,8 @@ $lang = array_merge($lang, array(
 	'FTP_USERNAME_EXPLAIN'		=> 'Nome de usuário utilizado para se conectar ao seu servidor.',
 
 	'GENERAL_ERROR'				=> 'Erro Geral',
+	'GB'						=> 'GB',
+	'GIB'						=> 'GiB',	
 	'GO'						=> 'Ir', 
 	'GOTO_PAGE'					=> 'Ir para página', 
 	'GROUP'						=> 'Grupo', 
@@ -521,7 +523,7 @@ $lang = array_merge($lang, array(
 	'SELECT'					=> 'Selecionar', 
 	'SELECT_ALL_CODE'			=> 'Selecionar todos',
 	'SELECT_FORUM'				=> 'Selecione um fórum', 
-	'SEND_EMAIL'				=> 'E-mail',
+	'SEND_EMAIL'				=> 'E-mail',			// Used for submit buttons
 	'SEND_EMAIL_USER'           => 'E-mail',            // Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
 	'SEND_PRIVATE_MESSAGE'		=> 'Enviar mensagem particular', 
 	'SETTINGS'					=> 'Configurações',	 

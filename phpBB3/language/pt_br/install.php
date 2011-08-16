@@ -4,12 +4,12 @@
 * install.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: install.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $
-* @copyright (c) 2008 Suporte phpBB
+* @version $Id: install.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 *
 */
 
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 	'AVAILABLE'					=> 'Disponível',
 	'AVAILABLE_CONVERTORS'		=> 'Conversores disponíveis',
 
-	'BEGIN_CONVERT'					=> 'Iniciar conversão',
+	'BEGIN_CONVERT'					=> 'Iniciar Conversão',
 	'BLANK_PREFIX_FOUND'			=> 'Uma pesquisa em seu banco de dados encontrou uma instalação válida sem a utilização de um prefixo para as tabelas.',
 	'BOARD_NOT_INSTALLED'			=> 'Nenhuma instalação foi encontrada',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'Para realizar a conversão você precisa ter uma instalação padrão do phpBB3. Por favor, visite a página <a href="%s">Instalando pela primeira vez o phpBB3</a> para mais informações.',
@@ -224,7 +224,7 @@ $lang = array_merge($lang, array(
 	'INSTALL_NEXT_PASS'			=> 'Todos os teste básicos foram concluídos e você pode prosseguir para o próximo passo da sua instalação. Caso tenha modificado alguma permissão, módulo e etc, e deseja refazer os testes, você pode refazê-los agora mesmo.',
 	'INSTALL_PANEL'				=> 'Painel de Instalação',
 	'INSTALL_SEND_CONFIG'		=> 'Infelizmente não foi possível escrever as informações de configuração no arquivo config.php. Isto aconteceu ou porque o arquivo não existe ou porque não pode ser escrito. Algumas opções serão listadas abaixo permitindo a você completar a instalação do config.php.',
-	'INSTALL_START'				=> 'Iniciar instalação',
+	'INSTALL_START'				=> 'Iniciar Instalação',
 	'INSTALL_TEST'				=> 'Testar novamente',
 	'INST_ERR'					=> 'Erro na instalação',
 	'INST_ERR_DB_CONNECT'		=> 'Não foi possível conectar-se ao banco de dados, veja a mensagem de erro abaixo.',
@@ -271,7 +271,8 @@ $lang = array_merge($lang, array(
 
 	'MAKE_FOLDER_WRITABLE'		=> 'Por favor, certifique-se de que esta pasta existe e pode ser escrita pelo servidor e tente novamente:<br />»<b>%s</b>',
 	'MAKE_FOLDERS_WRITABLE'		=> 'Por favor, certifique-se de que estas pastas existem e podem ser escritas pelo servidor e tente novamente:<br />»<b>%s</b>',
-
+	'MYSQL_SCHEMA_UPDATE_REQUIRED'	=> 'O schema do seu banco de dados MySQL para o phpBB encontra-se desatualizado. O phpBB detectou um schema para o MySQL 3.x/4.x, mas o servidor roda no MySQL %2$s.<br /><strong>Antes de proceder com a atualização você deve atualizar o schema.</strong><br /><br />Por favor, refira ao <a href="http://www.phpbb.com/kb/article/doesnt-have-a-default-value-errors/">artigo sobre o aprimoramento do schema MySQL</a>. Caso você encontre problemas, por favor, use o <a href="http://www.phpbb.com/community/viewforum.php?f=46">phpBB.com Support Forums</a> ou <a href="http://www.suportephpbb.org/forum/viewforum.php?f=50">nossos fóruns de suporte</a>.',
+	
 	'NAMING_CONFLICT'			=> 'Conflito de nomes: %s e %s são pseudônimos<br /><br />%s',
 	'NEXT_STEP'					=> 'Ir para o próximo passo',
 	'NOT_FOUND'					=> 'Não foi possível encontrar',
@@ -387,7 +388,7 @@ $lang = array_merge($lang, array(
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Você já pode <a href="../ucp.php?mode=login">efetuar login no seu painel</a> e verificar se tudo está funcionando corretamente. Não se esqueça de deletar, mover ou renomear o diretório de instalação!',
 	'CONTINUE_UPDATE_NOW'			=> 'Continuar o processo de atualização agora',		// Shown within the database update script at the end if called from the updater
 	'CONTINUE_UPDATE'				=> 'Continuar atualização agora',					// Shown after file upload to indicate the update process is not yet finished
-	'CURRENT_FILE'					=> 'Início do arquivo original atual',
+	'CURRENT_FILE'					=> 'Início de conflito - Código do arquivo original antes da atualização',
 	'CURRENT_VERSION'				=> 'Versão atual',
 
 	'DATABASE_TYPE'						=> 'Tipo de banco de dados',
@@ -398,7 +399,7 @@ $lang = array_merge($lang, array(
 	'DESTINATION'						=> 'Arquivo de destino',
 	'DIFF_INLINE'						=> 'Na linha',
 	'DIFF_RAW'							=> 'Diferenças unificadas puras',
-	'DIFF_SEP_EXPLAIN'					=> 'Fim do arquivo original atual / Início do novo arquivo atualizado',
+	'DIFF_SEP_EXPLAIN'					=> 'Código de bloqueio usado com o arquivo novo/atualizado',
 	'DIFF_SIDE_BY_SIDE'					=> 'Lado a lado',
 	'DIFF_UNIFIED'						=> 'Diferenças unificadas',
 	'DO_NOT_UPDATE'						=> 'Não atualizar este arquivo',
@@ -406,6 +407,8 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD'							=> 'Baixar',
 	'DOWNLOAD_AS'						=> 'Baixar como',
 	'DOWNLOAD_UPDATE_METHOD_BUTTON'		=> 'Baixar o arquivo de modificações (recomendado)',
+	'DOWNLOAD_CONFLICTS'				=> 'Baixar conflitos para este arquivo',
+	'DOWNLOAD_CONFLICTS_EXPLAIN'		=> 'Pesquisar por &lt;&lt;&lt; para reconhecer conflitos',
 	'DOWNLOAD_UPDATE_METHOD'			=> 'Baixar os arquivos modificados',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'	=> 'Uma vez baixados, você deve descompactar os arquivos. Você encontrará os arquivos modificados que deverá enviar para o diretório raiz do seu phpBB. Por favor, envie os arquivos para os seus respectivos diretórios. Após você ter enviado todos os arquivos, confira-os novamente clicando no outro botão abaixo.',
 
@@ -449,13 +452,13 @@ $lang = array_merge($lang, array(
 	'MAPPING_FILE_STRUCTURE'	=> 'Para facilitar a atualização, aqui está o local do arquivo que mapea a instalação de seu phpBB.',
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Não fundir - utilizar novos arquivos',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Não fundir - utilizar arquivos instalados atualmente',
-	'MERGE_MOD_FILE_OPTION'		=> 'Fundir diferenças e utilizar o código modificado com o bloco de conflito',
-	'MERGE_NEW_FILE_OPTION'		=> 'Fundir diferenças e utilizar o código do novo arquivo com o bloco de conflito',
+	'MERGE_MOD_FILE_OPTION'		=> 'Fundir modificações (perde o novo código phpBB com o bloqueio do conflito)',
+	'MERGE_NEW_FILE_OPTION'		=> 'Fundir modificações (perde o código modificado com o bloqueio do conflito)',
 	'MERGE_SELECT_ERROR'		=> 'Os modos de unir arquivos em conflito não foram selecionados corretamente.',
     'MERGING_FILES'             => 'Diferenças de fusão',
     'MERGING_FILES_EXPLAIN'     => 'Atualmente coletando as modificações finais do arquivo.<br /><br />Por favor, aguarde até que o phpBB tenha completado todas as operações nos arquivos modificados.',
 	
-	'NEW_FILE'						=> 'Fim da atualização do novo arquivo',
+	'NEW_FILE'						=> 'Fim do conflito',
     'NEW_USERNAME'					=> 'Novo nome de usuário',
 	'NO_AUTH_UPDATE'				=> 'Você não está autorizado a atualizar este painel',
 	'NO_ERRORS'						=> 'Sem erros',

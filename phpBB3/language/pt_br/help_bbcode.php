@@ -4,12 +4,12 @@
 * help_bbcode.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: help_bbcode.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $ 
-* @copyright (c) 2008 Suporte phpBB
+* @version $Id: help_bbcode.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 * 
 */ 
 
@@ -75,11 +75,11 @@ $help = array(
    ), 
    array( 
       0 => 'Criar uma lista sem ordem específica', 
-      1 => 'O BBCode aceita dois tipos de listas: Uma lista sem ordem, e outra ordenada. São basicamente o mesmo que em HTML. Uma lista sem ordem produz cada item de uma forma seqüencial, um em seguida do outro, precedendo-o um caractere constante. Para criar, você deve utilizar <b>[list][/list]</b> e colocar cada item entre as tags, utilizando <b>[*]</b> antes de cada um. Por exemplo, para listar as suas cores favoritas, você pode escrever:<br /><br /><b>[list]</b><br /><b>[*]</b>Vermelho<br /><b>[*]</b>Azul<br /><b>[*]</b>Amarelo<br /><b>[/list]</b><br /><br /> Esta lista aparecerá como:<ul><li>Vermelho</li><li>Azul</li><li>Amarelo</li></ul>' 
+      1 => 'O BBCode aceita dois tipos de lista: Uma lista sem ordem e outra ordenada. São basicamente o mesmo que em HTML. Uma lista sem ordem produz cada item de uma forma seqüencial, um em seguida do outro, precedendo-o um caractere constante. Para criar, você deve utilizar <b>[list][/list]</b> e colocar cada item entre as tags, utilizando <b>[*]</b> antes de cada um. Por exemplo, para listar as suas cores favoritas, você pode escrever:<br /><br /><b>[list]</b><br /><b>[*]</b>Vermelho<br /><b>[*]</b>Azul<br /><b>[*]</b>Amarelo<br /><b>[/list]</b><br /><br /> Esta lista aparecerá como:<ul><li>Vermelho</li><li>Azul</li><li>Amarelo</li></ul>' 
    ), 
    array( 
       0 => 'Criar uma lista ordenada', 
-      1 => 'O segundo tipo de listas, a lista ordenada, lhe proporciona controle do que vá aparecer antes de cada item. Para criar uma lista ordenada você utilizará <b>[list=1][/list]</b> de forma a criar uma lista numérica ou, <b>[list=a][/list]</b>, para uma lista alfabética. Da mesma forma que para o tipo de lista sem ordem, os itens são precedidos de <b>[*]</b>. Por exemplo:<br /><br /><b>[list=1]</b><br /><b>[*]</b>Ir às Compras<br /><b>[*]</b>Comprar um Computador Novo<br /><b>[*]</b>Insultar o Computador quando ficar Bloqueado<br /><b>[/list]</b><br /><br />produzirá o seguinte:<ol type=\"1\"><li>Ir às Compras</li><li>Comprar um Computador Novo</li><li>Insultar o Computador quando ficar bloqueado</li></ol> Enquanto que para uma Lista Alfabética você utilizará:<br /><br /><b>[list=a]</b><br /><b>[*]</b>A Primeira Resposta<br /><b>[*]</b>A Segunda Resposta<br /><b>[*]</b>A Terceira Resposta<br /><b>[/list]</b><br /><br />resultando em <ol type=\"a\"><li>A Primeira Resposta</li><li>A Segunda Resposta</li><li>A Terceira Resposta</li></ol>' 
+      1 => 'O segundo tipo de lista, uma lista ordenada, proporciona-lhe o controle do que vá aparecer antes de cada item. Para criar uma lista ordenada você utilizará <b>[list=1][/list]</b> de forma a criar uma lista numérica ou, <b>[list=a][/list]</b>, para uma lista alfabética. Da mesma forma que para o tipo de lista sem ordem, os itens são precedidos de <b>[*]</b>. Por exemplo:<br /><br /><b>[list=1]</b><br /><b>[*]</b>Ir às compras<br /><b>[*]</b>Comprar um computador novo<br /><b>[*]</b>Insultar o computador quando ficar bloqueado<br /><b>[/list]</b><br /><br />produzirá o seguinte:<ol style="list-style-type: decimal;"><li>Ir às compras</li><li>Comprar um computador novo</li><li>Insultar o computador quando ficar bloqueado</li></ol> Enquanto que para uma lista alfabética você utilizará:<br /><br /><b>[list=a]</b><br /><b>[*]</b>A primeira resposta possível<br /><b>[*]</b>A segunda resposta possível<br /><b>[*]</b>A terceira resposta possível<br /><b>[/list]</b><br /><br />resultando em<ol style="list-style-type: lower-alpha"><li>A primeira resposta possível</li><li>A segunda resposta possível</li><li>A terceira resposta possível</li></ol>' 
    ), 
    array( 
       0 => '--', 

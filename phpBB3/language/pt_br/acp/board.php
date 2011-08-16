@@ -4,12 +4,12 @@
 * acp_board.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: board.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $
-* @copyright (c) 2008 Suporte phpBB
+* @version $Id: board.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 * 
 */ 
 
@@ -244,13 +244,24 @@ $lang = array_merge($lang, array(
 	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Utilize esta configuração para gerar uma imagem GD CAPTCHA mais complexa. Escreva 0 para desativar o embaralhamento no eixo X.',
 	'CAPTCHA_GD_Y_GRID'						=> 'Eixo Y do embaralhamento do GD CAPTCHA',
 	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Utilize esta configuração para gerar uma imagem GD CAPTCHA mais complexa. Escreva 0 para desativar o embaralhamento no eixo Y.',
-
+	'CAPTCHA_GD_WAVE'						=> 'Onda de distorção GD CAPTCHA',
+	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Isto aplica uma onda de distorção ao CAPTCHA.',
+	'CAPTCHA_GD_3D_NOISE'					=> 'Adicionar objetos 3D-noise',
+	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'Isto inclui objetos adicionais ao CAPTCHA, acima das letras.',
+	'CAPTCHA_GD_FONTS'						=> 'Usar fontes diferentes',
+	'CAPTCHA_GD_FONTS_EXPLAIN'				=> 'Esta configuração controla quantas aparências de letras diferentes serão utilizadas. Você pode utilizar apenas a aparência padrão ou introduzir letras alteradas. Também é possível adicionar letras minúsculas.',
+	'CAPTCHA_FONT_DEFAULT'					=> 'Padrão',
+	'CAPTCHA_FONT_NEW'						=> 'Novas imagens',
+	'CAPTCHA_FONT_LOWER'					=> 'Também utilizar minúsculas',
+	
 	'CAPTCHA_PREVIEW_MSG'					=> 'As suas alterações nas configurações da confirmação visual não foram salvas. Isto é apenas uma demonstração.',
 	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'O CAPTCHA parecerá com este. Use o botão de previsão para atualizar. Note que o código CAPTCHA é diferente e aleatório a cada visualização.',			
 	'VISUAL_CONFIRM_POST'					=> 'Ativar confirmação visual nas mensagens enviadas por visitantes',
 	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Exige que os visitantes informem o código aleatório da imagem ao enviar uma mensagem. Utilize isto para ajudar a evitar mensagens em demasia enviadas por estes navegantes.',
 	'VISUAL_CONFIRM_REG'					=> 'Ativar confirmação visual para novos registros',
 	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Exige que todos os novos usuários informem o código aleatório da imagem ao se registrar na comunidade.',
+	'VISUAL_CONFIRM_REFRESH'				=> 'Permitir ao usuário recarregar a imagem de confirmação',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Permite aos usuários solicitarem um novo código de confirmação visual caso não o consigam preencher corretamente durante o registro.',
 ));
 
 // Cookie Settings 

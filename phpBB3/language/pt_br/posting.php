@@ -4,12 +4,12 @@
 * posting.php [Brazilian Portuguese]
 *
 * @package language
-* @version $Id: posting.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $
-* @copyright (c) 2008 Suporte phpBB
+* @version $Id: posting.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 * 
 */ 
 
@@ -144,7 +144,7 @@ $lang = array_merge($lang, array(
 
 	'PARTIAL_UPLOAD'			=> 'O arquivo foi parcialmente enviado.',
 	'PHP_SIZE_NA'				=> 'O anexo é muito grande.<br />Não foi possível estabelecer o tamanho máximo definido no php.ini do PHP.',
-	'PHP_SIZE_OVERRUN'			=> 'O anexo é muito grande. O tamanho máximo permitido é de %d MB.<br />Esse tamanho é configurado no php.ini e não pode ser substituído.',
+	'PHP_SIZE_OVERRUN'			=> 'O anexo é muito grande. O tamanho máximo permitido é de %1$d %2$s.<br />Esse tamanho é configurado no php.ini e não pode ser substituído.',
 	'PLACE_INLINE'				=> 'Insira na linha',
 	'POLL_DELETE'				=> 'Excluir esta enquete',
 	'POLL_FOR'					=> 'Duração da enquete',

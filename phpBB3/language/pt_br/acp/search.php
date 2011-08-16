@@ -4,12 +4,12 @@
 * acp_search.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: search.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $ 
-* @copyright (c) 2008 Suporte phpBB
+* @version $Id: search.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $ 
+* @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 * 
 */ 
 
@@ -75,6 +75,8 @@ $lang = array_merge($lang, array(
 
 	'MAX_SEARCH_CHARS'						=> 'Número máximo de caracteres indexados por pesquisa', 
 	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Palavras que não possuam mais caracteres que este número serão indexadas pela pesquisa.', 
+	'MAX_NUM_SEARCH_KEYWORDS'				=> 'Número máximo de palavras-chave permitido',
+	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Número máximo de palavras que o usuário pode pesquisar. Um valor como 0 permite um número ilimitado de palavras.',	
 	'MIN_SEARCH_CHARS'						=> 'Número mínimo de caracteres indexados por pesquisa', 
 	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Palavras que possuam menos caracteres que este número serão indexadas pela pesquisa.', 
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'Núm. mín. de caracteres do nome do autor', 

@@ -4,12 +4,12 @@
 * ucp.php [Brazilian Portuguese] 
 * 
 * @package language
-* @version $Id: ucp.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $
-* @copyright (c) 2008 Suporte phpBB 
+* @version $Id: ucp.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @copyright (c) 2009 Suporte phpBB 
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por: 
 * @Suporte phpBB - <http://www.suportephpbb.org/> 
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 * 
 */ 
 
@@ -128,6 +128,8 @@ $lang = array_merge($lang, array(
 	'CONFIRM_EMAIL'				=> 'Confirmar endereço de e-mail',
 	'CONFIRM_EMAIL_EXPLAIN'		=> 'Você precisa confirmar isso apenas caso pretenda alterar o endereço de e-mail.', 
 	'CONFIRM_EXPLAIN'			=> 'Para prevenir registros automáticos o administrador do fórum exige que você escreva um código de confirmação. O código é exibido na imagem que você deverá visualizar abaixo. Se você possui qualquer problema visual ou que possa impedir o seu registro, contate o %sadministrador%s do fórum para solicitar ajuda.', 
+	'VC_REFRESH'				=> 'Recarregar código de confirmação',
+	'VC_REFRESH_EXPLAIN'		=> 'Se não conseguir ler o código você pode solicitar um novo clicando no botão.',
 	'CONFIRM_PASSWORD'			=> 'Confirmar senha', 
 	'CONFIRM_PASSWORD_EXPLAIN'	=> 'Você precisa confirmar a sua senha apenas caso pretenda alterá-la.',
 	'COPPA_BIRTHDAY'			=> 'Para continuar com o seu procedimento de registro, por favor, informe quando você nasceu.', 
@@ -332,7 +334,7 @@ $lang = array_merge($lang, array(
 	'PASS_TYPE_SYMBOL_EXPLAIN'	=> 'A senha deve compreender entre %1$d e %2$d caracteres e deve conter símbolos.',
 	'PASSWORD'					=> 'Senha',			 
 	'PASSWORD_ACTIVATED'		=> 'A sua nova senha foi ativada.', 
-	'PASSWORD_UPDATED'			=> 'A sua senha foi enviada ao seu endereço de e-mail com sucesso.', 
+	'PASSWORD_UPDATED'			=> 'Uma nova senha foi enviada para o seu endereço de e-mail registrado.', 
 	'PERMISSIONS_RESTORED'		=> 'As permissões originais foram restauradas com sucesso.', 
 	'PERMISSIONS_TRANSFERRED'	=> 'As permissões foram transferidas de <strong>%s</strong>, agora você pode navegar no fórum com as permissões do usuários.<br />Por favor, note que as permissões de administrador não foram transferidas. Você ainda pode restaurar as suas permissões originais a qualquer momento.', 
 	'PM_DISABLED'				=> 'As mensagens particulares foram desativadas neste painel.',

@@ -4,12 +4,12 @@
 * search.php [Brazilian Portuguese] 
 * 
 * @package language 
-* @version $Id: search.php,v 1.0 2008/12/13 10:50:12 Suporte phpBB Exp $
-* @copyright (c) 2008 Suporte phpBB
+* @version $Id: search.php,v 1.0 2009/06/01 11:25:47 Suporte phpBB Exp $
+* @copyright (c) 2009 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License 
 * @Traduzido por:
 * @Suporte phpBB - <http://www.suportephpbb.org/>
-* @Versão do phpBB: 3.0.4
+* @Versão do phpBB: 3.0.5
 * 
 */
 
@@ -56,7 +56,8 @@ $lang = array_merge($lang, array(
 	'JUMP_TO_POST'			=> 'Ir à Mensagem',	
 
  	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Este painel exige que você esteja registrado e autenticado para ver as suas mensagens.',
-
+	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Você especificou muitas palavras em sua pesquisa. Por favor, não insira mais que %1$d palavras.',
+	
 	'NO_KEYWORDS'			=> 'Você deve especificar pelo menos uma palavra para efetuar a pesquisa. Cada palavra deve ter no mínimo %d caracteres e não deve ultrapassar o limite de %d caracteres.', 
 	'NO_RECENT_SEARCHES'	=> 'Nenhuma pesquisa tem sido realizada recentemente.',
 	'NO_SEARCH'				=> 'Você não pode utilizar o sistema de pesquisas do fórum.', 
