@@ -1,0 +1,8 @@
+Subject: O seu registro foi ativado
+
+Olá {USERNAME},
+
+O seu registro em "{SITENAME}" foi ativado. Você poderá fazer o login utilizando o seu nome de usuário e senha recebidos no email anterior.
+
+
+{EMAIL_SIG}

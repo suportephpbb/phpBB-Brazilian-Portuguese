@@ -1,0 +1,20 @@
+Subject: Aviso de resposta ao fórum - "{FORUM_NAME}"
+
+Olá {USERNAME}, 
+
+Você recebeu este email porque está visualizando o fórum "{FORUM_NAME}" em "{SITENAME}". Este fórum recebeu uma mensagem nova no tópico "{TOPIC_TITLE}" desde a sua última visita. Você pode usar o seguinte endereço para visualizar a última mensagem não-lida ao fórum. Não serão enviados mais avisos enquanto você não visitar este tópico.
+
+{U_NEWEST_POST}
+
+Se você deseja visualizar o tópico, clique no seguinte link:
+{U_TOPIC}
+
+Se você deseja visualizar o fórum, visite o endereço a seguir:
+{U_FORUM}
+
+Se você deseja parar de visualizar este fórum, clique no link "Parar de visualizar este fórum" no fórum citado, ou clique no seguinte endereço:
+
+{U_STOP_WATCHING_FORUM}
+
+
+{EMAIL_SIG}

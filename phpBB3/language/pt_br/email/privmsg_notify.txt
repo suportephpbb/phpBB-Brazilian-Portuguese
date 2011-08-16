@@ -1,0 +1,16 @@
+Subject: Chegou uma mensagem particular nova
+
+Olá {USERNAME},
+
+Você recebeu uma mensagem particular nova do usuário "{AUTHOR_NAME}" no seu registro em "{SITENAME}" com o seguinte título:
+
+{SUBJECT}
+
+Você pode ler a mensagem clicando no seguinte endereço:
+
+{U_INBOX}
+
+Lembre-se que você pode escolher não ser avisado quando receber mensagens particulares novas, selecionando a respectiva opção em seu perfil.
+
+
+{EMAIL_SIG}

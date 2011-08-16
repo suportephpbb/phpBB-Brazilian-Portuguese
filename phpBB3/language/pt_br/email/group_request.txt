@@ -1,0 +1,11 @@
+Subject: Nova inscrição feita ao seu grupo
+
+Prezado {USERNAME},
+
+Um usuário se inscreveu no grupo "{GROUP_NAME}" no qual você é líder em "{SITENAME}".
+Para aceitar ou recusar a inscrição do usuário em seu grupo, por favor, visite o seguinte endereço:
+
+{U_PENDING}
+
+
+{EMAIL_SIG}
