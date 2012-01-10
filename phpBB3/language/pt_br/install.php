@@ -4,9 +4,9 @@
 * install [Português Brasileiro]
 *
 * @package language
-* @version 3.0.9
+* @version 1.0.4
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
+* @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -152,7 +152,7 @@ $lang = array_merge($lang, array(
 	'DLL_MYSQL'					=> 'MySQL 3.23.x/4.x',
 	'DLL_MYSQLI'				=> 'MySQL 4.1.x/5.x with MySQLi Extension',
 	'DLL_ORACLE'				=> 'Oracle',
-	'DLL_POSTGRES'				=> 'PostgreSQL 7.x',
+	'DLL_POSTGRES'				=> 'PostgreSQL',
 	'DLL_SQLITE'				=> 'SQLite',
 	'DLL_XML'					=> 'Suporte XML [ Jabber ]',
 	'DLL_ZLIB'					=> 'Suporte à compressão zlib [ gz, .tar.gz, .zip ]',
@@ -231,6 +231,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'					=> 'Erro na instalação',
 	'INST_ERR_DB_CONNECT'		=> 'Não foi possível conectar-se ao banco de dados, veja a mensagem de erro abaixo.',
 	'INST_ERR_DB_FORUM_PATH'	=> 'O arquivo do banco de dados informado está dentro da estrutura de diretórios do painel. Você deveria inserir este arquivo em um local não acessível através da internet.',
+	'INST_ERR_DB_INVALID_PREFIX'=> 'O prefixo informado é inválido. Deve iniciar com uma letra e deve conter somente letras, números e espaços.',
 	'INST_ERR_DB_NO_ERROR'		=> 'Nenhuma mensagem de erro foi exibida.',
 	'INST_ERR_DB_NO_MYSQLI'		=> 'A versão do Mysql instalada nesta máquina é incompatível com a opção "MySQL with MySQLi Extension" selecionada. Por favor, tente com uma outra opção do "MySQL".',
 	'INST_ERR_DB_NO_SQLITE'		=> 'A versão da extensão SQLite instalada é muito antiga, você precisa atualizá-la para uma superior a 2.8.2.',
@@ -352,6 +353,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> 'Não foi possível encontrar estas tabelas<br />» <b>%s</b>.',
 	'TABLE_PREFIX'				=> 'Prefixo das tabelas no banco de dados',
+	'TABLE_PREFIX_EXPLAIN'		=> 'O prefixo deve iniciar com uma letra e deve conter somente letras, números e espaços.',
 	'TABLE_PREFIX_SAME'			=> 'O prefixo das tabelas precisa ser aquele usado pelo software que você está convertendo.<br />» O prefixo das tabelas especificado foi %s.',
 	'TESTS_PASSED'				=> 'Testes concluídos',
 	'TESTS_FAILED'				=> 'Testes não concluídos',

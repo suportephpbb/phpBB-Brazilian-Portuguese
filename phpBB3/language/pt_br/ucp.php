@@ -4,9 +4,9 @@
 * ucp [Português Brasileiro]
 *
 * @package language
-* @version 3.0.9
+* @version 1.0.4
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
+* @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -141,6 +141,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_IMAGE'				=> 'Imagem atual', 
 	'CURRENT_PASSWORD'			=> 'Senha atual', 
 	'CURRENT_PASSWORD_EXPLAIN'	=> 'Você precisa confirmar a sua senha atual apenas caso pretenda modificá-la, alterar o endereço de e-mail ou o nome de usuário.', 
+	'CUR_PASSWORD_EMPTY'		=> 'Você não escreveu sua senha atual.',
 	'CUR_PASSWORD_ERROR'		=> 'A senha atual que você escreveu está incorreta.', 
 	'CUSTOM_DATEFORMAT'			=> 'Personalizar…', 
 
@@ -271,10 +272,12 @@ $lang = array_merge($lang, array(
 	'MOVE_PM_ERROR'					=> 'Um erro ocorreu enquanto as mensagens eram movidas para a nova pasta, apenas %1d de %2d mensagens foram movidas.', 
 	'MOVE_TO_FOLDER'				=> 'Mover para a pasta', 
 	'MOVE_UP'						=> 'Mover - cima', 
+	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Você não escreveu a confirmação do endereço de e-mail.',
 		 
 	'NEW_EMAIL_ERROR'				=> 'Os endereços de e-mail escritos não coincidem entre si.', 
 	'NEW_FOLDER_NAME'				=> 'Nome da nova pasta', 
 	'NEW_PASSWORD'					=> 'Nova senha', 
+	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Você não escreveu a confirmação de senha.',
 	'NEW_PASSWORD_ERROR'			=> 'As senhas escritas não coincidem entre si.', 
 	'NOTIFY_METHOD'					=> 'Método de notificação', 
 	'NOTIFY_METHOD_BOTH'			=> 'Ambos', 

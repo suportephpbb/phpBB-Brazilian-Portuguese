@@ -4,9 +4,9 @@
 * acp_forums [Português Brasileiro]
 *
 * @package language
-* @version 3.0.9
+* @version 1.0.4
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
+* @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_ICONS'			=> 'Ativar ícones de tópicos', 
 
 	'FORUM_ADMIN'						=> 'Administração de fóruns', 
-	'FORUM_ADMIN_EXPLAIN'				=> 'No phpBB3 não existem categorias, tudo é baseado em fóruns. Cada fórum pode obter ilimitados números de sub fóruns e você pode determinar o que poderá ser enviado à cada um ou não. Aqui você pode adicionar, editar, excluir, trancar, destrancar fóruns individuais assim como incluir controles adicionais. Se as suas mensagens e tópicos estiverem fora de sincronização, você também pode re-sincronizar os seus fóruns. <strong>Você deve copiar ou atribuir as permissões necessárias para que os fóruns recentemente criados sejam exibidos.</strong>', 
+	'FORUM_ADMIN_EXPLAIN'				=> 'No phpBB3 tudo é baseado em fóruns. Uma categoria é apenas um tipo especial de fórum. Cada fórum pode obter ilimitados números de sub fóruns e você pode determinar o que poderá ser enviado à cada um ou não. Aqui você pode adicionar, editar, excluir, trancar, destrancar fóruns individuais assim como incluir controles adicionais. Se as suas mensagens e tópicos estiverem fora de sincronização, você também pode re-sincronizar os seus fóruns. <strong>Você deve copiar ou atribuir as permissões necessárias para que os fóruns recentemente criados sejam exibidos.</strong>', 
 	'FORUM_AUTO_PRUNE'					=> 'Ativar auto-limpeza', 
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Limpeza dos tópicos do fórum, determinando os parâmetros de frequência/tempo abaixo.', 
 	'FORUM_CREATED'						=> 'O fórum foi criado com sucesso.', 

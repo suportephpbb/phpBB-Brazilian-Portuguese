@@ -4,9 +4,9 @@
 * posting [Português Brasileiro]
 *
 * @package language
-* @version 3.0.9
+* @version 1.0.4
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
+* @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'				=> 'Anexo: [attachment=]nome do arquivo.ext[/attachment]',
 	'BBCODE_B_HELP'				=> 'Negrito: [b]texto[/b]  (alt+b)',
 	'BBCODE_C_HELP'				=> 'Código: [code]código[/code]  (alt+c)',
-	'BBCODE_E_HELP'				=> 'Lista: Adicionar um elemento à lista',
+	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]',
 	'BBCODE_F_HELP'				=> 'Fonte: [size=85]texto pequeno[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s está <em>Inativo</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s está <em>Ativo</em>',
@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_S_HELP'				=> 'Cor: [color=red]texto[/color]  Dica: Você também pode utilizar color=#FF0000',
 	'BBCODE_U_HELP'				=> 'Sublinhado: [u]texto[/u]  (alt+u)',
 	'BBCODE_W_HELP'				=> 'Inserir URL: [url]http://url[/url] ou [url=http://url]texto da URL[/url]  (alt+w)',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]  (alt+d)',
+	'BBCODE_Y_HELP'				=> 'Lista: Adicionar um elemento à lista',
 	'BUMP_ERROR'				=> 'Você não pode ressuscitar este tópico logo após uma última mensagem recente.',
 
 	'CANNOT_DELETE_REPLIED'		=> 'Você pode apenas excluir mensagens que não tenham recebido respostas.',

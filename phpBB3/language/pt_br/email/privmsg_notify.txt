@@ -8,7 +8,7 @@ Você recebeu uma mensagem particular nova de "{AUTHOR_NAME}" no seu registro em
 
 Você pode ler a sua mensagem clicando no seguinte endereço:
 
-{U_INBOX}
+{U_VIEW_MESSAGE}
 
 Lembre-se que você pode escolher não ser notificado quando receber mensagens particulares novas, selecionando a respectiva opção em seu perfil.
 

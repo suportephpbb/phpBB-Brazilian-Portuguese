@@ -4,9 +4,9 @@
 * acp_board [Português Brasileiro]
 *
 * @package language
-* @version 3.0.9
+* @version 1.0.4
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
+* @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -52,7 +52,7 @@ $lang = array_merge($lang, array(
 	'SYSTEM_TIMEZONE'				=> 'Fuso horário para o visitante',
 	'SYSTEM_TIMEZONE_EXPLAIN'			=> 'Fuso horário para ser mostrado para os usuários que não estão logados (visitantes, bots). Usuários logados escolherão seu fuso horário no ato do registro e poderá ser alterado no seu Painel de Controle do Usuário',
 	'WARNINGS_EXPIRE'				=> 'Duração de advertência', 
-	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Número em dias que uma advertência deverá permanecer no registro do usuário.',
+	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Número em dias que uma advertência deverá permanecer no registro do usuário. Defina o valor 0 para tornar advertência permanente.',
 )); 
 
 // Board Features 
@@ -174,7 +174,7 @@ $lang = array_merge($lang, array(
 	'MAX_POST_URLS'					=> 'Número máximo de links por mensagem', 
 	'MAX_POST_URLS_EXPLAIN'			=> 'Número máximo de links por mensagem, sendo 0 igual a um valor ilimitado.', 
 	'MIN_CHAR_LIMIT'				=> 'Número mínimo de caracteres por mensagem',
-	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'O número mínimo de caracteres que um usuário precisa escrever para enviar um novo post ou mensagem particular.',
+	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'O número mínimo de caracteres que um usuário precisa escrever para enviar um novo post ou mensagem particular. O mínimo para essa configuração é 1.',
 	'POSTING'						=> 'Enviando mensagens', 
 	'POSTS_PER_PAGE'				=> 'Mensagens por página', 
 	'QUOTE_DEPTH_LIMIT'				=> 'Número máximo de citações por mensagem', 

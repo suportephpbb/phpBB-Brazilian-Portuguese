@@ -4,9 +4,9 @@
 * acp_common [Português Brasileiro]
 *
 * @package language
-* @version 3.0.9
+* @version 1.0.4
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
+* @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -325,6 +325,15 @@ $lang = array_merge($lang, array(
 
 	'DATABASE_SERVER_INFO'	=> 'Servidor do banco de dados', 
 	'DATABASE_SIZE'			=> 'Tamanho do banco de dados', 
+	// Enviroment configuration checks, mbstring related
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'A função sobrecarga está configurada incorretamente',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> deve ser ajustado para 0 ou 4. Você pode verificar o valor atual na página <samp>Informação PHP</samp>.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'A codificação transparente de caractere está configurada incorretamente',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> deve ser ajustado para 0. Você pode verificar o valor atual na página <samp>Informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'A entrada HTTP de conversão de caractere está configurada incorretamente',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> deve ser ajustado para <samp>pass</samp>. Você pode verificar o valor atual na página <samp>Informação PHP</samp>.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'A saída HTTP de conversão de caractere está configurada incorretamente',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> deve ser ajustado para <samp>pass</samp>. Você pode verificar o valor atual na página <samp>Informação PHP</samp>.',
 
 	'FILES_PER_DAY'		=> 'Anexos por dia', 
 	'FORUM_STATS'		=> 'Estatísticas do painel', 

@@ -4,9 +4,9 @@
 * common [Português Brasileiro]
 *
 * @package language
-* @version 3.0.9
+* @version 1.0.4
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
+* @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -166,6 +166,7 @@ $lang = array_merge($lang, array(
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Você deve especificar um título quando compor uma nova mensagem.',
 	'ENABLED'							=> 'Ativado', 
 	'ENCLOSURE'							=> 'Documento anexo', 
+	'ENTER_USERNAME'					=> 'Digite o nome de usuário',
 	'ERR_CHANGING_DIRECTORY'			=> 'Não foi possível alterar o diretório.', 
 	'ERR_CONNECTING_SERVER'				=> 'Erro ao conectar-se com o servidor.',
 	'ERR_JAB_AUTH'                      => 'Não foi possível autenticar-se no servidor do jabber.',
@@ -201,6 +202,7 @@ $lang = array_merge($lang, array(
 	'FORUM_RULES_LINK'		=> 'Por favor, clique aqui para ver as regras do fórum',
 	'FROM'					=> 'de', 
 	'FSOCK_DISABLED'		=> 'Não foi possível concluir esta operação, porque a função <var>fsockopen</var> está desativada ou o servidor solicitado não foi encontrado.', 
+	'FSOCK_TIMEOUT'			=> 'Um tempo de espera ocorreu durante a leitura do fluxo de rede.',
 	 
 	'FTP_FSOCK_HOST'				=> 'Servidor do FTP', 
 	'FTP_FSOCK_HOST_EXPLAIN'		=> 'Servidor FTP utilizado para se conectar ao seu site.',
@@ -650,6 +652,10 @@ $lang = array_merge($lang, array(
 	'UNREAD_PMS'			=> '<b>%d</b> mensagens não lidas',
 	'UNREAD_POST'			=> 'Mensagem não lida',
 	'UNREAD_POSTS'			=> 'Mensagens não lidas',
+	'UNWATCH_FORUM_CONFIRM'		=> 'Você deseja realmente cancelar a subscrição deste fórum?',
+	'UNWATCH_FORUM_DETAILED'	=> 'Você deseja realmente cancelar a subscrição do fórum “%s”?',
+	'UNWATCH_TOPIC_CONFIRM'		=> 'Você deseja realmente cancelar a subscrição deste tópico?',
+	'UNWATCH_TOPIC_DETAILED'	=> 'Você deseja realmente cancelar a subscrição do tópico “%s”?',
 	'UNWATCHED_FORUMS'		=> 'Você não está mais subscrito nos fóruns selecionados.',
 	'UNWATCHED_TOPICS'		=> 'Você não está mais subscrito nos tópicos selecionados.',
 	'UNWATCHED_FORUMS_TOPICS'   => 'Você não está mais subscrito às entradas selecionadas.',
@@ -697,6 +703,10 @@ $lang = array_merge($lang, array(
 
 	'WARNINGS'			=> 'Advertências', 
 	'WARN_USER'			=> 'Advertir o usuário', 
+	'WATCH_FORUM_CONFIRM'	=> 'Você deseja realmente subscrever este fórum?',
+	'WATCH_FORUM_DETAILED'	=> 'Você deseja realmente subscrever o fórum “%s”?',
+	'WATCH_TOPIC_CONFIRM'	=> 'Você deseja realmente subscrever este tópico?',
+	'WATCH_TOPIC_DETAILED'	=> 'Você deseja realmente subscrever o tópico “%s”?',
 	'WELCOME_SUBJECT'	=> 'Bem-vindo ao fórum %s', 
 	'WEBSITE'			=> 'Website', 
 	'WHOIS'				=> 'Quem', 

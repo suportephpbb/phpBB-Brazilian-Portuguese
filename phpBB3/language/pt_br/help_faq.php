@@ -4,9 +4,9 @@
 * help_faq [Português Brasileiro]
 *
 * @package language
-* @version 3.0.9
+* @version 1.0.4
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
+* @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */ 
@@ -61,7 +61,7 @@ $help = array(
    ), 
    array( 
       0 => 'Registrei-me anteriormente mas não consigo mais entrar?!', 
-      1 => 'Tente localizar o e-mail que lhe foi enviado quando se registrou anteriormente, e verifique o seu nome de usuário e senha e tente novamente. É possível que o administrador tenha excluído o seu registro por algum motivo. É comum administradores excluírem registros de usuários que não enviaram mensagens durante um longo período, para reduzir o tamanho do seu banco de dados. Tente registrar-se novamente e participar das discussões do fórum.' 
+      1 => 'É possível que o administrador tenha excluído o seu registro por algum motivo. É comum administradores excluírem registros de usuários que não enviaram mensagens durante um longo período, para reduzir o tamanho do seu banco de dados. Tente registrar-se novamente e participar das discussões do fórum.' 
    ), 
    array( 
       0 => 'O que é a COPPA?', 

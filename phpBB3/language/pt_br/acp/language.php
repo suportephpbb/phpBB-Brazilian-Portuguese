@@ -4,9 +4,9 @@
 * acp_language [Português Brasileiro]
 *
 * @package language
-* @version 3.0.9
+* @version 1.0.4
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
+* @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -59,7 +59,8 @@ $lang = array_merge($lang, array(
 	'LANGUAGE_PACK_ALREADY_INSTALLED'	=> 'O pacote de idiomas já se encontra instalado.', 
 	'LANGUAGE_PACK_DELETED'				=> 'O pacote de idiomas <strong>%s</strong> foi excluído com sucesso. Todos os usuários que utilizavam este idioma foram atualizados para o idioma padrão do painel.', 
 	'LANGUAGE_PACK_DETAILS'				=> 'Informações do pacote de idiomas', 
-	'LANGUAGE_PACK_INSTALLED'			=> 'O pacote de idiomas <strong>%s</strong> foi instalado com sucesso.', 
+	'LANGUAGE_PACK_INSTALLED'			=> 'O pacote de idiomas <strong>%s</strong> foi instalado com sucesso.',
+	'LANGUAGE_PACK_CPF_UPDATE'			=> 'As sequências de idioma dos campos de perfil personalizados foram copiados do idioma padrão. Por favor, altere-os caso necessário.',
 	'LANGUAGE_PACK_ISO'					=> 'ISO', 
 	'LANGUAGE_PACK_LOCALNAME'			=> 'Nome do local', 
 	'LANGUAGE_PACK_NAME'				=> 'Nome', 

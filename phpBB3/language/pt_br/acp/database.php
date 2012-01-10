@@ -4,9 +4,9 @@
 * acp_database [Português Brasileiro]
 *
 * @package language
-* @version 3.0.9
+* @version 1.0.4
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
-* @copyright (c) 2005 phpBB Group, 2011 Suporte phpBB
+* @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
 *
 */
@@ -60,6 +60,7 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'O backup pode estar corrompido.',
 	'RESTORE_OPTIONS'		=> 'Opções de restauração', 
+	'RESTORE_SELECTED_BACKUP'	=> 'Você deseja realmente restaurar o backup selecionado?',
 	'RESTORE_SUCCESS'		=> 'O banco de dados foi restaurado com sucesso.<br /><br />O seu painel deverá voltar agora ao estado em que se encontrava na época em que o backup foi realizado.', 
 
 	'SELECT_ALL'			=> 'Selecionar todas', 
