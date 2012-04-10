@@ -4,7 +4,7 @@
 * posting [Português Brasileiro]
 *
 * @package language
-* @version 1.0.4
+* @version 1.0.5
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -47,20 +47,20 @@ $lang = array_merge($lang, array(
 	'ATTACH_SIG'				=> 'Anexar assinatura (assinaturas podem ser alteradas em UCP)',
 
 	'BBCODE_A_HELP'				=> 'Anexo: [attachment=]nome do arquivo.ext[/attachment]',
-	'BBCODE_B_HELP'				=> 'Negrito: [b]texto[/b]  (alt+b)',
-	'BBCODE_C_HELP'				=> 'Código: [code]código[/code]  (alt+c)',
+	'BBCODE_B_HELP'				=> 'Negrito: [b]texto[/b]',
+	'BBCODE_C_HELP'				=> 'Código: [code]código[/code]',
 	'BBCODE_D_HELP'				=> 'Flash: [flash=width,height]http://url[/flash]',
 	'BBCODE_F_HELP'				=> 'Fonte: [size=85]texto pequeno[/size]',
 	'BBCODE_IS_OFF'				=> '%sBBCode%s está <em>Inativo</em>',
 	'BBCODE_IS_ON'				=> '%sBBCode%s está <em>Ativo</em>',
-	'BBCODE_I_HELP'				=> 'Itálico: [i]texto[/i]  (alt+i)',
-	'BBCODE_L_HELP'				=> 'Lista: [list]lista[/list]  (alt+l)',
-	'BBCODE_LISTITEM_HELP'			=> 'Listar Itens: [*]texto[/*]',
-	'BBCODE_O_HELP'				=> 'Lista Ordenada: [list=]lista ordenada[/list]  (alt+o)',
-	'BBCODE_P_HELP'				=> 'Imagem: [img]http://url_da_imagem[/img]  (alt+p)',
-	'BBCODE_Q_HELP'				=> 'Citação: [quote]citação[/quote]  (alt+q)',
+	'BBCODE_I_HELP'				=> 'Itálico: [i]texto[/i]',
+	'BBCODE_L_HELP'				=> 'Lista: [list]lista[/list]',
+	'BBCODE_LISTITEM_HELP'		=> 'Listar Itens: [*]texto[/*]',
+	'BBCODE_O_HELP'				=> 'Lista Ordenada: [list=]lista ordenada[/list]',
+	'BBCODE_P_HELP'				=> 'Imagem: [img]http://url_da_imagem[/img]',
+	'BBCODE_Q_HELP'				=> 'Citação: [quote]citação[/quote]',
 	'BBCODE_S_HELP'				=> 'Cor: [color=red]texto[/color]  Dica: Você também pode utilizar color=#FF0000',
-	'BBCODE_U_HELP'				=> 'Sublinhado: [u]texto[/u]  (alt+u)',
+	'BBCODE_U_HELP'				=> 'Sublinhado: [u]texto[/u]',
 	'BBCODE_W_HELP'				=> 'Inserir URL: [url]http://url[/url] ou [url=http://url]texto da URL[/url]  (alt+w)',
 	'BBCODE_Y_HELP'				=> 'Lista: Adicionar um elemento à lista',
 	'BUMP_ERROR'				=> 'Você não pode ressuscitar este tópico logo após uma última mensagem recente.',

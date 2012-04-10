@@ -4,7 +4,7 @@
 * help_faq [Português Brasileiro]
 *
 * @package language
-* @version 1.0.4
+* @version 1.0.5
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -334,7 +334,7 @@ $help = array(
    ), 
    array( 
       0 => 'Quem escreveu o phpBB?', 
-      1 => 'Este software (em sua forma não modificada) é produzido, publicado e com direitos reservados ao <a href="http://www.phpbb.com/" target="_blank">phpBB Group</a>. Está disponível sob a licença <strong>GNU</strong> <em>General Public Licence</em> e pode ser distribuído gratuitamente. Verifique o link para mais informações.' 
+      1 => 'Este software (em sua forma não modificada) é produzido, publicado e com direitos reservados ao <a href="http://www.phpbb.com/">phpBB Group</a>. Está disponível sob a licença <strong>GNU</strong> <em>General Public Licence</em> e pode ser distribuído gratuitamente. Verifique o link para mais informações.' 
    ), 
    array( 
       0 => 'Quem traduziu o phpBB?', 
