@@ -4,7 +4,7 @@
 * acp_common [Português Brasileiro]
 *
 * @package language
-* @version 1.0.5
+* @version 1.0.6
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -97,10 +97,10 @@ $lang = array_merge($lang, array(
 	'ACP_GLOBAL_MODERATORS'			=> 'Moderadores globais', 
 	'ACP_GLOBAL_PERMISSIONS'		=> 'Permissões globais', 
 	'ACP_GROUPS'					=> 'Grupos', 
-	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Permissões dos grupos em fóruns', 
-	'ACP_GROUPS_MANAGE'				=> 'Administrar grupos', 
-	'ACP_GROUPS_MANAGEMENT'			=> 'Administração de grupos', 
-	'ACP_GROUPS_PERMISSIONS'		=> 'Permissões do grupo', 
+	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Permissões de grupo em fóruns',
+	'ACP_GROUPS_MANAGE'				=> 'Administrar grupos',
+	'ACP_GROUPS_MANAGEMENT'			=> 'Administração de grupos',
+	'ACP_GROUPS_PERMISSIONS'		=> 'Permissões de grupo',
 
 	'ACP_ICONS'						=> 'Ícones', 
 	'ACP_ICONS_SMILIES'				=> 'Ícones/smilies', 
@@ -171,9 +171,9 @@ $lang = array_merge($lang, array(
 	'ACP_THEMES'				=> 'Temas', 
 
 	'ACP_UPDATE'					=> 'Atualizando', 
-	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Permissões dos usuários em fóruns', 
-	'ACP_USERS_LOGS'				=> 'Log do usuário', 
-	'ACP_USERS_PERMISSIONS'			=> 'Permissões do usuário', 
+	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Permissões de usuário em fóruns',
+	'ACP_USERS_LOGS'				=> 'Log do usuário',
+	'ACP_USERS_PERMISSIONS'			=> 'Permissões de usuário',
 	'ACP_USER_ATTACH'				=> 'Anexos', 
 	'ACP_USER_AVATAR'				=> 'Avatar', 
 	'ACP_USER_FEEDBACK'				=> 'Relatório', 
@@ -402,7 +402,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_REASON_UNKNOWN'		=> 'Desconhecido', 
 	'INACTIVE_USERS'				=> 'Usuários inativos', 
 	'INACTIVE_USERS_EXPLAIN'		=> 'Isto é uma lista de usuários que se registraram, mas os seus registros encontram-se inativos. Você pode ativar, excluir ou alertar (enviando um e-mail) estes usuários se você desejar.', 
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Isto é uma lista dos 10 usuários recentemente registrados, os quais possuem os seus registros inativos. Uma lista completa está disponível pelo item apropriado no menu ou clicando no link abaixo através de onde você pode ativar, excluir ou alertar (enviando um e-mail) estes usuários se você desejar.', 
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Esta é uma lista dos 10 usuários recentemente registrados, que possuem os seus registros inativos. Os registros são inativos ou pelo fato da ativação de conta estar ativada nas configurações de registro de usuário e o registro desse usuário ainda não foi ativado ou porque esses registros foram desativados. Uma lista completa está disponível clicando no link abaixo, e através dela você pode ativar, excluir ou alertar (enviando um e-mail) estes usuários, se você desejar.',
 
 	'NO_INACTIVE_USERS'	=> 'Não há usuários inativos', 
 

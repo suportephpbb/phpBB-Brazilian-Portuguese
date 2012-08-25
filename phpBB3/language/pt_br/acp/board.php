@@ -4,7 +4,7 @@
 * acp_board [Português Brasileiro]
 *
 * @package language
-* @version 1.0.5
+* @version 1.0.6
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'MAX_AVATAR_SIZE'				=> 'Dimensões máxima dos avatares', 
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Largura x altura em pixels.',
 	'MAX_FILESIZE'					=> 'Tamanho máximo do arquivo de avatar', 
-	'MAX_FILESIZE_EXPLAIN'			=> 'Para arquivos de avatares enviados.',
+	'MAX_FILESIZE_EXPLAIN'			=> 'Para arquivos de avatares enviados. Se este valor for 0, o tamanho do arquivo enviado é limitado somente pela sua configuração do PHP.',
 	'MIN_AVATAR_SIZE'				=> 'Dimensões mínimas dos avatares', 
 	'MIN_AVATAR_SIZE_EXPLAIN'		=> 'Largura x altura em pixels.',
 )); 
@@ -370,7 +370,7 @@ $lang = array_merge($lang, array(
 	'YES_ONLINE_EXPLAIN'			=> 'Exibe a informação de usuários online nas páginas do índice, tópicos e fóruns.', 
 	'YES_ONLINE_GUESTS'				=> 'Ativar lista de visitantes online na lista de usuários online', 
 	'YES_ONLINE_GUESTS_EXPLAIN'		=> 'Permite a visualização de informações de visitantes na lista de usuários online.', 
-	'YES_ONLINE_TRACK'				=> 'Ativar exibição da informação online/offlne do usuário', 
+	'YES_ONLINE_TRACK'				=> 'Ativar exibição da informação online/offline do usuário', 
 	'YES_ONLINE_TRACK_EXPLAIN'		=> 'Exibe informação online para usuários em perfis e tópicos.',
 	'YES_POST_MARKING'				=> 'Exibir tópicos pontilhados', 
 	'YES_POST_MARKING_EXPLAIN'		=> 'Indica se o usuário tem postado em um determinado tópico.', 

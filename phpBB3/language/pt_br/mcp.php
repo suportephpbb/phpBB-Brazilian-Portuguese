@@ -4,7 +4,7 @@
 * mcp [Português Brasileiro]
 *
 * @package language
-* @version 1.0.5
+* @version 1.0.6
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -380,7 +380,7 @@ $lang = array_merge($lang, array(
 	
 	'WARNED_USERS' 			=> 'Usuários advertidos',
 	'WARNED_USERS_EXPLAIN' 	=> 'Esta é uma lista dos usuários com advertências permanentes enviadas aos mesmos.', 
-	'WARNING_PM_BODY' 		=> 'A seguinte é uma advertência enviada para você por um administrador ou moderador do site.[quote]%s[quote]', 
+	'WARNING_PM_BODY' 		=> 'A seguinte é uma advertência enviada para você por um administrador ou moderador do site.[quote]%s[/quote]', 
 	'WARNING_PM_SUBJECT' 	=> 'Advertência', 
 	'WARNING_POST_DEFAULT' 	=> 'Esta é uma advertência a respeito da seguinte mensagem enviada por você: %s .', 
 	'WARNINGS_ZERO_TOTAL' 	=> 'Nenhuma advertência existente.',

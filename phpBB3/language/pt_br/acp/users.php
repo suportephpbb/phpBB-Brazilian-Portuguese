@@ -4,7 +4,7 @@
 * acp_users [Português Brasileiro]
 *
 * @package language
-* @version 1.0.5
+* @version 1.0.6
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	 
 	'DELETE_POSTS'			=> 'Excluir mensagens', 
 	'DELETE_USER'			=> 'Excluir usuário', 
-	'DELETE_USER_EXPLAIN'	=> 'Atenção: Se você excluir o usuário selecionado, não poderá restaurá-lo novamente.',
+	'DELETE_USER_EXPLAIN'	=> 'Atenção: Se você excluir o usuário selecionado, não poderá restaurá-lo novamente. Mensagens privadas não lidas enviadas por este usuário serão excluídas e não estarão disponíveis aos seus destinatários.',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'A reativação foi forçada com sucesso.',
 	'FOUNDER'						=> 'Fundador', 
@@ -123,6 +123,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_SPECIAL'            => 'Grupos pré-definidos aos quais o usuário é membro',
 	'USER_LIFTED_NR'				=> 'Os status de usuário recentemente registrado foram removidos com sucesso.',
 	'USER_NO_ATTACHMENTS'           => 'Não há arquivos anexos para exibição.',
+	'USER_NO_POSTS_TO_DELETE'		=> 'O usuário não possui mensagens para reter ou excluir.',
 	'USER_OUTBOX_EMPTIED'			=> 'A caixa de saída do usuário foi esvaziada com sucesso.',
 	'USER_OUTBOX_EMPTY'				=> 'A caixa de saída do usuário já encontra-se esvaziada.',
 	'USER_OVERVIEW_UPDATED'			=> 'As informações do usuário selecionado foram atualizadas com sucesso.', 

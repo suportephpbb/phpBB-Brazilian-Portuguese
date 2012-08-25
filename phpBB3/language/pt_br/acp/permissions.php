@@ -4,7 +4,7 @@
 * acp_permissions [Português Brasileiro]
 *
 * @package language
-* @version 1.0.5
+* @version 1.0.6
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -41,10 +41,10 @@ $lang = array_merge($lang, array(
 		<p>As permissões gerais em seu phpBB3 são bastante abrangentes e agrupadas em quatro grandes grupos, que são:</p> 
 
 		<h2>Permissões Globais</h2> 
-		<p>Aqui você pode controlar o acesso em um nível global e aplicar ao fórum inteiro. As permissões aqui ainda são dividias em permissões de usuários, permissões de grupos, administradores e moderadores globais.</p> 
+		<p>Aqui você pode controlar o acesso em um nível global e aplicar ao fórum inteiro. As permissões aqui ainda são dividias em permissões de usuário, permissões de grupo, administradores e moderadores globais.</p> 
 
 		<h2>Permissões Baseadas em Fóruns</h2> 
-		<p>Aqui você pode controlar o acesso por bases de fóruns. As permissões aqui ainda são dividias em permissões de fóruns, moderadores de fóruns, permissões de usuários em fóruns e permissões de grupos em fóruns.</p>
+		<p>Aqui você pode controlar o acesso por bases de fóruns. As permissões aqui ainda são dividias em permissões de fóruns, moderadores de fóruns, permissões de usuário em fóruns e permissões de grupo em fóruns.</p>
 
 		<h2>Tarefas de Permissão</h2>
 		<p>Aqui você pode criar diferentes termos de permissão para os diversos tipos de permissões existentes. As configurações padrão devem acobertar a administração do fórum, entretanto com uma das quatro divisões, você ainda pode adicionar/editar/excluir configurações se assim desejar ou achar necessário.</p>
@@ -84,13 +84,13 @@ $lang = array_merge($lang, array(
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Aqui você pode copiar as permissões de um fórum para outro ou mais fóruns.',
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Aqui você pode determinar permissões de moderadores globais para usuários e grupos. Estes moderadores são como moderadores usuais, exceto se eles tiverem acesso a todos os fóruns do painel.', 
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aqui você pode determinar permissões de fóruns para grupos.', 
-	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Aqui você pode determinar permissões globais para grupos - permissões de usuários, permissões globais e permissões administrativas. As permissões de usuários incluem capacidades de uso de avatares, envio de mensagens particulares e etc; Permissões globais incluem a aprovação de mensagens, gerenciamento de tópicos, gerenciamento de banimentos e etc; Por último, as permissões administrativas incluem a alteração de permissões, definição de BBCodes, gerenciamento de fóruns e etc. Permissões de usuários individuais devem apenas ser alteradas em ocasiões raras, e o método mais apropriado é adicionando os usuários em grupos e alterando as permissões destes grupos.', 
+	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Aqui você pode determinar permissões globais para grupos - permissões de usuário, permissões globais e permissões administrativas. As permissões de usuário incluem capacidades de uso de avatares, envio de mensagens particulares e etc; Permissões globais incluem a aprovação de mensagens, gerenciamento de tópicos, gerenciamento de banimentos e etc; Por último, as permissões administrativas incluem a alteração de permissões, definição de BBCodes, gerenciamento de fóruns e etc. Permissões de usuário individuais devem apenas ser alteradas em ocasiões raras, e o método mais apropriado é adicionando os usuários em grupos e alterando as permissões destes grupos.',
 	'ACP_ADMIN_ROLES_EXPLAIN'					=> 'Aqui você pode gerenciar as tarefas para permissões administrativas. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuídos a mesma terão suas permissões alteradas também.', 
 	'ACP_FORUM_ROLES_EXPLAIN'					=> 'Aqui você pode gerenciar as tarefas para permissões dos fóruns. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuídos a mesma terão suas permissões alteradas também.', 
 	'ACP_MOD_ROLES_EXPLAIN'						=> 'Aqui você pode gerenciar as tarefas para permissões de moderador. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuídos a mesma terão suas permissões alteradas também.', 
 	'ACP_USER_ROLES_EXPLAIN'					=> 'Aqui você pode gerenciar as tarefas para permissões de usuários. Tarefas são permissões efetivas. Se você alterar uma tarefa, os itens atribuídos a mesma terão suas permissões alteradas também.', 
 	'ACP_USERS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aqui você pode determinar permissões de fóruns para usuários.', 
-	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> 'Aqui você pode determinar permissões globais para usuários - As permissões de usuários incluem capacidades de uso de avatares, envio de mensagens particulares e etc; Permissões globais incluem a aprovação de mensagens, gerenciamento de tópicos, gerenciamento de banimentos etc; Por último, as permissões administrativas como a alteração de permissões, definição de BBCodes, gerenciamento de fóruns e etc. Para alterar estas configurações à um grande número de usuários, o sistema de permissões de grupos é o método mais aconselhável. Permissões de usuários individuais devem apenas ser alteradas em ocasiões raras, e o método mais apropriado é adicionando os usuários em grupos e alterando as permissões destes grupos.', 
+	'ACP_USERS_PERMISSIONS_EXPLAIN'				=> 'Aqui você pode determinar permissões globais para usuário - As permissões de usuário incluem capacidades de uso de avatares, envio de mensagens particulares e etc; Permissões globais incluem a aprovação de mensagens, gerenciamento de tópicos, gerenciamento de banimentos etc; Por último, as permissões administrativas como a alteração de permissões, definição de BBCodes, gerenciamento de fóruns e etc. Para alterar estas configurações à um grande número de usuários, o sistema de permissões de grupo é o método mais aconselhável. Permissões de usuário individuais devem apenas ser alteradas em ocasiões raras, e o método mais apropriado é adicionando os usuários em grupos e alterando as permissões destes grupos.',
 	'ACP_VIEW_ADMIN_PERMISSIONS_EXPLAIN'		=> 'Aqui você pode ver as permissões administrativas efetivas determinadas aos usuários/grupos selecionados.',
 	'ACP_VIEW_GLOBAL_MOD_PERMISSIONS_EXPLAIN'	=> 'Aqui você pode ver as permissões globais determinadas aos usuários/grupos selecionados.',
 	'ACP_VIEW_FORUM_PERMISSIONS_EXPLAIN'		=> 'Aqui você pode ver as permissões de fóruns determinadas aos usuários/grupos e fóruns selecionadas.',
@@ -171,7 +171,7 @@ $lang = array_merge($lang, array(
 	'ROLE_FORUM_POLLS'			=> 'Acesso + enquetes padrão', 
 	'ROLE_FORUM_READONLY'		=> 'Acesso de leitura apenas', 
 	'ROLE_FORUM_STANDARD'		=> 'Acesso padrão', 
-	'ROLE_FORUM_NEW_MEMBER'		=> 'Usuário registrado recentemente',
+	'ROLE_FORUM_NEW_MEMBER'		=> 'Acesso de Usuário registrado recentemente',
 	'ROLE_MOD_FULL'				=> 'Moderador completo', 
 	'ROLE_MOD_QUEUE'			=> 'Moderador da lista', 
 	'ROLE_MOD_SIMPLE'			=> 'Moderador simples', 
@@ -181,7 +181,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOAVATAR'		=> 'Sem avatar', 
 	'ROLE_USER_NOPM'			=> 'Sem mensagens particulares', 
 	'ROLE_USER_STANDARD'		=> 'Permissões padrão', 
-	'ROLE_USER_NEW_MEMBER'		=> 'Usuário registrado recentemente',
+	'ROLE_USER_NEW_MEMBER'		=> 'Recursos de Usuário registrado recentemente',
 	
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Pode acessar as configurações de gerenciamento e permissões de fóruns.', 
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Pode acessar à todas as funções administrativas neste fórum.<br />Não recomendado.', 
@@ -224,8 +224,8 @@ $lang = array_merge($lang, array(
 	'SELECT_TYPE'					=> 'Selecionar tipo', 
 	'SET_PERMISSIONS'				=> 'Atribuir permissões', 
 	'SET_ROLE_PERMISSIONS'			=> 'Atribuir permissões da tarefa', 
-	'SET_USERS_PERMISSIONS'			=> 'Atribuir permissões do usuário', 
-	'SET_USERS_FORUM_PERMISSIONS'	=> 'Atribuir permissões dos usuários no fórum', 
+	'SET_USERS_PERMISSIONS'			=> 'Atribuir permissões de usuário',
+	'SET_USERS_FORUM_PERMISSIONS'	=> 'Atribuir permissões de usuário no fórum',
 
 	'TRACE_DEFAULT'					=> 'Por padrão, todas as opções estão assinaladas como <samp>NÃO</samp> (desativadas). Então, a permissão pode ser substituída por outras configurações.', 
 	'TRACE_FOR'						=> 'Copiar para', 

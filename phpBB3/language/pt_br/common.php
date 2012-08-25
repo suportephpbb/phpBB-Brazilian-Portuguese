@@ -4,7 +4,7 @@
 * common [Português Brasileiro]
 *
 * @package language
-* @version 1.0.5
+* @version 1.0.6
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -192,7 +192,7 @@ $lang = array_merge($lang, array(
 	'FORM_INVALID'          => 'A forma submetida é inválida. Tente submeter novamente.',
 	'FORUM'					=> 'Fórum', 
 	'FORUMS'				=> 'Fóruns', 
-	'FORUMS_MARKED'			=> 'Os fóruns selecionados foram assinalados como lidos.', 
+	'FORUMS_MARKED'			=> 'Os fóruns foram assinalados como lidos.',
 	'FORUM_CAT'				=> 'Categoria do fórum',	 
 	'FORUM_INDEX'			=> 'Índice do fórum', 
 	'FORUM_LINK'			=> 'Endereço do fórum',	 
@@ -450,6 +450,7 @@ $lang = array_merge($lang, array(
 	'POST_TIME'				=> 'Data da mensagem', 
 	'POST_TOPIC'			=> 'Criar um novo tópico',
 	'POST_UNAPPROVED'		=> 'Clique aqui para aprovar a mensagem', 
+	'POWERED_BY'			=> 'Powered by %s',
 	'PREVIEW'				=> 'Prever', 
 	'PREVIOUS'				=> 'Anterior',      // Used in pagination
 	'PREVIOUS_STEP'         => 'Anterior',
@@ -458,6 +459,7 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGES'		=> 'Mensagens particulares', 
 	'PRIVATE_MESSAGING'		=> 'Enviando mensagem particular', 
 	'PROFILE'				=> 'Painel de Controle do Usuário', 
+	'RANK'					=> 'Rank',
 
 	'READING_FORUM'				=> 'Visualizando tópicos em %s', 
 	'READING_GLOBAL_ANNOUNCE'	=> 'Lendo anúncio global', 

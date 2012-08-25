@@ -4,7 +4,7 @@
 * acp_styles [Português Brasileiro]
 *
 * @package language
-* @version 1.0.5
+* @version 1.0.6
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -266,6 +266,7 @@ $lang = array_merge($lang, array(
 	'IMG_USER_ICON8'		=> 'Imagem definida do usuário 8', 
 	'IMG_USER_ICON9'		=> 'Imagem definida do usuário 9', 
 	'IMG_USER_ICON10'		=> 'Imagem definida do usuário 10', 
+	'INACTIVE_STYLES'		=> 'Estilos desativados',
 
 	'INCLUDE_DIMENSIONS'		=> 'Incluir dimensões', 
 	'INCLUDE_IMAGESET'			=> 'Incluir set de imagens', 

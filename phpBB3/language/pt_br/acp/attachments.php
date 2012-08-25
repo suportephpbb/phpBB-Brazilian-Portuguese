@@ -4,7 +4,7 @@
 * acp_attachments [Português Brasileiro]
 *
 * @package language
-* @version 1.0.5
+* @version 1.0.6
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -56,7 +56,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_EXT_GROUPS_URL'				=> 'Grupos de extensões', 
 	'ATTACH_ID'							=> 'ID',
 	'ATTACH_MAX_FILESIZE'				=> 'Tamanho máximo do arquivo', 
-	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'O tamanho máximo para cada arquivo, sendo 0 um valor ilimitado.', 
+	'ATTACH_MAX_FILESIZE_EXPLAIN'		=> 'O tamanho máximo para cada arquivo. Se este valor for 0, o tamanho do arquivo enviado é limitado somente pela sua configuração do PHP.',
 	'ATTACH_MAX_PM_FILESIZE'			=> 'Quota de anexos em mensagens particulares', 
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> 'Tamanho máximo de cada arquivo anexo em mensagens particulares, sendo 0 um valor ilimitado .', 
 	'ATTACH_ORPHAN_URL'					=> 'Anexos órfãos', 

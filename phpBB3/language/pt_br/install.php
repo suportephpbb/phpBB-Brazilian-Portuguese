@@ -4,7 +4,7 @@
 * install [Português Brasileiro]
 *
 * @package language
-* @version 1.0.5
+* @version 1.0.6
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -53,6 +53,7 @@ $lang = array_merge($lang, array(
 	'BLANK_PREFIX_FOUND'			=> 'Uma pesquisa em seu banco de dados encontrou uma instalação válida sem a utilização de um prefixo para as tabelas.',
 	'BOARD_NOT_INSTALLED'			=> 'Nenhuma instalação foi encontrada',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'Para realizar a conversão você precisa ter uma instalação padrão do phpBB3. Por favor, visite a página <a href="%s">Instalando pela primeira vez o phpBB3</a> para mais informações.',
+	'BACKUP_NOTICE'					=> 'Por favor, faça um backup do seu fórum antes de atualizá-lo, para o caso de surgirem problemas durante o processo de atualização.',
 
 	'CATEGORY'					=> 'Categoria',
 	'CACHE_STORE'				=> 'Tipo de cache',

@@ -4,7 +4,7 @@
 * ucp [Português Brasileiro]
 *
 * @package language
-* @version 1.0.5
+* @version 1.0.6
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -140,7 +140,8 @@ $lang = array_merge($lang, array(
 	'CREATE_FOLDER'				=> 'Adicionar pasta', 
 	'CURRENT_IMAGE'				=> 'Imagem atual', 
 	'CURRENT_PASSWORD'			=> 'Senha atual', 
-	'CURRENT_PASSWORD_EXPLAIN'	=> 'Você precisa confirmar a sua senha atual apenas caso pretenda modificá-la, alterar o endereço de e-mail ou o nome de usuário.', 
+	'CURRENT_PASSWORD_EXPLAIN'	=> 'Você deve inserir sua senha atual se deseja alterar o seu endereço de e-mail ou nome de usuário.',
+	'CURRENT_CHANGE_PASSWORD_EXPLAIN' => 'Para alterar sua senha, seu endereço de e-mail ou seu nome de usuário, você deve inserir a sua senha atual.', 
 	'CUR_PASSWORD_EMPTY'		=> 'Você não escreveu sua senha atual.',
 	'CUR_PASSWORD_ERROR'		=> 'A senha atual que você escreveu está incorreta.', 
 	'CUSTOM_DATEFORMAT'			=> 'Personalizar…', 
@@ -391,6 +392,7 @@ $lang = array_merge($lang, array(
 	'RULE_ADDED'						=> 'A regra foi adicionada com sucesso.',
 	'RULE_ALREADY_DEFINED'				=> 'Esta regra estava previamente definida.', 
 	'RULE_DELETED'						=> 'A regra foi excluída com sucesso.',
+	'RULE_LIMIT_REACHED'				=> 'Você não pode adicionar mais regras, pois alcançou o número máximo de regras.',
 	'RULE_NOT_DEFINED'					=> 'Regra não especificada corretamente.', 
 	'RULE_REMOVED_MESSAGE'				=> 'Uma mensagem particular foi bloqueada pelos filtros de mensagem particular.', 
 	'RULE_REMOVED_MESSAGES'				=> '%d mensagens particulares foram bloqueadas pelos filtros de mensagem particular.', 
