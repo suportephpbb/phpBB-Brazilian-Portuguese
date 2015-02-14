@@ -4,7 +4,7 @@
 * acp_permissions_phpbb (phpBB Permission Set) [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -84,7 +84,6 @@ $lang = array_merge($lang, array(
 		'settings'		=> 'Configurações', 
 		'topic_actions'	=> 'Ações do tópico', 
 		'user_group'	=> 'Usuários &amp; Grupos',
-	    'articles'      => 'Artigos',		
 	), 
 
 	// With defining 'global' here we are able to specify what is printed out if the permission is within the global scope.

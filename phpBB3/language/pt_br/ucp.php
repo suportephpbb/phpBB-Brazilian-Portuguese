@@ -4,7 +4,7 @@
 * ucp [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -179,7 +179,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Aqui você pode editar os seus rascunhos. Os rascunhos não contêm anexos e informações de enquetes.', 
 	'EMAIL_BANNED_EMAIL'		=> 'Este endereço de e-mail foi banido.', 
-	'EMAIL_INVALID_EMAIL'		=> 'Este endereço de e-mail é inválido.',
 	'EMAIL_REMIND'				=> 'Este deve ser o endereço de e-mail associado à sua conta. Se você não alterou este e-mail pelo painel de controle do usuário, este é o endereço que você informou ao se registrar.',
 
 	'EMAIL_TAKEN_EMAIL'			=> 'Este endereço de e-mail já foi registrado em nosso banco de dados.',
@@ -197,7 +196,7 @@ $lang = array_merge($lang, array(
 	'FIELD_TOO_LONG'			=> 'O campo "%1$s" é muito grande. O máximo permitido é de %2$d caracteres.', 
 	'FIELD_TOO_SMALL'			=> 'O valor de "%1$s" é muito pequeno. O valor mínimo é de %2$d permitidos.', 
 	'FIELD_TOO_LARGE'			=> 'O valor de "%1$s" é muito grande. O valor máximo é de %2$d permitidos.', 
-	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'O campo "% s" possui caracteres inválidos. Apenas números são permitidos.', 
+	'FIELD_INVALID_CHARS_NUMBERS_ONLY'	=> 'O campo “%s” possui caracteres inválidos. Apenas números são permitidos.', 
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> 'O campo “%s” possui caracteres inválidos. Apenas alfanuméricos são permitidos.', 
 	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> 'O campo “%s” possui caracteres inválidos. Apenas alfanuméricos, espaço ou - +_ [] são permitidos.', 
 	'FIELD_INVALID_DATE'		=> 'O campo “%s” possui uma data inválida.', 
@@ -261,8 +260,9 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'				=> 'por', 
 	'MESSAGE_COLOURS'				=> 'Cores da mensagem', 
 	'MESSAGE_DELETED'				=> 'A mensagem selecionada foi excluída com sucesso.',
-	'MESSAGE_HISTORY'				=> 'Histórico de mensagens', 
-	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Esta mensagem foi excluída pelo autor antes de ser encaminhada.',
+	'MESSAGE_EDITED'				=> 'Mensagem editada com sucesso.',
+	'MESSAGE_HISTORY'				=> 'Histórico de mensagens',
+	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Esta mensagem foi excluída pelo autor.',
 	'MESSAGE_SENT_ON'				=> 'em',	 
 	'MESSAGE_STORED'				=> 'A sua mensagem foi enviada com sucesso.',
 	'MESSAGE_TO'					=> 'Para',	 
@@ -270,7 +270,7 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Mover mensagens da pasta excluída para', 
 	'MOVE_DOWN'						=> 'Mover - baixo', 
 	'MOVE_MARKED_TO_FOLDER'			=> 'Mover selecionadas para %s',	 
-	'MOVE_PM_ERROR'					=> 'Um erro ocorreu enquanto as mensagens eram movidas para a nova pasta, apenas %1d de %2d mensagens foram movidas.', 
+	'MOVE_PM_ERROR'					=> 'Um erro ocorreu enquanto as mensagens eram movidas para a nova pasta, apenas %1$d de %2$d mensagens foram movidas.', 
 	'MOVE_TO_FOLDER'				=> 'Mover para a pasta', 
 	'MOVE_UP'						=> 'Mover - cima', 
 	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Você não escreveu a confirmação do endereço de e-mail.',
@@ -296,7 +296,7 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FOES_FRIENDS'		=> 'Você não pode adicionar usuários à sua lista de inimigos que estejam em sua lista de amigos.', 
 	'NOT_ADDED_FOES_SELF'			=> 'Você não pode adicionar a si mesmo em sua lista de inimigos.', 
 	'NOT_AGREE'						=> 'Eu não aceito estes termos', 
-	'NOT_ENOUGH_SPACE_FOLDER'		=> 'A pasta de destino "% s" parece estar cheia. A ação selecionada não foi executada.', 
+	'NOT_ENOUGH_SPACE_FOLDER'		=> 'A pasta de destino “%s” parece estar cheia. A ação selecionada não foi executada.', 
 	'NOT_MOVED_MESSAGE'				=> 'Você possui 1 mensagem particular presa, porque a sua pasta está cheia.', 
 	'NOT_MOVED_MESSAGES'			=> 'Você possui %d mensagens particulares presas, porque a sua pasta está cheia.', 
 	'NO_ACTION_MODE'				=> 'Não foi selecionada a ação para esta mensagem.', 

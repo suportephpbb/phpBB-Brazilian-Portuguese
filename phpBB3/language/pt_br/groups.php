@@ -4,7 +4,7 @@
 * groups [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	'CHANGED_DEFAULT_GROUP'	    => 'O grupo padrão foi alterado com sucesso.',
 	 
 	'GROUP_AVATAR'						=> 'Avatar do grupo', 
-	'GROUP_CHANGE_DEFAULT'				=> 'Você deseja realmente alterar o seu grupo padrão?', 
+	'GROUP_CHANGE_DEFAULT'				=> 'Você deseja realmente alterar o seu grupo padrão para o grupo “%s”?', 
 	'GROUP_CLOSED'						=> 'Fechado', 
 	'GROUP_DESC'						=> 'Descrição do Grupo', 
 	'GROUP_HIDDEN'						=> 'Invisível', 

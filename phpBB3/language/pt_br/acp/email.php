@@ -4,7 +4,7 @@
 * acp_email [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -36,7 +36,7 @@ if (empty($lang) || !is_array($lang))
 
 // Bot settings 
 $lang = array_merge($lang, array( 
-	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Aqui você pode enviar um e-mail para todos os usuários do fórum ou usuários membros de um grupo específico <strong>possuindo a opção de receber e-mails ativada</strong>. Para isso, selecione o endereço de e-mail administrativo previamente configurado o qual receberá uma cópia da mensagem enviada. A configuração padrão inclui apenas 50 usuários por mensagem, sendo que para mais usuários, e-mails adicionais deverão ser enviados. Se estiver enviando um e-mail para um número elevado de pessoas, aguarde um pouco após enviar a sua mensagem, e não paralise a página durante o processo. É normal que o envio de e-mail em massa demore um pouco, mas você será devidamente avisado quando o processo for concluído.',
+	'ACP_MASS_EMAIL_EXPLAIN'		=> 'Aqui você pode enviar um e-mail para todos os usuários do fórum ou usuários membros de um grupo específico <strong>possuindo a opção de receber e-mails ativada</strong>. Para isso, selecione o endereço de e-mail administrativo previamente configurado o qual receberá uma cópia da mensagem enviada. A configuração padrão inclui apenas 20 usuários por mensagem, sendo que para mais usuários, e-mails adicionais deverão ser enviados. Se estiver enviando um e-mail para um número elevado de pessoas, aguarde um pouco após enviar a sua mensagem, e não paralise a página durante o processo. É normal que o envio de e-mail em massa demore um pouco, mas você será devidamente avisado quando o processo for concluído.',
 	'ALL_USERS'						=> 'Todos os Usuários', 
 
 	'COMPOSE'				=> 'Escrever', 

@@ -4,7 +4,7 @@
 * acp_permissions [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	 
 		<br /> 
 
-		<p>Para maiores informações sobre as suas configurações e o gerenciamento de permissões em seu phpBB3, por favor, veja o <a href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Capítulo 1.5 do seu Guia de Inicialização Rápida</a>.</p> 
+		<p>Para maiores informações sobre as suas configurações e o gerenciamento de permissões em seu phpBB3, por favor, veja o <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Capítulo 1.5 do seu Guia de Inicialização Rápida</a>.</p>
 	', 
 
 	'ACL_NEVER'				=> 'Nunca', 

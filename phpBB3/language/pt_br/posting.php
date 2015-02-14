@@ -4,7 +4,7 @@
 * posting [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -56,8 +56,8 @@ $lang = array_merge($lang, array(
 	'BBCODE_IS_ON'				=> '%sBBCode%s está <em>Ativo</em>',
 	'BBCODE_I_HELP'				=> 'Itálico: [i]texto[/i]',
 	'BBCODE_L_HELP'				=> 'Lista: [list]lista[/list]',
-	'BBCODE_LISTITEM_HELP'		=> 'Listar Itens: [*]texto[/*]',
-	'BBCODE_O_HELP'				=> 'Lista Ordenada: [list=]lista ordenada[/list]',
+	'BBCODE_LISTITEM_HELP'		=> 'Listar Itens: [*]texto',
+	'BBCODE_O_HELP'				=> 'Lista Ordenada: isto é [list=1][*]Primeiro Item[/list] ou [list=a][*]Item a[/list]',
 	'BBCODE_P_HELP'				=> 'Imagem: [img]http://url_da_imagem[/img]',
 	'BBCODE_Q_HELP'				=> 'Citação: [quote]citação[/quote]',
 	'BBCODE_S_HELP'				=> 'Cor: [color=red]texto[/color]  Dica: Você também pode utilizar color=#FF0000',
@@ -179,6 +179,7 @@ $lang = array_merge($lang, array(
 
 	'QUOTE_DEPTH_EXCEEDED'		=> 'Você pode inserir apenas %1$d citações dentro de outras mais.',
 
+	'REMOTE_UPLOAD_TIMEOUT'		=> 'O arquivo não pôde ser enviado porque a solicitação expirou.',
 	'SAVE'						=> 'Salvar',
 	'SAVE_DATE'					=> 'Salvar em',
 	'SAVE_DRAFT'				=> 'Salvar rascunho',
@@ -220,7 +221,7 @@ $lang = array_merge($lang, array(
 	'VIEW_MESSAGE'				=> '%sVer sua mensagem enviada%s',
     'VIEW_PRIVATE_MESSAGE'      => '%sVer a sua mensagem particular enviada%s',
 
-	'WRONG_FILESIZE'			=> 'O arquivo é muito grande. O tamanho máximo permitido é de %1d %2s.',
+	'WRONG_FILESIZE'			=> 'O arquivo é muito grande. O tamanho máximo permitido é de %1$d %2$s.',
 	'WRONG_SIZE'				=> 'A imagem não deve ser inferior a %1$d pixels de largura e %2$d pixels de altura, e superior a %3$d pixels de largura e %4$d pixels de altura. A imagem enviada possui %5$d pixels de largura e %6$d pixels de altura.',
 ));
 

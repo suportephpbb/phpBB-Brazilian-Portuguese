@@ -4,7 +4,7 @@
 * acp_posting [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -83,7 +83,8 @@ $lang = array_merge($lang, array(
 		'NUMBER'		=> 'Qualquer série de dígitos', 
 		'EMAIL'			=> 'Um endereço de e-mail válido', 
 		'URL'			=> 'Uma URL válida utilizando qualquer protocolo (http, ftp, etc. não pode ser utilizada para javascript). Se nenhum for concedido, "http://" é o prefixo padrão para a sequência.', 
-		'LOCAL_URL'		=> 'Uma URL local. A URL deve ser relativa à página do tópico e não pode ser um nome de servidor ou protocolo.', 
+		'LOCAL_URL'		=> 'Uma URL local. A URL deve ser relativa à página do tópico e não pode ser um nome de servidor ou protocolo, como links que são prefixados com “%s”',
+		'RELATIVE_URL'	=> 'Uma URL relativa. Você pode usar isso para combinar partes de uma URL, porém tenha cuidado: uma URL completa é uma URL relativa válida. Quando você quiser usar URLs relativas em seu fórum, use o token LOCAL_URL.', 
 		'COLOR'			=> 'Uma cor de HTML, pode ser tanto na forma hexadecimal <samp>#FF1234</samp> como em uma <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">cor de estilos CSS</a> assim como <samp>fuchsia</samp> ou <samp>InactiveBorder</samp>' 
 	) 
 )); 

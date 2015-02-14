@@ -4,7 +4,7 @@
 * acp_ban [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -72,11 +72,11 @@ $lang = array_merge($lang, array(
 	'PERMANENT'		=> 'Permanente', 
 	 
 	'UNTIL'						=> 'Até',
-	'USER_BAN'					=> 'Banir um ou mais usuários selecionados',
+	'USER_BAN'					=> 'Banir um ou mais usuários por nome de usuário',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Ative a seguinte opção para banir a todos os usuários desejados.',
 	'USER_BAN_EXPLAIN'			=> 'Você pode banir diversos usuários de uma só vez, separando cada item em uma nova linha. Use a opção <span style="text-decoration: underline;">Encontrar um usuário</span> para pesquisar e adicionar um ou mais usuários automaticamente.', 
 	'USER_NO_BANNED'			=> 'Não há nomes de usuários banidos', 
-	'USER_UNBAN'				=> 'Desbanir um ou mais usuários', 
+	'USER_UNBAN'				=> 'Desbanir um ou mais usuários por nome de usuário', 
 	'USER_UNBAN_EXPLAIN'		=> 'Você pode desbanir diversos usuários de uma só vez, utilizando as combinações apropriadas de mouse em seu computador e navegador. Os usuários banidos possuem uma seleção ao fundo.', 
 )); 
 

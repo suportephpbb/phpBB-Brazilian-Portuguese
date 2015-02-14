@@ -4,7 +4,7 @@
 * acp_board [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT_LANGUAGE'				=> 'Língua padrão', 
 	'DEFAULT_STYLE'					=> 'Estilo padrão', 
 	'DISABLE_BOARD'					=> 'Desativar painel', 
-	'DISABLE_BOARD_EXPLAIN'			=> 'Isto torna o fórum inacessível aos usuários. Você também pode escrever uma pequena mensagem (255 caracteres) para ser exibida se desejar.', 
+	'DISABLE_BOARD_EXPLAIN'			=> 'Isto torna o fórum inacessível aos usuários que não sejam administradores ou moderadores. Você também pode escrever uma pequena mensagem (255 caracteres) para ser exibida se desejar.', 
 	'OVERRIDE_STYLE'				=> 'Substituir estilo do usuário', 
 	'OVERRIDE_STYLE_EXPLAIN'		=> 'Os usuários são obrigados a utilizar o estilo padrão do painel.', 
 	'SITE_DESC'						=> 'Descrição do site', 
@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_GALLERY_PATH'			=> 'Pasta da galeria de avatares', 
 	'AVATAR_GALLERY_PATH_EXPLAIN'	=> 'Pasta sob o diretório raiz do seu phpBB, ex. <samp>images/avatars/gallery</samp>.',
 	'AVATAR_STORAGE_PATH'			=> 'Pasta dos avatares', 
-	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Pasta sob o diretório raiz do seu phpBB, ex. <samp>images/avatars/upload</samp>.',
+	'AVATAR_STORAGE_PATH_EXPLAIN'	=> 'Pasta sob o diretório raiz do seu phpBB, ex. <samp>images/avatars/upload</samp>. <br />O envio de avatar <strong>não estará disponível</strong> se este caminho pode ser escrito.',
 	'MAX_AVATAR_SIZE'				=> 'Dimensões máxima dos avatares', 
 	'MAX_AVATAR_SIZE_EXPLAIN'		=> 'Largura x altura em pixels.',
 	'MAX_FILESIZE'					=> 'Tamanho máximo do arquivo de avatar', 

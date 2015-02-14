@@ -4,7 +4,7 @@
 * acp_profile [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -132,7 +132,7 @@ $lang = array_merge($lang, array(
 
 	'SAVE'							=> 'Salvar', 
 	'SECOND_OPTION'					=> 'Segunda opção', 
-	'SHOW_NOVALUE_FIELD'			=> 'Exibir campo se nenhum valor for seleccionado',
+	'SHOW_NOVALUE_FIELD'			=> 'Exibir campo se nenhum valor for selecionado',
 	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'Determina se o campo de perfil deve ser exibido se nenhum valor foi selecionado para campos opcionais ou se nenhum valor ainda não foi selecionado para campos obrigatórios.',
 	'STEP_1_EXPLAIN_CREATE'			=> 'Aqui você pode escrever os primeiros parâmetros básicos de seu novo campo no perfil. Estas informações são necessárias para a segunda etapa, onde você poderá inserir as opções restantes e prever seu campo mais adiante.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Aqui você pode alterar os parâmetros básicos de seu campo no perfil. As opções relevantes são recalculadas com a segunda etapa, onde você poderá prever e testar as suas novas configurações.', 

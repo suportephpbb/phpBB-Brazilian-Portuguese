@@ -4,7 +4,7 @@
 * acp_search [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -54,7 +54,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'O modo de pesquisa está atualmente limpando os seus índices. Isto pode levar alguns minutos.', 
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'O modo de pesquisa de textos completos do MySQL pode apenas ser utilizado com o MySQL4 ou superiores.', 
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'Índices de textos completos do MySQL podem apenas ser utilizados com tabelas do MyISAM.', 
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'Índices de textos completos do MySQL podem apenas ser utilizados com tabelas do MyISAM ou do InnoDB. MySQL 5.6.4 ou versão anterior é necessário para índices fulltext em tabelas InnoDB.', 
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Número total de mensagens indexadas', 
 	'FULLTEXT_MYSQL_MBSTRING'				=> 'Suporte para caracteres non-latin UTF-8 utilizando mbstring:',
 	'FULLTEXT_MYSQL_PCRE'					=> 'Suporte para caracteres non-latin UTF-8 utilizando PCRE:',

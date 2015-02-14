@@ -4,7 +4,7 @@
 * memberlist [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -139,6 +139,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Online',
 	'USER_PRESENCE'			=> 'Frequência no fórum',
+	'USERS_PER_PAGE'		=> 'Usuários por página',
 
 	'VIEWING_PROFILE'		=> 'Visualizando perfil - %s',
 	'VISITED'				=> 'Última visita',

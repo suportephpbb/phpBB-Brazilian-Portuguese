@@ -4,7 +4,7 @@
 * search [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -77,6 +77,7 @@ $lang = array_merge($lang, array(
 	
 	'SEARCHED_FOR'				=> 'Pesquisar por termo utilizado', 
 	'SEARCHED_TOPIC'			=> 'Tópico pesquisado', 
+	'SEARCHED_QUERY'			=> 'Termo pesquisado',
 	'SEARCH_ALL_TERMS'			=> 'Pesquisar por todos os termos escritos', 
 	'SEARCH_ANY_TERMS'			=> 'Pesquisar por qualquer termo', 
 	'SEARCH_AUTHOR'				=> 'Pesquisar por autor', 

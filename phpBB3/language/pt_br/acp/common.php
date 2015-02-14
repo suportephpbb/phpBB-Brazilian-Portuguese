@@ -4,7 +4,7 @@
 * acp_common [Português Brasileiro]
 *
 * @package language
-* @version 1.0.6
+* @version 1.0.8
 * @author Suporte phpBB <contato@suportephpbb.com.br> http://www.suportephpbb.com.br/
 * @copyright (c) 2005 phpBB Group, 2012 Suporte phpBB
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
@@ -290,7 +290,7 @@ $lang = array_merge($lang, array(
 
 // PHP info 
 $lang = array_merge($lang, array( 
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Esta página lista as informações da versão do PHP instalada neste servidor. Isto inclui detalhes de módulos instalados, variáveis disponíveis e configurações padrão. Esta informação pode ser necessária quando erros forem detectados. Por favor, fique atento que alguns servidores irão limitar quais informações serão exibidas aqui por medidas de segurança. Você está alertado a não entregar qualquer detalhes nesta página exceto quando perguntado pela <a href="http://www.phpbb.com/about/">equipe oficial do phpBB</a> nos fóruns de suporte.', 
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Esta página lista as informações da versão do PHP instalada neste servidor. Isto inclui detalhes de módulos instalados, variáveis disponíveis e configurações padrão. Esta informação pode ser necessária quando erros forem detectados. Por favor, fique atento que alguns servidores irão limitar quais informações serão exibidas aqui por medidas de segurança. Você está alertado a não entregar qualquer detalhes nesta página exceto quando perguntado pela <a href="https://www.phpbb.com/about/">equipe oficial do phpBB</a> nos fóruns de suporte.', 
 
 	'NO_PHPINFO_AVAILABLE'	=> 'As informações PHP não podem ser determinadas. O Phpinfo() foi desativado por medidas de segurança.', 
 )); 
@@ -514,9 +514,9 @@ $lang = array_merge($lang, array(
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Tópico aprovado</strong><br />» %s', 
 	'LOG_BUMP_TOPIC'			=> '<strong>Tópico ressuscitado</strong><br />» %s', 
-	'LOG_DELETE_POST'			=> '<strong>Mensagem excluída</strong><br />» %s', 
-   'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Tópico fantasma excluído</strong><br />» %s',
-	'LOG_DELETE_TOPIC'			=> '<strong>Tópico excluído</strong><br />» %s',
+	'LOG_DELETE_POST'			=> '<strong>Mensagem excluída “%1$s” escrita por</strong><br />» %2$s',
+	'LOG_DELETE_SHADOW_TOPIC'	=> '<strong>Tópico fantasma excluído</strong><br />» %s',
+	'LOG_DELETE_TOPIC'			=> '<strong>Tópico excluído “%1$s” escrito por</strong><br />» %2$s',
 	'LOG_FORK'					=> '<strong>Tópico copiado</strong><br />» de %s',
 	'LOG_LOCK'					=> '<strong>Tópico trancado</strong><br />» %s',
 	'LOG_LOCK_POST'				=> '<strong>Mensagem trancada</strong><br />» %s',
@@ -526,7 +526,7 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_DELETED'		=> '<strong>Denúncia de MP deletada</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>Mensagem aprovada</strong><br />» %s',
 	'LOG_POST_DISAPPROVED'		=> '<strong>Mensagem reprovada “%1$s” pela seguinte razão</strong><br />%2$s',
-	'LOG_POST_EDITED'			=> '<strong>Mensagem editada “%1$s” escrita por “%3$s”</strong><br />» %2$s',
+	'LOG_POST_EDITED'			=> '<strong>Mensagem editada “%1$s” escrita por</strong><br />» %2$s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Denúncia trancada</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Denúncia excluída</strong><br />» %s',
 	'LOG_SPLIT_DESTINATION'		=> '<strong>Mensagens subdivididas movidas</strong><br />» para %s', 
@@ -571,7 +571,7 @@ $lang = array_merge($lang, array(
 	'LOG_GENERAL_ERROR'	                    => '<strong>Ocorreu um erro geral</strong>: %1$s <br />» %2$s',
 	
 	'LOG_GROUP_CREATED'		=> '<strong>Novo grupo criado</strong><br />» %s', 
-	'LOG_GROUP_DEFAULTS'	=> '<strong>Grupo atualizado como padrão para membros</strong><br />» %s', 
+	'LOG_GROUP_DEFAULTS'	=> '<strong>Grupo “%1$s” atualizado como padrão para membros</strong><br />» %2$s', 
 	'LOG_GROUP_DELETE'		=> '<strong>Grupo excluído</strong><br />» %s', 
 	'LOG_GROUP_DEMOTED'		=> '<strong>Líderes demitidos do grupo</strong> %1$s<br />» %2$s', 
 	'LOG_GROUP_PROMOTED'	=> '<strong>Membros promovidos a líderes do grupo</strong> %1$s<br />» %2$s', 
@@ -590,7 +590,7 @@ $lang = array_merge($lang, array(
 	'LOG_IMAGESET_EDIT_DETAILS'		=> '<strong>Informações do set de imagens editadas</strong><br />» %s', 
 	'LOG_IMAGESET_EDIT'				=> '<strong>Set de imagens editado</strong><br />» %s', 
 	'LOG_IMAGESET_EXPORT'			=> '<strong>Set de imagens exportado</strong><br />» %s',
-    'LOG_IMAGESET_LANG_MISSING'		=> '<strong>Erro na localização do set de imagens</strong><br />» %1$s',
+    'LOG_IMAGESET_LANG_MISSING'		=> '<strong>Erro na localização “%2$s” do set de imagens</strong><br />» %1$s',
 
 	'LOG_IMAGESET_LANG_REFRESHED'	=> '<strong>Atualizada a localização do set de imagens “%2$s”</strong><br />» %1$s',
 	'LOG_IMAGESET_REFRESHED'		=> '<strong>Set de Imagens atualizado</strong><br />» %s', 
@@ -618,10 +618,10 @@ $lang = array_merge($lang, array(
 
 	'LOG_MCP_CHANGE_POSTER'	=> '<strong>Autor alterado no tópico "%1$s"</strong><br />» de %2$s para %3$s', 
 
-	'LOG_MODULE_DISABLE'	=> '<strong>Módulo desativado</strong>', 
-	'LOG_MODULE_ENABLE'		=> '<strong>Módulo ativado</strong>', 
-	'LOG_MODULE_MOVE_DOWN'	=> '<strong>Módulo movido - baixo</strong><br />» %s', 
-	'LOG_MODULE_MOVE_UP'	=> '<strong>Módulo movido - cima</strong><br />» %s', 
+	'LOG_MODULE_DISABLE'	=> '<strong>Módulo desativado</strong><br />» %s', 
+	'LOG_MODULE_ENABLE'		=> '<strong>Módulo ativado</strong><br />» %s',
+	'LOG_MODULE_MOVE_DOWN'	=> '<strong>Módulo movido - baixo</strong><br />» %1$s abaixo %2$s',
+	'LOG_MODULE_MOVE_UP'	=> '<strong>Módulo movido - cima</strong><br />» %1$s acima %2$s',
 	'LOG_MODULE_REMOVED'	=> '<strong>Módulo excluído</strong><br />» %s', 
 	'LOG_MODULE_ADD'		=> '<strong>Módulo adicionado</strong><br />» %s', 
 	'LOG_MODULE_EDIT'		=> '<strong>Módulo editado</strong><br />» %s', 
@@ -689,7 +689,7 @@ $lang = array_merge($lang, array(
 	'LOG_THEME_ADD_FS'			=> '<strong>Novo tema adicionado no sistema</strong><br />» %s', 
 	'LOG_THEME_DELETE'			=> '<strong>Tema excluído</strong><br />» %s', 
 	'LOG_THEME_EDIT_DETAILS'	=> '<strong>Informações do tema editadas</strong><br />» %s', 
-	'LOG_THEME_EDIT'			=> '<strong>Tema editado <em>%1$s</em></strong><br />» Categoria editada <em>%2$s</em>', 
+	'LOG_THEME_EDIT'			=> '<strong>Tema editado <em>%1$s</em></strong>', 
 	'LOG_THEME_EDIT_FILE'		=> '<strong>Tema editado <em>%1$s</em></strong><br />» Arquivo modificado <em>%2$s</em>',
 	'LOG_THEME_EXPORT'			=> '<strong>Tema exportado</strong><br />» %s', 
 	'LOG_THEME_REFRESHED'		=> '<strong>Tema atualizado</strong><br />» %s', 
