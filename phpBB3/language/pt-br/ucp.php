@@ -46,7 +46,7 @@ $lang = array_merge($lang, array(
 	O sistema phpBB utiliza \'cookies\' para salvar informações no seu computador. Esses \'cookies\' não possuem nenhuma das informações acima fornecidas, apenas servem para melhorar o seu conforto enquanto visita este fórum. O endereço de e-mail é apenas utilizado para confirmar a informação do seu registro e a senha (bem como para enviar novas senhas caso se esqueça da que enviou ao se registrar).<br />
 	<br />
 	Ao clicar abaixo para prosseguir com o registro você concorda em seguir estas condições.', 
-	 
+
 	'PRIVACY_POLICY'		=> 'Estas Políticas de Privacidade irão explicar em detalhes como "%1$s" juntamente com as suas afiliações e o phpBB utilizam quaisquer informações coletadas por você durante alguma sessão de aplicações dentro de nosso sistema.<br /> 
 	<br /> 
 	As suas informações são coletadas por dois meios. Primeiramente, através de seu navegador, "%1$s" irá fazer com que o software phpBB gere um determinado número de cookies, que são pequenos arquivos de texto adicionados ao seu navegador. Os primeiros dois cookies contêm um identificador de usuários e um identificador de sessão anônima, automaticamente concedidos a você pelo software. Um terceiro cookie será criado uma vez que você tenha visualizado tópicos e/ou fóruns em "%1$s" e será utilizado para armazenar quais tópicos foram lidos, e por meio disso e outros, aperfeiçoar a sua experiência enquanto usuário em nossa comunidade.<br /> 
@@ -64,12 +64,12 @@ $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'				=> 'O seu registro foi ativado.',
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'O seu registro foi ativado.',
 	'ACCOUNT_ACTIVE_PROFILE'		=> 'O seu registro foi reativado com sucesso.',
-	'ACCOUNT_ADDED'					=> 'Bem-vindo ao fórum!<br />Obrigado pelo seu registro<br />O seu registro foi criado. Agora, entre no fórum com o seu nome de usuário e senha.',
-	'ACCOUNT_COPPA'					=> 'Bem-vindo ao fórum!<br />Obrigado pelo seu registro<br />O seu registro foi criado, mas deve ser aprovado. Por favor, verifique o seu e-mail para mais informações.', 
+	'ACCOUNT_ADDED'					=> 'Obrigado pelo seu registro, o seu registro foi criado. Agora, entre no fórum com o seu nome de usuário e senha.',
+	'ACCOUNT_COPPA'					=> 'Obrigado pelo seu registro, o seu registro foi criado, mas deve ser aprovado. Por favor, verifique o seu e-mail para mais informações.', 
 	'ACCOUNT_EMAIL_CHANGED'			=> 'O seu registro foi atualizado. Entretanto, este fórum exige que as alterações de e-mail sejam reativadas, uma chave de ativação foi enviada para o seu novo endereço de e-mail informado. Por favor, verifique o seu e-mail para mais informações.',
 	'ACCOUNT_EMAIL_CHANGED_ADMIN'	=> 'O seu registro foi atualizado. Entretanto, este fórum exige que as alterações de e-mail sejam reativadas pelo administrador. Um e-mail será enviado e você será devidamente avisado quando tal acontecer.',	
-	'ACCOUNT_INACTIVE'				=> 'Bem-vindo ao fórum!<br />Obrigado pelo seu registro<br />O seu registro foi criado. Porém, é necessário que o mesmo seja ativado. Por favor, verifique o seu e-mail para mais informações.',
-	'ACCOUNT_INACTIVE_ADMIN'		=> 'Bem-vindo ao fórum!<br />Obrigado pelo seu registro<br />O seu registro foi criado. Porém, é necessário que o mesmo seja ativado pelo administrador do fórum. Por favor, aguarde mais informações e até que seu registro seja ativado.',
+	'ACCOUNT_INACTIVE'				=> 'Obrigado pelo seu registro, o seu registro foi criado. Porém, é necessário que o mesmo seja ativado. Por favor, verifique o seu e-mail para mais informações.',
+	'ACCOUNT_INACTIVE_ADMIN'		=> 'Obrigado pelo seu registro, o seu registro foi criado. Porém, é necessário que o mesmo seja ativado pelo administrador do fórum. Por favor, aguarde mais informações e até que seu registro seja ativado.',
 	'ACTIVATION_EMAIL_SENT'			=> 'O e-mail de ativação foi enviado para o seu endereço de e-mail.',
 	'ACTIVATION_EMAIL_SENT_ADMIN'   => 'O e-mail de ativação foi enviado para o endereço de e-mail do administrador.',
 	'ADD'							=> 'Adicionar', 
@@ -208,7 +208,7 @@ $lang = array_merge($lang, array(
 	'FOLDER_ADDED'				=> 'A pasta foi adicionada com sucesso.',
 	'FOLDER_MESSAGE_STATUS'		=> '%1$d de %2$d mensagens foram armazenadas.', 
 	'FOLDER_NAME_EMPTY'			=> 'Você deve especificar um nome para este diretório.',
-	'FOLDER_NAME_EXIST'			=> 'A pasta <b>%s</b> já existe.',
+	'FOLDER_NAME_EXIST'			=> 'A pasta <strong>%s</strong> já existe.',
 	'FOLDER_OPTIONS'			=> 'Opções de pasta', 
 	'FOLDER_RENAMED'			=> 'A pasta foi renomeada com sucesso.',
 	'FOLDER_REMOVED'			=> 'A pasta foi excluída com sucesso.',
@@ -546,7 +546,6 @@ $lang = array_merge($lang, array(
 		'IS_GROUP'		=> 'está no grupo de usuários', 
 		'ANSWERED'		=> 'respondido', 
 		'FORWARDED'		=> 'encaminhado', 
-		'REPORTED'		=> 'denunciado', 
 		'TO_GROUP'		=> 'para meu grupo padrão', 
 		'TO_ME'			=> 'para mim' 
 	), 
